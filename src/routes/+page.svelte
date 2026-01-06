@@ -10,6 +10,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>WordPress Security Tracker | 10,575 Vulnerabilities in 2025</title>
+</svelte:head>
+
 <main>
 	<h1>WordPress Security Tracker</h1>
 	<p>Counting vulnerabilities so you don't have to.</p>
@@ -63,7 +67,7 @@
 
 	<p class="updated">Last updated: {generated}</p>
 
-	<a href="/why" class="cta">Why This Matters</a>
+	<a href="/wordpress-security-problem" class="cta">Why This Matters</a>
 </main>
 
 <style>

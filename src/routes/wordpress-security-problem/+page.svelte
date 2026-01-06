@@ -1,3 +1,31 @@
+<svelte:head>
+	<title>WordPress Has a Security Problem | 10,575 Vulnerabilities in 2025</title>
+	<meta name="description" content="WordPress had 10,575 vulnerabilities in 2025. 29 per day. 95% from plugins. Here's why you should stop using it." />
+	<link rel="canonical" href="https://tracker.hatstack.fun/wordpress-security-problem" />
+
+	<meta property="og:title" content="WordPress Has a Security Problem" />
+	<meta property="og:description" content="10,575 vulnerabilities in 2025. 29 per day. 95% from plugins." />
+	<meta property="og:url" content="https://tracker.hatstack.fun/wordpress-security-problem" />
+	<meta property="og:type" content="article" />
+
+	<meta name="twitter:title" content="WordPress Has a Security Problem" />
+	<meta name="twitter:description" content="10,575 vulnerabilities in 2025. 29 per day. 95% from plugins." />
+
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Article",
+		"headline": "WordPress Has a Security Problem",
+		"description": "WordPress had 10,575 vulnerabilities in 2025. 29 per day. 95% from plugins.",
+		"datePublished": "2026-01-05",
+		"author": {
+			"@type": "Organization",
+			"name": "WordPress Security Tracker"
+		}
+	}
+	</script>`}
+</svelte:head>
+
 <article>
 	<h1>WordPress Has a Security Problem</h1>
 
