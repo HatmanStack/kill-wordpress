@@ -1,38 +1,37 @@
-# sv
+# WordPress Security Tracker
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Tracks WordPress vulnerability counts from the Wordfence Intelligence API. Static site, auto-updates daily.
 
-## Creating a project
+## Commands
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+```bash
+npm run dev          # Local dev server
+npm run scrape       # Fetch fresh vulnerability data
+npm run build        # Build static site
+npm run build:fresh  # Scrape + build
+npm run preview      # Preview production build
 ```
 
-## Developing
+## Deploy to Amplify
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Push to GitHub
+2. Connect repo in Amplify Console
+3. Build settings:
+   - Build command: `npm run build:fresh`
+   - Output directory: `build`
 
-```sh
-npm run dev
+GitHub Action runs daily at 6am UTC to refresh data and trigger rebuild.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+## Data Source
+
+Wordfence Intelligence API (free, no auth required):
+https://www.wordfence.com/threat-intel/
+
+## Structure
+
 ```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
+scripts/scrape.ts        # Fetches and processes vulnerability data
+src/lib/data/stats.json  # Generated data (committed, auto-updated)
+src/routes/+page.svelte  # Tracker dashboard
+src/routes/why/          # Blog post
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

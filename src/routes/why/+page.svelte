@@ -65,15 +65,7 @@
 
 	<h2>Who should still use WordPress?</h2>
 
-	<p>WordPress makes sense if you:</p>
-
-	<ul>
-		<li>Have non-technical editors who need a familiar CMS</li>
-		<li>Run a complex membership or e-commerce operation that genuinely requires the plugin ecosystem</li>
-		<li>Have dedicated security staff or a managed hosting provider handling updates</li>
-	</ul>
-
-	<p>For everyone else—the agency sites, the portfolios, the small business brochure pages—you're carrying unnecessary risk.</p>
+	<p>No one.</p>
 
 	<h2>The point of this site</h2>
 
