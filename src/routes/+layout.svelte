@@ -6,6 +6,7 @@
 <svelte:head>
 	<title>WordPress Security Tracker</title>
 	<meta name="description" content="Tracking WordPress vulnerabilities so you don't have to." />
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </svelte:head>
 
 <nav class="nav">

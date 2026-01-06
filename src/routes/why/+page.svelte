@@ -11,11 +11,10 @@
 	<ul>
 		<li>10,575 documented vulnerabilities across WordPress core, plugins, and themes</li>
 		<li>27% increase over 2024's 8,286</li>
-		<li>656 new vulnerabilities in the last 30 days alone</li>
-		<li>95% of those were plugin vulnerabilities</li>
+		<li>95% were plugin vulnerabilities</li>
 	</ul>
 
-	<p>That's roughly 22 new vulnerabilities per day. Every day.</p>
+	<p>That's 29 new vulnerabilities per day. Every day.</p>
 
 	<h2>The plugin ecosystem is the attack surface</h2>
 
@@ -70,8 +69,6 @@
 	<h2>The point of this site</h2>
 
 	<p>We're not here to sell you anything. We just count vulnerabilities and let the numbers speak.</p>
-
-	<p>If you're running WordPress and sleeping well, you're either doing it right or not paying attention. This tracker exists to help you figure out which.</p>
 
 	<a href="/" class="cta">See the current count</a>
 </article>
