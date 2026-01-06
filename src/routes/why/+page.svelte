@@ -1,5 +1,5 @@
 <article>
-	<h1>WordPress Has a Security Problem Nobody Talks About</h1>
+	<h1>WordPress Has a Security Problem</h1>
 
 	<p>WordPress powers 43% of the web. It also accounts for over 90% of CMS-related security incidents.</p>
 
