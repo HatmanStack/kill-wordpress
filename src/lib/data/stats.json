@@ -1,17 +1,98 @@
 {
-  "generated": "2026-01-06T06:08:45.485Z",
+  "generated": "2026-01-07T06:08:39.404Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10575,
-    "year2026": 31
+    "year2025": 10657,
+    "year2026": 110
   },
   "last30Days": {
-    "plugins": 618,
-    "themes": 31,
+    "plugins": 743,
+    "themes": 40,
     "core": 0,
-    "total": 649
+    "total": 783
   },
   "recentVulns": [
+    {
+      "id": "9db8756a-a177-4d39-b169-dc874cac2b3b",
+      "name": "Reviewify <= 1.0.6 - Missing Authorization to Authenticated (Contributor+) Arbitrary WooCommerce Coupon Creation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Reviewify — Review Discounts & Photo/Video Reviews for WooCommerce",
+      "published": "2026-01-06 20:33:33",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "ad74d5d0-270e-41d3-9596-2f71b05af276",
+      "name": "Yoco Payments <= 3.8.8 - Unauthenticated Arbitrary File Read",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Yoco Payments",
+      "published": "2026-01-06 20:31:52",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "ff4243e9-cf72-40d5-bc7d-204426024a1d",
+      "name": "Optional Email <= 1.3.11 - Unauthenticated Privilege Escalation to Account Takeover",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Optional Email",
+      "published": "2026-01-06 19:57:29",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "fa53c5ee-fe7f-4fb2-baaa-2c1a151d4b2c",
+      "name": "WP Enable WebP <= 1.0 - Authenticated (Author+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Enable WebP",
+      "published": "2026-01-06 19:45:16",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "e6139543-81e3-480a-93a4-1d87b3f3f51e",
+      "name": "Latest Registered Users <= 1.4 - Missing Authorization to Unauthenticated Sensitive Information Exposure via User Data Export",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Latest Registered Users",
+      "published": "2026-01-06 19:39:13",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "24225f47-cec2-4270-88f0-8696ebfb7168",
+      "name": "User Activity Log <= 2.2 - Unauthenticated Limited Options Update via Failed Login",
+      "severity": "high",
+      "type": "plugin",
+      "software": "User Activity Log",
+      "published": "2026-01-06 19:31:04",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "77db827d-9afd-4b59-b0ad-1ad562634c52",
+      "name": "Money Space <= 2.13.9 - Unauthenticated Sensitive Information Exposure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Money Space",
+      "published": "2026-01-06 18:35:53",
+      "cvssScore": 8.6
+    },
+    {
+      "id": "7e639aed-ec67-4212-9051-1f7465bbfde2",
+      "name": "iPaymu Payment Gateway for WooCommerce <= 2.0.2 - Missing Authentication to Unauthenticated Payment Bypass and Order Information Disclosure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "iPaymu Payment Gateway for WooCommerce",
+      "published": "2026-01-06 18:32:55",
+      "cvssScore": 8.2
+    },
+    {
+      "id": "0903521d-3b07-4539-97c9-15e6bbe2cc2e",
+      "name": "WP Photo Album Plus <= 9.1.05.008 - Reflected Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Photo Album Plus",
+      "published": "2026-01-06 16:37:04",
+      "cvssScore": 7.1
+    },
     {
       "id": "22351b90-fc34-44ce-9241-4a0f01eb7b1c",
       "name": "FS Registration Password <= 1.0.1 - Unauthenticated Privilege Escalation via Account Takeover",
@@ -20,93 +101,12 @@
       "software": "FS Registration Password",
       "published": "2026-01-05 16:31:31",
       "cvssScore": 9.8
-    },
-    {
-      "id": "89a7a717-dac3-490e-89dd-268be8eb7bf5",
-      "name": "BuddyPress Xprofile Custom Field Types <= 1.2.8 - Authenticated (Subscriber+) Arbitrary File Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BuddyPress Xprofile Custom Field Types",
-      "published": "2026-01-05 16:27:40",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "061f022b-b922-4499-bb34-8ea91ba5ace3",
-      "name": "AS Password Field In Default Registration Form <= 2.0.0 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "AS Password Field In Default Registration Form",
-      "published": "2026-01-05 16:08:45",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "067031e8-6aa8-451c-a318-b1848c7a4f92",
-      "name": "Download Manager <= 3.3.40 - Unauthenticated Limited Privilege Escalation via updatePassword",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Download Manager",
-      "published": "2026-01-05 13:11:34",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "ae46be82-570f-4172-9c3f-746b894b84b9",
-      "name": "Branda – White Label & Branding, Free Login Page Customizer <= 3.4.24 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Branda – White Label & Branding, Free Login Page Customizer",
-      "published": "2026-01-01 13:29:04",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "4e27137d-1120-4ca5-8560-bbd5a382222e",
-      "name": "Terms descriptions <= 3.4.9 - Unauthenticated Information Exposure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Terms descriptions",
-      "published": "2025-12-31 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "6fb07b77-3d8a-42c6-b62b-9567226333c5",
-      "name": "WordPress & WooCommerce Scraper Plugin, Import Data from Any WebSite. <= 1.0.7 - Unauthenticated Server-Side Request Forgery",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WordPress & WooCommerce Scraper Plugin, Import Data from Any WebSite.",
-      "published": "2025-12-31 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "894080c3-f00a-491b-bebf-469e35118965",
-      "name": "Download Media Library <= 0.2.1 - Unauthenticated Sensitive Information Exposure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Download Media Library",
-      "published": "2025-12-31 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c25fc6ff-1928-4690-bf1e-a5e87425c6f0",
-      "name": "Varnish/Nginx Proxy Caching <= 1.8.3 - Unauthenticated Information Exposure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Varnish/Nginx Proxy Caching",
-      "published": "2025-12-31 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "6f1fc61a-9760-430e-a8ba-139ffef1a60d",
-      "name": "MAS Videos <= 1.3.2 - Authenticated (Contributor+) Local File Inclusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "MAS Videos",
-      "published": "2025-12-30 00:00:00",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2415,
-    "high": 5777,
-    "medium": 24053,
-    "low": 137
+    "critical": 2418,
+    "high": 5795,
+    "medium": 24192,
+    "low": 138
   }
 }
