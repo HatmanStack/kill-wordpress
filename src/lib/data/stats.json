@@ -1,20 +1,83 @@
 {
-  "generated": "2026-01-08T06:08:47.492Z",
+  "generated": "2026-01-09T06:08:42.805Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10657,
-    "year2026": 114
+    "year2026": 155
   },
   "last30Days": {
-    "plugins": 741,
+    "plugins": 774,
     "themes": 40,
     "core": 0,
-    "total": 781
+    "total": 814
   },
   "recentVulns": [
     {
+      "id": "46c988ff-9cc5-4f2b-a3dd-06eaef5a7919",
+      "name": "Frontend Admin by DynamiApps <= 3.28.23 - Unauthenticated Stored Cross-Site Scripting via 'update_field'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-01-08 18:46:31",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "53adbab6-953a-4a6f-bbfc-89efdbdd28e0",
+      "name": "Frontend Admin by DynamiApps <= 3.28.25 - Missing Authorization to Unauthenticated Arbitrary Data Deletion via 'delete post' Form Element",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-01-08 18:45:51",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "e4188b26-80f8-41b8-be19-1ddcbd7e39f5",
+      "name": "Eventin – Event Manager, Event Booking, Calendar, Tickets and Registration Plugin (AI Powered) <= 4.0.51 - Missing Authorization to Unauthenticated Stored Cross-Site Scripting via 'post_settings'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Eventin – Event Manager, Event Booking, Calendar, Tickets and Registration Plugin (AI Powered)",
+      "published": "2026-01-08 18:45:19",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "90920df9-1362-466b-b14b-4714087f556b",
+      "name": "SlimStat Analytics <= 5.3.3 - Unauthenticated Stored Cross-Site Scripting via 'fh' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SlimStat Analytics",
+      "published": "2026-01-08 18:00:57",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "afbfabfc-b923-4fe9-9e8f-0cf159f488db",
+      "name": "SlimStat Analytics <= 5.3.4 - Unauthenticated Stored Cross-Site Scripting via 'notes/resource' Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SlimStat Analytics",
+      "published": "2026-01-08 17:59:23",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "07eb71fc-6588-490d-8947-3077ec4a9045",
+      "name": "Frontend Admin by DynamiApps <= 3.28.25 - Unauthenticated Privilege Escalation to Administrator via Role Form Field",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-01-08 17:45:03",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "670f4e26-75c9-40cd-8088-2fa4c40f6feb",
+      "name": "Brevo for WooCommerce <= 4.0.49 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Brevo for WooCommerce",
+      "published": "2026-01-08 09:02:36",
+      "cvssScore": 7.2
+    },
+    {
       "id": "9db8756a-a177-4d39-b169-dc874cac2b3b",
-      "name": "Reviewify <= 1.0.6 - Missing Authorization to Authenticated (Contributor+) Arbitrary WooCommerce Coupon Creation",
+      "name": "Reviewify <= 1.0.7 - Missing Authorization to Authenticated (Contributor+) Arbitrary WooCommerce Coupon Creation",
       "severity": "high",
       "type": "plugin",
       "software": "Reviewify — Review Discounts & Photo/Video Reviews for WooCommerce",
@@ -38,75 +101,12 @@
       "software": "Optional Email",
       "published": "2026-01-06 19:57:29",
       "cvssScore": 9.8
-    },
-    {
-      "id": "fa53c5ee-fe7f-4fb2-baaa-2c1a151d4b2c",
-      "name": "WP Enable WebP <= 1.0 - Authenticated (Author+) Arbitrary File Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Enable WebP",
-      "published": "2026-01-06 19:45:16",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e6139543-81e3-480a-93a4-1d87b3f3f51e",
-      "name": "Latest Registered Users <= 1.4 - Missing Authorization to Unauthenticated Sensitive Information Exposure via User Data Export",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Latest Registered Users",
-      "published": "2026-01-06 19:39:13",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "24225f47-cec2-4270-88f0-8696ebfb7168",
-      "name": "User Activity Log <= 2.2 - Unauthenticated Limited Options Update via Failed Login",
-      "severity": "high",
-      "type": "plugin",
-      "software": "User Activity Log",
-      "published": "2026-01-06 19:31:04",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "77db827d-9afd-4b59-b0ad-1ad562634c52",
-      "name": "Money Space <= 2.13.9 - Unauthenticated Sensitive Information Exposure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Money Space",
-      "published": "2026-01-06 18:35:53",
-      "cvssScore": 8.6
-    },
-    {
-      "id": "7e639aed-ec67-4212-9051-1f7465bbfde2",
-      "name": "iPaymu Payment Gateway for WooCommerce <= 2.0.2 - Missing Authentication to Unauthenticated Payment Bypass and Order Information Disclosure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "iPaymu Payment Gateway for WooCommerce",
-      "published": "2026-01-06 18:32:55",
-      "cvssScore": 8.2
-    },
-    {
-      "id": "0903521d-3b07-4539-97c9-15e6bbe2cc2e",
-      "name": "WP Photo Album Plus <= 9.1.05.008 - Reflected Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Photo Album Plus",
-      "published": "2026-01-06 16:37:04",
-      "cvssScore": 7.1
-    },
-    {
-      "id": "22351b90-fc34-44ce-9241-4a0f01eb7b1c",
-      "name": "FS Registration Password <= 1.0.1 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "FS Registration Password",
-      "published": "2026-01-05 16:31:31",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2418,
-    "high": 5795,
-    "medium": 24196,
+    "critical": 2420,
+    "high": 5800,
+    "medium": 24230,
     "low": 138
   }
 }
