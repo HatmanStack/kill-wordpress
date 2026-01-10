@@ -1,17 +1,26 @@
 {
-  "generated": "2026-01-09T06:08:42.805Z",
+  "generated": "2026-01-10T06:07:25.464Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10657,
-    "year2026": 155
+    "year2026": 164
   },
   "last30Days": {
-    "plugins": 774,
+    "plugins": 762,
     "themes": 40,
     "core": 0,
-    "total": 814
+    "total": 802
   },
   "recentVulns": [
+    {
+      "id": "c7f4f726-7e53-4397-8d8b-7a574326adc6",
+      "name": "WooCommerce Square <= 5.1.1 - Unauthenticated Insecure Direct Object Reference to Sensitive Information Exposure in get_token_by_id",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WooCommerce Square",
+      "published": "2026-01-09 14:05:48",
+      "cvssScore": 7.5
+    },
     {
       "id": "46c988ff-9cc5-4f2b-a3dd-06eaef5a7919",
       "name": "Frontend Admin by DynamiApps <= 3.28.23 - Unauthenticated Stored Cross-Site Scripting via 'update_field'",
@@ -92,21 +101,12 @@
       "software": "Yoco Payments",
       "published": "2026-01-06 20:31:52",
       "cvssScore": 7.5
-    },
-    {
-      "id": "ff4243e9-cf72-40d5-bc7d-204426024a1d",
-      "name": "Optional Email <= 1.3.11 - Unauthenticated Privilege Escalation to Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Optional Email",
-      "published": "2026-01-06 19:57:29",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
     "critical": 2420,
-    "high": 5800,
-    "medium": 24230,
+    "high": 5801,
+    "medium": 24238,
     "low": 138
   }
 }
