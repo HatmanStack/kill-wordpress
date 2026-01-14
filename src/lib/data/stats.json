@@ -1,17 +1,98 @@
 {
-  "generated": "2026-01-13T06:08:39.918Z",
+  "generated": "2026-01-14T06:09:03.054Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10657,
-    "year2026": 167
+    "year2025": 10675,
+    "year2026": 242
   },
   "last30Days": {
-    "plugins": 591,
-    "themes": 31,
+    "plugins": 605,
+    "themes": 36,
     "core": 0,
-    "total": 622
+    "total": 641
   },
   "recentVulns": [
+    {
+      "id": "11e7e798-9fb9-4cff-a96f-a0003f203f5f",
+      "name": "Shipping Rate By Cities <= 2.0.0 - Unauthenticated SQL Injection via 'city' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Shipping Rate By Cities",
+      "published": "2026-01-13 17:31:36",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "e02683dc-0771-4bd5-bba3-2b5423da1c80",
+      "name": "News and Blog Designer Bundle <= 1.1 - Unauthenticated Local File Inclusion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "News and Blog Designer Bundle",
+      "published": "2026-01-13 17:23:28",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4da167e0-c1cf-496f-9b14-35fc70386be1",
+      "name": "AJS Footnotes <= 1.0 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AJS Footnotes",
+      "published": "2026-01-13 17:23:06",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "106b31ed-d509-4551-a134-02193ab22fe1",
+      "name": "DASHBOARD BUILDER <= 1.5.7 - Cross-Site Request Forgery to SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "DASHBOARD BUILDER – WordPress plugin for Charts and Graphs",
+      "published": "2026-01-13 17:22:32",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "3c9de67e-24f7-4c4a-b187-405597b838c3",
+      "name": "Name Directory <= 1.30.3 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Name Directory",
+      "published": "2026-01-13 17:22:07",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "34612902-1a26-4759-bca6-b5aaffa25af4",
+      "name": "Integration Opvius AI for WooCommerce <= 1.3.0 - Unauthenticated Arbitrary File Deletion/Read via Path Traversal",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Integration Opvius AI for WooCommerce",
+      "published": "2026-01-13 17:20:42",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b30e84db-c73f-4df2-9c88-c37a7e14c95b",
+      "name": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation <= 1.1.7 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation",
+      "published": "2026-01-13 17:20:05",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "b83db6c7-09af-4707-a96b-ee551f27e3b7",
+      "name": "GetContentFromURL <= 1.0 - Authenticated (Contributor+) Server-Side Request Forgery via 'url' Shortcode Attribute",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GetContentFromURL",
+      "published": "2026-01-13 17:19:31",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "4f69c239-d429-4970-bc1b-b2a7d96f4b7a",
+      "name": "TheGem Theme Elements (for Elementor) <= 5.11.0 - Authenticated (Contributor+) Local File Inclusion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "TheGem Theme Elements",
+      "published": "2026-01-10 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "c7f4f726-7e53-4397-8d8b-7a574326adc6",
       "name": "WooCommerce Square <= 5.1.1 - Unauthenticated Insecure Direct Object Reference to Sensitive Information Exposure in get_token_by_id",
@@ -20,93 +101,12 @@
       "software": "WooCommerce Square",
       "published": "2026-01-09 14:05:48",
       "cvssScore": 7.5
-    },
-    {
-      "id": "46c988ff-9cc5-4f2b-a3dd-06eaef5a7919",
-      "name": "Frontend Admin by DynamiApps <= 3.28.23 - Unauthenticated Stored Cross-Site Scripting via 'update_field'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Frontend Admin by DynamiApps",
-      "published": "2026-01-08 18:46:31",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "53adbab6-953a-4a6f-bbfc-89efdbdd28e0",
-      "name": "Frontend Admin by DynamiApps <= 3.28.25 - Missing Authorization to Unauthenticated Arbitrary Data Deletion via 'delete post' Form Element",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Frontend Admin by DynamiApps",
-      "published": "2026-01-08 18:45:51",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "e4188b26-80f8-41b8-be19-1ddcbd7e39f5",
-      "name": "Eventin – Event Manager, Event Booking, Calendar, Tickets and Registration Plugin (AI Powered) <= 4.0.51 - Missing Authorization to Unauthenticated Stored Cross-Site Scripting via 'post_settings'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Eventin – Event Manager, Event Booking, Calendar, Tickets and Registration Plugin (AI Powered)",
-      "published": "2026-01-08 18:45:19",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "90920df9-1362-466b-b14b-4714087f556b",
-      "name": "SlimStat Analytics <= 5.3.3 - Unauthenticated Stored Cross-Site Scripting via 'fh' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SlimStat Analytics",
-      "published": "2026-01-08 18:00:57",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "afbfabfc-b923-4fe9-9e8f-0cf159f488db",
-      "name": "SlimStat Analytics <= 5.3.4 - Unauthenticated Stored Cross-Site Scripting via 'notes/resource' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SlimStat Analytics",
-      "published": "2026-01-08 17:59:23",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "07eb71fc-6588-490d-8947-3077ec4a9045",
-      "name": "Frontend Admin by DynamiApps <= 3.28.25 - Unauthenticated Privilege Escalation to Administrator via Role Form Field",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Frontend Admin by DynamiApps",
-      "published": "2026-01-08 17:45:03",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "670f4e26-75c9-40cd-8088-2fa4c40f6feb",
-      "name": "Brevo for WooCommerce <= 4.0.49 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Brevo for WooCommerce",
-      "published": "2026-01-08 09:02:36",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "9db8756a-a177-4d39-b169-dc874cac2b3b",
-      "name": "Reviewify <= 1.0.7 - Missing Authorization to Authenticated (Contributor+) Arbitrary WooCommerce Coupon Creation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Reviewify — Review Discounts & Photo/Video Reviews for WooCommerce",
-      "published": "2026-01-06 20:33:33",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "ad74d5d0-270e-41d3-9596-2f71b05af276",
-      "name": "Yoco Payments <= 3.8.8 - Unauthenticated Arbitrary File Read",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Yoco Payments",
-      "published": "2026-01-06 20:31:52",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2420,
-    "high": 5801,
-    "medium": 24241,
+    "critical": 2422,
+    "high": 5824,
+    "medium": 24309,
     "low": 138
   }
 }
