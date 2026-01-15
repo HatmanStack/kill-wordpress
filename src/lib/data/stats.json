@@ -1,17 +1,35 @@
 {
-  "generated": "2026-01-14T06:09:03.054Z",
+  "generated": "2026-01-15T06:08:35.801Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10675,
-    "year2026": 242
+    "year2025": 10733,
+    "year2026": 346
   },
   "last30Days": {
-    "plugins": 605,
-    "themes": 36,
+    "plugins": 691,
+    "themes": 101,
     "core": 0,
-    "total": 641
+    "total": 792
   },
   "recentVulns": [
+    {
+      "id": "1819f2eb-51ef-4ba4-9137-ab64710fa6c8",
+      "name": "Supreme Modules Lite <= 2.5.62 - Authenticated (Author+) Arbitrary File Upload via JSON Upload Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Supreme Modules Lite – Divi Theme, Extra Theme and Divi Builder",
+      "published": "2026-01-15 01:09:33",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "5214a399-21a4-4573-9840-1d5043781bc0",
+      "name": "Simply Schedule Appointments <= 1.6.9.9 - Unauthenticated SQL Injection via `order` and `append_where_sql` Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-01-14 10:13:21",
+      "cvssScore": 7.5
+    },
     {
       "id": "11e7e798-9fb9-4cff-a96f-a0003f203f5f",
       "name": "Shipping Rate By Cities <= 2.0.0 - Unauthenticated SQL Injection via 'city' Parameter",
@@ -83,30 +101,12 @@
       "software": "GetContentFromURL",
       "published": "2026-01-13 17:19:31",
       "cvssScore": 7.2
-    },
-    {
-      "id": "4f69c239-d429-4970-bc1b-b2a7d96f4b7a",
-      "name": "TheGem Theme Elements (for Elementor) <= 5.11.0 - Authenticated (Contributor+) Local File Inclusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "TheGem Theme Elements",
-      "published": "2026-01-10 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c7f4f726-7e53-4397-8d8b-7a574326adc6",
-      "name": "WooCommerce Square <= 5.1.1 - Unauthenticated Insecure Direct Object Reference to Sensitive Information Exposure in get_token_by_id",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WooCommerce Square",
-      "published": "2026-01-09 14:05:48",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2422,
-    "high": 5824,
-    "medium": 24309,
-    "low": 138
+    "high": 5878,
+    "medium": 24417,
+    "low": 139
   }
 }
