@@ -1,17 +1,35 @@
 {
-  "generated": "2026-01-15T06:08:35.801Z",
+  "generated": "2026-01-16T06:08:33.099Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10733,
-    "year2026": 346
+    "year2025": 10764,
+    "year2026": 367
   },
   "last30Days": {
     "plugins": 691,
-    "themes": 101,
+    "themes": 114,
     "core": 0,
-    "total": 792
+    "total": 805
   },
   "recentVulns": [
+    {
+      "id": "0c28545d-c7cd-469f-bccf-90e8b52fd4e7",
+      "name": "Membership Plugin – Restrict Content <= 3.2.16 - Missing Authentication to Insecure Direct Object Reference and Sensitive Information Exposure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Membership Plugin – Restrict Content",
+      "published": "2026-01-15 20:39:14",
+      "cvssScore": 8.2
+    },
+    {
+      "id": "ad2e1d91-03bd-4e47-b679-81c42414238b",
+      "name": "All-in-One Video Gallery <= 4.5.7 - Authenticated (Author+) Arbitrary File Upload via VTT Upload Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "All-in-One Video Gallery",
+      "published": "2026-01-15 16:28:18",
+      "cvssScore": 8.8
+    },
     {
       "id": "1819f2eb-51ef-4ba4-9137-ab64710fa6c8",
       "name": "Supreme Modules Lite <= 2.5.62 - Authenticated (Author+) Arbitrary File Upload via JSON Upload Bypass",
@@ -83,30 +101,12 @@
       "software": "Integration Opvius AI for WooCommerce",
       "published": "2026-01-13 17:20:42",
       "cvssScore": 9.8
-    },
-    {
-      "id": "b30e84db-c73f-4df2-9c88-c37a7e14c95b",
-      "name": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation <= 1.1.7 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation",
-      "published": "2026-01-13 17:20:05",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "b83db6c7-09af-4707-a96b-ee551f27e3b7",
-      "name": "GetContentFromURL <= 1.0 - Authenticated (Contributor+) Server-Side Request Forgery via 'url' Shortcode Attribute",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GetContentFromURL",
-      "published": "2026-01-13 17:19:31",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2422,
-    "high": 5878,
-    "medium": 24417,
+    "high": 5896,
+    "medium": 24451,
     "low": 139
   }
 }
