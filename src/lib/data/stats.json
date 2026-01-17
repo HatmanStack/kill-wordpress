@@ -1,17 +1,44 @@
 {
-  "generated": "2026-01-16T06:08:33.099Z",
+  "generated": "2026-01-17T06:07:49.227Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10764,
-    "year2026": 367
+    "year2025": 10763,
+    "year2026": 390
   },
   "last30Days": {
-    "plugins": 691,
+    "plugins": 701,
     "themes": 114,
     "core": 0,
-    "total": 805
+    "total": 815
   },
   "recentVulns": [
+    {
+      "id": "68dd9f6f-ccee-4a27-bd21-2fb32b92cc62",
+      "name": "RegistrationMagic <= 6.0.7.1 - Privilege Escalation via admin_order",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login",
+      "published": "2026-01-16 13:22:33",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "6aef6fbb-be8c-49e1-ada5-7b4aa8b2ff72",
+      "name": "Registration & Login with Mobile Phone Number for WooCommerce <= 1.3.1 - Authentication Bypass",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Registration & Login with Mobile Phone Number for WooCommerce",
+      "published": "2026-01-16 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b2971aa0-8287-4142-bd04-7aec1ed92e7b",
+      "name": "Demo Importer Plus <= 2.0.9 - Authenticated (Author+) Blind XML External Entity Injection via SVG File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Demo Importer Plus",
+      "published": "2026-01-16 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "0c28545d-c7cd-469f-bccf-90e8b52fd4e7",
       "name": "Membership Plugin – Restrict Content <= 3.2.16 - Missing Authentication to Insecure Direct Object Reference and Sensitive Information Exposure",
@@ -74,39 +101,12 @@
       "software": "AJS Footnotes",
       "published": "2026-01-13 17:23:06",
       "cvssScore": 7.2
-    },
-    {
-      "id": "106b31ed-d509-4551-a134-02193ab22fe1",
-      "name": "DASHBOARD BUILDER <= 1.5.7 - Cross-Site Request Forgery to SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "DASHBOARD BUILDER – WordPress plugin for Charts and Graphs",
-      "published": "2026-01-13 17:22:32",
-      "cvssScore": 7.1
-    },
-    {
-      "id": "3c9de67e-24f7-4c4a-b187-405597b838c3",
-      "name": "Name Directory <= 1.30.3 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Name Directory",
-      "published": "2026-01-13 17:22:07",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "34612902-1a26-4759-bca6-b5aaffa25af4",
-      "name": "Integration Opvius AI for WooCommerce <= 1.3.0 - Unauthenticated Arbitrary File Deletion/Read via Path Traversal",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Integration Opvius AI for WooCommerce",
-      "published": "2026-01-13 17:20:42",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2422,
+    "critical": 2424,
     "high": 5896,
-    "medium": 24451,
-    "low": 139
+    "medium": 24470,
+    "low": 140
   }
 }
