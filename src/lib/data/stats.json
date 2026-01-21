@@ -1,17 +1,26 @@
 {
-  "generated": "2026-01-20T06:09:53.719Z",
+  "generated": "2026-01-21T06:09:49.377Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10764,
-    "year2026": 472
+    "year2026": 494
   },
   "last30Days": {
-    "plugins": 699,
-    "themes": 134,
+    "plugins": 680,
+    "themes": 152,
     "core": 0,
-    "total": 833
+    "total": 832
   },
   "recentVulns": [
+    {
+      "id": "6687ebbe-fdf4-4ecb-bf59-034bb4b0104c",
+      "name": "Academy LMS – WordPress LMS Plugin for Complete eLearning Solution <= 3.5.0 - Unauthenticated Privilege Escalation via Account Takeover",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Academy LMS – WordPress LMS Plugin for Complete eLearning Solution",
+      "published": "2026-01-20 11:36:57",
+      "cvssScore": 9.8
+    },
     {
       "id": "02de9287-68e4-46ce-a491-3f6cbb7fc0ed",
       "name": "Nexter Extension – Site Enhancements Toolkit <= 4.4.6 - Unauthenticated PHP Object Injection via 'nxt_unserialize_replace'",
@@ -92,21 +101,12 @@
       "software": "Registration & Login with Mobile Phone Number for WooCommerce",
       "published": "2026-01-16 00:00:00",
       "cvssScore": 9.8
-    },
-    {
-      "id": "8bd035bf-003f-4f97-be76-7b1c50727d21",
-      "name": "Modular DS  2.5.2 - Unauthenticated Privilege Escalation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Modular DS: Monitor, update, and backup multiple websites",
-      "published": "2026-01-16 00:00:00",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2435,
-    "high": 5922,
-    "medium": 24516,
+    "critical": 2437,
+    "high": 5936,
+    "medium": 24522,
     "low": 140
   }
 }
