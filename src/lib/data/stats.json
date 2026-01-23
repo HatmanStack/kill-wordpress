@@ -1,17 +1,35 @@
 {
-  "generated": "2026-01-22T06:09:13.345Z",
+  "generated": "2026-01-23T06:08:52.960Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10764,
-    "year2026": 496
+    "year2026": 505
   },
   "last30Days": {
-    "plugins": 670,
+    "plugins": 664,
     "themes": 149,
     "core": 0,
-    "total": 819
+    "total": 813
   },
   "recentVulns": [
+    {
+      "id": "34c627c1-7838-468e-acb7-eb84ad1b4949",
+      "name": "BuddyPress <= 14.3.3 - Unauthenticated Arbitrary Shortcode Execution",
+      "severity": "high",
+      "type": "plugin",
+      "software": "BuddyPress",
+      "published": "2026-01-22 18:30:17",
+      "cvssScore": 7.3
+    },
+    {
+      "id": "0509aaf1-8aae-42e5-84d3-ea9b431703f3",
+      "name": "Melapress Role Editor <= 1.1.1 - Improper Authorization to Authenticated (Subscriber+) Privilege Escalation via Secondary Role Assignment",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Melapress Role Editor",
+      "published": "2026-01-22 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "65ebc744-6cc2-47ce-b225-81820e49d59c",
       "name": "LA-Studio Element Kit for Elementor <= 1.5.6.3 - Unauthenticated Privilege Escalation via Backdoor to Administrative User Creation via lakit_bkrole parameter",
@@ -83,30 +101,12 @@
       "software": "Poll, Survey & Quiz Maker Plugin by Opinion Stage",
       "published": "2026-01-19 00:00:00",
       "cvssScore": 7.2
-    },
-    {
-      "id": "68dd9f6f-ccee-4a27-bd21-2fb32b92cc62",
-      "name": "RegistrationMagic <= 6.0.7.1 - Privilege Escalation via admin_order",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login",
-      "published": "2026-01-16 13:22:33",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "47b0be04-c4ff-4a20-8880-ab40fa7a11c3",
-      "name": "Powerlift < 3.2.1 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "Powerlift - Fitness and Gym WordPress Theme",
-      "published": "2026-01-16 00:00:00",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
     "critical": 2438,
-    "high": 5936,
-    "medium": 24523,
+    "high": 5938,
+    "medium": 24530,
     "low": 140
   }
 }
