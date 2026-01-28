@@ -1,112 +1,112 @@
 {
-  "generated": "2026-01-27T06:08:58.086Z",
+  "generated": "2026-01-28T06:09:41.137Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10764,
-    "year2026": 552
+    "year2026": 664
   },
   "last30Days": {
-    "plugins": 660,
-    "themes": 146,
+    "plugins": 746,
+    "themes": 149,
     "core": 0,
-    "total": 806
+    "total": 895
   },
   "recentVulns": [
     {
-      "id": "22be5fb5-143e-4934-9f93-e17def18e883",
-      "name": "Hustle <= 7.8.9.2 - Authenticated (Subscriber+) Arbitrary File Upoload via Module Import",
+      "id": "bb0e77e1-7e9f-4f7e-8953-c86ab0e5ae7a",
+      "name": "Simple User Registration <= 6.7 - Authenticated (Subscriber+) Privilege Escalation via profile_save_field",
       "severity": "high",
       "type": "plugin",
-      "software": "Hustle – Email Marketing, Lead Generation, Optins, Popups",
-      "published": "2026-01-23 23:49:25",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "1ec907bc-bd10-4dc5-be35-4f2aaf5ef444",
-      "name": "User Submitted Posts – Enable Users to Submit Posts from the Front End <= 20251210 - Unauthenticated Stored Cross-Site Scripting via Custom Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "User Submitted Posts – Enable Users to Submit Posts from the Front End",
-      "published": "2026-01-23 19:55:08",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "119fe499-88c4-413f-a44a-2b3acfdbdeb5",
-      "name": "Administrative Shortcodes <= 0.3.4 - Authenticated (Contributor+) Local File Inclusion via 'slug' Shortcode Attribute",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Administrative Shortcodes",
-      "published": "2026-01-23 19:21:03",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "322e0a27-9119-4b46-a043-d3a68c4fcdc4",
-      "name": "Frontis Blocks <= 1.1.6 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Frontis Blocks — Block Library for the Block Editor",
-      "published": "2026-01-23 19:20:45",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "5dc8feae-fc89-4152-b9b2-2b70e6ccb30b",
-      "name": "Kalrav AI Agent <= 2.3.3 - Unauthenticated Arbitrary File Upload via kalrav_upload_file AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Kalrav AI Agent",
-      "published": "2026-01-23 19:03:14",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "34c627c1-7838-468e-acb7-eb84ad1b4949",
-      "name": "BuddyPress <= 14.3.3 - Unauthenticated Arbitrary Shortcode Execution",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BuddyPress",
-      "published": "2026-01-22 18:30:17",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "0509aaf1-8aae-42e5-84d3-ea9b431703f3",
-      "name": "Melapress Role Editor <= 1.1.1 - Improper Authorization to Authenticated (Subscriber+) Privilege Escalation via Secondary Role Assignment",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Melapress Role Editor",
-      "published": "2026-01-22 00:00:00",
+      "software": "Simple User Registration",
+      "published": "2026-01-27 21:50:50",
       "cvssScore": 8.8
     },
     {
-      "id": "65ebc744-6cc2-47ce-b225-81820e49d59c",
-      "name": "LA-Studio Element Kit for Elementor <= 1.5.6.3 - Unauthenticated Privilege Escalation via Backdoor to Administrative User Creation via lakit_bkrole parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "LA-Studio Element Kit for Elementor",
-      "published": "2026-01-21 17:31:45",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "6687ebbe-fdf4-4ecb-bf59-034bb4b0104c",
-      "name": "Academy LMS – WordPress LMS Plugin for Complete eLearning Solution <= 3.5.0 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Academy LMS – WordPress LMS Plugin for Complete eLearning Solution",
-      "published": "2026-01-20 11:36:57",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "02de9287-68e4-46ce-a491-3f6cbb7fc0ed",
-      "name": "Nexter Extension – Site Enhancements Toolkit <= 4.4.6 - Unauthenticated PHP Object Injection via 'nxt_unserialize_replace'",
+      "id": "e739e7d3-756a-4c93-9ca7-f7b9f9657033",
+      "name": "Frontend File Manager Plugin <= 23.5 - Missing Authorization to Unauthenticated Arbitrary File Sharing via 'file_id' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Nexter Extension – Site Enhancements Toolkit",
-      "published": "2026-01-20 01:54:23",
-      "cvssScore": 8.1
+      "software": "Frontend File Manager Plugin",
+      "published": "2026-01-27 21:50:20",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "cb02878a-2c85-4dcb-bdc0-e65addf9fb9c",
+      "name": "TelSender <= 1.14.14 - Unauthenticated Stored Cross-Site Scripting via Telegram Chat Title",
+      "severity": "high",
+      "type": "plugin",
+      "software": "TelSender – Wp to telegram  СF 7, Events, Wpforms, Ninja forms, Wooccommerce",
+      "published": "2026-01-27 21:48:26",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "6f63d2c4-cbae-4177-8494-daca96449ecc",
+      "name": "Search Atlas SEO – Premier SEO Plugin for One-Click WP Publishing & Integrated AI Optimization 2.4.4 - 2.5.12 - Missing Authorization to Authenticated (Subscriber+) Authentication Bypass via Account Takeover",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Search Atlas SEO – Premier SEO Plugin for One-Click WP Publishing & Integrated AI Optimization",
+      "published": "2026-01-27 21:31:02",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "d5227269-4406-4fcf-af37-f1db0af857d6",
+      "name": "AI Engine <= 3.3.2 - Authenticated (Editor+) Arbitrary File Upload via 'filename' Parameter in update_media_metadata Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AI Engine – The Chatbot and AI Framework for WordPress",
+      "published": "2026-01-27 19:28:10",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "f86a69ab-2fc5-4c84-872b-929dbec429cd",
+      "name": "New User Approve <= 3.2.2 - Missing Authorization to Unauthenticated Arbitrary User Approval, Denial, and Information Disclosure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "New User Approve",
+      "published": "2026-01-27 17:49:02",
+      "cvssScore": 7.3
+    },
+    {
+      "id": "ef07d6b0-ccdb-4b33-817f-6d4b3ad96243",
+      "name": "TableMaster for Elementor <= 1.3.6 - Authenticated (Author+) Server-Side Request Forgery via 'csv_url' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "TableMaster for Elementor – Advanced Responsive Tables for Elementor",
+      "published": "2026-01-27 17:21:05",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "37a8642d-07f5-4b1b-8419-e30589089162",
+      "name": "Snow Monkey Forms <= 12.0.3 - Unauthenticated Arbitrary File Deletion via Path Traversal",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Snow Monkey Forms",
+      "published": "2026-01-27 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "a61d8d2a-742f-45f1-9146-f733b80ef195",
+      "name": "VidShop – Shoppable Videos for WooCommerce <= 1.1.4 - Unauthenticated Time-Based SQL Injection via 'fields'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "VidShop – Shoppable Videos for WooCommerce",
+      "published": "2026-01-27 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "d328e059-7235-496d-9c5a-c394df7ad235",
+      "name": "AhaChat Messenger Marketing <= 1.1 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AhaChat Messenger Marketing",
+      "published": "2026-01-27 00:00:00",
+      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2439,
-    "high": 5942,
-    "medium": 24571,
+    "critical": 2440,
+    "high": 5966,
+    "medium": 24658,
     "low": 141
   }
 }
