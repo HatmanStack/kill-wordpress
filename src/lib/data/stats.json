@@ -1,15 +1,15 @@
 {
-  "generated": "2026-01-29T06:17:53.260Z",
+  "generated": "2026-01-30T06:18:03.603Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10764,
     "year2026": 747
   },
   "last30Days": {
-    "plugins": 769,
-    "themes": 147,
+    "plugins": 628,
+    "themes": 119,
     "core": 0,
-    "total": 916
+    "total": 747
   },
   "recentVulns": [
     {
@@ -35,7 +35,7 @@
       "name": "TelSender <= 1.14.14 - Unauthenticated Stored Cross-Site Scripting via Telegram Chat Title",
       "severity": "high",
       "type": "plugin",
-      "software": "TelSender – Wp to telegram  СF 7, Events, Wpforms, Ninja forms, Wooccommerce",
+      "software": "TelSender – Сontact form 7, Events, Wpforms, ninja forms  and woocommerce to telegram bot",
       "published": "2026-01-27 21:48:26",
       "cvssScore": 7.2
     },
