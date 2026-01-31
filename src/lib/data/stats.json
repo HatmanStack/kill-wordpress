@@ -1,17 +1,26 @@
 {
-  "generated": "2026-01-30T06:18:03.603Z",
+  "generated": "2026-01-31T06:12:33.040Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10764,
-    "year2026": 747
+    "year2026": 754
   },
   "last30Days": {
-    "plugins": 628,
-    "themes": 119,
+    "plugins": 630,
+    "themes": 105,
     "core": 0,
-    "total": 747
+    "total": 735
   },
   "recentVulns": [
+    {
+      "id": "720be34d-3fe4-4395-a27b-d386f8612ba9",
+      "name": "Sell BTC - Cryptocurrency Selling Calculator <= 1.5 - Unauthenticated Stored Cross-Site Scripting via 'orderform_data' AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Sell BTC – Cryptocurrency Selling  Calculator",
+      "published": "2026-01-30 00:00:00",
+      "cvssScore": 7.2
+    },
     {
       "id": "bb0e77e1-7e9f-4f7e-8953-c86ab0e5ae7a",
       "name": "Simple User Registration <= 6.7 - Authenticated (Subscriber+) Privilege Escalation via profile_save_field",
@@ -92,21 +101,12 @@
       "software": "VidShop – Shoppable Videos for WooCommerce",
       "published": "2026-01-27 00:00:00",
       "cvssScore": 7.5
-    },
-    {
-      "id": "d328e059-7235-496d-9c5a-c394df7ad235",
-      "name": "AhaChat Messenger Marketing <= 1.1 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AhaChat Messenger Marketing",
-      "published": "2026-01-27 00:00:00",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2445,
-    "high": 5988,
-    "medium": 24713,
+    "high": 5989,
+    "medium": 24719,
     "low": 142
   }
 }
