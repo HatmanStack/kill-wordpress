@@ -16,12 +16,49 @@
 		"@context": "https://schema.org",
 		"@type": "Article",
 		"headline": "WordPress Has a Security Problem",
-		"description": "WordPress had 10,575 vulnerabilities in 2025. 29 per day. 95% from plugins.",
+		"description": "WordPress had 10,575 vulnerabilities in 2025. 29 per day. 95% from plugins. Here's why you should consider alternatives.",
 		"datePublished": "2026-01-05",
+		"dateModified": "2026-01-05",
+		"mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://tracker.hatstack.fun/wordpress-security-problem"
+		},
 		"author": {
 			"@type": "Organization",
-			"name": "WordPress Security Tracker"
-		}
+			"name": "WordPress Security Tracker",
+			"url": "https://tracker.hatstack.fun"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "WordPress Security Tracker",
+			"url": "https://tracker.hatstack.fun",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://tracker.hatstack.fun/favicon.svg"
+			}
+		},
+		"image": "https://tracker.hatstack.fun/og-image.webp"
+	}
+	</script>`}
+
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://tracker.hatstack.fun"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Why This Matters",
+				"item": "https://tracker.hatstack.fun/wordpress-security-problem"
+			}
+		]
 	}
 	</script>`}
 </svelte:head>

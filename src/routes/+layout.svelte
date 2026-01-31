@@ -4,21 +4,28 @@
 </script>
 
 <svelte:head>
-	<meta name="description" content="10,575 WordPress vulnerabilities in 2025. 29 new ones per day. Track the count." />
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-	<link rel="canonical" href="https://tracker.hatstack.fun" />
-
-	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="WordPress Security Tracker" />
-	<meta property="og:title" content="WordPress Security Tracker" />
-	<meta property="og:description" content="10,575 WordPress vulnerabilities in 2025. 29 new ones per day. 95% from plugins." />
-	<meta property="og:url" content="https://tracker.hatstack.fun" />
+	<meta property="og:image" content="https://tracker.hatstack.fun/og-image.webp" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="https://tracker.hatstack.fun/og-image.webp" />
 
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="WordPress Security Tracker" />
-	<meta name="twitter:description" content="10,575 WordPress vulnerabilities in 2025. 29 new ones per day." />
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "WordPress Security Tracker",
+		"url": "https://tracker.hatstack.fun",
+		"description": "Track WordPress vulnerabilities in real-time. Updated daily with data from Wordfence Intelligence.",
+		"publisher": {
+			"@type": "Organization",
+			"name": "WordPress Security Tracker",
+			"url": "https://tracker.hatstack.fun"
+		}
+	}
+	</script>`}
 </svelte:head>
 
 <nav class="nav">

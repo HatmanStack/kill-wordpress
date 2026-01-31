@@ -11,7 +11,50 @@
 </script>
 
 <svelte:head>
-	<title>WordPress Security Tracker | 10,575 Vulnerabilities in 2025</title>
+	<title>WordPress Security Tracker | {stats.totals.year2025.toLocaleString()} Vulnerabilities in 2025</title>
+	<meta name="description" content="{stats.totals.year2025.toLocaleString()} WordPress vulnerabilities in 2025. {stats.totals.year2026} so far in 2026. Track plugin, theme, and core security issues daily." />
+	<link rel="canonical" href="https://tracker.hatstack.fun" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="WordPress Security Tracker | {stats.totals.year2025.toLocaleString()} Vulnerabilities" />
+	<meta property="og:description" content="{stats.totals.year2025.toLocaleString()} WordPress vulnerabilities in 2025. {Math.round(stats.totals.year2025 / 365)} new ones per day. 95% from plugins." />
+	<meta property="og:url" content="https://tracker.hatstack.fun" />
+
+	<meta name="twitter:title" content="WordPress Security Tracker" />
+	<meta name="twitter:description" content="{stats.totals.year2025.toLocaleString()} WordPress vulnerabilities in 2025. Updated daily." />
+
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Dataset",
+		"name": "WordPress Vulnerability Statistics",
+		"description": "Daily-updated statistics on WordPress core, plugin, and theme vulnerabilities sourced from Wordfence Intelligence.",
+		"url": "https://tracker.hatstack.fun",
+		"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+		"creator": {
+			"@type": "Organization",
+			"name": "WordPress Security Tracker"
+		},
+		"temporalCoverage": "2024/2026",
+		"variableMeasured": [
+			{
+				"@type": "PropertyValue",
+				"name": "2025 Vulnerabilities",
+				"value": ${stats.totals.year2025}
+			},
+			{
+				"@type": "PropertyValue",
+				"name": "2026 Vulnerabilities",
+				"value": ${stats.totals.year2026}
+			},
+			{
+				"@type": "PropertyValue",
+				"name": "Last 30 Days",
+				"value": ${stats.last30Days.total}
+			}
+		]
+	}
+	</script>`}
 </svelte:head>
 
 <main>
