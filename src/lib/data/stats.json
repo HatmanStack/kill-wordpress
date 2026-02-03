@@ -1,17 +1,62 @@
 {
-  "generated": "2026-02-02T06:26:56.476Z",
+  "generated": "2026-02-03T06:20:36.499Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10764,
-    "year2026": 754
+    "year2025": 10767,
+    "year2026": 850
   },
   "last30Days": {
-    "plugins": 626,
-    "themes": 94,
+    "plugins": 706,
+    "themes": 104,
     "core": 0,
-    "total": 720
+    "total": 810
   },
   "recentVulns": [
+    {
+      "id": "c32ba2a0-a9a7-4f17-8169-912cecc40b7b",
+      "name": "OS DataHub Maps <= 1.8.3 - Authenticated (Author+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "OS DataHub Maps",
+      "published": "2026-02-02 18:50:54",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "4e95b32b-c050-41eb-8fce-461257420eb6",
+      "name": "Tutor LMS <= 3.9.5 - Insecure Direct Object Reference to Authenticated (Instructor+) Arbitrary Course Modification and Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Tutor LMS – eLearning and online course solution",
+      "published": "2026-02-02 18:41:05",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "22bcfd36-ecf9-4d2c-ac94-94ffa0340c4c",
+      "name": "LatePoint – Calendar Booking Plugin for Appointments and Events <= 5.2.5 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-02-02 18:30:30",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "e0ec0027-2792-4069-b413-8fdd951f5fe7",
+      "name": "Form Maker by 10Web <= 1.15.35 - Unauthenticated Stored Cross-Site Scripting via Hidden Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
+      "published": "2026-02-02 18:21:06",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "8230d5f8-01d9-465a-8a43-e9852248bb3d",
+      "name": "Form Maker by 10Web <= 1.15.35 - Unauthenticated Stored Cross-Site Scripting via SVG file",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
+      "published": "2026-02-02 18:12:37",
+      "cvssScore": 7.2
+    },
     {
       "id": "720be34d-3fe4-4395-a27b-d386f8612ba9",
       "name": "Sell BTC - Cryptocurrency Selling Calculator <= 1.5 - Unauthenticated Stored Cross-Site Scripting via 'orderform_data' AJAX Action",
@@ -22,91 +67,46 @@
       "cvssScore": 7.2
     },
     {
-      "id": "bb0e77e1-7e9f-4f7e-8953-c86ab0e5ae7a",
-      "name": "Simple User Registration <= 6.7 - Authenticated (Subscriber+) Privilege Escalation via profile_save_field",
+      "id": "043a5f20-c7e8-4e93-ad05-82616a559800",
+      "name": "Capella <= 2.5.5 - Unauthenticated PHP Object Injection",
       "severity": "high",
-      "type": "plugin",
-      "software": "Simple User Registration",
-      "published": "2026-01-27 21:50:50",
-      "cvssScore": 8.8
+      "type": "theme",
+      "software": "Capella | Restaurant WordPress",
+      "published": "2026-01-29 00:00:00",
+      "cvssScore": 8.1
     },
     {
-      "id": "e739e7d3-756a-4c93-9ca7-f7b9f9657033",
-      "name": "Frontend File Manager Plugin <= 23.5 - Missing Authorization to Unauthenticated Arbitrary File Sharing via 'file_id' Parameter",
+      "id": "19e46bdd-3dd2-4199-8efa-fb1c0d25957b",
+      "name": "SOHO - Photography WordPress <= 3.0.3 - Unauthenticated Stored Cross-Site Scripting",
       "severity": "high",
-      "type": "plugin",
-      "software": "Frontend File Manager Plugin",
-      "published": "2026-01-27 21:50:20",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "cb02878a-2c85-4dcb-bdc0-e65addf9fb9c",
-      "name": "TelSender <= 1.14.14 - Unauthenticated Stored Cross-Site Scripting via Telegram Chat Title",
-      "severity": "high",
-      "type": "plugin",
-      "software": "TelSender – Сontact form 7, Events, Wpforms, ninja forms  and woocommerce to telegram bot",
-      "published": "2026-01-27 21:48:26",
+      "type": "theme",
+      "software": "SOHO - Photography WordPress Theme",
+      "published": "2026-01-29 00:00:00",
       "cvssScore": 7.2
     },
     {
-      "id": "6f63d2c4-cbae-4177-8494-daca96449ecc",
-      "name": "Search Atlas SEO – Premier SEO Plugin for One-Click WP Publishing & Integrated AI Optimization 2.4.4 - 2.5.12 - Missing Authorization to Authenticated (Subscriber+) Authentication Bypass via Account Takeover",
+      "id": "cf13f500-e931-4d68-bf24-f829445a1a98",
+      "name": "KindlyCare <= 1.6.1 - Unauthenticated PHP Object Injection",
       "severity": "high",
-      "type": "plugin",
-      "software": "Search Atlas SEO – Premier SEO Plugin for One-Click WP Publishing & Integrated AI Optimization",
-      "published": "2026-01-27 21:31:02",
-      "cvssScore": 8.8
+      "type": "theme",
+      "software": "KindlyCare - Senior Care & Medical WordPress Theme",
+      "published": "2026-01-29 00:00:00",
+      "cvssScore": 8.1
     },
     {
-      "id": "d5227269-4406-4fcf-af37-f1db0af857d6",
-      "name": "AI Engine <= 3.3.2 - Authenticated (Editor+) Arbitrary File Upload via 'filename' Parameter in update_media_metadata Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AI Engine – The Chatbot and AI Framework for WordPress",
-      "published": "2026-01-27 19:28:10",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "f86a69ab-2fc5-4c84-872b-929dbec429cd",
-      "name": "New User Approve <= 3.2.2 - Missing Authorization to Unauthenticated Arbitrary User Approval, Denial, and Information Disclosure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "New User Approve",
-      "published": "2026-01-27 17:49:02",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "ef07d6b0-ccdb-4b33-817f-6d4b3ad96243",
-      "name": "TableMaster for Elementor <= 1.3.6 - Authenticated (Author+) Server-Side Request Forgery via 'csv_url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "TableMaster for Elementor – Advanced Responsive Tables for Elementor",
-      "published": "2026-01-27 17:21:05",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "37a8642d-07f5-4b1b-8419-e30589089162",
-      "name": "Snow Monkey Forms <= 12.0.3 - Unauthenticated Arbitrary File Deletion via Path Traversal",
+      "id": "ee08121e-68eb-4849-b102-3370a4cdae77",
+      "name": "Booked <= 3.0.0 - Authentication Bypass",
       "severity": "critical",
       "type": "plugin",
-      "software": "Snow Monkey Forms",
-      "published": "2026-01-27 00:00:00",
+      "software": "Booked - Appointment Booking for WordPress",
+      "published": "2026-01-29 00:00:00",
       "cvssScore": 9.8
-    },
-    {
-      "id": "a61d8d2a-742f-45f1-9146-f733b80ef195",
-      "name": "VidShop – Shoppable Videos for WooCommerce <= 1.1.4 - Unauthenticated Time-Based SQL Injection via 'fields'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "VidShop – Shoppable Videos for WooCommerce",
-      "published": "2026-01-27 00:00:00",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2445,
-    "high": 5989,
-    "medium": 24719,
+    "critical": 2446,
+    "high": 6015,
+    "medium": 24791,
     "low": 142
   }
 }
