@@ -1,17 +1,53 @@
 {
-  "generated": "2026-02-03T06:20:36.499Z",
+  "generated": "2026-02-04T06:19:46.983Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10767,
-    "year2026": 850
+    "year2025": 10773,
+    "year2026": 917
   },
   "last30Days": {
-    "plugins": 706,
-    "themes": 104,
+    "plugins": 751,
+    "themes": 100,
     "core": 0,
-    "total": 810
+    "total": 851
   },
   "recentVulns": [
+    {
+      "id": "27e40af7-5697-4482-a96d-9216886c363b",
+      "name": "SportsPress <= 2.7.26 - Authenticated (Contributor+) Local File Inclusion via Shortcode",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SportsPress – Sports Club & League Manager",
+      "published": "2026-02-03 19:45:14",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "648941b8-d1ab-4587-bd87-f23008ac9a00",
+      "name": "Infility Global <= 2.14.46 - Unauthenticated SQL Injection via Predictable API Key and IP Whitelist Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Infility Global",
+      "published": "2026-02-03 19:43:35",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "526837cc-ed1d-4d3d-8f75-a2098445dd1d",
+      "name": "SEO Flow by LupsOnline <= 2.2.1 - Unauthenticated Arbitrary Post/Category Modification",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SEO Flow by LupsOnline",
+      "published": "2026-02-03 19:31:09",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "cede8ff5-f739-4eb3-9672-5adb5d2ae0a9",
+      "name": "WP FOFT Loader <= 2.1.39 - Authenticated (Author+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP FOFT Loader",
+      "published": "2026-02-03 17:31:06",
+      "cvssScore": 8.8
+    },
     {
       "id": "c32ba2a0-a9a7-4f17-8169-912cecc40b7b",
       "name": "OS DataHub Maps <= 1.8.3 - Authenticated (Author+) Arbitrary File Upload",
@@ -58,55 +94,19 @@
       "cvssScore": 7.2
     },
     {
-      "id": "720be34d-3fe4-4395-a27b-d386f8612ba9",
-      "name": "Sell BTC - Cryptocurrency Selling Calculator <= 1.5 - Unauthenticated Stored Cross-Site Scripting via 'orderform_data' AJAX Action",
+      "id": "9909b7e3-4c6b-478e-8775-99779b21b0c1",
+      "name": "Gyan Elements <= 2.2.1 - Authenticated (Contributor+) Local File Inclusion",
       "severity": "high",
       "type": "plugin",
-      "software": "Sell BTC – Cryptocurrency Selling  Calculator",
-      "published": "2026-01-30 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "043a5f20-c7e8-4e93-ad05-82616a559800",
-      "name": "Capella <= 2.5.5 - Unauthenticated PHP Object Injection",
-      "severity": "high",
-      "type": "theme",
-      "software": "Capella | Restaurant WordPress",
-      "published": "2026-01-29 00:00:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "19e46bdd-3dd2-4199-8efa-fb1c0d25957b",
-      "name": "SOHO - Photography WordPress <= 3.0.3 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "theme",
-      "software": "SOHO - Photography WordPress Theme",
-      "published": "2026-01-29 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "cf13f500-e931-4d68-bf24-f829445a1a98",
-      "name": "KindlyCare <= 1.6.1 - Unauthenticated PHP Object Injection",
-      "severity": "high",
-      "type": "theme",
-      "software": "KindlyCare - Senior Care & Medical WordPress Theme",
-      "published": "2026-01-29 00:00:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "ee08121e-68eb-4849-b102-3370a4cdae77",
-      "name": "Booked <= 3.0.0 - Authentication Bypass",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Booked - Appointment Booking for WordPress",
-      "published": "2026-01-29 00:00:00",
-      "cvssScore": 9.8
+      "software": "Gyan Elements",
+      "published": "2026-02-01 00:00:00",
+      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2446,
-    "high": 6015,
-    "medium": 24791,
+    "critical": 2447,
+    "high": 6024,
+    "medium": 24854,
     "low": 142
   }
 }
