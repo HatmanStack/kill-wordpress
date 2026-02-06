@@ -1,17 +1,26 @@
 {
-  "generated": "2026-02-05T06:23:30.524Z",
+  "generated": "2026-02-06T06:21:12.157Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10773,
-    "year2026": 928
+    "year2026": 939
   },
   "last30Days": {
-    "plugins": 721,
-    "themes": 95,
+    "plugins": 636,
+    "themes": 84,
     "core": 0,
-    "total": 816
+    "total": 720
   },
   "recentVulns": [
+    {
+      "id": "11bb7190-023b-45e1-99a5-7313c489ef45",
+      "name": "WP Duplicate <= 1.1.8 - Authenticated (Subscriber+) Arbitrary File Upload via 'process_add_site' AJAX Action",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WP Duplicate – WordPress Migration Plugin",
+      "published": "2026-02-05 19:59:16",
+      "cvssScore": 9.8
+    },
     {
       "id": "7c3f7108-eb32-425a-a705-4f032e7da6b0",
       "name": "All In One Image Viewer Block <= 1.0.2 - Unauthenticated Server-Side Request Forgery via image-proxy Endpoint",
@@ -92,21 +101,12 @@
       "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
       "published": "2026-02-02 18:30:30",
       "cvssScore": 7.2
-    },
-    {
-      "id": "e0ec0027-2792-4069-b413-8fdd951f5fe7",
-      "name": "Form Maker by 10Web <= 1.15.35 - Unauthenticated Stored Cross-Site Scripting via Hidden Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
-      "published": "2026-02-02 18:21:06",
-      "cvssScore": 7.1
     }
   ],
   "bySeverity": {
-    "critical": 2447,
+    "critical": 2448,
     "high": 6026,
-    "medium": 24863,
+    "medium": 24873,
     "low": 142
   }
 }
