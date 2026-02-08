@@ -1,17 +1,35 @@
 {
-  "generated": "2026-02-07T06:15:38.900Z",
+  "generated": "2026-02-08T06:20:43.010Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10773,
-    "year2026": 955
+    "year2026": 957
   },
   "last30Days": {
-    "plugins": 621,
-    "themes": 78,
+    "plugins": 570,
+    "themes": 76,
     "core": 0,
-    "total": 699
+    "total": 646
   },
   "recentVulns": [
+    {
+      "id": "fb900810-23a2-4920-a5e8-4388c4474de0",
+      "name": "JAY Login & Register <= 2.6.03 - Authenticated (Subscriber+) Privilege Escalation via jay_panel_ajax_update_profile",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JAY Login & Register",
+      "published": "2026-02-07 12:47:51",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "b08198a6-10e8-44ca-a1c5-8d987d85c469",
+      "name": "JAY Login & Register <= 2.6.03 - Unauthenticated Privilege Escalation via jay_login_register_ajax_create_final_user",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "JAY Login & Register",
+      "published": "2026-02-07 12:43:54",
+      "cvssScore": 9.8
+    },
     {
       "id": "11bb7190-023b-45e1-99a5-7313c489ef45",
       "name": "WP Duplicate <= 1.1.8 - Authenticated (Subscriber+) Arbitrary File Upload via 'process_add_site' AJAX Action",
@@ -83,29 +101,11 @@
       "software": "OS DataHub Maps",
       "published": "2026-02-02 18:50:54",
       "cvssScore": 8.8
-    },
-    {
-      "id": "4e95b32b-c050-41eb-8fce-461257420eb6",
-      "name": "Tutor LMS <= 3.9.5 - Insecure Direct Object Reference to Authenticated (Instructor+) Arbitrary Course Modification and Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Tutor LMS – eLearning and online course solution",
-      "published": "2026-02-02 18:41:05",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "22bcfd36-ecf9-4d2c-ac94-94ffa0340c4c",
-      "name": "LatePoint – Calendar Booking Plugin for Appointments and Events <= 5.2.5 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-02-02 18:30:30",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2448,
-    "high": 6026,
+    "critical": 2449,
+    "high": 6027,
     "medium": 24889,
     "low": 142
   }
