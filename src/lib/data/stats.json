@@ -1,17 +1,71 @@
 {
-  "generated": "2026-02-10T06:28:36.184Z",
+  "generated": "2026-02-11T06:27:50.157Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10777,
-    "year2026": 1015
+    "year2025": 10784,
+    "year2026": 1059
   },
   "last30Days": {
-    "plugins": 592,
-    "themes": 87,
+    "plugins": 615,
+    "themes": 69,
     "core": 0,
-    "total": 679
+    "total": 684
   },
   "recentVulns": [
+    {
+      "id": "bf152269-73e1-473f-8d97-ce94e9b885d0",
+      "name": "Videospirecore Theme Plugin <= 1.0.6 - Authenticated (Subscriber+) Privilege Escalation via User Email Change/Account Takeover",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Videospirecore Theme Plugin",
+      "published": "2026-02-10 21:29:59",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "02fe87e4-4275-4652-aec1-b25547071796",
+      "name": "iONE360 configurator <= 2.0.57 - Unauthenticated Stored Cross-Site Scripting via Contact Form Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "iONE360  configurator",
+      "published": "2026-02-10 20:07:30",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "e5af0317-ef46-4744-9752-74ce228b5f37",
+      "name": "Migration, Backup, Staging <= 0.9.123 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Migration, Backup, Staging – WPvivid Backup & Migration",
+      "published": "2026-02-10 17:13:35",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "ac0455a2-1fa8-4a37-a72f-9ed5cca1d9ee",
+      "name": "Lucky Wheel Giveaway <= 1.0.22 - Authenticated (Administrator+) Remote Code Execution via 'conditional_tags' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Lucky Wheel Giveaway",
+      "published": "2026-02-10 11:56:58",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "3c833223-c8c9-413f-9d72-6fb13101459b",
+      "name": "wpForo Forum <= 2.4.13 - Authenticated (Subscriber+) PHP Object Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "wpForo Forum",
+      "published": "2026-02-10 00:00:00",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "b1853c88-277b-4955-b042-aeed1cffb49b",
+      "name": "Custom Block Builder – Lazy Blocks <= 4.2.0 - Authenticated (Contributor+) Remote Code Execution",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Custom Block Builder – Lazy Blocks",
+      "published": "2026-02-10 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "29d13457-ac60-4e3d-9d8b-0141e6f8f4f6",
       "name": "Name Directory <= 1.32.0 - Unauthenticated Stored Cross-Site Scripting via Double HTML-Entity Encoding in Submission Form",
@@ -47,66 +101,12 @@
       "software": "JAY Login & Register",
       "published": "2026-02-07 12:47:51",
       "cvssScore": 8.8
-    },
-    {
-      "id": "b08198a6-10e8-44ca-a1c5-8d987d85c469",
-      "name": "JAY Login & Register <= 2.6.03 - Unauthenticated Privilege Escalation via jay_login_register_ajax_create_final_user",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "JAY Login & Register",
-      "published": "2026-02-07 12:43:54",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "11bb7190-023b-45e1-99a5-7313c489ef45",
-      "name": "WP Duplicate <= 1.1.8 - Authenticated (Subscriber+) Arbitrary File Upload via 'process_add_site' AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "WP Duplicate – WordPress Migration Plugin",
-      "published": "2026-02-05 19:59:16",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "033333b2-58b1-4810-ac25-65f7c8f13a5b",
-      "name": "Eleblog – Elementor Blog And Magazine Addons <= 2.0.3 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Eleblog – Elementor Blog And Magazine Addons",
-      "published": "2026-02-05 00:00:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "07ab0bb5-841a-46ea-a726-bee17428a5df",
-      "name": "Product Filter for WooCommerce <= 9.1.2 - Authenticated (Shop Manager+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Product Filter for WooCommerce",
-      "published": "2026-02-05 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "14ebc642-ebe4-4493-859b-22192bc5b10d",
-      "name": "GMap Targeting <= 1.1.7 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GMap Targeting – Simple Targeting Inside Google Maps",
-      "published": "2026-02-05 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "1a0b2d5f-688e-44d7-8fa1-2fb4e49e048c",
-      "name": "User Extra Fields <= 17.0 - Authenticated (Subscriber+) Arbitrary File Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WordPress User Extra Fields",
-      "published": "2026-02-05 00:00:00",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2451,
-    "high": 6050,
-    "medium": 24926,
+    "critical": 2453,
+    "high": 6058,
+    "medium": 24967,
     "low": 142
   }
 }
