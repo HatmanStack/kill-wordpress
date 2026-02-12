@@ -1,17 +1,53 @@
 {
-  "generated": "2026-02-11T06:27:50.157Z",
+  "generated": "2026-02-12T06:28:06.125Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1059
+    "year2026": 1066
   },
   "last30Days": {
-    "plugins": 615,
-    "themes": 69,
+    "plugins": 610,
+    "themes": 49,
     "core": 0,
-    "total": 684
+    "total": 659
   },
   "recentVulns": [
+    {
+      "id": "c4dd681d-90cb-44dc-adf0-d7e269d15a60",
+      "name": "Secure Copy Content Protection and Content Locking <= 4.9.8 - Unauthenticated Stored Cross-Site Scripting via X-Forwarded-For Header",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Secure Copy Content Protection and Content Locking",
+      "published": "2026-02-12 01:05:30",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "f8b34144-5516-46df-b093-95f4bf76b896",
+      "name": "Customer Reviews for WooCommerce <= 5.97.0 - Unauthenticated Stored Cross-Site Scripting via media[].href Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Customer Reviews for WooCommerce",
+      "published": "2026-02-12 00:17:35",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "34fd42cb-3868-4b1c-bc56-575faf01e8f3",
+      "name": "AdForest <= 6.0.12 - Authentication Bypass",
+      "severity": "critical",
+      "type": "theme",
+      "software": "AdForest",
+      "published": "2026-02-11 12:46:01",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "29c0fb4d-c38c-4c78-9e15-797f3c3a4b30",
+      "name": "FastDup – Fastest WordPress Migration & Duplicator <= 2.7.1 - Missing Authorization to Authenticated (Contributor+) Backup Creation and Download",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FastDup – Fastest WordPress Migration & Duplicator",
+      "published": "2026-02-11 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "bf152269-73e1-473f-8d97-ce94e9b885d0",
       "name": "Videospirecore Theme Plugin <= 1.0.6 - Authenticated (Subscriber+) Privilege Escalation via User Email Change/Account Takeover",
@@ -65,48 +101,12 @@
       "software": "Custom Block Builder – Lazy Blocks",
       "published": "2026-02-10 00:00:00",
       "cvssScore": 8.8
-    },
-    {
-      "id": "29d13457-ac60-4e3d-9d8b-0141e6f8f4f6",
-      "name": "Name Directory <= 1.32.0 - Unauthenticated Stored Cross-Site Scripting via Double HTML-Entity Encoding in Submission Form",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Name Directory",
-      "published": "2026-02-09 20:45:53",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "24902fab-44ea-44c9-bcf5-70960cfeb402",
-      "name": "Ninja Forms <= 3.14.0 - Unauthenticated Information Disclosure in nf_ajax_submit AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Ninja Forms – The Contact Form Builder That Grows With You",
-      "published": "2026-02-09 20:41:41",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "4973cef3-dddf-4eb5-99f4-c23a0e162fd6",
-      "name": "WCFM - WooCommerce Frontend Manager <= 6.7.24 - Authenticated (Shop Manager+) Arbitrary Options Update",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WCFM – Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible",
-      "published": "2026-02-09 11:20:25",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "fb900810-23a2-4920-a5e8-4388c4474de0",
-      "name": "JAY Login & Register <= 2.6.03 - Authenticated (Subscriber+) Privilege Escalation via jay_panel_ajax_update_profile",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JAY Login & Register",
-      "published": "2026-02-07 12:47:51",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2453,
-    "high": 6058,
-    "medium": 24967,
+    "critical": 2454,
+    "high": 6061,
+    "medium": 24970,
     "low": 142
   }
 }
