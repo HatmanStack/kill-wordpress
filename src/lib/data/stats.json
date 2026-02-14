@@ -1,112 +1,112 @@
 {
-  "generated": "2026-02-13T06:24:36.335Z",
+  "generated": "2026-02-14T06:16:33.285Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1066
+    "year2026": 1124
   },
   "last30Days": {
-    "plugins": 567,
-    "themes": 47,
+    "plugins": 594,
+    "themes": 43,
     "core": 0,
-    "total": 614
+    "total": 637
   },
   "recentVulns": [
     {
-      "id": "c4dd681d-90cb-44dc-adf0-d7e269d15a60",
-      "name": "Secure Copy Content Protection and Content Locking <= 4.9.8 - Unauthenticated Stored Cross-Site Scripting via X-Forwarded-For Header",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Secure Copy Content Protection and Content Locking",
-      "published": "2026-02-12 01:05:30",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "f8b34144-5516-46df-b093-95f4bf76b896",
-      "name": "Customer Reviews for WooCommerce <= 5.97.0 - Unauthenticated Stored Cross-Site Scripting via media[].href Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Customer Reviews for WooCommerce",
-      "published": "2026-02-12 00:17:35",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "34fd42cb-3868-4b1c-bc56-575faf01e8f3",
-      "name": "AdForest <= 6.0.12 - Authentication Bypass",
+      "id": "b027c9f9-3144-4783-b646-ee1e02cd27ef",
+      "name": "Truelysell Core <= 1.8.7 - Unauthenticated Privilege Escalation via Registration",
       "severity": "critical",
-      "type": "theme",
-      "software": "AdForest",
-      "published": "2026-02-11 12:46:01",
+      "type": "plugin",
+      "software": "Truelysell Core",
+      "published": "2026-02-13 20:06:58",
       "cvssScore": 9.8
     },
     {
-      "id": "29c0fb4d-c38c-4c78-9e15-797f3c3a4b30",
-      "name": "FastDup – Fastest WordPress Migration & Duplicator <= 2.7.1 - Missing Authorization to Authenticated (Contributor+) Backup Creation and Download",
+      "id": "a0c68e1e-5255-4e79-a6d9-a2021836e584",
+      "name": "Super Page Cache <= 5.2.2 - Unauthenticated Stored Cross-Site Scripting via Activity Log",
       "severity": "high",
       "type": "plugin",
-      "software": "FastDup – Fastest WordPress Migration & Duplicator",
-      "published": "2026-02-11 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "bf152269-73e1-473f-8d97-ce94e9b885d0",
-      "name": "Videospirecore Theme Plugin <= 1.0.6 - Authenticated (Subscriber+) Privilege Escalation via User Email Change/Account Takeover",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Videospirecore Theme Plugin",
-      "published": "2026-02-10 21:29:59",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "02fe87e4-4275-4652-aec1-b25547071796",
-      "name": "iONE360 configurator <= 2.0.57 - Unauthenticated Stored Cross-Site Scripting via Contact Form Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "iONE360  configurator",
-      "published": "2026-02-10 20:07:30",
+      "software": "Super Page Cache",
+      "published": "2026-02-13 19:48:00",
       "cvssScore": 7.2
     },
     {
-      "id": "e5af0317-ef46-4744-9752-74ce228b5f37",
-      "name": "Migration, Backup, Staging <= 0.9.123 - Unauthenticated Arbitrary File Upload",
+      "id": "d5b695d7-c690-4748-b218-5699d1aa63bf",
+      "name": "midi-Synth <= 1.1.0 - Unauthenticated Arbitrary File Upload via 'export' AJAX Action",
       "severity": "critical",
       "type": "plugin",
-      "software": "Migration, Backup, Staging – WPvivid Backup & Migration",
-      "published": "2026-02-10 17:13:35",
+      "software": "midi-Synth",
+      "published": "2026-02-13 18:33:05",
       "cvssScore": 9.8
     },
     {
-      "id": "ac0455a2-1fa8-4a37-a72f-9ed5cca1d9ee",
-      "name": "Lucky Wheel Giveaway <= 1.0.22 - Authenticated (Administrator+) Remote Code Execution via 'conditional_tags' Parameter",
+      "id": "4d8d15be-6a7b-485e-a338-ccf1a6eb226c",
+      "name": "User Language Switch <= 1.6.10 - Authenticated (Administrator+) Server-Side Request Forgery via 'info_language' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Lucky Wheel Giveaway",
-      "published": "2026-02-10 11:56:58",
+      "software": "User Language Switch",
+      "published": "2026-02-13 18:30:57",
       "cvssScore": 7.2
     },
     {
-      "id": "3c833223-c8c9-413f-9d72-6fb13101459b",
-      "name": "wpForo Forum <= 2.4.13 - Authenticated (Subscriber+) PHP Object Injection",
+      "id": "e10c0d8d-718d-45dd-9ac3-a2673a6a16af",
+      "name": "Super Simple Contact Form <= 1.6.2 - Reflected Cross-Site Scripting via 'sscf_name' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "wpForo Forum",
-      "published": "2026-02-10 00:00:00",
-      "cvssScore": 8.8
+      "software": "Super Simple Contact Form",
+      "published": "2026-02-13 18:26:17",
+      "cvssScore": 7.2
     },
     {
-      "id": "b1853c88-277b-4955-b042-aeed1cffb49b",
-      "name": "Custom Block Builder – Lazy Blocks <= 4.2.0 - Authenticated (Contributor+) Remote Code Execution",
+      "id": "ffdd5446-5835-4976-b764-9b5c75251438",
+      "name": "Flexi Product Slider and Grid for WooCommerce <= 1.0.5 - Authenticated (Contributor+) Local File Inclusion via 'theme' Shortcode Attribute",
       "severity": "high",
       "type": "plugin",
-      "software": "Custom Block Builder – Lazy Blocks",
-      "published": "2026-02-10 00:00:00",
-      "cvssScore": 8.8
+      "software": "Flexi Product Slider and Grid for WooCommerce",
+      "published": "2026-02-13 18:20:45",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "8b0e0f22-de42-4da9-a0c1-ae41ba57be03",
+      "name": "SureForms – Drag and Drop Form Builder for WordPress <= 2.2.1 - Unauthenticated Stripe Payment Amount Manipulation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SureForms – Contact Form, Payment Form & Other Custom Form Builder",
+      "published": "2026-02-13 18:17:21",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "9232b77e-e23f-4e91-8ea3-5e740956f51e",
+      "name": "PhotoStack Gallery <= 0.4.1 - Unauthenticated SQL Injection via 'postid' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "PhotoStack Gallery",
+      "published": "2026-02-13 18:10:18",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "65066a17-653b-4444-9bd0-894ea8c1acb1",
+      "name": "Magic Login Mail or QR Code <= 2.05 - Unauthenticated Privilege Escalation via Insecure QR Code File Storage",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Magic Login Mail or QR Code",
+      "published": "2026-02-13 16:21:07",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "dc676e18-c895-4f6a-bce9-1f92207af885",
+      "name": "BlueSnap Payment Gateway for WooCommerce <= 3.3.0 - Missing Authorization to Unauthenticated Arbitrary Order Status Manipulation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "BlueSnap Payment Gateway for WooCommerce",
+      "published": "2026-02-13 16:19:36",
+      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2454,
-    "high": 6061,
-    "medium": 24970,
+    "critical": 2456,
+    "high": 6072,
+    "medium": 25015,
     "low": 142
   }
 }
