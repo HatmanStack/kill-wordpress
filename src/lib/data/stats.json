@@ -1,17 +1,35 @@
 {
-  "generated": "2026-02-14T06:16:33.285Z",
+  "generated": "2026-02-15T06:20:31.729Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1124
+    "year2026": 1127
   },
   "last30Days": {
-    "plugins": 594,
-    "themes": 43,
+    "plugins": 561,
+    "themes": 41,
     "core": 0,
-    "total": 637
+    "total": 602
   },
   "recentVulns": [
+    {
+      "id": "2d29f77c-b86d-4058-b528-27631e8a1f2e",
+      "name": "Ecwid by Lightspeed Ecommerce Shopping Cart <= 7.0.7 - Authenticated (Subscriber+) Privilege Escalation via ec_store_admin_access",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Ecwid by Lightspeed Ecommerce Shopping Cart",
+      "published": "2026-02-14 14:30:00",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "cb603be6-4a12-49e1-b8cc-b2062eb97f16",
+      "name": "Spam protection, Honeypot, Anti-Spam by CleanTalk <= 6.71 - Authorization Bypass via Reverse DNS (PTR record) Spoofing to Unauthenticated Arbitrary Plugin Installation",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Spam protection, Honeypot, Anti-Spam by CleanTalk",
+      "published": "2026-02-14 14:21:19",
+      "cvssScore": 9.8
+    },
     {
       "id": "b027c9f9-3144-4783-b646-ee1e02cd27ef",
       "name": "Truelysell Core <= 1.8.7 - Unauthenticated Privilege Escalation via Registration",
@@ -83,30 +101,12 @@
       "software": "PhotoStack Gallery",
       "published": "2026-02-13 18:10:18",
       "cvssScore": 7.5
-    },
-    {
-      "id": "65066a17-653b-4444-9bd0-894ea8c1acb1",
-      "name": "Magic Login Mail or QR Code <= 2.05 - Unauthenticated Privilege Escalation via Insecure QR Code File Storage",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Magic Login Mail or QR Code",
-      "published": "2026-02-13 16:21:07",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "dc676e18-c895-4f6a-bce9-1f92207af885",
-      "name": "BlueSnap Payment Gateway for WooCommerce <= 3.3.0 - Missing Authorization to Unauthenticated Arbitrary Order Status Manipulation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BlueSnap Payment Gateway for WooCommerce",
-      "published": "2026-02-13 16:19:36",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2456,
-    "high": 6072,
-    "medium": 25015,
+    "critical": 2457,
+    "high": 6073,
+    "medium": 25016,
     "low": 142
   }
 }
