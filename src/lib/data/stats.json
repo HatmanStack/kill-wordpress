@@ -1,17 +1,89 @@
 {
-  "generated": "2026-02-17T06:23:48.936Z",
+  "generated": "2026-02-18T06:26:30.989Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1171
+    "year2026": 1258
   },
   "last30Days": {
-    "plugins": 566,
-    "themes": 54,
+    "plugins": 621,
+    "themes": 68,
     "core": 0,
-    "total": 620
+    "total": 689
   },
   "recentVulns": [
+    {
+      "id": "7ffa92be-9d38-40d9-954d-d890136b5aa1",
+      "name": "WPNakama <= 0.6.5 - Unauthenticated SQL Injection via 'order' REST API Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPNakama – Team and multi-Client Collaboration, Editorial and Project Management",
+      "published": "2026-02-17 20:24:50",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "5a17ded3-340d-494f-be7e-2550dab360bc",
+      "name": "YayMail <= 4.3.2 - Missing Authorization to Authenticated (Shop Manager+) Arbitrary Options Update via 'yaymail_import_state' AJAX Action",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "YayMail – WooCommerce Email Customizer",
+      "published": "2026-02-17 18:41:54",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b3c1edd7-2421-4dfa-8775-ca0497759d52",
+      "name": "Product Addons for Woocommerce – Product Options with Custom Fields <= 3.1.0 - Authenticated (Shop Manager+) Code Injection via Conditional Logic 'operator' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Product Addons for Woocommerce – Product Options with Custom Fields",
+      "published": "2026-02-17 18:40:15",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "25bdb89f-3478-4a1a-8bf0-46e88207eb21",
+      "name": "Cart All In One For WooCommerce <= 1.1.21 - Authenticated (Administrator+) Code Injection via 'sc_assign_page' Setting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Cart All In One For WooCommerce",
+      "published": "2026-02-17 18:22:15",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "cf326914-6a38-4984-a2a7-66e05f41a96b",
+      "name": "ShopLentor <= 3.3.2 - Unauthenticated Email Relay Abuse via 'woolentor_suggest_price_action' AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ShopLentor – All-in-One WooCommerce Growth & Store Enhancement Plugin",
+      "published": "2026-02-17 16:06:59",
+      "cvssScore": 8.6
+    },
+    {
+      "id": "d8ec7d25-1574-416c-b5fd-3a71b1cc09d2",
+      "name": "Business Directory Plugin <= 6.4.21 - Unauthenticated SQL Injection via payment Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Business Directory Plugin – Easy Listing Directories for WordPress",
+      "published": "2026-02-17 16:02:33",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "3fffdda5-91ed-4b79-bc04-77a1c44e3b67",
+      "name": "Rent Fetch <= 0.32.4 - Unauthenticated Stored Cross-Site Scripting via 'keyword' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Rent Fetch",
+      "published": "2026-02-17 15:35:40",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "29e76d57-217f-4f21-8bc6-a86290783a19",
+      "name": "Advanced AJAX Product Filters <= 3.1.9.6 - Authenticated (Author+) PHP Object Injection via Live Composer Compatibility",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Advanced AJAX Product Filters",
+      "published": "2026-02-17 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "47a10dd4-515c-42d9-82ea-c84f8f7574c5",
       "name": "RSS Aggregator <= 5.0.10 - Reflected Cross-Site Scripting via 'template' Parameter",
@@ -29,84 +101,12 @@
       "software": "Zarinpal Gateway",
       "published": "2026-02-16 16:35:00",
       "cvssScore": 7.7
-    },
-    {
-      "id": "815e5b86-2d1b-4794-b761-dad770393d3e",
-      "name": "WP Maps <= 4.8.6 - Authenticated (Subscriber+) Limited Local File Inclusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters",
-      "published": "2026-02-16 10:59:48",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "6d881f00-5985-45d5-9aab-d143a010d739",
-      "name": "WowRevenue <= 2.1.3 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation/Activation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WowRevenue – Product Bundles & Bulk Discounts",
-      "published": "2026-02-16 07:19:57",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "2d29f77c-b86d-4058-b528-27631e8a1f2e",
-      "name": "Ecwid by Lightspeed Ecommerce Shopping Cart <= 7.0.7 - Authenticated (Subscriber+) Privilege Escalation via ec_store_admin_access",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Ecwid by Lightspeed Ecommerce Shopping Cart",
-      "published": "2026-02-14 14:30:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "cb603be6-4a12-49e1-b8cc-b2062eb97f16",
-      "name": "Spam protection, Honeypot, Anti-Spam by CleanTalk <= 6.71 - Authorization Bypass via Reverse DNS (PTR record) Spoofing to Unauthenticated Arbitrary Plugin Installation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Spam protection, Honeypot, Anti-Spam by CleanTalk",
-      "published": "2026-02-14 14:21:19",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "b027c9f9-3144-4783-b646-ee1e02cd27ef",
-      "name": "Truelysell Core <= 1.8.7 - Unauthenticated Privilege Escalation via Registration",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Truelysell Core",
-      "published": "2026-02-13 20:06:58",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "a0c68e1e-5255-4e79-a6d9-a2021836e584",
-      "name": "Super Page Cache <= 5.2.2 - Unauthenticated Stored Cross-Site Scripting via Activity Log",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Super Page Cache",
-      "published": "2026-02-13 19:48:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "d5b695d7-c690-4748-b218-5699d1aa63bf",
-      "name": "midi-Synth <= 1.1.0 - Unauthenticated Arbitrary File Upload via 'export' AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "midi-Synth",
-      "published": "2026-02-13 18:33:05",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "4d8d15be-6a7b-485e-a338-ccf1a6eb226c",
-      "name": "User Language Switch <= 1.6.10 - Authenticated (Administrator+) Server-Side Request Forgery via 'info_language' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "User Language Switch",
-      "published": "2026-02-13 18:30:57",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2457,
-    "high": 6094,
-    "medium": 25040,
-    "low": 142
+    "critical": 2459,
+    "high": 6119,
+    "medium": 25097,
+    "low": 145
   }
 }
