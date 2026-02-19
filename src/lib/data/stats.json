@@ -1,112 +1,112 @@
 {
-  "generated": "2026-02-18T06:26:30.989Z",
+  "generated": "2026-02-19T06:25:42.290Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1258
+    "year2026": 1333
   },
   "last30Days": {
-    "plugins": 621,
-    "themes": 68,
+    "plugins": 647,
+    "themes": 66,
     "core": 0,
-    "total": 689
+    "total": 713
   },
   "recentVulns": [
     {
-      "id": "7ffa92be-9d38-40d9-954d-d890136b5aa1",
-      "name": "WPNakama <= 0.6.5 - Unauthenticated SQL Injection via 'order' REST API Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WPNakama – Team and multi-Client Collaboration, Editorial and Project Management",
-      "published": "2026-02-17 20:24:50",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "5a17ded3-340d-494f-be7e-2550dab360bc",
-      "name": "YayMail <= 4.3.2 - Missing Authorization to Authenticated (Shop Manager+) Arbitrary Options Update via 'yaymail_import_state' AJAX Action",
+      "id": "6c31cf92-26b7-484d-8c93-ce241d655d07",
+      "name": "s2Member <= 260127 - Unauthenticated Privilege Escalation via Account Takeover",
       "severity": "critical",
       "type": "plugin",
-      "software": "YayMail – WooCommerce Email Customizer",
-      "published": "2026-02-17 18:41:54",
+      "software": "s2Member – Excellent for All Kinds of Memberships, Content Restriction Paywalls & Member Access Subscriptions",
+      "published": "2026-02-18 18:11:15",
       "cvssScore": 9.8
     },
     {
-      "id": "b3c1edd7-2421-4dfa-8775-ca0497759d52",
-      "name": "Product Addons for Woocommerce – Product Options with Custom Fields <= 3.1.0 - Authenticated (Shop Manager+) Code Injection via Conditional Logic 'operator' Parameter",
+      "id": "51d4b7f6-183b-4a8d-a94d-83c66950a872",
+      "name": "IDonate 2.1.5 - 2.1.9 - Missing Authorization to Authenticated (Subscriber+) Account Takeover/Privilege Escalation via idonate_donor_profile Function",
       "severity": "high",
       "type": "plugin",
-      "software": "Product Addons for Woocommerce – Product Options with Custom Fields",
-      "published": "2026-02-17 18:40:15",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "25bdb89f-3478-4a1a-8bf0-46e88207eb21",
-      "name": "Cart All In One For WooCommerce <= 1.1.21 - Authenticated (Administrator+) Code Injection via 'sc_assign_page' Setting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Cart All In One For WooCommerce",
-      "published": "2026-02-17 18:22:15",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "cf326914-6a38-4984-a2a7-66e05f41a96b",
-      "name": "ShopLentor <= 3.3.2 - Unauthenticated Email Relay Abuse via 'woolentor_suggest_price_action' AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ShopLentor – All-in-One WooCommerce Growth & Store Enhancement Plugin",
-      "published": "2026-02-17 16:06:59",
-      "cvssScore": 8.6
-    },
-    {
-      "id": "d8ec7d25-1574-416c-b5fd-3a71b1cc09d2",
-      "name": "Business Directory Plugin <= 6.4.21 - Unauthenticated SQL Injection via payment Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Business Directory Plugin – Easy Listing Directories for WordPress",
-      "published": "2026-02-17 16:02:33",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "3fffdda5-91ed-4b79-bc04-77a1c44e3b67",
-      "name": "Rent Fetch <= 0.32.4 - Unauthenticated Stored Cross-Site Scripting via 'keyword' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Rent Fetch",
-      "published": "2026-02-17 15:35:40",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "29e76d57-217f-4f21-8bc6-a86290783a19",
-      "name": "Advanced AJAX Product Filters <= 3.1.9.6 - Authenticated (Author+) PHP Object Injection via Live Composer Compatibility",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced AJAX Product Filters",
-      "published": "2026-02-17 00:00:00",
+      "software": "IDonate – Blood Donation, Request And Donor Management System",
+      "published": "2026-02-18 16:32:50",
       "cvssScore": 8.8
     },
     {
-      "id": "47a10dd4-515c-42d9-82ea-c84f8f7574c5",
-      "name": "RSS Aggregator <= 5.0.10 - Reflected Cross-Site Scripting via 'template' Parameter",
+      "id": "c4f22ca7-0e7c-438a-8e63-cf3723d087f4",
+      "name": "WP Customer Reviews <= 3.7.5 - Reflected Cross-Site Scripting via 'wpcr3_fname' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "RSS Aggregator – RSS Import, News Feeds, Feed to Post, and Autoblogging",
-      "published": "2026-02-16 20:31:00",
+      "software": "WP Customer Reviews",
+      "published": "2026-02-18 16:21:24",
       "cvssScore": 7.2
     },
     {
-      "id": "e33fcd17-318b-408e-86bf-b4ece46121cc",
-      "name": "Zarinpal Gateway for WooCommerce <= 5.0.16 - Improper Access Control to Payment Status Update",
+      "id": "34b52ca2-c05f-49b7-846f-a67136d7d379",
+      "name": "Slider Future <= 1.0.5 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Slider Future",
+      "published": "2026-02-18 15:54:34",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4b2fc891-f3c6-4f4f-ad52-0a1a949eed25",
+      "name": "Toret Manager <= 1.2.7 - Authenticated (Subscriber+) Arbitrary Options Update via AJAX actions",
       "severity": "high",
       "type": "plugin",
-      "software": "Zarinpal Gateway",
-      "published": "2026-02-16 16:35:00",
-      "cvssScore": 7.7
+      "software": "Toret Manager",
+      "published": "2026-02-18 15:52:51",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "de255530-6b2d-426b-9f80-dbfebd2e3307",
+      "name": "Prodigy Commerce <= 3.2.9 - Unauthenticated Local File Inclusion via parameters[template_name]",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Prodigy Commerce",
+      "published": "2026-02-18 15:52:33",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b113f475-3133-4ea3-9152-03bb84d79307",
+      "name": "Lizza LMS Pro <= 1.0.3 - Unauthenticated Privilege Escalation",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Lizza LMS Pro",
+      "published": "2026-02-18 15:49:30",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b97d2b63-7eaa-4518-b838-35d4b993743d",
+      "name": "Orderable <= 1.20.0 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Orderable – WordPress Restaurant Online Ordering System and Food Ordering Plugin",
+      "published": "2026-02-18 15:44:21",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "f3e618cf-dd77-45a7-ab57-5732fd329883",
+      "name": "Buyent Theme (with Buyent Classified Plugin) <= 1.0.7 - Unauthenticated Privilege Escalation via User Registration",
+      "severity": "critical",
+      "type": "theme",
+      "software": "Buyent",
+      "published": "2026-02-18 15:39:26",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "852959d1-f8e0-4c1f-8a5c-5923bedc4889",
+      "name": "WP AUDIO GALLERY <= 2.0 - Authenticated (Subscriber+) Arbitrary File Read via .htaccess Manipulation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP AUDIO GALLERY",
+      "published": "2026-02-18 15:29:33",
+      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2459,
-    "high": 6119,
-    "medium": 25097,
-    "low": 145
+    "critical": 2465,
+    "high": 6132,
+    "medium": 25152,
+    "low": 146
   }
 }
