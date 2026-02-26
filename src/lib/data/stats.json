@@ -1,17 +1,44 @@
 {
-  "generated": "2026-02-25T06:27:12.427Z",
+  "generated": "2026-02-26T06:24:01.534Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10784,
-    "year2026": 1391
+    "year2026": 1424
   },
   "last30Days": {
-    "plugins": 521,
-    "themes": 78,
+    "plugins": 504,
+    "themes": 81,
     "core": 0,
-    "total": 599
+    "total": 585
   },
   "recentVulns": [
+    {
+      "id": "3ffd6ce0-2536-43a5-9925-438bc653d0e5",
+      "name": "Worry Proof Backup <= 0.2.4 - Authenticated (Subscriber+) Path Traversal via Backup Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Worry Proof Backup",
+      "published": "2026-02-25 16:01:10",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "d99bc021-ba9e-4294-8dd2-c25bc8007d05",
+      "name": "User Registration & Membership <= 5.1.2 - Authentication Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "User Registration & Membership – Free & Paid Memberships, Subscriptions, Content Restriction, User Profile, Custom User Registration & Login Builder",
+      "published": "2026-02-25 13:29:34",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "22c6f81b-d456-44b9-ba6c-8b207a9ee6e1",
+      "name": "WP Responsive Images <= 1.0 - Unauthenticated Path Traversal to Arbitrary File Read via src",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Responsive Images",
+      "published": "2026-02-25 12:50:15",
+      "cvssScore": 7.5
+    },
     {
       "id": "bbae9c33-becb-4c9d-917f-0d8fe8312d0c",
       "name": "Advanced Woo Labels <= 2.37 - Authenticated (Contributor+) Remote Code Execution via 'callback' Parameter",
@@ -40,6 +67,33 @@
       "cvssScore": 7.5
     },
     {
+      "id": "033e8326-38ed-4d36-8a29-06f9c8a5e808",
+      "name": "Woocommerce Wholesale Lead Capture <= 1.17.8 - Unauthenticated Privilege Escalation",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Wholesale Lead Capture Plugin for WooCommerce",
+      "published": "2026-02-20 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "2942644d-c330-4ec0-ab1d-64b3044d5a87",
+      "name": "Wholesale Suite <= 2.2.1 - Authenticated (Shop Manager) Privilege Escalation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Wholesale Suite – B2B, Dynamic Pricing & WooCommerce Wholesale Prices",
+      "published": "2026-02-20 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "5e2bf4a8-1dca-47fb-8164-acca0b2cf4f2",
+      "name": "Woocommerce Wholesale Lead Capture <= 1.17.8 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Wholesale Lead Capture Plugin for WooCommerce",
+      "published": "2026-02-20 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
       "id": "6c31cf92-26b7-484d-8c93-ce241d655d07",
       "name": "s2Member <= 260127 - Unauthenticated Privilege Escalation via Account Takeover",
       "severity": "critical",
@@ -47,66 +101,12 @@
       "software": "s2Member – Excellent for All Kinds of Memberships, Content Restriction Paywalls & Member Access Subscriptions",
       "published": "2026-02-18 18:11:15",
       "cvssScore": 9.8
-    },
-    {
-      "id": "51d4b7f6-183b-4a8d-a94d-83c66950a872",
-      "name": "IDonate 2.1.5 - 2.1.9 - Missing Authorization to Authenticated (Subscriber+) Account Takeover/Privilege Escalation via idonate_donor_profile Function",
-      "severity": "high",
-      "type": "plugin",
-      "software": "IDonate – Blood Donation, Request And Donor Management System",
-      "published": "2026-02-18 16:32:50",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "c4f22ca7-0e7c-438a-8e63-cf3723d087f4",
-      "name": "WP Customer Reviews <= 3.7.5 - Reflected Cross-Site Scripting via 'wpcr3_fname' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Customer Reviews",
-      "published": "2026-02-18 16:21:24",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "34b52ca2-c05f-49b7-846f-a67136d7d379",
-      "name": "Slider Future <= 1.0.5 - Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Slider Future",
-      "published": "2026-02-18 15:54:34",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "4b2fc891-f3c6-4f4f-ad52-0a1a949eed25",
-      "name": "Toret Manager <= 1.2.7 - Authenticated (Subscriber+) Arbitrary Options Update via AJAX actions",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Toret Manager",
-      "published": "2026-02-18 15:52:51",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "de255530-6b2d-426b-9f80-dbfebd2e3307",
-      "name": "Prodigy Commerce <= 3.2.9 - Unauthenticated Local File Inclusion via parameters[template_name]",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Prodigy Commerce",
-      "published": "2026-02-18 15:52:33",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "b113f475-3133-4ea3-9152-03bb84d79307",
-      "name": "Lizza LMS Pro <= 1.0.3 - Unauthenticated Privilege Escalation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Lizza LMS Pro",
-      "published": "2026-02-18 15:49:30",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2465,
-    "high": 6156,
-    "medium": 25186,
+    "critical": 2468,
+    "high": 6172,
+    "medium": 25200,
     "low": 146
   }
 }
