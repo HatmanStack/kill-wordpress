@@ -1,17 +1,44 @@
 {
-  "generated": "2026-02-26T06:24:01.534Z",
+  "generated": "2026-02-27T06:20:24.743Z",
   "totals": {
     "year2024": 8286,
-    "year2025": 10784,
-    "year2026": 1424
+    "year2025": 10794,
+    "year2026": 1471
   },
   "last30Days": {
-    "plugins": 504,
-    "themes": 81,
+    "plugins": 479,
+    "themes": 85,
     "core": 0,
-    "total": 585
+    "total": 564
   },
   "recentVulns": [
+    {
+      "id": "d534feae-d1b7-4544-b1c5-c23f37dd5bab",
+      "name": "Listee <= 1.1.6 - Unauthenticated Privilege Escalation",
+      "severity": "critical",
+      "type": "theme",
+      "software": "Listee",
+      "published": "2026-02-26 17:48:51",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "e5c62e54-da06-4b44-ba70-63065e664b0d",
+      "name": "Fluent Forms Pro Add On Pack <= 6.1.17 - Missing Authorization to Unauthenticated Payment Status modification",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Fluent Forms Pro Add On Pack",
+      "published": "2026-02-26 14:33:15",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "2c358cbe-7600-43a1-94a3-1530cdb5a9f3",
+      "name": "User Frontend: AI Powered Frontend Posting, User Directory, Profile, Membership & User Registration <= 4.2.8 - Authenticated (Author+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "User Frontend: AI Powered Frontend Posting, User Directory, Profile, Membership & User Registration",
+      "published": "2026-02-26 06:37:58",
+      "cvssScore": 8.8
+    },
     {
       "id": "3ffd6ce0-2536-43a5-9925-438bc653d0e5",
       "name": "Worry Proof Backup <= 0.2.4 - Authenticated (Subscriber+) Path Traversal via Backup Upload",
@@ -68,45 +95,18 @@
     },
     {
       "id": "033e8326-38ed-4d36-8a29-06f9c8a5e808",
-      "name": "Woocommerce Wholesale Lead Capture <= 1.17.8 - Unauthenticated Privilege Escalation",
+      "name": "Woocommerce Wholesale Lead Capture <= 2.0.3.1 - Unauthenticated Privilege Escalation",
       "severity": "critical",
       "type": "plugin",
       "software": "Wholesale Lead Capture Plugin for WooCommerce",
       "published": "2026-02-20 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "2942644d-c330-4ec0-ab1d-64b3044d5a87",
-      "name": "Wholesale Suite <= 2.2.1 - Authenticated (Shop Manager) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Wholesale Suite – B2B, Dynamic Pricing & WooCommerce Wholesale Prices",
-      "published": "2026-02-20 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "5e2bf4a8-1dca-47fb-8164-acca0b2cf4f2",
-      "name": "Woocommerce Wholesale Lead Capture <= 1.17.8 - Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Wholesale Lead Capture Plugin for WooCommerce",
-      "published": "2026-02-20 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "6c31cf92-26b7-484d-8c93-ce241d655d07",
-      "name": "s2Member <= 260127 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "s2Member – Excellent for All Kinds of Memberships, Content Restriction Paywalls & Member Access Subscriptions",
-      "published": "2026-02-18 18:11:15",
       "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2468,
-    "high": 6172,
-    "medium": 25200,
+    "critical": 2469,
+    "high": 6177,
+    "medium": 25251,
     "low": 146
   }
 }
