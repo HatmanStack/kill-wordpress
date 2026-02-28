@@ -1,17 +1,35 @@
 {
-  "generated": "2026-02-27T06:20:24.743Z",
+  "generated": "2026-02-28T06:10:37.345Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1471
+    "year2026": 1473
   },
   "last30Days": {
-    "plugins": 479,
-    "themes": 85,
+    "plugins": 471,
+    "themes": 81,
     "core": 0,
-    "total": 564
+    "total": 552
   },
   "recentVulns": [
+    {
+      "id": "007df869-dacb-4b0a-9c98-50586934cdab",
+      "name": "Tutor LMS <= 3.9.6 - Unauthenticated SQL Injection via coupon_code",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Tutor LMS – eLearning and online course solution",
+      "published": "2026-02-27 18:54:35",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "10e4c52d-c82f-4393-9a56-5714b3a108d1",
+      "name": "WP Mail Logging <= 1.15.0 - Unauthenticated PHP Object Injection via Email Log Message Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Mail Logging",
+      "published": "2026-02-27 17:58:35",
+      "cvssScore": 7.5
+    },
     {
       "id": "d534feae-d1b7-4544-b1c5-c23f37dd5bab",
       "name": "Listee <= 1.1.6 - Unauthenticated Privilege Escalation",
@@ -83,29 +101,11 @@
       "software": "Geo Mashup",
       "published": "2026-02-24 19:41:19",
       "cvssScore": 7.5
-    },
-    {
-      "id": "7598b38b-26b1-4640-9bd7-60613a5f704d",
-      "name": "WPGSI: Spreadsheet Integration <= 3.8.3 - Missing Authorization to Unauthenticated Arbitrary Post Creation and Deletion via Forged Base64 Token",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WPGSI: Spreadsheet Integration",
-      "published": "2026-02-24 19:34:56",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "033e8326-38ed-4d36-8a29-06f9c8a5e808",
-      "name": "Woocommerce Wholesale Lead Capture <= 2.0.3.1 - Unauthenticated Privilege Escalation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Wholesale Lead Capture Plugin for WooCommerce",
-      "published": "2026-02-20 00:00:00",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
     "critical": 2469,
-    "high": 6177,
+    "high": 6179,
     "medium": 25251,
     "low": 146
   }
