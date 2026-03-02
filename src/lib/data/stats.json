@@ -1,17 +1,35 @@
 {
-  "generated": "2026-03-01T06:17:45.667Z",
+  "generated": "2026-03-02T06:22:17.859Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1473
+    "year2026": 1475
   },
   "last30Days": {
-    "plugins": 463,
+    "plugins": 461,
     "themes": 78,
     "core": 0,
-    "total": 541
+    "total": 539
   },
   "recentVulns": [
+    {
+      "id": "76c31190-9db9-4d14-83e0-cbfca812e8ea",
+      "name": "Master Addons for Elementor Premium <= 2.1.3 - Authenticated (Subscriber+) Remote Code Execution via render_preview",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Master Addons for Elementor Premium",
+      "published": "2026-03-02 04:48:53",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "91d52a64-8dc1-4923-be0b-06800382151e",
+      "name": "Contest Gallery <= 28.1.4 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
+      "published": "2026-03-02 04:44:39",
+      "cvssScore": 7.5
+    },
     {
       "id": "007df869-dacb-4b0a-9c98-50586934cdab",
       "name": "Tutor LMS <= 3.9.6 - Unauthenticated SQL Injection via coupon_code",
@@ -83,29 +101,11 @@
       "software": "WP Responsive Images",
       "published": "2026-02-25 12:50:15",
       "cvssScore": 7.5
-    },
-    {
-      "id": "bbae9c33-becb-4c9d-917f-0d8fe8312d0c",
-      "name": "Advanced Woo Labels <= 2.37 - Authenticated (Contributor+) Remote Code Execution via 'callback' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Woo Labels – Product Labels & Badges for WooCommerce",
-      "published": "2026-02-24 19:54:05",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "8ab5ca55-0a8a-45a8-9ab0-aa3bbfa85417",
-      "name": "Geo Mashup <= 1.13.17 - Unauthenticated SQL Injection via 'sort' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Geo Mashup",
-      "published": "2026-02-24 19:41:19",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2469,
-    "high": 6179,
+    "high": 6181,
     "medium": 25251,
     "low": 146
   }
