@@ -1,17 +1,44 @@
 {
-  "generated": "2026-03-03T06:19:19.799Z",
+  "generated": "2026-03-04T06:17:56.290Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1484
+    "year2026": 1499
   },
   "last30Days": {
-    "plugins": 468,
+    "plugins": 479,
     "themes": 79,
     "core": 0,
-    "total": 547
+    "total": 558
   },
   "recentVulns": [
+    {
+      "id": "b841531b-8728-4933-b3c4-d4e10cbdca79",
+      "name": "JS Help Desk – AI-Powered Support & Ticketing System 2.8.2 - Unauthenticated SQL Injection via 'js-support-ticket-token-tkstatus' Cookie",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JS Help Desk – AI-Powered Support & Ticketing System",
+      "published": "2026-03-03 20:36:25",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "5954c682-c772-420a-a764-342418c1e71c",
+      "name": "WPBookit <= 1.0.8 - Unauthenticated Stored Cross-Site Scripting via 'wpb_user_name' and 'wpb_user_email' Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPBookit",
+      "published": "2026-03-03 12:30:48",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "afe6d4ac-1712-415e-9995-cb7c8fe4e1a0",
+      "name": "PostX <= 5.0.8 - Authenticated (Administrator+) Server-Side Request Forgery via REST API Endpoints",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Post Grid Gutenberg Blocks for News, Magazines, Blog Websites – PostX",
+      "published": "2026-03-03 12:22:12",
+      "cvssScore": 7.2
+    },
     {
       "id": "27d26d1c-d027-4a22-af49-4d7684d36d40",
       "name": "WP Zendesk for Contact Form 7, WPForms, Elementor, Formidable and Ninja Forms <= 1.1.5 - Unauthenticated Stored Cross-Site Scripting",
@@ -74,39 +101,12 @@
       "software": "Master Addons for Elementor Premium",
       "published": "2026-03-02 04:48:53",
       "cvssScore": 8.8
-    },
-    {
-      "id": "91d52a64-8dc1-4923-be0b-06800382151e",
-      "name": "Contest Gallery <= 28.1.4 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
-      "published": "2026-03-02 04:44:39",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "007df869-dacb-4b0a-9c98-50586934cdab",
-      "name": "Tutor LMS <= 3.9.6 - Unauthenticated SQL Injection via coupon_code",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Tutor LMS – eLearning and online course solution",
-      "published": "2026-02-27 18:54:35",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "10e4c52d-c82f-4393-9a56-5714b3a108d1",
-      "name": "WP Mail Logging <= 1.15.0 - Unauthenticated PHP Object Injection via Email Log Message Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Mail Logging",
-      "published": "2026-02-27 17:58:35",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2471,
-    "high": 6185,
-    "medium": 25254,
+    "high": 6188,
+    "medium": 25266,
     "low": 146
   }
 }
