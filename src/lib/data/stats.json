@@ -1,17 +1,53 @@
 {
-  "generated": "2026-03-04T06:17:56.290Z",
+  "generated": "2026-03-05T06:19:40.615Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1499
+    "year2026": 1508
   },
   "last30Days": {
-    "plugins": 479,
-    "themes": 79,
+    "plugins": 471,
+    "themes": 76,
     "core": 0,
-    "total": 558
+    "total": 547
   },
   "recentVulns": [
+    {
+      "id": "5e911b0a-a236-4df3-b997-3631412a1b55",
+      "name": "Fluent Forms Pro <= 6.1.17 - Unauthenticated Stored Cross-Site Scripting via Draft Form Submission",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Fluent Forms Pro Add On Pack",
+      "published": "2026-03-04 14:28:36",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "7a116f28-a560-4b54-9cd1-f1dd9ac3238d",
+      "name": "Database for Contact Form 7, WPforms, Elementor forms <= 1.4.7 - Unauthenticated PHP Object Injection via 'download_csv'",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Database for Contact Form 7, WPforms, Elementor forms",
+      "published": "2026-03-04 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "abfaa4a6-92b0-4233-b08d-e668090d3fc2",
+      "name": "Membership Plugin – Restrict Content <= 3.2.20 - Unauthenticated Privilege Escalation via 'rcp_level'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Membership Plugin – Restrict Content",
+      "published": "2026-03-04 00:00:00",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "ee0c0e29-b117-4480-b5b7-995878af8c57",
+      "name": "WowOptin: Next-Gen Popup Maker – Create Stunning Popups and Optins for Lead Generation <= 1.4.24 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WowOptin: Next-Gen Popup Maker – Create Stunning Popups and Optins for Lead Generation",
+      "published": "2026-03-04 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "b841531b-8728-4933-b3c4-d4e10cbdca79",
       "name": "JS Help Desk – AI-Powered Support & Ticketing System 2.8.2 - Unauthenticated SQL Injection via 'js-support-ticket-token-tkstatus' Cookie",
@@ -65,48 +101,12 @@
       "software": "Page Builder by SiteOrigin",
       "published": "2026-03-02 13:14:54",
       "cvssScore": 8.8
-    },
-    {
-      "id": "5e15e36e-55f9-4095-a0ba-48ef9434606a",
-      "name": "All-in-One Microsoft 365 & Entra ID / Azure AD SSO Login <= 2.2.5 - Authentication Bypass",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "All-in-One Microsoft 365 & Entra ID / Azure AD SSO Login",
-      "published": "2026-03-02 13:04:58",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "80848de3-a772-4078-aa04-29e1d6e3ff73",
-      "name": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin <= 7.0.0.3 - Authenticated (Administrator+) Server-Side Request Forgery to Arbitrary File Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin",
-      "published": "2026-03-02 12:35:59",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "c958880e-6068-4e7d-a780-1251f3ab9bf7",
-      "name": "LatePoint <= 5.2.7 - Authenticated (Agent+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-03-02 11:03:51",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "76c31190-9db9-4d14-83e0-cbfca812e8ea",
-      "name": "Master Addons for Elementor Premium <= 2.1.3 - Authenticated (Subscriber+) Remote Code Execution via render_preview",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Master Addons for Elementor Premium",
-      "published": "2026-03-02 04:48:53",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2471,
-    "high": 6188,
-    "medium": 25266,
+    "critical": 2472,
+    "high": 6191,
+    "medium": 25271,
     "low": 146
   }
 }
