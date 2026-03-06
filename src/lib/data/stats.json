@@ -1,17 +1,26 @@
 {
-  "generated": "2026-03-05T06:19:40.615Z",
+  "generated": "2026-03-06T06:17:35.012Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1508
+    "year2026": 1696
   },
   "last30Days": {
-    "plugins": 471,
-    "themes": 76,
+    "plugins": 498,
+    "themes": 202,
     "core": 0,
-    "total": 547
+    "total": 700
   },
   "recentVulns": [
+    {
+      "id": "3205670c-5c3c-48c3-a34a-6f9c25668258",
+      "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.5 - Unauthenticated Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Drag and Drop Multiple File Upload for Contact Form 7",
+      "published": "2026-03-05 06:23:44",
+      "cvssScore": 8.1
+    },
     {
       "id": "5e911b0a-a236-4df3-b997-3631412a1b55",
       "name": "Fluent Forms Pro <= 6.1.17 - Unauthenticated Stored Cross-Site Scripting via Draft Form Submission",
@@ -76,37 +85,28 @@
       "cvssScore": 7.2
     },
     {
-      "id": "27d26d1c-d027-4a22-af49-4d7684d36d40",
-      "name": "WP Zendesk for Contact Form 7, WPForms, Elementor, Formidable and Ninja Forms <= 1.1.5 - Unauthenticated Stored Cross-Site Scripting",
+      "id": "2ce5eefe-af48-45f3-9cc4-4a8961344164",
+      "name": "Don Peppe - Pizza and Fast Food WordPress Theme <= 1.3 - Unauthenticated Local File Inclusion",
       "severity": "high",
-      "type": "plugin",
-      "software": "WP Zendesk for Contact Form 7, WPForms, Elementor, Formidable and Ninja Forms",
-      "published": "2026-03-02 20:39:19",
-      "cvssScore": 7.2
+      "type": "theme",
+      "software": "Don Peppe - Pizza and Fast Food WordPress Theme",
+      "published": "2026-03-03 00:00:00",
+      "cvssScore": 8.1
     },
     {
-      "id": "7e9fec92-f471-4ce9-9138-1c58ad658da2",
-      "name": "User Registration & Membership <= 5.1.2 - Unauthenticated Privilege Escalation via Membership Registration",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "User Registration & Membership – Free & Paid Memberships, Subscriptions, Content Restriction, User Profile, Custom User Registration & Login Builder",
-      "published": "2026-03-02 16:05:18",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "deeeb78d-1757-44ec-968b-968d919b84f1",
-      "name": "Page Builder by SiteOrigin <= 2.33.5 - Authenticated (Contributor+) Local File Inclusion",
+      "id": "5a67e002-f5ef-4edf-9b21-5ea4e0f0d9d7",
+      "name": "Hoverex | Cryptocurrency & ICO Elementor Template Kit <= 1.5.10 - Unauthenticated Local File Inclusion",
       "severity": "high",
-      "type": "plugin",
-      "software": "Page Builder by SiteOrigin",
-      "published": "2026-03-02 13:14:54",
-      "cvssScore": 8.8
+      "type": "theme",
+      "software": "Hoverex | Cryptocurrency & ICO Elementor Template Kit",
+      "published": "2026-03-03 00:00:00",
+      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2472,
-    "high": 6191,
-    "medium": 25271,
+    "critical": 2474,
+    "high": 6326,
+    "medium": 25322,
     "low": 146
   }
 }
