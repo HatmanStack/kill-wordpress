@@ -1,17 +1,71 @@
 {
-  "generated": "2026-03-06T06:17:35.012Z",
+  "generated": "2026-03-07T06:12:17.745Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1696
+    "year2026": 1727
   },
   "last30Days": {
-    "plugins": 498,
-    "themes": 202,
+    "plugins": 499,
+    "themes": 199,
     "core": 0,
-    "total": 700
+    "total": 698
   },
   "recentVulns": [
+    {
+      "id": "036467de-95bb-4bfd-9522-df8dc17f3102",
+      "name": "Meta Box <= 5.11.1 - Authenticated (Contributor+) Arbitrary File Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Meta Box",
+      "published": "2026-03-06 19:09:12",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "9b448712-b989-453f-9acb-5556e01e41a4",
+      "name": "WP App Bar <= 1.5 - Unauthenticated Stored Cross-Site Scripting via 'app-bar-features' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP App Bar",
+      "published": "2026-03-06 18:49:21",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "f71fc65f-cdc1-4f20-b37e-849ade49ee41",
+      "name": "Paid Videochat Turnkey Site – HTML5 PPV Live Webcams <= 7.3.20 - Authenticated (Author+) Privilege Escalation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Paid Videochat Turnkey Site – HTML5 PPV Live Webcams",
+      "published": "2026-03-06 16:42:12",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "8aeaba0e-0a23-48f6-aa42-7f2f3bd741f1",
+      "name": "ZIP Code Based Content Protection <= 1.0.2 - Unauthenticated SQL Injection via 'zipcode' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ZIP Code Based Content Protection",
+      "published": "2026-03-06 11:52:34",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "9b0f6653-471b-4cee-9c92-f24dbe2c2dbd",
+      "name": "JS Archive List <= 6.1.7 - Authenticated (Contributor+) PHP Object Injection via 'included' Shortcode Attribute",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JS Archive List",
+      "published": "2026-03-06 11:46:38",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f9927487-99fb-46d9-a208-f19e0a371267",
+      "name": "Easy PHP Settings <= 1.0.4 - Authenticated (Administrator+) PHP Code Injection via 'wp_memory_limit' Setting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Easy PHP Settings",
+      "published": "2026-03-06 11:26:38",
+      "cvssScore": 7.2
+    },
     {
       "id": "3205670c-5c3c-48c3-a34a-6f9c25668258",
       "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.5 - Unauthenticated Arbitrary File Upload",
@@ -47,66 +101,12 @@
       "software": "Membership Plugin – Restrict Content",
       "published": "2026-03-04 00:00:00",
       "cvssScore": 8.1
-    },
-    {
-      "id": "ee0c0e29-b117-4480-b5b7-995878af8c57",
-      "name": "WowOptin: Next-Gen Popup Maker – Create Stunning Popups and Optins for Lead Generation <= 1.4.24 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WowOptin: Next-Gen Popup Maker – Create Stunning Popups and Optins for Lead Generation",
-      "published": "2026-03-04 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "b841531b-8728-4933-b3c4-d4e10cbdca79",
-      "name": "JS Help Desk – AI-Powered Support & Ticketing System 2.8.2 - Unauthenticated SQL Injection via 'js-support-ticket-token-tkstatus' Cookie",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JS Help Desk – AI-Powered Support & Ticketing System",
-      "published": "2026-03-03 20:36:25",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "5954c682-c772-420a-a764-342418c1e71c",
-      "name": "WPBookit <= 1.0.8 - Unauthenticated Stored Cross-Site Scripting via 'wpb_user_name' and 'wpb_user_email' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WPBookit",
-      "published": "2026-03-03 12:30:48",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "afe6d4ac-1712-415e-9995-cb7c8fe4e1a0",
-      "name": "PostX <= 5.0.8 - Authenticated (Administrator+) Server-Side Request Forgery via REST API Endpoints",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Post Grid Gutenberg Blocks for News, Magazines, Blog Websites – PostX",
-      "published": "2026-03-03 12:22:12",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "2ce5eefe-af48-45f3-9cc4-4a8961344164",
-      "name": "Don Peppe - Pizza and Fast Food WordPress Theme <= 1.3 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "Don Peppe - Pizza and Fast Food WordPress Theme",
-      "published": "2026-03-03 00:00:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "5a67e002-f5ef-4edf-9b21-5ea4e0f0d9d7",
-      "name": "Hoverex | Cryptocurrency & ICO Elementor Template Kit <= 1.5.10 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "Hoverex | Cryptocurrency & ICO Elementor Template Kit",
-      "published": "2026-03-03 00:00:00",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
     "critical": 2474,
-    "high": 6326,
-    "medium": 25322,
+    "high": 6332,
+    "medium": 25347,
     "low": 146
   }
 }
