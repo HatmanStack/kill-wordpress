@@ -1,16 +1,17 @@
 /**
  * WordPress Vulnerability Scraper
  *
- * Pulls from Wordfence Intelligence API (free, no auth required for basic access)
- * https://www.wordfence.com/threat-intel/
+ * Pulls from Wordfence Intelligence API v3 (free, requires auth token)
+ * https://www.wordfence.com/help/wordfence-intelligence/v3-accessing-and-consuming-the-vulnerability-data-feed/
  *
- * Run: npx tsx scripts/scrape.ts
+ * Requires WORDFENCE_API_TOKEN environment variable.
+ * Run: WORDFENCE_API_TOKEN=your-token npx tsx scripts/scrape.ts
  */
 
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 
-const WORDFENCE_API = 'https://www.wordfence.com/api/intelligence/v2/vulnerabilities/production';
+const WORDFENCE_API = 'https://www.wordfence.com/api/intelligence/v3/vulnerabilities/production';
 
 interface WordfenceVuln {
 	id: string;
@@ -83,9 +84,18 @@ function getType(software: WordfenceVuln['software']): ProcessedVuln['type'] {
 }
 
 async function fetchVulnerabilities(): Promise<WordfenceVuln[]> {
-	console.log('Fetching from Wordfence Intelligence API...');
+	const token = process.env.WORDFENCE_API_TOKEN;
+	if (!token) {
+		throw new Error('WORDFENCE_API_TOKEN environment variable is required. Get a free token at https://www.wordfence.com');
+	}
 
-	const response = await fetch(WORDFENCE_API);
+	console.log('Fetching from Wordfence Intelligence API v3...');
+
+	const response = await fetch(WORDFENCE_API, {
+		headers: {
+			'Authorization': `Bearer ${token}`
+		}
+	});
 
 	if (!response.ok) {
 		throw new Error(`API request failed: ${response.status} ${response.statusText}`);
