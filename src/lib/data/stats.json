@@ -1,112 +1,112 @@
 {
-  "generated": "2026-03-08T06:15:43.433Z",
+  "generated": "2026-03-11T17:34:27.445Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1727
+    "year2026": 1764
   },
   "last30Days": {
-    "plugins": 487,
-    "themes": 199,
-    "core": 0,
-    "total": 686
+    "plugins": 477,
+    "themes": 194,
+    "core": 6,
+    "total": 677
   },
   "recentVulns": [
     {
-      "id": "036467de-95bb-4bfd-9522-df8dc17f3102",
-      "name": "Meta Box <= 5.11.1 - Authenticated (Contributor+) Arbitrary File Deletion",
+      "id": "05d633f5-151a-4462-a6a0-5a638d7c3404",
+      "name": "My Sticky Bar <= 2.8.6 - Unauthenticated SQL Injection via 'stickymenu_contact_lead_form' Action",
       "severity": "high",
       "type": "plugin",
-      "software": "Meta Box",
-      "published": "2026-03-06 19:09:12",
+      "software": "My Sticky Bar – Floating Notification Bar & Sticky Header (formerly myStickymenu)",
+      "published": "2026-03-11 13:35:56",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "df406e59-94d9-4704-82a3-02c2c1773c82",
+      "name": "Checkout Field Editor (Checkout Manager) for WooCommerce <= 2.1.7 - Unauthenticated Stored Cross-Site Scripting via Block Checkout Custom Radio Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Checkout Field Editor (Checkout Manager) for WooCommerce",
+      "published": "2026-03-10 21:13:56",
       "cvssScore": 7.2
     },
     {
-      "id": "9b448712-b989-453f-9acb-5556e01e41a4",
-      "name": "WP App Bar <= 1.5 - Unauthenticated Stored Cross-Site Scripting via 'app-bar-features' Parameter",
+      "id": "1c1ce474-ecce-4d21-b174-cb54a2441b2b",
+      "name": "ExactMetrics 7.1.0 - 9.0.2 - Authenticated (Custom) Improper Privilege Management to Role Privilege Escalation via Settings Update",
       "severity": "high",
       "type": "plugin",
-      "software": "WP App Bar",
-      "published": "2026-03-06 18:49:21",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "f71fc65f-cdc1-4f20-b37e-849ade49ee41",
-      "name": "Paid Videochat Turnkey Site – HTML5 PPV Live Webcams <= 7.3.20 - Authenticated (Author+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Paid Videochat Turnkey Site – HTML5 PPV Live Webcams",
-      "published": "2026-03-06 16:42:12",
+      "software": "ExactMetrics – Google Analytics Dashboard for WordPress (Website Stats Plugin)",
+      "published": "2026-03-10 21:02:36",
       "cvssScore": 8.8
     },
     {
-      "id": "8aeaba0e-0a23-48f6-aa42-7f2f3bd741f1",
-      "name": "ZIP Code Based Content Protection <= 1.0.2 - Unauthenticated SQL Injection via 'zipcode' Parameter",
+      "id": "79b6b896-df66-4c3d-a4d4-d3dbeb630134",
+      "name": "ExactMetrics 8.6.0 - 9.0.2 - Authenticated (Custom) Insecure Direct Object Reference to Arbitrary Plugin Installation",
       "severity": "high",
       "type": "plugin",
-      "software": "ZIP Code Based Content Protection",
-      "published": "2026-03-06 11:52:34",
+      "software": "ExactMetrics – Google Analytics Dashboard for WordPress (Website Stats Plugin)",
+      "published": "2026-03-10 21:00:15",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "71642341-9fe0-44a9-88f3-70167dc6ca62",
+      "name": "Appointment Booking Calendar <= 1.6.9.27 - Unauthenticated SQL Injection via 'append_where_sql' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-03-10 19:14:37",
       "cvssScore": 7.5
     },
     {
-      "id": "9b0f6653-471b-4cee-9c92-f24dbe2c2dbd",
-      "name": "JS Archive List <= 6.1.7 - Authenticated (Contributor+) PHP Object Injection via 'included' Shortcode Attribute",
+      "id": "35e33e30-e102-445a-99d0-27adb7fc4638",
+      "name": "JetBooking <= 4.0.3 - Unauthenticated SQL Injection via 'check_in_date' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "JS Archive List",
-      "published": "2026-03-06 11:46:38",
+      "software": "JetBooking",
+      "published": "2026-03-10 17:33:16",
       "cvssScore": 7.5
     },
     {
-      "id": "f9927487-99fb-46d9-a208-f19e0a371267",
-      "name": "Easy PHP Settings <= 1.0.4 - Authenticated (Administrator+) PHP Code Injection via 'wp_memory_limit' Setting",
+      "id": "b612267c-a125-4153-9de7-bb12a7646021",
+      "name": "WP Maps <= 4.9.1 - Unauthenticated SQL Injection via 'location_id' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Easy PHP Settings",
-      "published": "2026-03-06 11:26:38",
-      "cvssScore": 7.2
+      "software": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters",
+      "published": "2026-03-10 17:22:45",
+      "cvssScore": 7.5
     },
     {
-      "id": "3205670c-5c3c-48c3-a34a-6f9c25668258",
-      "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.5 - Unauthenticated Arbitrary File Upload",
+      "id": "00e070b7-bdf6-4a80-a3ee-628243f1cc25",
+      "name": "Ally – Web Accessibility & Usability <= 4.0.3 - Unauthenticated SQL Injection via URL Path",
       "severity": "high",
       "type": "plugin",
-      "software": "Drag and Drop Multiple File Upload for Contact Form 7",
-      "published": "2026-03-05 06:23:44",
-      "cvssScore": 8.1
+      "software": "Ally – Web Accessibility & Usability",
+      "published": "2026-03-10 16:11:03",
+      "cvssScore": 7.5
     },
     {
-      "id": "5e911b0a-a236-4df3-b997-3631412a1b55",
-      "name": "Fluent Forms Pro <= 6.1.17 - Unauthenticated Stored Cross-Site Scripting via Draft Form Submission",
+      "id": "3edfc4af-2a28-4bdf-becf-018d9f656947",
+      "name": "Royal Addons for Elementor <= 1.7.1049 - Authenticated (Author+) Arbitrary File Upload via main.php Upload Bypass",
       "severity": "high",
       "type": "plugin",
-      "software": "Fluent Forms Pro Add On Pack",
-      "published": "2026-03-04 14:28:36",
-      "cvssScore": 7.2
+      "software": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
+      "published": "2026-03-10 15:36:21",
+      "cvssScore": 8.8
     },
     {
-      "id": "7a116f28-a560-4b54-9cd1-f1dd9ac3238d",
-      "name": "Database for Contact Form 7, WPforms, Elementor forms <= 1.4.7 - Unauthenticated PHP Object Injection via 'download_csv'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Database for Contact Form 7, WPforms, Elementor forms",
-      "published": "2026-03-04 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "abfaa4a6-92b0-4233-b08d-e668090d3fc2",
-      "name": "Membership Plugin – Restrict Content <= 3.2.20 - Unauthenticated Privilege Escalation via 'rcp_level'",
+      "id": "74e4808f-bd6f-4e62-91cb-31c86a427498",
+      "name": "ProfilePress <= 4.16.11 - Insecure Direct Object Reference to Authenticated (Subscriber+) Arbitrary Subscription Cancellation/Expiration",
       "severity": "high",
       "type": "plugin",
-      "software": "Membership Plugin – Restrict Content",
-      "published": "2026-03-04 00:00:00",
+      "software": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress",
+      "published": "2026-03-10 14:08:52",
       "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2474,
-    "high": 6332,
-    "medium": 25347,
+    "critical": 2475,
+    "high": 6347,
+    "medium": 25368,
     "low": 146
   }
 }
