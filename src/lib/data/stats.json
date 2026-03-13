@@ -1,17 +1,53 @@
 {
-  "generated": "2026-03-12T06:20:46.593Z",
+  "generated": "2026-03-13T06:20:02.511Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1765
+    "year2026": 1896
   },
   "last30Days": {
-    "plugins": 462,
-    "themes": 194,
+    "plugins": 453,
+    "themes": 266,
     "core": 6,
-    "total": 662
+    "total": 725
   },
   "recentVulns": [
+    {
+      "id": "ebb4bc5a-9469-4733-acf3-d2dda5edb7af",
+      "name": "Formidable Forms <= 6.28 - Missing Authorization to Unauthenticated Payment Integrity Bypass via PaymentIntent Reuse",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Formidable Forms – Contact Form Plugin, Survey, Quiz, Payment, Calculator Form & Custom Form Builder",
+      "published": "2026-03-12 19:21:57",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "5970b8d6-0041-4c30-a6ce-fe67ebf415f5",
+      "name": "Appointment Booking Calendar <= 1.6.9.29 - Missing Authorization to Unauthenticated Sensitive Information Exposure via Settings REST API Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-03-12 19:14:03",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "20188fd3-c330-4c76-912b-72731e14c450",
+      "name": "Pix for WooCommerce <= 1.5.0 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Pix for WooCommerce",
+      "published": "2026-03-12 18:45:33",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "015db31a-eadf-4159-9be4-a455de791e35",
+      "name": "DukaPress <= 3.2.4 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "DukaPress",
+      "published": "2026-03-12 00:00:00",
+      "cvssScore": 7.2
+    },
     {
       "id": "05d633f5-151a-4462-a6a0-5a638d7c3404",
       "name": "My Sticky Bar <= 2.8.6 - Unauthenticated SQL Injection via 'stickymenu_contact_lead_form' Action",
@@ -65,48 +101,12 @@
       "software": "JetBooking",
       "published": "2026-03-10 17:33:16",
       "cvssScore": 7.5
-    },
-    {
-      "id": "b612267c-a125-4153-9de7-bb12a7646021",
-      "name": "WP Maps <= 4.9.1 - Unauthenticated SQL Injection via 'location_id' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters",
-      "published": "2026-03-10 17:22:45",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "00e070b7-bdf6-4a80-a3ee-628243f1cc25",
-      "name": "Ally – Web Accessibility & Usability <= 4.0.3 - Unauthenticated SQL Injection via URL Path",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Ally – Web Accessibility & Usability",
-      "published": "2026-03-10 16:11:03",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "3edfc4af-2a28-4bdf-becf-018d9f656947",
-      "name": "Royal Addons for Elementor <= 1.7.1049 - Authenticated (Author+) Arbitrary File Upload via main.php Upload Bypass",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
-      "published": "2026-03-10 15:36:21",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "74e4808f-bd6f-4e62-91cb-31c86a427498",
-      "name": "ProfilePress <= 4.16.11 - Insecure Direct Object Reference to Authenticated (Subscriber+) Arbitrary Subscription Cancellation/Expiration",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress",
-      "published": "2026-03-10 14:08:52",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2475,
-    "high": 6347,
-    "medium": 25369,
+    "critical": 2480,
+    "high": 6443,
+    "medium": 25399,
     "low": 146
   }
 }
