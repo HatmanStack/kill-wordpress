@@ -1,17 +1,26 @@
 {
-  "generated": "2026-03-14T06:17:50.168Z",
+  "generated": "2026-03-15T06:24:10.258Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1898
+    "year2026": 1901
   },
   "last30Days": {
-    "plugins": 449,
+    "plugins": 451,
     "themes": 265,
     "core": 6,
-    "total": 720
+    "total": 722
   },
   "recentVulns": [
+    {
+      "id": "b2a8c307-2430-4ea9-afe0-e5e758eabdd1",
+      "name": "NEX-Forms – Ultimate Forms Plugin for WordPress <= 9.1.9 - Missing Authorization to Unauthenticated Arbitrary Form Entry Modification via nf_set_entry_update_id",
+      "severity": "high",
+      "type": "plugin",
+      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
+      "published": "2026-03-14 13:14:22",
+      "cvssScore": 7.5
+    },
     {
       "id": "ebb4bc5a-9469-4733-acf3-d2dda5edb7af",
       "name": "Formidable Forms <= 6.28 - Missing Authorization to Unauthenticated Payment Integrity Bypass via PaymentIntent Reuse",
@@ -92,21 +101,12 @@
       "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
       "published": "2026-03-10 19:14:37",
       "cvssScore": 7.5
-    },
-    {
-      "id": "35e33e30-e102-445a-99d0-27adb7fc4638",
-      "name": "JetBooking <= 4.0.3 - Unauthenticated SQL Injection via 'check_in_date' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JetBooking",
-      "published": "2026-03-10 17:33:16",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2480,
-    "high": 6443,
-    "medium": 25401,
+    "high": 6444,
+    "medium": 25403,
     "low": 146
   }
 }
