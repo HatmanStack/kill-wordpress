@@ -1,17 +1,26 @@
 {
-  "generated": "2026-03-16T06:35:45.540Z",
+  "generated": "2026-03-17T06:26:12.821Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1901
+    "year2026": 1903
   },
   "last30Days": {
-    "plugins": 393,
+    "plugins": 388,
     "themes": 265,
     "core": 6,
-    "total": 664
+    "total": 659
   },
   "recentVulns": [
+    {
+      "id": "bd3ee85a-324d-4991-bffc-db28ce374bbe",
+      "name": "WowStore – Store Builder & Product Blocks for WooCommerce <= 4.4.3 - Unauthenticated SQL Injection via 'search' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WowStore – Store Builder & Product Blocks for WooCommerce",
+      "published": "2026-03-16 11:29:16",
+      "cvssScore": 7.5
+    },
     {
       "id": "b2a8c307-2430-4ea9-afe0-e5e758eabdd1",
       "name": "NEX-Forms – Ultimate Forms Plugin for WordPress <= 9.1.9 - Missing Authorization to Unauthenticated Arbitrary Form Entry Modification via nf_set_entry_update_id",
@@ -92,21 +101,12 @@
       "software": "ExactMetrics – Google Analytics Dashboard for WordPress (Website Stats Plugin)",
       "published": "2026-03-10 21:00:15",
       "cvssScore": 8.8
-    },
-    {
-      "id": "71642341-9fe0-44a9-88f3-70167dc6ca62",
-      "name": "Appointment Booking Calendar <= 1.6.9.27 - Unauthenticated SQL Injection via 'append_where_sql' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
-      "published": "2026-03-10 19:14:37",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2480,
-    "high": 6444,
-    "medium": 25403,
+    "high": 6445,
+    "medium": 25404,
     "low": 146
   }
 }
