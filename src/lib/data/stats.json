@@ -1,17 +1,35 @@
 {
-  "generated": "2026-03-18T06:27:02.501Z",
+  "generated": "2026-03-19T06:24:10.822Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1914
+    "year2026": 1921
   },
   "last30Days": {
-    "plugins": 393,
-    "themes": 263,
+    "plugins": 381,
+    "themes": 240,
     "core": 6,
-    "total": 662
+    "total": 627
   },
   "recentVulns": [
+    {
+      "id": "67c7b9b2-e73f-47fe-aecc-14e998a607c8",
+      "name": "Appointment Booking Calendar <= 1.6.10.0 - Unauthenticated SQL Injection via 'fields' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-03-18 22:37:27",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "e991fbdf-8e26-4d2e-8e3b-c8990914dcad",
+      "name": "SlimStat Analytics <= 5.3.5 - Unauthenticated Stored Cross-Site Scripting via 'fh'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SlimStat Analytics",
+      "published": "2026-03-18 00:00:00",
+      "cvssScore": 7.2
+    },
     {
       "id": "2d7bc556-cdaf-42a7-8801-ad2e4945a137",
       "name": "Photo Gallery, Sliders, Proofing and Themes – NextGEN Gallery <= 4.0.4 - Authenticated (Author+) Local File Inclusion",
@@ -83,30 +101,12 @@
       "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
       "published": "2026-03-12 19:14:03",
       "cvssScore": 7.5
-    },
-    {
-      "id": "20188fd3-c330-4c76-912b-72731e14c450",
-      "name": "Pix for WooCommerce <= 1.5.0 - Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Pix for WooCommerce",
-      "published": "2026-03-12 18:45:33",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "015db31a-eadf-4159-9be4-a455de791e35",
-      "name": "DukaPress <= 3.2.4 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "DukaPress",
-      "published": "2026-03-12 00:00:00",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2481,
-    "high": 6448,
-    "medium": 25411,
+    "high": 6450,
+    "medium": 25416,
     "low": 146
   }
 }
