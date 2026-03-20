@@ -1,17 +1,26 @@
 {
-  "generated": "2026-03-19T06:24:10.822Z",
+  "generated": "2026-03-20T06:21:33.106Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1921
+    "year2026": 1998
   },
   "last30Days": {
-    "plugins": 381,
-    "themes": 240,
+    "plugins": 365,
+    "themes": 256,
     "core": 6,
     "total": 627
   },
   "recentVulns": [
+    {
+      "id": "b3e45a17-cb41-41ba-ab6c-c83202f0ecfd",
+      "name": "Aimogen Pro <= 2.7.5 - Unauthenticated Privilege Escalation via Arbitrary Function Call",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit",
+      "published": "2026-03-19 15:13:07",
+      "cvssScore": 9.8
+    },
     {
       "id": "67c7b9b2-e73f-47fe-aecc-14e998a607c8",
       "name": "Appointment Booking Calendar <= 1.6.10.0 - Unauthenticated SQL Injection via 'fields' Parameter",
@@ -29,6 +38,15 @@
       "software": "SlimStat Analytics",
       "published": "2026-03-18 00:00:00",
       "cvssScore": 7.2
+    },
+    {
+      "id": "170c9eba-9593-4e35-b663-b2d4fad85060",
+      "name": "Moments <= 2.2 - Unauthenticated Local File Inclusion",
+      "severity": "high",
+      "type": "theme",
+      "software": "moments",
+      "published": "2026-03-17 00:00:00",
+      "cvssScore": 8.1
     },
     {
       "id": "2d7bc556-cdaf-42a7-8801-ad2e4945a137",
@@ -58,6 +76,15 @@
       "cvssScore": 9.8
     },
     {
+      "id": "c3854d33-e9c5-4e35-93e3-5d4989b59413",
+      "name": "Remoji – Post/Comment Reaction and Enhancement <= 2.2 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Remoji – Post/Comment Reaction and Enhancement",
+      "published": "2026-03-17 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
       "id": "d96743ea-08b1-4b4c-9d62-558b97a6e297",
       "name": "KiviCare <= 4.1.2 - Missing Authorization to Unauthenticated Privilege Escalation via Setup Wizard",
       "severity": "high",
@@ -67,46 +94,19 @@
       "cvssScore": 8.2
     },
     {
-      "id": "bd3ee85a-324d-4991-bffc-db28ce374bbe",
-      "name": "WowStore – Store Builder & Product Blocks for WooCommerce <= 4.4.3 - Unauthenticated SQL Injection via 'search' Parameter",
+      "id": "ecc0f60f-d63b-498c-ab00-47551c62c89e",
+      "name": "Mixtape <= 2.1 - Unauthenticated Local File Inclusion",
       "severity": "high",
-      "type": "plugin",
-      "software": "WowStore – Store Builder & Product Blocks for WooCommerce",
-      "published": "2026-03-16 11:29:16",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "b2a8c307-2430-4ea9-afe0-e5e758eabdd1",
-      "name": "NEX-Forms – Ultimate Forms Plugin for WordPress <= 9.1.9 - Missing Authorization to Unauthenticated Arbitrary Form Entry Modification via nf_set_entry_update_id",
-      "severity": "high",
-      "type": "plugin",
-      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
-      "published": "2026-03-14 13:14:22",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "ebb4bc5a-9469-4733-acf3-d2dda5edb7af",
-      "name": "Formidable Forms <= 6.28 - Missing Authorization to Unauthenticated Payment Integrity Bypass via PaymentIntent Reuse",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Formidable Forms – Contact Form Plugin, Survey, Quiz, Payment, Calculator Form & Custom Form Builder",
-      "published": "2026-03-12 19:21:57",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "5970b8d6-0041-4c30-a6ce-fe67ebf415f5",
-      "name": "Appointment Booking Calendar <= 1.6.9.29 - Missing Authorization to Unauthenticated Sensitive Information Exposure via Settings REST API Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
-      "published": "2026-03-12 19:14:03",
-      "cvssScore": 7.5
+      "type": "theme",
+      "software": "Mixtape",
+      "published": "2026-03-17 00:00:00",
+      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2481,
-    "high": 6450,
-    "medium": 25416,
+    "critical": 2486,
+    "high": 6473,
+    "medium": 25465,
     "low": 146
   }
 }
