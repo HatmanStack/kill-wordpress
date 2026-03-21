@@ -1,112 +1,112 @@
 {
-  "generated": "2026-03-20T06:21:33.106Z",
+  "generated": "2026-03-21T06:15:27.336Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 1998
+    "year2026": 2098
   },
   "last30Days": {
-    "plugins": 365,
-    "themes": 256,
+    "plugins": 412,
+    "themes": 250,
     "core": 6,
-    "total": 627
+    "total": 668
   },
   "recentVulns": [
     {
-      "id": "b3e45a17-cb41-41ba-ab6c-c83202f0ecfd",
-      "name": "Aimogen Pro <= 2.7.5 - Unauthenticated Privilege Escalation via Arbitrary Function Call",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit",
-      "published": "2026-03-19 15:13:07",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "67c7b9b2-e73f-47fe-aecc-14e998a607c8",
-      "name": "Appointment Booking Calendar <= 1.6.10.0 - Unauthenticated SQL Injection via 'fields' Parameter",
+      "id": "1801fd3e-d56f-4540-9700-9e9de8b465e1",
+      "name": "JetFormBuilder <= 3.5.6.2 - Unauthenticated Arbitrary File Read via Media Field",
       "severity": "high",
       "type": "plugin",
-      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
-      "published": "2026-03-18 22:37:27",
+      "software": "JetFormBuilder — Dynamic Blocks Form Builder",
+      "published": "2026-03-20 18:28:08",
       "cvssScore": 7.5
     },
     {
-      "id": "e991fbdf-8e26-4d2e-8e3b-c8990914dcad",
-      "name": "SlimStat Analytics <= 5.3.5 - Unauthenticated Stored Cross-Site Scripting via 'fh'",
+      "id": "8f95276c-7486-4dbe-a79d-702fd6be9cfa",
+      "name": "Invelity Products Feeds <= 1.2.6 - Cross-Site Request Forgery to Arbitrary File Deletion",
       "severity": "high",
       "type": "plugin",
-      "software": "SlimStat Analytics",
-      "published": "2026-03-18 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "170c9eba-9593-4e35-b663-b2d4fad85060",
-      "name": "Moments <= 2.2 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "moments",
-      "published": "2026-03-17 00:00:00",
+      "software": "Invelity Product Feeds",
+      "published": "2026-03-20 15:21:04",
       "cvssScore": 8.1
     },
     {
-      "id": "2d7bc556-cdaf-42a7-8801-ad2e4945a137",
-      "name": "Photo Gallery, Sliders, Proofing and Themes – NextGEN Gallery <= 4.0.4 - Authenticated (Author+) Local File Inclusion",
+      "id": "7b035d17-303b-4a8b-a15e-615df6b605d1",
+      "name": "MimeTypes Link Icons <= 3.2.20 - Authenticated (Contributor+) Server-Side Request Forgery via Crafted Links in Post Content",
       "severity": "high",
       "type": "plugin",
-      "software": "Photo Gallery, Sliders, Proofing and Themes – NextGEN Gallery",
-      "published": "2026-03-17 00:00:00",
+      "software": "MimeTypes Link Icons",
+      "published": "2026-03-20 15:17:37",
+      "cvssScore": 8.3
+    },
+    {
+      "id": "08264ef7-940f-46b6-9880-34d730adad3c",
+      "name": "SurveyJS: Drag & Drop Form Builder <= 2.5.3 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SurveyJS: Drag & Drop Form Builder",
+      "published": "2026-03-20 15:16:58",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "02b03c4a-1b2a-4fd0-887d-930229dc384f",
+      "name": "myLinksDump <= 1.6 - Authenticated (Administrator+) SQL Injection via 'sort_by' and 'sort_order' Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "myLinksDump",
+      "published": "2026-03-20 15:16:48",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "0a37f3bf-5eaf-449d-a1d0-c86ae1a61078",
+      "name": "Fonts Manager | Custom Fonts <= 1.2 - Unauthenticated SQL Injection via fmcfIdSelectedFnt parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Fonts Manager | Custom Fonts",
+      "published": "2026-03-20 15:14:41",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "0311b546-01a4-4be8-97f3-6df6cd79c3fe",
+      "name": "CMS Commander <= 2.288 - Authenticated (Custom+) SQL Injection via 'or_blogname' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "CMS Commander – Manage Multiple Sites",
+      "published": "2026-03-20 15:14:31",
       "cvssScore": 8.8
     },
     {
-      "id": "3f8cbbbb-2089-4966-8fd3-da4f76fb2517",
-      "name": "Post SMTP <= 3.8.0 - Unauthenticated Stored Cross-Site Scripting via 'event_type'",
+      "id": "c8f42f17-bce2-421e-9031-bfa0f8c26b2a",
+      "name": "Performance Monitor <= 1.0.6 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Post SMTP – Complete Email Deliverability and SMTP Solution with Email Logs, Alerts, Backup SMTP & Mobile App",
-      "published": "2026-03-17 00:00:00",
+      "software": "Performance Monitor",
+      "published": "2026-03-20 15:10:03",
       "cvssScore": 7.2
     },
     {
-      "id": "8d22448b-aa8e-4775-b7c5-e7bae94a3f6d",
-      "name": "KiviCare – Clinic & Patient Management System (EHR) <= 4.1.2 - Unauthenticated Authentication Bypass via Social Login Token",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "KiviCare – Clinic & Patient Management System (EHR)",
-      "published": "2026-03-17 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "c3854d33-e9c5-4e35-93e3-5d4989b59413",
-      "name": "Remoji – Post/Comment Reaction and Enhancement <= 2.2 - Unauthenticated Stored Cross-Site Scripting",
+      "id": "f8381866-d991-4638-ab4d-3b8697acf414",
+      "name": "Content Syndication Toolkit <= 1.3 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Remoji – Post/Comment Reaction and Enhancement",
-      "published": "2026-03-17 00:00:00",
+      "software": "Content Syndication Toolkit",
+      "published": "2026-03-20 15:09:53",
       "cvssScore": 7.2
     },
     {
-      "id": "d96743ea-08b1-4b4c-9d62-558b97a6e297",
-      "name": "KiviCare <= 4.1.2 - Missing Authorization to Unauthenticated Privilege Escalation via Setup Wizard",
+      "id": "653e20ae-f018-41b5-a973-f73fddae70e5",
+      "name": "Quentn WP <= 1.2.12 - Unauthenticated SQL Injection via 'qntn_wp_access' Cookie",
       "severity": "high",
       "type": "plugin",
-      "software": "KiviCare – Clinic & Patient Management System (EHR)",
-      "published": "2026-03-17 00:00:00",
-      "cvssScore": 8.2
-    },
-    {
-      "id": "ecc0f60f-d63b-498c-ab00-47551c62c89e",
-      "name": "Mixtape <= 2.1 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "Mixtape",
-      "published": "2026-03-17 00:00:00",
-      "cvssScore": 8.1
+      "software": "Quentn WP",
+      "published": "2026-03-20 15:05:50",
+      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2486,
-    "high": 6473,
-    "medium": 25465,
-    "low": 146
+    "critical": 2487,
+    "high": 6488,
+    "medium": 25548,
+    "low": 147
   }
 }
