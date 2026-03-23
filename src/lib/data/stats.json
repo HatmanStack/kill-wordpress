@@ -1,17 +1,35 @@
 {
-  "generated": "2026-03-22T06:20:08.257Z",
+  "generated": "2026-03-23T06:29:43.394Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2101
+    "year2026": 2108
   },
   "last30Days": {
-    "plugins": 407,
+    "plugins": 413,
     "themes": 250,
     "core": 6,
-    "total": 663
+    "total": 669
   },
   "recentVulns": [
+    {
+      "id": "0935ede4-05bc-48a2-94a3-8d92002e02bb",
+      "name": "ReviewX – WooCommerce Product Reviews with Multi-Criteria, Reminder Emails, Google Reviews, Schema & More <= 2.2.12 - Unauthenticated Limited Remote Code Execution",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ReviewX – Multi-Criteria Reviews for WooCommerce with Google Reviews & Schema",
+      "published": "2026-03-22 16:26:52",
+      "cvssScore": 7.3
+    },
+    {
+      "id": "8d954868-eff2-497d-84e7-cc42da8a4c6f",
+      "name": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters <= 4.9.1 - Unauthenticated SQL Injection via 'orderby' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters",
+      "published": "2026-03-22 11:17:17",
+      "cvssScore": 7.5
+    },
     {
       "id": "38ea001c-6edb-4f36-a7ec-19be1d857b9e",
       "name": "The Ultimate WordPress Toolkit – WP Extended <= 3.2.4 - Authenticated (Subscriber+) Privilege Escalation via Menu Editor Module",
@@ -83,30 +101,12 @@
       "software": "Fonts Manager | Custom Fonts",
       "published": "2026-03-20 15:14:41",
       "cvssScore": 7.5
-    },
-    {
-      "id": "0311b546-01a4-4be8-97f3-6df6cd79c3fe",
-      "name": "CMS Commander <= 2.288 - Authenticated (Custom+) SQL Injection via 'or_blogname' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "CMS Commander – Manage Multiple Sites",
-      "published": "2026-03-20 15:14:31",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "c8f42f17-bce2-421e-9031-bfa0f8c26b2a",
-      "name": "Performance Monitor <= 1.0.6 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Performance Monitor",
-      "published": "2026-03-20 15:10:03",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2487,
-    "high": 6490,
-    "medium": 25549,
+    "high": 6492,
+    "medium": 25554,
     "low": 147
   }
 }
