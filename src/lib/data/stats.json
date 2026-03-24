@@ -1,17 +1,71 @@
 {
-  "generated": "2026-03-23T06:29:43.394Z",
+  "generated": "2026-03-24T06:26:54.446Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2108
+    "year2026": 2120
   },
   "last30Days": {
-    "plugins": 413,
+    "plugins": 424,
     "themes": 250,
     "core": 6,
-    "total": 669
+    "total": 680
   },
   "recentVulns": [
+    {
+      "id": "21389122-cb39-45d1-a889-b830d3a55603",
+      "name": "WP DSGVO Tools (GDPR) <= 3.1.38 - Missing Authorization to Unauthenticated Account Destruction of Non-Admin Users",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WP DSGVO Tools (GDPR)",
+      "published": "2026-03-23 16:27:36",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "f10cf49b-1b78-43c1-b0d1-c1dbb74d5696",
+      "name": "JetEngine <= 3.8.6.1 - Unauthenticated SQL Injection via Listing Grid 'filtered_query' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JetEngine",
+      "published": "2026-03-23 16:17:43",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f1b9725b-dee5-44ca-bb33-c6812fb76adc",
+      "name": "Contest Gallery <= 28.1.5 - Unauthenticated Privilege Escalation Admin Account Takeover via Registration Confirmation Email-to-ID Type Confusion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
+      "published": "2026-03-23 11:19:11",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "70a2b6ff-defc-4722-9af9-3cae94e98632",
+      "name": "Woocommerce Custom Product Addons Pro <= 5.4.1 - Unauthenticated Remote Code Execution via Custom Pricing Formula",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Woocommerce Custom Product Addons Pro",
+      "published": "2026-03-23 10:53:48",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "70bc5247-525d-4aae-9d66-efd65c9beee3",
+      "name": "JupiterX Core <= 4.14.1 - Authenticated (Subscriber+) Missing Authorization To Limited File Upload via Popup Template Import",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Jupiter X Core",
+      "published": "2026-03-23 10:26:58",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "ecc34552-c9b0-455f-b1c7-b31cc847cb22",
+      "name": "WP Job Portal <= 2.4.8 - Unauthenticated SQL Injection via 'radius' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Job Portal – AI-Powered Recruitment System for Company or Job Board website",
+      "published": "2026-03-23 10:12:47",
+      "cvssScore": 7.5
+    },
     {
       "id": "0935ede4-05bc-48a2-94a3-8d92002e02bb",
       "name": "ReviewX – WooCommerce Product Reviews with Multi-Criteria, Reminder Emails, Google Reviews, Schema & More <= 2.2.12 - Unauthenticated Limited Remote Code Execution",
@@ -47,66 +101,12 @@
       "software": "Import and export users and customers",
       "published": "2026-03-21 10:03:40",
       "cvssScore": 8.1
-    },
-    {
-      "id": "1801fd3e-d56f-4540-9700-9e9de8b465e1",
-      "name": "JetFormBuilder <= 3.5.6.2 - Unauthenticated Arbitrary File Read via Media Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JetFormBuilder — Dynamic Blocks Form Builder",
-      "published": "2026-03-20 18:28:08",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "8f95276c-7486-4dbe-a79d-702fd6be9cfa",
-      "name": "Invelity Products Feeds <= 1.2.6 - Cross-Site Request Forgery to Arbitrary File Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Invelity Product Feeds",
-      "published": "2026-03-20 15:21:04",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "7b035d17-303b-4a8b-a15e-615df6b605d1",
-      "name": "MimeTypes Link Icons <= 3.2.20 - Authenticated (Contributor+) Server-Side Request Forgery via Crafted Links in Post Content",
-      "severity": "high",
-      "type": "plugin",
-      "software": "MimeTypes Link Icons",
-      "published": "2026-03-20 15:17:37",
-      "cvssScore": 8.3
-    },
-    {
-      "id": "08264ef7-940f-46b6-9880-34d730adad3c",
-      "name": "SurveyJS: Drag & Drop Form Builder <= 2.5.3 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SurveyJS: Drag & Drop Form Builder",
-      "published": "2026-03-20 15:16:58",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "02b03c4a-1b2a-4fd0-887d-930229dc384f",
-      "name": "myLinksDump <= 1.6 - Authenticated (Administrator+) SQL Injection via 'sort_by' and 'sort_order' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "myLinksDump",
-      "published": "2026-03-20 15:16:48",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "0a37f3bf-5eaf-449d-a1d0-c86ae1a61078",
-      "name": "Fonts Manager | Custom Fonts <= 1.2 - Unauthenticated SQL Injection via fmcfIdSelectedFnt parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fonts Manager | Custom Fonts",
-      "published": "2026-03-20 15:14:41",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2487,
-    "high": 6492,
-    "medium": 25554,
+    "critical": 2489,
+    "high": 6496,
+    "medium": 25560,
     "low": 147
   }
 }
