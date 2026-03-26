@@ -1,17 +1,80 @@
 {
-  "generated": "2026-03-25T06:26:02.230Z",
+  "generated": "2026-03-26T06:28:57.373Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2120
+    "year2026": 2137
   },
   "last30Days": {
-    "plugins": 413,
-    "themes": 245,
+    "plugins": 423,
+    "themes": 238,
     "core": 6,
-    "total": 664
+    "total": 667
   },
   "recentVulns": [
+    {
+      "id": "9dbaafbb-ab7b-41d8-a8f7-178b9d42b4c5",
+      "name": "Amelia Booking <= 9.1.2 - Authenticated (Customer+) Insecure Direct Object Reference to Arbitrary User Password Change",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Booking for Appointments and Events Calendar – Amelia",
+      "published": "2026-03-25 15:31:53",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "0faa8f07-88c1-4638-9de5-e202807866e1",
+      "name": "Frontend Admin by DynamiApps <= 3.28.31 - Authenticated (Editor+) PHP Object Injection via 'post_content' of Admin Form Posts",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-03-25 14:11:27",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "265be0af-66a4-4636-ab81-f8e2c5a1282e",
+      "name": "Masteriyo LMS <= 2.1.6 - Missing Authorization to Authenticated (Student+) Privilege Escalation to Administrator",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Masteriyo LMS – Online Course Builder for eLearning, LMS & Education",
+      "published": "2026-03-25 12:44:04",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "e96f31e0-4b2e-4ea1-a3e5-fd7452a2fea9",
+      "name": "WP Job Portal <= 2.4.9 - Authenticated (Subscriber+) Arbitrary File Deletion via Resume Custom File Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Job Portal – AI-Powered Recruitment System for Company or Job Board website",
+      "published": "2026-03-25 10:39:46",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "2959c04a-70bd-4f5c-a61a-1eab2609f8ef",
+      "name": "JS Help Desk – AI-Powered Support & Ticketing System <= 3.0.4 - Unauthenticated SQL Injection via 'multiformid' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JS Help Desk – AI-Powered Support & Ticketing System",
+      "published": "2026-03-25 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "37441cc0-c43c-40e4-a170-1be59e112272",
+      "name": "Fluent Booking <= 2.0.01 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Fluent Booking – The Ultimate Appointments Scheduling, Events Booking, Events Calendar Solution",
+      "published": "2026-03-25 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "a71992e2-fdac-4e89-8867-4b771d9b4374",
+      "name": "Blackhole for Bad Bots <= 3.8 - Unauthenticated Stored Cross-Site Scripting via User-Agent HTTP Header",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Blackhole for Bad Bots",
+      "published": "2026-03-25 00:00:00",
+      "cvssScore": 7.2
+    },
     {
       "id": "21389122-cb39-45d1-a889-b830d3a55603",
       "name": "WP DSGVO Tools (GDPR) <= 3.1.38 - Missing Authorization to Unauthenticated Account Destruction of Non-Admin Users",
@@ -38,75 +101,12 @@
       "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
       "published": "2026-03-23 11:19:11",
       "cvssScore": 8.1
-    },
-    {
-      "id": "70a2b6ff-defc-4722-9af9-3cae94e98632",
-      "name": "Woocommerce Custom Product Addons Pro <= 5.4.1 - Unauthenticated Remote Code Execution via Custom Pricing Formula",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Woocommerce Custom Product Addons Pro",
-      "published": "2026-03-23 10:53:48",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "70bc5247-525d-4aae-9d66-efd65c9beee3",
-      "name": "JupiterX Core <= 4.14.1 - Authenticated (Subscriber+) Missing Authorization To Limited File Upload via Popup Template Import",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Jupiter X Core",
-      "published": "2026-03-23 10:26:58",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "ecc34552-c9b0-455f-b1c7-b31cc847cb22",
-      "name": "WP Job Portal <= 2.4.8 - Unauthenticated SQL Injection via 'radius' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Job Portal – AI-Powered Recruitment System for Company or Job Board website",
-      "published": "2026-03-23 10:12:47",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "0935ede4-05bc-48a2-94a3-8d92002e02bb",
-      "name": "ReviewX – WooCommerce Product Reviews with Multi-Criteria, Reminder Emails, Google Reviews, Schema & More <= 2.2.12 - Unauthenticated Limited Remote Code Execution",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ReviewX – Multi-Criteria Reviews for WooCommerce with Google Reviews & Schema",
-      "published": "2026-03-22 16:26:52",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "8d954868-eff2-497d-84e7-cc42da8a4c6f",
-      "name": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters <= 4.9.1 - Unauthenticated SQL Injection via 'orderby' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Maps – Store Locator,Google Maps,OpenStreetMap,Mapbox,Listing,Directory & Filters",
-      "published": "2026-03-22 11:17:17",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "38ea001c-6edb-4f36-a7ec-19be1d857b9e",
-      "name": "The Ultimate WordPress Toolkit – WP Extended <= 3.2.4 - Authenticated (Subscriber+) Privilege Escalation via Menu Editor Module",
-      "severity": "high",
-      "type": "plugin",
-      "software": "The Ultimate WordPress Toolkit – WP Extended",
-      "published": "2026-03-21 14:34:53",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "48dd9098-38e6-49da-8d22-27e12fddef51",
-      "name": "Import and export users and customers <= 1.29.7 - Privilege Escalation to Administrator via save_extra_user_profile_fields",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Import and export users and customers",
-      "published": "2026-03-21 10:03:40",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2488,
-    "high": 6497,
-    "medium": 25560,
+    "critical": 2489,
+    "high": 6503,
+    "medium": 25570,
     "low": 147
   }
 }
