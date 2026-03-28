@@ -1,17 +1,53 @@
 {
-  "generated": "2026-03-27T06:30:13.007Z",
+  "generated": "2026-03-28T06:23:48.724Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2176
+    "year2026": 2274
   },
   "last30Days": {
-    "plugins": 437,
-    "themes": 190,
+    "plugins": 479,
+    "themes": 203,
     "core": 6,
-    "total": 633
+    "total": 688
   },
   "recentVulns": [
+    {
+      "id": "8c83f430-8a4d-40fa-890c-387c787a3b55",
+      "name": "Oxygen <= 6.0.8 - Unauthenticated Server-Side Request Forgery via route_path",
+      "severity": "high",
+      "type": "theme",
+      "software": "Oxygen - WooCommerce WordPress Theme",
+      "published": "2026-03-27 14:05:45",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "c4772b32-a730-44f2-b43c-f9bd5abb6541",
+      "name": "SureForms <= 2.5.2 - Unauthenticated Payment Amount Validation Bypass via 'form_id'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SureForms – Contact Form, Payment Form & Other Custom Form Builder",
+      "published": "2026-03-27 12:56:32",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "baafd001-144d-4ee4-b7e6-28c0931e6e10",
+      "name": "Ultimate Member <= 2.11.2 - Authenticated (Contributor+) Sensitive Information Exposure to Account Takeover via Shortcode Template Tag",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin",
+      "published": "2026-03-27 09:48:30",
+      "cvssScore": 8
+    },
+    {
+      "id": "27e9449a-637f-4ae3-bf48-587dc2f22397",
+      "name": "Kiddy <= 2.0.8 - Unauthenticated Local File Inclusion",
+      "severity": "high",
+      "type": "theme",
+      "software": "Kiddy - Children WordPress theme",
+      "published": "2026-03-27 00:00:00",
+      "cvssScore": 8.1
+    },
     {
       "id": "9dbaafbb-ab7b-41d8-a8f7-178b9d42b4c5",
       "name": "Amelia Booking <= 9.1.2 - Authenticated (Customer+) Insecure Direct Object Reference to Arbitrary User Password Change",
@@ -33,11 +69,11 @@
     {
       "id": "265be0af-66a4-4636-ab81-f8e2c5a1282e",
       "name": "Masteriyo LMS <= 2.1.6 - Missing Authorization to Authenticated (Student+) Privilege Escalation to Administrator",
-      "severity": "critical",
+      "severity": "high",
       "type": "plugin",
       "software": "Masteriyo LMS – Online Course Builder for eLearning, LMS & Education",
       "published": "2026-03-25 12:44:04",
-      "cvssScore": 9.8
+      "cvssScore": 8.8
     },
     {
       "id": "e96f31e0-4b2e-4ea1-a3e5-fd7452a2fea9",
@@ -65,48 +101,12 @@
       "software": "Fluent Booking – The Ultimate Appointments Scheduling, Events Booking, Events Calendar Solution",
       "published": "2026-03-25 00:00:00",
       "cvssScore": 7.2
-    },
-    {
-      "id": "a71992e2-fdac-4e89-8867-4b771d9b4374",
-      "name": "Blackhole for Bad Bots <= 3.8 - Unauthenticated Stored Cross-Site Scripting via User-Agent HTTP Header",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Blackhole for Bad Bots",
-      "published": "2026-03-25 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "21389122-cb39-45d1-a889-b830d3a55603",
-      "name": "WP DSGVO Tools (GDPR) <= 3.1.38 - Missing Authorization to Unauthenticated Account Destruction of Non-Admin Users",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "WP DSGVO Tools (GDPR)",
-      "published": "2026-03-23 16:27:36",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "f10cf49b-1b78-43c1-b0d1-c1dbb74d5696",
-      "name": "JetEngine <= 3.8.6.1 - Unauthenticated SQL Injection via Listing Grid 'filtered_query' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JetEngine",
-      "published": "2026-03-23 16:17:43",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "f1b9725b-dee5-44ca-bb33-c6812fb76adc",
-      "name": "Contest Gallery <= 28.1.5 - Unauthenticated Privilege Escalation Admin Account Takeover via Registration Confirmation Email-to-ID Type Confusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
-      "published": "2026-03-23 11:19:11",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2489,
-    "high": 6516,
-    "medium": 25596,
-    "low": 147
+    "critical": 2486,
+    "high": 6556,
+    "medium": 25655,
+    "low": 149
   }
 }
