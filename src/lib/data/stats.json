@@ -1,17 +1,26 @@
 {
-  "generated": "2026-03-29T06:27:48.166Z",
+  "generated": "2026-03-30T06:41:03.303Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2275
+    "year2026": 2276
   },
   "last30Days": {
-    "plugins": 467,
+    "plugins": 466,
     "themes": 160,
     "core": 6,
-    "total": 633
+    "total": 632
   },
   "recentVulns": [
+    {
+      "id": "45527d6c-6866-44e6-85c2-5be984afbbc9",
+      "name": "Download Monitor <= 5.1.7 - Insecure Direct Object Reference to Unauthenticated Arbitrary Order Completion via 'token' and 'order_id'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Download Monitor",
+      "published": "2026-03-29 12:42:40",
+      "cvssScore": 7.5
+    },
     {
       "id": "8c83f430-8a4d-40fa-890c-387c787a3b55",
       "name": "Oxygen <= 6.0.8 - Unauthenticated Server-Side Request Forgery via route_path",
@@ -92,20 +101,11 @@
       "software": "JS Help Desk – AI-Powered Support & Ticketing System",
       "published": "2026-03-25 00:00:00",
       "cvssScore": 7.5
-    },
-    {
-      "id": "37441cc0-c43c-40e4-a170-1be59e112272",
-      "name": "Fluent Booking <= 2.0.01 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fluent Booking – The Ultimate Appointments Scheduling, Events Booking, Events Calendar Solution",
-      "published": "2026-03-25 00:00:00",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2486,
-    "high": 6556,
+    "high": 6557,
     "medium": 25656,
     "low": 149
   }
