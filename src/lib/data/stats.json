@@ -1,17 +1,62 @@
 {
-  "generated": "2026-03-30T06:41:03.303Z",
+  "generated": "2026-03-31T06:32:45.563Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2276
+    "year2026": 2288
   },
   "last30Days": {
-    "plugins": 466,
+    "plugins": 478,
     "themes": 160,
     "core": 6,
-    "total": 632
+    "total": 644
   },
   "recentVulns": [
+    {
+      "id": "0b75cad9-9f76-4839-8eb2-40d84662846d",
+      "name": "Query Monitor <= 3.20.3 - Reflected Cross-Site Scripting via Request URI",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Query Monitor – The developer tools panel for WordPress",
+      "published": "2026-03-30 23:21:22",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "12a296db-ecc0-409b-8718-0c208504053a",
+      "name": "Gravity SMTP <= 2.1.4 - Unauthenticated Sensitive Information Exposure via REST API",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Gravity SMTP",
+      "published": "2026-03-30 12:09:08",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "389c0b89-e408-4ad5-9723-a16b745771f0",
+      "name": "Everest Forms Pro <= 1.9.12 - Unauthenticated Remote Code Execution via Calculation Field",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Everest Forms Pro",
+      "published": "2026-03-30 12:00:40",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "3e037931-870f-45eb-973c-0276911682ad",
+      "name": "Debugger & Troubleshooter <= 1.3.2 - Unauthenticated Privilege Escalation to Administrator via Cookie Manipulation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Debugger & Troubleshooter",
+      "published": "2026-03-30 09:30:13",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "415c9658-bfb2-453b-a697-c63c08b0ca61",
+      "name": "Contact Form by Supsystic <= 1.7.36 - Unauthenticated Server-Side Template Injection via Prefill Functionality",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Contact Form by Supsystic",
+      "published": "2026-03-30 09:13:47",
+      "cvssScore": 9.8
+    },
     {
       "id": "45527d6c-6866-44e6-85c2-5be984afbbc9",
       "name": "Download Monitor <= 5.1.7 - Insecure Direct Object Reference to Unauthenticated Arbitrary Order Completion via 'token' and 'order_id'",
@@ -56,57 +101,12 @@
       "software": "Kiddy - Children WordPress theme",
       "published": "2026-03-27 00:00:00",
       "cvssScore": 8.1
-    },
-    {
-      "id": "9dbaafbb-ab7b-41d8-a8f7-178b9d42b4c5",
-      "name": "Amelia Booking <= 9.1.2 - Authenticated (Customer+) Insecure Direct Object Reference to Arbitrary User Password Change",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Booking for Appointments and Events Calendar – Amelia",
-      "published": "2026-03-25 15:31:53",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "0faa8f07-88c1-4638-9de5-e202807866e1",
-      "name": "Frontend Admin by DynamiApps <= 3.28.31 - Authenticated (Editor+) PHP Object Injection via 'post_content' of Admin Form Posts",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Frontend Admin by DynamiApps",
-      "published": "2026-03-25 14:11:27",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "265be0af-66a4-4636-ab81-f8e2c5a1282e",
-      "name": "Masteriyo LMS <= 2.1.6 - Missing Authorization to Authenticated (Student+) Privilege Escalation to Administrator",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Masteriyo LMS – Online Course Builder for eLearning, LMS & Education",
-      "published": "2026-03-25 12:44:04",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e96f31e0-4b2e-4ea1-a3e5-fd7452a2fea9",
-      "name": "WP Job Portal <= 2.4.9 - Authenticated (Subscriber+) Arbitrary File Deletion via Resume Custom File Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Job Portal – AI-Powered Recruitment System for Company or Job Board website",
-      "published": "2026-03-25 10:39:46",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "2959c04a-70bd-4f5c-a61a-1eab2609f8ef",
-      "name": "JS Help Desk – AI-Powered Support & Ticketing System <= 3.0.4 - Unauthenticated SQL Injection via 'multiformid' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JS Help Desk – AI-Powered Support & Ticketing System",
-      "published": "2026-03-25 00:00:00",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2486,
-    "high": 6557,
-    "medium": 25656,
+    "critical": 2488,
+    "high": 6560,
+    "medium": 25663,
     "low": 149
   }
 }
