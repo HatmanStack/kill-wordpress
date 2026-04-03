@@ -1,17 +1,53 @@
 {
-  "generated": "2026-04-01T06:37:48.438Z",
+  "generated": "2026-04-03T13:43:48.605Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2292
+    "year2026": 2349
   },
   "last30Days": {
-    "plugins": 472,
-    "themes": 110,
+    "plugins": 475,
+    "themes": 93,
     "core": 6,
-    "total": 588
+    "total": 574
   },
   "recentVulns": [
+    {
+      "id": "58b9dab8-8539-4b53-b08d-f6ee3e1e744c",
+      "name": "Perfmatters <= 2.5.9.1 - Authenticated (Subscriber+) Arbitrary File Deletion via 'delete' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Perfmatters",
+      "published": "2026-04-02 19:02:03",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "08d15c46-d15f-4803-80be-90bf33335c18",
+      "name": "Webmention <= 5.6.2 - Unauthenticated Blind Server-Side Request Forgery",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Webmention",
+      "published": "2026-04-01 19:17:15",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "a65eb62d-847b-4f3a-848b-1290e3118c01",
+      "name": "W3 Total Cache <= 2.9.3 - Unauthenticated Security Token Exposure via User-Agent Header",
+      "severity": "high",
+      "type": "plugin",
+      "software": "W3 Total Cache",
+      "published": "2026-04-01 19:07:11",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "194ee4a0-87c3-42e5-9676-8dd355838b78",
+      "name": "MW WP Form <= 5.1.0 - Unauthenticated Arbitrary File Move via move_temp_file_to_upload_dir",
+      "severity": "high",
+      "type": "plugin",
+      "software": "MW WP Form",
+      "published": "2026-04-01 16:50:15",
+      "cvssScore": 8.1
+    },
     {
       "id": "0b75cad9-9f76-4839-8eb2-40d84662846d",
       "name": "Query Monitor <= 3.20.3 - Reflected Cross-Site Scripting via Request URI",
@@ -65,48 +101,12 @@
       "software": "Download Monitor",
       "published": "2026-03-29 12:42:40",
       "cvssScore": 7.5
-    },
-    {
-      "id": "8c83f430-8a4d-40fa-890c-387c787a3b55",
-      "name": "Oxygen <= 6.0.8 - Unauthenticated Server-Side Request Forgery via route_path",
-      "severity": "high",
-      "type": "theme",
-      "software": "Oxygen - WooCommerce WordPress Theme",
-      "published": "2026-03-27 14:05:45",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "c4772b32-a730-44f2-b43c-f9bd5abb6541",
-      "name": "SureForms <= 2.5.2 - Unauthenticated Payment Amount Validation Bypass via 'form_id'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SureForms – Contact Form, Payment Form & Other Custom Form Builder",
-      "published": "2026-03-27 12:56:32",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "baafd001-144d-4ee4-b7e6-28c0931e6e10",
-      "name": "Ultimate Member <= 2.11.2 - Authenticated (Contributor+) Sensitive Information Exposure to Account Takeover via Shortcode Template Tag",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Ultimate Member – User Profile, Registration, Login, Member Directory, Content Restriction & Membership Plugin",
-      "published": "2026-03-27 09:48:30",
-      "cvssScore": 8
-    },
-    {
-      "id": "27e9449a-637f-4ae3-bf48-587dc2f22397",
-      "name": "Kiddy <= 2.0.8 - Unauthenticated Local File Inclusion",
-      "severity": "high",
-      "type": "theme",
-      "software": "Kiddy - Children WordPress theme",
-      "published": "2026-03-27 00:00:00",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
     "critical": 2488,
-    "high": 6560,
-    "medium": 25667,
+    "high": 6584,
+    "medium": 25700,
     "low": 149
   }
 }
