@@ -1,17 +1,71 @@
 {
-  "generated": "2026-04-03T13:43:48.605Z",
+  "generated": "2026-04-04T06:25:06.168Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2349
+    "year2026": 2368
   },
   "last30Days": {
-    "plugins": 475,
-    "themes": 93,
+    "plugins": 479,
+    "themes": 78,
     "core": 6,
-    "total": 574
+    "total": 563
   },
   "recentVulns": [
+    {
+      "id": "f215e320-8563-4d25-9963-ed3664b4901d",
+      "name": "wpForo Forum <= 2.4.16 - Authenticated (Subscriber+) Arbitrary File Deletion via Post Body",
+      "severity": "high",
+      "type": "plugin",
+      "software": "wpForo Forum",
+      "published": "2026-04-03 22:11:24",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "bd8e86b0-5e06-44e0-a94c-b05581f46e5a",
+      "name": "Visitor Traffic Real Time Statistics <= 8.4 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Visitor Traffic Real Time Statistics",
+      "published": "2026-04-03 22:10:48",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "b8dc0b5e-87b9-4831-a92a-bbf6eb1346e2",
+      "name": "Text to Speech (TTS) by Mementor <= 1.9.8 - Use of Hardcoded Password to Unauthenticated Remote Database Access",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Text to Speech – TTSWP",
+      "published": "2026-04-03 22:10:19",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "2584097a-8955-41c7-b009-c6502fe8b99b",
+      "name": "Widgets for Social Photo Feed <= 1.7.9 - Unauthenticated Stored Cross-Site Scripting via feed_data",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Widgets for Social Photo Feed",
+      "published": "2026-04-03 19:57:33",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "ae1e198b-0c0d-47aa-8a56-ec4e790c8022",
+      "name": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress <= 4.16.11 - Missing Authorization to Authenticated (Subscriber+) Membership Payment Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress",
+      "published": "2026-04-03 19:47:09",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "f8248098-dff2-4bac-a138-aa40c7ab7a1c",
+      "name": "WCFM - WooCommerce Frontend Manager <= 6.7.25 - Insecure Direct Object References to Autenticated (Vendor+) Arbitrary Post/Product Manipulation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WCFM – Frontend Manager for WooCommerce",
+      "published": "2026-04-03 19:36:31",
+      "cvssScore": 8.1
+    },
     {
       "id": "58b9dab8-8539-4b53-b08d-f6ee3e1e744c",
       "name": "Perfmatters <= 2.5.9.1 - Authenticated (Subscriber+) Arbitrary File Deletion via 'delete' Parameter",
@@ -47,66 +101,12 @@
       "software": "MW WP Form",
       "published": "2026-04-01 16:50:15",
       "cvssScore": 8.1
-    },
-    {
-      "id": "0b75cad9-9f76-4839-8eb2-40d84662846d",
-      "name": "Query Monitor <= 3.20.3 - Reflected Cross-Site Scripting via Request URI",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Query Monitor – The developer tools panel for WordPress",
-      "published": "2026-03-30 23:21:22",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "12a296db-ecc0-409b-8718-0c208504053a",
-      "name": "Gravity SMTP <= 2.1.4 - Unauthenticated Sensitive Information Exposure via REST API",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Gravity SMTP",
-      "published": "2026-03-30 12:09:08",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "389c0b89-e408-4ad5-9723-a16b745771f0",
-      "name": "Everest Forms Pro <= 1.9.12 - Unauthenticated Remote Code Execution via Calculation Field",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Everest Forms Pro",
-      "published": "2026-03-30 12:00:40",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "3e037931-870f-45eb-973c-0276911682ad",
-      "name": "Debugger & Troubleshooter <= 1.3.2 - Unauthenticated Privilege Escalation to Administrator via Cookie Manipulation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Debugger & Troubleshooter",
-      "published": "2026-03-30 09:30:13",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "415c9658-bfb2-453b-a697-c63c08b0ca61",
-      "name": "Contact Form by Supsystic <= 1.7.36 - Unauthenticated Server-Side Template Injection via Prefill Functionality",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Contact Form by Supsystic",
-      "published": "2026-03-30 09:13:47",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "45527d6c-6866-44e6-85c2-5be984afbbc9",
-      "name": "Download Monitor <= 5.1.7 - Insecure Direct Object Reference to Unauthenticated Arbitrary Order Completion via 'token' and 'order_id'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Download Monitor",
-      "published": "2026-03-29 12:42:40",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2488,
-    "high": 6584,
-    "medium": 25700,
+    "high": 6590,
+    "medium": 25713,
     "low": 149
   }
 }
