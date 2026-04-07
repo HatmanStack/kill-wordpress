@@ -1,17 +1,35 @@
 {
-  "generated": "2026-04-06T06:41:34.428Z",
+  "generated": "2026-04-07T06:34:49.270Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2368
+    "year2026": 2372
   },
   "last30Days": {
-    "plugins": 447,
+    "plugins": 451,
     "themes": 72,
     "core": 6,
-    "total": 525
+    "total": 529
   },
   "recentVulns": [
+    {
+      "id": "a4204099-1065-4167-8b42-3da25945236c",
+      "name": "Amelia <= 2.1.3 - Insecure Direct Object Reference to Authenticated (Employee+) Privilege Escalation via 'externalId' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Booking for Appointments and Events Calendar – Amelia",
+      "published": "2026-04-06 18:13:11",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "0b606ded-ab50-486a-9337-97ee9f452f12",
+      "name": "Ninja Forms - File Upload <= 3.3.26 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Ninja Forms - File Uploads",
+      "published": "2026-04-06 15:57:44",
+      "cvssScore": 9.8
+    },
     {
       "id": "f215e320-8563-4d25-9963-ed3664b4901d",
       "name": "wpForo Forum <= 2.4.16 - Authenticated (Subscriber+) Arbitrary File Deletion via Post Body",
@@ -83,30 +101,12 @@
       "software": "Webmention",
       "published": "2026-04-01 19:17:15",
       "cvssScore": 7.2
-    },
-    {
-      "id": "a65eb62d-847b-4f3a-848b-1290e3118c01",
-      "name": "W3 Total Cache <= 2.9.3 - Unauthenticated Security Token Exposure via User-Agent Header",
-      "severity": "high",
-      "type": "plugin",
-      "software": "W3 Total Cache",
-      "published": "2026-04-01 19:07:11",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "194ee4a0-87c3-42e5-9676-8dd355838b78",
-      "name": "MW WP Form <= 5.1.0 - Unauthenticated Arbitrary File Move via move_temp_file_to_upload_dir",
-      "severity": "high",
-      "type": "plugin",
-      "software": "MW WP Form",
-      "published": "2026-04-01 16:50:15",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2488,
-    "high": 6590,
-    "medium": 25713,
+    "critical": 2489,
+    "high": 6591,
+    "medium": 25715,
     "low": 149
   }
 }
