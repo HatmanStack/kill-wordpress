@@ -1,17 +1,89 @@
 {
-  "generated": "2026-04-07T06:34:49.270Z",
+  "generated": "2026-04-08T06:36:12.445Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2372
+    "year2026": 2426
   },
   "last30Days": {
-    "plugins": 451,
-    "themes": 72,
+    "plugins": 504,
+    "themes": 70,
     "core": 6,
-    "total": 529
+    "total": 580
   },
   "recentVulns": [
+    {
+      "id": "3852aef6-42e7-4b71-a1ba-dd41284fd07b",
+      "name": "ProSolution WP Client <= 1.9.9 - Unauthenticated Arbitrary File Upload via proSol_fileUploadProcess",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "ProSolution WP Client",
+      "published": "2026-04-08 05:07:38",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "6203ffaf-5efd-4c66-85f0-cc3a05a03084",
+      "name": "DSGVO Google Web Fonts GDPR <= 1.1 - Unauthenticated Arbitrary File Upload via 'fonturl' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "DSGVO Google Web Fonts GDPR",
+      "published": "2026-04-07 17:40:04",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "870bf5fe-00c6-48fe-b9e6-e8233c689b71",
+      "name": "Gerador de Certificados – DevApps <= 1.3.6 - Authenticated (Administrator+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Gerador de Certificados – DevApps",
+      "published": "2026-04-07 17:37:58",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "27bb60c1-43fa-4a18-b9ca-059535b0d5b6",
+      "name": "Users manager – PN <= 1.1.15 - Unauthenticated Privilege Escalation via Account Takeover via 'userspn_form_save' AJAX Action",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Users manager – PN",
+      "published": "2026-04-07 15:32:12",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "5b645b88-85e0-4e89-bd95-444ab1db6df8",
+      "name": "Product Feed PRO for WooCommerce by AdTribes – Product Feeds for WooCommerce 13.4.6 - 13.5.2.1 - Cross-Site Request Forgery to Multiple Administrative Actions",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Product Feed PRO for WooCommerce by AdTribes – Product Feeds for WooCommerce",
+      "published": "2026-04-07 12:49:34",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "2693ae37-790d-4b18-a9ec-054c8c27b8bc",
+      "name": "Everest Forms <= 3.4.3 - Unauthenticated PHP Object Injection via Form Entry Metadata",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder",
+      "published": "2026-04-07 11:35:53",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "22b63369-c6ea-42e9-bea3-d15837da7732",
+      "name": "Advanced Members for ACF <= 1.2.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Path Traversal",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Advanced Members for ACF",
+      "published": "2026-04-07 00:00:00",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "ee0a762e-9159-4dab-a7be-9cbe332effb1",
+      "name": "WCAPF – WooCommerce Ajax Product Filter <= 4.2.3 - Unauthenticated Time-Based SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WCAPF – Ajax Product Filter for WooCommerce",
+      "published": "2026-04-07 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "a4204099-1065-4167-8b42-3da25945236c",
       "name": "Amelia <= 2.1.3 - Insecure Direct Object Reference to Authenticated (Employee+) Privilege Escalation via 'externalId' Parameter",
@@ -29,84 +101,12 @@
       "software": "Ninja Forms - File Uploads",
       "published": "2026-04-06 15:57:44",
       "cvssScore": 9.8
-    },
-    {
-      "id": "f215e320-8563-4d25-9963-ed3664b4901d",
-      "name": "wpForo Forum <= 2.4.16 - Authenticated (Subscriber+) Arbitrary File Deletion via Post Body",
-      "severity": "high",
-      "type": "plugin",
-      "software": "wpForo Forum",
-      "published": "2026-04-03 22:11:24",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "bd8e86b0-5e06-44e0-a94c-b05581f46e5a",
-      "name": "Visitor Traffic Real Time Statistics <= 8.4 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Visitor Traffic Real Time Statistics",
-      "published": "2026-04-03 22:10:48",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "b8dc0b5e-87b9-4831-a92a-bbf6eb1346e2",
-      "name": "Text to Speech (TTS) by Mementor <= 1.9.8 - Use of Hardcoded Password to Unauthenticated Remote Database Access",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Text to Speech – TTSWP",
-      "published": "2026-04-03 22:10:19",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "2584097a-8955-41c7-b009-c6502fe8b99b",
-      "name": "Widgets for Social Photo Feed <= 1.7.9 - Unauthenticated Stored Cross-Site Scripting via feed_data",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Widgets for Social Photo Feed",
-      "published": "2026-04-03 19:57:33",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "ae1e198b-0c0d-47aa-8a56-ec4e790c8022",
-      "name": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress <= 4.16.11 - Missing Authorization to Authenticated (Subscriber+) Membership Payment Bypass",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress",
-      "published": "2026-04-03 19:47:09",
-      "cvssScore": 7.1
-    },
-    {
-      "id": "f8248098-dff2-4bac-a138-aa40c7ab7a1c",
-      "name": "WCFM - WooCommerce Frontend Manager <= 6.7.25 - Insecure Direct Object References to Autenticated (Vendor+) Arbitrary Post/Product Manipulation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WCFM – Frontend Manager for WooCommerce",
-      "published": "2026-04-03 19:36:31",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "58b9dab8-8539-4b53-b08d-f6ee3e1e744c",
-      "name": "Perfmatters <= 2.5.9.1 - Authenticated (Subscriber+) Arbitrary File Deletion via 'delete' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Perfmatters",
-      "published": "2026-04-02 19:02:03",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "08d15c46-d15f-4803-80be-90bf33335c18",
-      "name": "Webmention <= 5.6.2 - Unauthenticated Blind Server-Side Request Forgery",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Webmention",
-      "published": "2026-04-01 19:17:15",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2489,
-    "high": 6591,
-    "medium": 25715,
+    "critical": 2493,
+    "high": 6595,
+    "medium": 25761,
     "low": 149
   }
 }
