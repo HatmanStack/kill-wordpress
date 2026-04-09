@@ -1,17 +1,35 @@
 {
-  "generated": "2026-04-08T06:36:12.445Z",
+  "generated": "2026-04-09T06:36:14.270Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2426
+    "year2026": 2440
   },
   "last30Days": {
-    "plugins": 504,
-    "themes": 70,
-    "core": 6,
-    "total": 580
+    "plugins": 487,
+    "themes": 58,
+    "core": 0,
+    "total": 545
   },
   "recentVulns": [
+    {
+      "id": "308cd28a-a477-4bc6-a392-ad5a9eca1cb5",
+      "name": "Quick Playground <= 1.3.1 - Missing Authorization to Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Quick Playground",
+      "published": "2026-04-08 14:35:08",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "bc308993-7fc5-41db-a396-f05e95fe47b8",
+      "name": "MW WP Form <= 5.1.1 - Unauthenticated Arbitrary File Move via regenerate_upload_file_keys",
+      "severity": "high",
+      "type": "plugin",
+      "software": "MW WP Form",
+      "published": "2026-04-08 07:57:15",
+      "cvssScore": 8.1
+    },
     {
       "id": "3852aef6-42e7-4b71-a1ba-dd41284fd07b",
       "name": "ProSolution WP Client <= 1.9.9 - Unauthenticated Arbitrary File Upload via proSol_fileUploadProcess",
@@ -20,6 +38,15 @@
       "software": "ProSolution WP Client",
       "published": "2026-04-08 05:07:38",
       "cvssScore": 9.8
+    },
+    {
+      "id": "1bb409f0-ccbd-4dfa-b097-b29ee539daa3",
+      "name": "Vertex Addons for Elementor <= 1.6.4 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation and Activation via 'afeb_activate_required_plugins'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Vertex Addons for Elementor",
+      "published": "2026-04-08 00:00:00",
+      "cvssScore": 8.8
     },
     {
       "id": "6203ffaf-5efd-4c66-85f0-cc3a05a03084",
@@ -74,39 +101,12 @@
       "software": "Advanced Members for ACF",
       "published": "2026-04-07 00:00:00",
       "cvssScore": 8.8
-    },
-    {
-      "id": "ee0a762e-9159-4dab-a7be-9cbe332effb1",
-      "name": "WCAPF – WooCommerce Ajax Product Filter <= 4.2.3 - Unauthenticated Time-Based SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WCAPF – Ajax Product Filter for WooCommerce",
-      "published": "2026-04-07 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "a4204099-1065-4167-8b42-3da25945236c",
-      "name": "Amelia <= 2.1.3 - Insecure Direct Object Reference to Authenticated (Employee+) Privilege Escalation via 'externalId' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Booking for Appointments and Events Calendar – Amelia",
-      "published": "2026-04-06 18:13:11",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "0b606ded-ab50-486a-9337-97ee9f452f12",
-      "name": "Ninja Forms - File Upload <= 3.3.26 - Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Ninja Forms - File Uploads",
-      "published": "2026-04-06 15:57:44",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2493,
-    "high": 6595,
-    "medium": 25761,
+    "critical": 2494,
+    "high": 6597,
+    "medium": 25772,
     "low": 149
   }
 }
