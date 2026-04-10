@@ -1,17 +1,44 @@
 {
-  "generated": "2026-04-09T06:36:14.270Z",
+  "generated": "2026-04-10T06:40:15.954Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2440
+    "year2026": 2461
   },
   "last30Days": {
-    "plugins": 487,
-    "themes": 58,
+    "plugins": 488,
+    "themes": 57,
     "core": 0,
     "total": 545
   },
   "recentVulns": [
+    {
+      "id": "0f9d18a4-262b-4011-91e9-b29a27a76470",
+      "name": "Gravity SMTP <= 2.1.4 - Missing Authorization to Authenticated (Subscriber+) Plugin Uninstall",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Gravity SMTP",
+      "published": "2026-04-09 21:01:07",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "7f365519-dd0a-4f39-880d-7216ce2f7d1e",
+      "name": "Tutor LMS <= 3.9.7 - Missing Authorization to Unauthenticated Arbitrary Billing Profile Overwrite via 'order_id' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Tutor LMS – eLearning and online course solution",
+      "published": "2026-04-09 12:40:11",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "c172ab2b-ce1f-4a0d-b31f-b75ff2f03506",
+      "name": "Perfmatters <= 2.5.9 - Authenticated (Subscriber+) Arbitrary File Overwrite via 'snippets' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Perfmatters",
+      "published": "2026-04-09 11:55:00",
+      "cvssScore": 8.1
+    },
     {
       "id": "308cd28a-a477-4bc6-a392-ad5a9eca1cb5",
       "name": "Quick Playground <= 1.3.1 - Missing Authorization to Unauthenticated Arbitrary File Upload",
@@ -74,39 +101,12 @@
       "software": "Users manager – PN",
       "published": "2026-04-07 15:32:12",
       "cvssScore": 9.8
-    },
-    {
-      "id": "5b645b88-85e0-4e89-bd95-444ab1db6df8",
-      "name": "Product Feed PRO for WooCommerce by AdTribes – Product Feeds for WooCommerce 13.4.6 - 13.5.2.1 - Cross-Site Request Forgery to Multiple Administrative Actions",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Product Feed PRO for WooCommerce by AdTribes – Product Feeds for WooCommerce",
-      "published": "2026-04-07 12:49:34",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "2693ae37-790d-4b18-a9ec-054c8c27b8bc",
-      "name": "Everest Forms <= 3.4.3 - Unauthenticated PHP Object Injection via Form Entry Metadata",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder",
-      "published": "2026-04-07 11:35:53",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "22b63369-c6ea-42e9-bea3-d15837da7732",
-      "name": "Advanced Members for ACF <= 1.2.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Path Traversal",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Members for ACF",
-      "published": "2026-04-07 00:00:00",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2494,
-    "high": 6597,
-    "medium": 25772,
+    "critical": 2497,
+    "high": 6602,
+    "medium": 25785,
     "low": 149
   }
 }
