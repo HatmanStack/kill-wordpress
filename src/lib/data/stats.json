@@ -1,17 +1,62 @@
 {
-  "generated": "2026-04-13T06:48:10.938Z",
+  "generated": "2026-04-14T06:40:19.834Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2471
+    "year2026": 2493
   },
   "last30Days": {
-    "plugins": 463,
-    "themes": 53,
+    "plugins": 480,
+    "themes": 54,
     "core": 0,
-    "total": 516
+    "total": 534
   },
   "recentVulns": [
+    {
+      "id": "45690747-0b8d-4e2e-8dd0-07c12791c064",
+      "name": "Smart Post Show – Post Grid, Post Carousel & Slider, and List Category Posts <= 3.0.12 - Authenticated (Administrator+) PHP Object Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Smart Post Show – Post Grid, Post Carousel & Slider, and List Category Posts",
+      "published": "2026-04-13 16:33:40",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "084e3f78-275b-4692-9cce-e17074f55cfb",
+      "name": "BackWPup <= 5.6.6 - Authenticated (Administrator+) Local File Inclusion via 'block_name' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "BackWPup – WordPress Backup & Restore Plugin",
+      "published": "2026-04-13 14:13:09",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "197449f5-9304-49df-9261-a354145fc00e",
+      "name": "Form Maker by 10Web <= 1.15.40 - Unauthenticated Stored Cross-Site Scripting via Matrix Field Text Box",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
+      "published": "2026-04-13 13:52:02",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "021bd566-1663-46ba-a616-ab554b691cbb",
+      "name": "LearnPress <= 4.3.2.8 - Missing Authorization to Unauthenticated Arbitrary Quiz Answer Deletion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "LearnPress – WordPress LMS Plugin for Create and Sell Online Courses",
+      "published": "2026-04-13 12:59:29",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "29a5701f-92f7-4a02-a990-b189a381cff5",
+      "name": "JetEngine <= 3.8.6.1 - Unauthenticated SQL Injection via '_cct_search' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JetEngine",
+      "published": "2026-04-13 12:57:24",
+      "cvssScore": 7.5
+    },
     {
       "id": "0e46ac8d-89ee-4480-bb96-83f2044a4323",
       "name": "wpForo Forum <= 3.0.2 - Authenticated (Subscriber+) Arbitrary File Deletion via 'data[body][fileurl]' Parameter",
@@ -35,7 +80,7 @@
       "name": "Optimole <= 4.2.2 - Unauthenticated Stored Cross-Site Scripting via Srcset Descriptor Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Optimole – Optimize Images in Real Time",
+      "software": "Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization",
       "published": "2026-04-10 11:56:50",
       "cvssScore": 7.2
     },
@@ -56,57 +101,12 @@
       "software": "Tutor LMS – eLearning and online course solution",
       "published": "2026-04-09 12:40:11",
       "cvssScore": 7.5
-    },
-    {
-      "id": "c172ab2b-ce1f-4a0d-b31f-b75ff2f03506",
-      "name": "Perfmatters <= 2.5.9 - Authenticated (Subscriber+) Arbitrary File Overwrite via 'snippets' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Perfmatters",
-      "published": "2026-04-09 11:55:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "308cd28a-a477-4bc6-a392-ad5a9eca1cb5",
-      "name": "Quick Playground <= 1.3.1 - Missing Authorization to Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Quick Playground",
-      "published": "2026-04-08 14:35:08",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "bc308993-7fc5-41db-a396-f05e95fe47b8",
-      "name": "MW WP Form <= 5.1.1 - Unauthenticated Arbitrary File Move via regenerate_upload_file_keys",
-      "severity": "high",
-      "type": "plugin",
-      "software": "MW WP Form",
-      "published": "2026-04-08 07:57:15",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "3852aef6-42e7-4b71-a1ba-dd41284fd07b",
-      "name": "ProSolution WP Client <= 1.9.9 - Unauthenticated Arbitrary File Upload via proSol_fileUploadProcess",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "ProSolution WP Client",
-      "published": "2026-04-08 05:07:38",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "1bb409f0-ccbd-4dfa-b097-b29ee539daa3",
-      "name": "Vertex Addons for Elementor <= 1.6.4 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Installation and Activation via 'afeb_activate_required_plugins'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Vertex Addons for Elementor",
-      "published": "2026-04-08 00:00:00",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2497,
-    "high": 6605,
-    "medium": 25792,
+    "critical": 2498,
+    "high": 6618,
+    "medium": 25800,
     "low": 149
   }
 }
