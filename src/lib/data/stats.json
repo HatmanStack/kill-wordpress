@@ -1,17 +1,71 @@
 {
-  "generated": "2026-04-14T06:40:19.834Z",
+  "generated": "2026-04-15T06:40:43.759Z",
   "totals": {
     "year2024": 8286,
     "year2025": 10794,
-    "year2026": 2493
+    "year2026": 2518
   },
   "last30Days": {
-    "plugins": 480,
-    "themes": 54,
+    "plugins": 478,
+    "themes": 52,
     "core": 0,
-    "total": 534
+    "total": 530
   },
   "recentVulns": [
+    {
+      "id": "8d3aea10-d7a0-44bd-94dc-3bad0d27dbd8",
+      "name": "Visa Acceptance Solutions <= 2.1.0 - Unauthenticated Authentication Bypass via Billing Email",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Visa Acceptance Solutions",
+      "published": "2026-04-14 19:51:38",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "f8234ea2-ff80-425f-b83d-29c422b40c6a",
+      "name": "Accessibly <= 3.0.3 - Missing Authorization to Unauthenticated Stored Cross-Site Scripting via Widget Source Injection via REST API",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Accessibly – WordPress Website Accessibility",
+      "published": "2026-04-14 19:47:46",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "c0c74d48-6cfc-4899-bd2c-4a80b1f6e05f",
+      "name": "Login as User <= 1.0.3 - Authenticated (Subscriber+) Privilege Escalation via 'oclaup_original_admin' Cookie",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Login as User – Switch User & WooCommerce Login as Customer",
+      "published": "2026-04-14 19:44:50",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "e3ce37e7-1dca-4f74-86ce-65bf29ef091e",
+      "name": "Quick Interest Slider <= 3.1.5 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Quick Interest Slider",
+      "published": "2026-04-14 19:44:37",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "b97805de-1b47-4c9f-baae-2e37c1b78570",
+      "name": "WebStack <= 1.2024 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "theme",
+      "software": "WebStack",
+      "published": "2026-04-14 14:52:49",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "2d8e037e-c446-44ae-a5ee-bbba938e5edf",
+      "name": "Age Verification & Identity Verification by Token of Trust <= 3.32.3 - Unauthenticated Stored Cross-Site Scripting via 'description' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Age Verification & Identity Verification by Token of Trust",
+      "published": "2026-04-14 11:34:39",
+      "cvssScore": 7.2
+    },
     {
       "id": "45690747-0b8d-4e2e-8dd0-07c12791c064",
       "name": "Smart Post Show – Post Grid, Post Carousel & Slider, and List Category Posts <= 3.0.12 - Authenticated (Administrator+) PHP Object Injection",
@@ -47,66 +101,12 @@
       "software": "LearnPress – WordPress LMS Plugin for Create and Sell Online Courses",
       "published": "2026-04-13 12:59:29",
       "cvssScore": 9.1
-    },
-    {
-      "id": "29a5701f-92f7-4a02-a990-b189a381cff5",
-      "name": "JetEngine <= 3.8.6.1 - Unauthenticated SQL Injection via '_cct_search' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JetEngine",
-      "published": "2026-04-13 12:57:24",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "0e46ac8d-89ee-4480-bb96-83f2044a4323",
-      "name": "wpForo Forum <= 3.0.2 - Authenticated (Subscriber+) Arbitrary File Deletion via 'data[body][fileurl]' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "wpForo Forum",
-      "published": "2026-04-10 18:51:03",
-      "cvssScore": 7.1
-    },
-    {
-      "id": "8129046a-5aa5-4644-babc-0eca9aa524d2",
-      "name": "BuddyPress Groupblog <= 1.9.3 - Authenticated (Subscriber+) Privilege Escalation to Administrator via Group Blog IDOR",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BuddyPress Groupblog",
-      "published": "2026-04-10 12:09:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "50417068-339a-4ae5-9c90-8f08f54ce0af",
-      "name": "Optimole <= 4.2.2 - Unauthenticated Stored Cross-Site Scripting via Srcset Descriptor Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Optimole – Optimize Images | Convert WebP & AVIF | CDN & Lazy Load | Image Optimization",
-      "published": "2026-04-10 11:56:50",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "0f9d18a4-262b-4011-91e9-b29a27a76470",
-      "name": "Gravity SMTP <= 2.1.4 - Missing Authorization to Authenticated (Subscriber+) Plugin Uninstall",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Gravity SMTP",
-      "published": "2026-04-09 21:01:07",
-      "cvssScore": 7.1
-    },
-    {
-      "id": "7f365519-dd0a-4f39-880d-7216ce2f7d1e",
-      "name": "Tutor LMS <= 3.9.7 - Missing Authorization to Unauthenticated Arbitrary Billing Profile Overwrite via 'order_id' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Tutor LMS – eLearning and online course solution",
-      "published": "2026-04-09 12:40:11",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2498,
-    "high": 6618,
-    "medium": 25800,
+    "critical": 2500,
+    "high": 6622,
+    "medium": 25819,
     "low": 149
   }
 }
