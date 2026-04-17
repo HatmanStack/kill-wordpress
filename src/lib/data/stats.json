@@ -1,17 +1,62 @@
 {
-  "generated": "2026-04-16T06:41:49.716Z",
+  "generated": "2026-04-17T06:41:47.385Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2817
+    "year2026": 2837
   },
   "last30Days": {
-    "plugins": 534,
-    "themes": 71,
+    "plugins": 527,
+    "themes": 70,
     "core": 0,
-    "total": 605
+    "total": 597
   },
   "recentVulns": [
+    {
+      "id": "38f95d40-a6d4-429c-9872-9d2531e942eb",
+      "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.6 - Unauthenticated Arbitrary File Upload via Non-ASCII Filename Blacklist Bypass",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Drag and Drop Multiple File Upload for Contact Form 7",
+      "published": "2026-04-17 04:37:16",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "1005eb8c-da5a-4422-9d65-0f341ad755b2",
+      "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.6 - Unauthenticated Limited Arbitrary File Read via mfile Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Drag and Drop Multiple File Upload for Contact Form 7",
+      "published": "2026-04-17 04:37:14",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "aadf1f4c-c852-4167-9b09-7e679a953725",
+      "name": "WP Customer Area <= 8.3.4 - Authenticated (Subscriber+) Arbitrary File Read/Deletion via ajax_attach_file",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Customer Area",
+      "published": "2026-04-17 04:24:04",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "9e7e3763-4606-4fc4-aa0f-b67e6087bdc2",
+      "name": "Unlimited Elements For Elementor <= 2.0.6 - Authenticated (Contributor+) Arbitrary File Read via Path Traversal in Repeater JSON/CSV URL with Path Traversal",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Unlimited Elements For Elementor",
+      "published": "2026-04-16 17:54:33",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "9b350b48-05ba-4054-895f-36d7ad71459d",
+      "name": "WP Statistics <= 14.16.4 - Unauthenticated Stored Cross-Site Scripting via 'utm_source' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Statistics – Simple, privacy-friendly Google Analytics alternative",
+      "published": "2026-04-16 13:20:16",
+      "cvssScore": 7.2
+    },
     {
       "id": "2e602223-8571-42e1-9b3f-e7cc51f8fa58",
       "name": "DirectoryPress – Business Directory And Classified Ad Listing <= 3.6.26 - Unauthenticated SQL Injection via 'packages'",
@@ -56,57 +101,12 @@
       "software": "Riaxe Product Customizer",
       "published": "2026-04-15 16:45:40",
       "cvssScore": 7.5
-    },
-    {
-      "id": "271a35fb-56b7-4d6b-bccc-fea1227d0913",
-      "name": "Riaxe Product Customizer <= 2.1.2 - Missing Authorization to Unauthenticated Arbitrary Options Update to Privilege Escalation via 'install-imprint' AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Riaxe Product Customizer",
-      "published": "2026-04-15 16:45:05",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "a895e2cf-9eba-4c46-b19f-d008e1058f64",
-      "name": "AcyMailing 9.11.0 - 10.8.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress",
-      "published": "2026-04-15 16:43:55",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "80544889-8efc-4aa0-a690-774b1ee6a1a0",
-      "name": "Payment Gateway for Redsys & WooCommerce Lite <= 7.0.0 - Improper Verification of Cryptographic Signature to Unauthenticated Payment Status Manipulation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Payment Gateway for Redsys & WooCommerce Lite",
-      "published": "2026-04-15 16:43:26",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "a213e844-a0d3-4123-9f72-caef7702804c",
-      "name": "Barcode Scanner (+Mobile App) <= 1.11.0 - Unauthenticated Privilege Escalation via Insecure Token Authentication",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Barcode Scanner (+Mobile App) – Inventory manager, Order fulfillment system, POS (Point of Sale)",
-      "published": "2026-04-15 11:13:44",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "8d3aea10-d7a0-44bd-94dc-3bad0d27dbd8",
-      "name": "Visa Acceptance Solutions <= 2.1.0 - Unauthenticated Authentication Bypass via Billing Email",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Visa Acceptance Solutions",
-      "published": "2026-04-14 19:51:38",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2506,
-    "high": 6671,
-    "medium": 26096,
+    "critical": 2507,
+    "high": 6676,
+    "medium": 26110,
     "low": 150
   }
 }
