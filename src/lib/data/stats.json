@@ -1,17 +1,35 @@
 {
-  "generated": "2026-04-17T06:41:47.385Z",
+  "generated": "2026-04-18T06:29:35.675Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2837
+    "year2026": 2847
   },
   "last30Days": {
-    "plugins": 527,
+    "plugins": 530,
     "themes": 70,
     "core": 0,
-    "total": 597
+    "total": 600
   },
   "recentVulns": [
+    {
+      "id": "d6fb275b-dbba-46df-b170-977ef4a84c4c",
+      "name": "CMP – Coming Soon & Maintenance Plugin by NiteoThemes <= 4.1.16 - Missing Authorization to Authenticated (Administrator+) Arbitrary File Upload and Remote Code Execution",
+      "severity": "high",
+      "type": "plugin",
+      "software": "CMP – Coming Soon & Maintenance Plugin by NiteoThemes",
+      "published": "2026-04-17 15:02:18",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "e681aa8e-522e-4092-aa1f-8ada3097c8d6",
+      "name": "Easy Appointments <= 3.12.21 - Unauthenticated Sensitive Information Exposure via REST API",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Easy Appointments",
+      "published": "2026-04-17 10:47:32",
+      "cvssScore": 7.5
+    },
     {
       "id": "38f95d40-a6d4-429c-9872-9d2531e942eb",
       "name": "Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.6 - Unauthenticated Arbitrary File Upload via Non-ASCII Filename Blacklist Bypass",
@@ -83,30 +101,12 @@
       "software": "Prismatic",
       "published": "2026-04-15 18:26:27",
       "cvssScore": 7.2
-    },
-    {
-      "id": "2483875a-84de-4a40-a69e-aee68da1ce3b",
-      "name": "Livemesh Addons by Elementor <= 9.0 - Authenticated (Contributor+) Local File Inclusion via Widget Template Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Livemesh Addons by Elementor",
-      "published": "2026-04-15 17:56:59",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "a36c9a7e-830d-4a92-a330-29279387b3be",
-      "name": "Riaxe Product Customizer <= 2.1.2 - Unauthenticated SQL Injection via 'options' Parameter Keys in product_data",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Riaxe Product Customizer",
-      "published": "2026-04-15 16:45:40",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2507,
-    "high": 6676,
-    "medium": 26110,
+    "high": 6678,
+    "medium": 26118,
     "low": 150
   }
 }
