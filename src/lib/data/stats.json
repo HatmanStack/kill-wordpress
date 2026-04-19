@@ -1,15 +1,15 @@
 {
-  "generated": "2026-04-18T06:29:35.675Z",
+  "generated": "2026-04-19T06:37:57.391Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2847
+    "year2026": 2848
   },
   "last30Days": {
-    "plugins": 530,
-    "themes": 70,
+    "plugins": 482,
+    "themes": 49,
     "core": 0,
-    "total": 600
+    "total": 531
   },
   "recentVulns": [
     {
@@ -106,7 +106,7 @@
   "bySeverity": {
     "critical": 2507,
     "high": 6678,
-    "medium": 26118,
+    "medium": 26119,
     "low": 150
   }
 }
