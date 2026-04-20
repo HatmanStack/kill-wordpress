@@ -1,17 +1,26 @@
 {
-  "generated": "2026-04-19T06:37:57.391Z",
+  "generated": "2026-04-20T06:49:27.308Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2848
+    "year2026": 2849
   },
   "last30Days": {
-    "plugins": 482,
+    "plugins": 389,
     "themes": 49,
     "core": 0,
-    "total": 531
+    "total": 438
   },
   "recentVulns": [
+    {
+      "id": "79cc102a-6777-41be-a395-8c2eeb6deb73",
+      "name": "wpForo Forum <= 3.0.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Custom Profile Field File Path",
+      "severity": "high",
+      "type": "plugin",
+      "software": "wpForo Forum",
+      "published": "2026-04-20 05:51:32",
+      "cvssScore": 8.1
+    },
     {
       "id": "d6fb275b-dbba-46df-b170-977ef4a84c4c",
       "name": "CMP – Coming Soon & Maintenance Plugin by NiteoThemes <= 4.1.16 - Missing Authorization to Authenticated (Administrator+) Arbitrary File Upload and Remote Code Execution",
@@ -92,20 +101,11 @@
       "software": "Career Section",
       "published": "2026-04-15 18:53:02",
       "cvssScore": 8.8
-    },
-    {
-      "id": "aa4e18b0-f871-4476-af92-42e55aabdf93",
-      "name": "Prismatic <= 3.7.3 - Unauthenticated Stored Cross-Site Scripting via 'prismatic_encoded' Pseudo-Shortcode",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Prismatic",
-      "published": "2026-04-15 18:26:27",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2507,
-    "high": 6678,
+    "high": 6679,
     "medium": 26119,
     "low": 150
   }
