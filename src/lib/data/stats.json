@@ -1,17 +1,26 @@
 {
-  "generated": "2026-04-20T06:49:27.308Z",
+  "generated": "2026-04-21T06:42:03.010Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2849
+    "year2026": 2857
   },
   "last30Days": {
-    "plugins": 389,
+    "plugins": 392,
     "themes": 49,
     "core": 0,
-    "total": 438
+    "total": 441
   },
   "recentVulns": [
+    {
+      "id": "8641eb53-6a9a-4549-b8ef-e37acbcc7f03",
+      "name": "Everest Forms <= 3.4.4 - Unauthenticated Arbitrary File Read and Deletion via Upload Field 'old_files' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder",
+      "published": "2026-04-20 07:13:38",
+      "cvssScore": 8.1
+    },
     {
       "id": "79cc102a-6777-41be-a395-8c2eeb6deb73",
       "name": "wpForo Forum <= 3.0.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Custom Profile Field File Path",
@@ -92,21 +101,12 @@
       "software": "DirectoryPress – Business Directory And Classified Ad Listing",
       "published": "2026-04-15 21:35:44",
       "cvssScore": 7.5
-    },
-    {
-      "id": "84936b68-923a-4da1-ae67-1d63d025342e",
-      "name": "Career Section <= 1.6 - Cross-Site Request Forgery to Arbitrary File Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Career Section",
-      "published": "2026-04-15 18:53:02",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
     "critical": 2507,
-    "high": 6679,
-    "medium": 26119,
+    "high": 6680,
+    "medium": 26126,
     "low": 150
   }
 }
