@@ -1,17 +1,26 @@
 {
-  "generated": "2026-04-27T06:57:35.379Z",
+  "generated": "2026-04-28T06:58:37.324Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2961
+    "year2026": 2967
   },
   "last30Days": {
-    "plugins": 383,
-    "themes": 34,
+    "plugins": 387,
+    "themes": 35,
     "core": 0,
-    "total": 417
+    "total": 422
   },
   "recentVulns": [
+    {
+      "id": "71e99412-031e-4f4a-9126-dd3a37975246",
+      "name": "LatePoint <= 5.4.1 - Authenticated (Agent+) Privilege Escalation to Administrator via 'connect-customer-to-wp-user' Ability",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-04-27 07:23:53",
+      "cvssScore": 8.8
+    },
     {
       "id": "80a258a6-634c-4d7d-981f-bcbc0bb044f7",
       "name": "Highland Software Custom Role Manager <= 1.0.0 - Authenticated (Subscriber+) Privilege Escalation",
@@ -92,21 +101,12 @@
       "software": "wpForo Forum",
       "published": "2026-04-20 05:51:32",
       "cvssScore": 8.1
-    },
-    {
-      "id": "d6fb275b-dbba-46df-b170-977ef4a84c4c",
-      "name": "CMP – Coming Soon & Maintenance Plugin by NiteoThemes <= 4.1.16 - Missing Authorization to Authenticated (Administrator+) Arbitrary File Upload and Remote Code Execution",
-      "severity": "high",
-      "type": "plugin",
-      "software": "CMP – Coming Soon & Maintenance Plugin by NiteoThemes",
-      "published": "2026-04-17 15:02:18",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
     "critical": 2511,
-    "high": 6709,
-    "medium": 26197,
+    "high": 6710,
+    "medium": 26202,
     "low": 150
   }
 }
