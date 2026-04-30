@@ -1,17 +1,26 @@
 {
-  "generated": "2026-04-29T06:53:47.947Z",
+  "generated": "2026-04-30T06:56:16.286Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 2969
+    "year2026": 2971
   },
   "last30Days": {
-    "plugins": 383,
+    "plugins": 370,
     "themes": 35,
     "core": 0,
-    "total": 418
+    "total": 405
   },
   "recentVulns": [
+    {
+      "id": "3443950f-1f94-4e0b-8906-1a9b9602a746",
+      "name": "Otter Blocks <= 3.1.4 - Improper Authorization to Unauthenticated Purchase Verification Bypass via Forged Cookie",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Otter Blocks – Gutenberg Blocks, Page Builder for Gutenberg Editor & FSE",
+      "published": "2026-04-29 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "71e99412-031e-4f4a-9126-dd3a37975246",
       "name": "LatePoint <= 5.4.1 - Authenticated (Agent+) Privilege Escalation to Administrator via 'connect-customer-to-wp-user' Ability",
@@ -92,21 +101,12 @@
       "software": "Everest Forms – Contact Form, Payment Form, Quiz, Survey & Custom Form Builder",
       "published": "2026-04-20 07:13:38",
       "cvssScore": 8.1
-    },
-    {
-      "id": "79cc102a-6777-41be-a395-8c2eeb6deb73",
-      "name": "wpForo Forum <= 3.0.5 - Authenticated (Subscriber+) Arbitrary File Deletion via Custom Profile Field File Path",
-      "severity": "high",
-      "type": "plugin",
-      "software": "wpForo Forum",
-      "published": "2026-04-20 05:51:32",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
     "critical": 2511,
-    "high": 6710,
-    "medium": 26204,
+    "high": 6711,
+    "medium": 26205,
     "low": 150
   }
 }
