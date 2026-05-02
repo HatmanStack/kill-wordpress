@@ -1,112 +1,112 @@
 {
-  "generated": "2026-05-01T06:58:51.865Z",
+  "generated": "2026-05-02T06:42:39.485Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 3076
+    "year2026": 3115
   },
   "last30Days": {
-    "plugins": 442,
-    "themes": 64,
+    "plugins": 471,
+    "themes": 66,
     "core": 0,
-    "total": 506
+    "total": 537
   },
   "recentVulns": [
     {
-      "id": "f97c669b-86c1-4873-a050-76972f494099",
-      "name": "Temporary Login <= 1.0.0 - Authentication Bypass to Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Temporary Login",
-      "published": "2026-04-30 20:59:11",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "b1bc4a87-d5de-4d66-9cc5-802ef11f886c",
-      "name": "WP Editor <= 1.2.9.2 - Cross-Site Request Forgery to Remote Code Execution via Plugin and Theme File Editor",
+      "id": "e91b8082-e1c7-4989-82db-20e255b52854",
+      "name": "Salon Booking System – Free Version <= 10.30.25 - Unauthenticated Arbitrary File Read via Booking File Field Path Traversal",
       "severity": "high",
       "type": "plugin",
-      "software": "WP Editor",
-      "published": "2026-04-30 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "3443950f-1f94-4e0b-8906-1a9b9602a746",
-      "name": "Otter Blocks <= 3.1.4 - Improper Authorization to Unauthenticated Purchase Verification Bypass via Forged Cookie",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Otter Blocks – Gutenberg Blocks, Page Builder for Gutenberg Editor & FSE",
-      "published": "2026-04-29 00:00:00",
+      "software": "Salon Booking System – Free Version",
+      "published": "2026-05-01 21:28:03",
       "cvssScore": 7.5
     },
     {
-      "id": "51cbe19d-2af9-44e2-802e-243779b23ed3",
-      "name": "Check & Log Email – Easy Email Testing & Mail logging < 2.0.13 - Unauthenticated Stored Cross-Site Scripting",
+      "id": "78ec499e-5edd-4f11-9090-f79868864fee",
+      "name": "Brizy – Page Builder <= 2.8.11 - Unauthenticated Stored Cross-Site Scripting via FileUpload Field Value",
       "severity": "high",
       "type": "plugin",
-      "software": "Check & Log Email – Easy Email Testing & Mail logging",
-      "published": "2026-04-28 00:00:00",
+      "software": "Brizy – Page Builder",
+      "published": "2026-05-01 20:15:49",
       "cvssScore": 7.2
     },
     {
-      "id": "71e99412-031e-4f4a-9126-dd3a37975246",
-      "name": "LatePoint <= 5.4.1 - Authenticated (Agent+) Privilege Escalation to Administrator via 'connect-customer-to-wp-user' Ability",
+      "id": "eb064156-f54b-4401-9d4f-29f0952deb24",
+      "name": "ARMember <= 4.0.60 - Unauthenticated SQL Injection via 'orderby' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-04-27 07:23:53",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "4dd7d751-961a-4167-bb4a-2bcd66fc3c46",
-      "name": "Order Delivery Date for WooCommerce <= 4.5.1 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Order Delivery Date for WooCommerce",
-      "published": "2026-04-27 00:00:00",
+      "software": "ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup",
+      "published": "2026-05-01 17:37:03",
       "cvssScore": 7.5
     },
     {
-      "id": "5d479a7a-52a6-48bd-8216-935e22ddb3ed",
-      "name": "Profile Builder Pro <= 3.15.0 - Unauthenticated Stored Cross-Site Scripting",
+      "id": "c7b897f5-f988-4515-83bc-456f041d7e2e",
+      "name": "Profile Builder Pro <= 3.14.5 - Unauthenticated PHP Object Injection",
       "severity": "high",
       "type": "plugin",
       "software": "Profile Builder Pro",
-      "published": "2026-04-27 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "633bb792-69c1-4c10-b64a-123ec149fd14",
-      "name": "AI Lab < 5.4.2 - Unauthenticated PHP Object Injection",
-      "severity": "high",
-      "type": "theme",
-      "software": "AI Lab - Machine Learning WordPress Theme",
-      "published": "2026-04-27 00:00:00",
+      "published": "2026-05-01 17:10:32",
       "cvssScore": 8.1
     },
     {
-      "id": "e6df591d-110d-4b0f-a651-2efdb0f1e1f7",
-      "name": "FunnelKit – Funnel Builder for WooCommerce Checkout <= 3.15.0.1 - Unauthenticated SQL Injection",
+      "id": "273e25aa-4c00-4463-afc5-d8b2433af064",
+      "name": "PixelYourSite Pro <= 12.5.0.1 - Unauthenticated Blind Server-Side Request Forgery via 'urls[]' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "FunnelKit – Funnel Builder for WooCommerce Checkout",
-      "published": "2026-04-27 00:00:00",
-      "cvssScore": 7.5
+      "software": "PixelYourSite Pro – Your smart PIXEL (TAG) Manager",
+      "published": "2026-05-01 16:53:58",
+      "cvssScore": 7.2
     },
     {
-      "id": "80a258a6-634c-4d7d-981f-bcbc0bb044f7",
-      "name": "Highland Software Custom Role Manager <= 1.0.0 - Authenticated (Subscriber+) Privilege Escalation",
+      "id": "368cff00-6a86-443e-aec4-4115a229a3c1",
+      "name": "Import and export users and customers <= 2.0.8 - Authenticated (Subscriber+) Privilege Escalation via Multisite Capability Meta Fields",
       "severity": "high",
       "type": "plugin",
-      "software": "Highland Software Custom Role Manager",
-      "published": "2026-04-26 14:20:30",
+      "software": "Import and export users and customers",
+      "published": "2026-05-01 16:14:05",
       "cvssScore": 8.8
+    },
+    {
+      "id": "35b86488-8f68-4738-a9a8-76d0b7976165",
+      "name": "User Verification by PickPlugins <= 2.0.46 - Unauthenticated Authentication Bypass via OTP Verification REST API Endpoint",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "User Verification by PickPlugins",
+      "published": "2026-05-01 15:46:35",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "f2c6a377-216f-4d61-8fae-ec5bc2793cdf",
+      "name": "User Registration Advanced Fields <= 1.6.20 - Unauthenticated Arbitrary File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "User Registration Advanced Fields",
+      "published": "2026-05-01 15:46:06",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "21e397a4-0b32-4b13-a46b-c465acea0796",
+      "name": "WCFM – Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible <= 6.7.25 - Authenticated (Vendor+) Insecure Direct Object Reference to Arbitrary User Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WCFM – Frontend Manager for WooCommerce",
+      "published": "2026-05-01 00:00:00",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "2fa5ae9a-532c-40f9-b70a-217f0f9cd473",
+      "name": "Geo Mashup <= 1.13.18 - Unauthenticated Time-Based SQL Injection via 'sort' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Geo Mashup",
+      "published": "2026-05-01 00:00:00",
+      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2515,
-    "high": 6758,
-    "medium": 26259,
+    "critical": 2517,
+    "high": 6777,
+    "medium": 26277,
     "low": 150
   }
 }
