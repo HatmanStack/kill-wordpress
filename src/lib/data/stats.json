@@ -1,9 +1,9 @@
 {
-  "generated": "2026-05-02T06:42:39.485Z",
+  "generated": "2026-05-03T06:54:54.514Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10804,
-    "year2026": 3115
+    "year2026": 3116
   },
   "last30Days": {
     "plugins": 471,
@@ -12,6 +12,15 @@
     "total": 537
   },
   "recentVulns": [
+    {
+      "id": "9bac82ee-55bf-4381-b441-115a675e4834",
+      "name": "NEX-Forms <= 9.1.11 - Unauthenticated Stored Cross-Site Scripting via POST Parameter Key Names",
+      "severity": "high",
+      "type": "plugin",
+      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
+      "published": "2026-05-02 15:41:51",
+      "cvssScore": 7.2
+    },
     {
       "id": "e91b8082-e1c7-4989-82db-20e255b52854",
       "name": "Salon Booking System – Free Version <= 10.30.25 - Unauthenticated Arbitrary File Read via Booking File Field Path Traversal",
@@ -92,20 +101,11 @@
       "software": "WCFM – Frontend Manager for WooCommerce",
       "published": "2026-05-01 00:00:00",
       "cvssScore": 8.1
-    },
-    {
-      "id": "2fa5ae9a-532c-40f9-b70a-217f0f9cd473",
-      "name": "Geo Mashup <= 1.13.18 - Unauthenticated Time-Based SQL Injection via 'sort' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Geo Mashup",
-      "published": "2026-05-01 00:00:00",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2517,
-    "high": 6777,
+    "high": 6778,
     "medium": 26277,
     "low": 150
   }
