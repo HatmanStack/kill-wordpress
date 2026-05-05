@@ -1,112 +1,112 @@
 {
-  "generated": "2026-05-04T07:06:24.441Z",
+  "generated": "2026-05-05T06:49:49.839Z",
   "totals": {
     "year2024": 8310,
-    "year2025": 10804,
-    "year2026": 3116
+    "year2025": 10820,
+    "year2026": 3227
   },
   "last30Days": {
-    "plugins": 450,
-    "themes": 66,
+    "plugins": 499,
+    "themes": 68,
     "core": 0,
-    "total": 516
+    "total": 567
   },
   "recentVulns": [
     {
-      "id": "9bac82ee-55bf-4381-b441-115a675e4834",
-      "name": "NEX-Forms <= 9.1.11 - Unauthenticated Stored Cross-Site Scripting via POST Parameter Key Names",
+      "id": "722c04c3-8f74-4081-b3a4-cb1ae2027312",
+      "name": "Betheme <= 28.4 - Authenticated (Author+) Arbitrary File Upload to Remote Code Execution via Icon Pack Upload",
       "severity": "high",
-      "type": "plugin",
-      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
-      "published": "2026-05-02 15:41:51",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "e91b8082-e1c7-4989-82db-20e255b52854",
-      "name": "Salon Booking System – Free Version <= 10.30.25 - Unauthenticated Arbitrary File Read via Booking File Field Path Traversal",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Salon Booking System – Free Version",
-      "published": "2026-05-01 21:28:03",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "78ec499e-5edd-4f11-9090-f79868864fee",
-      "name": "Brizy – Page Builder <= 2.8.11 - Unauthenticated Stored Cross-Site Scripting via FileUpload Field Value",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Brizy – Page Builder",
-      "published": "2026-05-01 20:15:49",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "eb064156-f54b-4401-9d4f-29f0952deb24",
-      "name": "ARMember <= 4.0.60 - Unauthenticated SQL Injection via 'orderby' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup",
-      "published": "2026-05-01 17:37:03",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c7b897f5-f988-4515-83bc-456f041d7e2e",
-      "name": "Profile Builder Pro <= 3.14.5 - Unauthenticated PHP Object Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Profile Builder Pro",
-      "published": "2026-05-01 17:10:32",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "273e25aa-4c00-4463-afc5-d8b2433af064",
-      "name": "PixelYourSite Pro <= 12.5.0.1 - Unauthenticated Blind Server-Side Request Forgery via 'urls[]' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "PixelYourSite Pro – Your smart PIXEL (TAG) Manager",
-      "published": "2026-05-01 16:53:58",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "368cff00-6a86-443e-aec4-4115a229a3c1",
-      "name": "Import and export users and customers <= 2.0.8 - Authenticated (Subscriber+) Privilege Escalation via Multisite Capability Meta Fields",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Import and export users and customers",
-      "published": "2026-05-01 16:14:05",
+      "type": "theme",
+      "software": "Betheme",
+      "published": "2026-05-04 22:35:37",
       "cvssScore": 8.8
     },
     {
-      "id": "35b86488-8f68-4738-a9a8-76d0b7976165",
-      "name": "User Verification by PickPlugins <= 2.0.46 - Unauthenticated Authentication Bypass via OTP Verification REST API Endpoint",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "User Verification by PickPlugins",
-      "published": "2026-05-01 15:46:35",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "f2c6a377-216f-4d61-8fae-ec5bc2793cdf",
-      "name": "User Registration Advanced Fields <= 1.6.20 - Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "User Registration Advanced Fields",
-      "published": "2026-05-01 15:46:06",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "21e397a4-0b32-4b13-a46b-c465acea0796",
-      "name": "WCFM – Frontend Manager for WooCommerce along with Bookings Subscription Listings Compatible <= 6.7.25 - Authenticated (Vendor+) Insecure Direct Object Reference to Arbitrary User Deletion",
+      "id": "f37cc880-d8a4-431a-9639-abf01163030a",
+      "name": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder <= 1.15.42 - Unauthenticated SQL Injection via 'inputs'",
       "severity": "high",
       "type": "plugin",
-      "software": "WCFM – Frontend Manager for WooCommerce",
-      "published": "2026-05-01 00:00:00",
-      "cvssScore": 8.1
+      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
+      "published": "2026-05-04 18:43:52",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "788422c4-e070-48aa-a85d-a5d5a25a6a1d",
+      "name": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder <= 1.52.1 - Unauthenticated Arbitrary File Read via 'upload-1[file][file_path]'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder",
+      "published": "2026-05-04 17:49:05",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f783e626-37c0-4ad9-9074-c5332583a0cb",
+      "name": "WeePie Cookie Allow <= 3.4.11 - Unauthenticated SQL Injection via 'consent' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WeePie Cookie Allow",
+      "published": "2026-05-04 17:38:50",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "a1817c58-e807-4ef2-a382-28ca2fd5239e",
+      "name": "GeekyBot <= 1.2.2 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation via 'geekybot_frontendajax' AJAX Action",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "GeekyBot — AI Copilot, Chatbot, WooCommerce Lead Gen & Zero-Prompt Content",
+      "published": "2026-05-04 15:26:29",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4c716fd3-6297-4b3a-a796-65f68f2986cf",
+      "name": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation <= 1.2.0 - Unauthenticated SQL Injection via 'attributekey'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GeekyBot — AI Copilot, Chatbot, WooCommerce Lead Gen & Zero-Prompt Content",
+      "published": "2026-05-04 15:06:44",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "c91a14d3-bc41-4490-888c-486ad2994095",
+      "name": "Royal Addons for Elementor <= 1.7.1056 - Unauthenticated Stored Cross-Site Scripting via 'status' Parameter in wpr_update_form_action_meta",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
+      "published": "2026-05-04 14:32:14",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "7908d167-f831-4ed0-b754-2b390b5c3b2c",
+      "name": "AWP Classifieds <= 4.4.5 - Unauthenticated SQL Injection via 'regions'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AWP Classifieds",
+      "published": "2026-05-04 14:11:27",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "a7e35f18-7659-4b97-b99f-b57ac941cb22",
+      "name": "WP Business Intelligence Lite <= 3.2.0 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via Arbitrary SQL Modification",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Business Intelligence Lite",
+      "published": "2026-05-04 14:06:15",
+      "cvssScore": 8
+    },
+    {
+      "id": "7192fb4c-0434-4e11-a2a7-c205b8d6b68e",
+      "name": "Mentoring <= 1.2.8 - Unauthenticated Privilege Escalation in mentoring_process_registration",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Mentoring",
+      "published": "2026-05-04 13:32:59",
+      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2517,
-    "high": 6778,
-    "medium": 26277,
+    "critical": 2527,
+    "high": 6798,
+    "medium": 26374,
     "low": 150
   }
 }
