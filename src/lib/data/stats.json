@@ -1,17 +1,44 @@
 {
-  "generated": "2026-05-05T06:49:49.839Z",
+  "generated": "2026-05-06T06:58:45.744Z",
   "totals": {
     "year2024": 8310,
-    "year2025": 10820,
-    "year2026": 3227
+    "year2025": 10825,
+    "year2026": 3323
   },
   "last30Days": {
-    "plugins": 499,
-    "themes": 68,
+    "plugins": 504,
+    "themes": 69,
     "core": 0,
-    "total": 567
+    "total": 573
   },
   "recentVulns": [
+    {
+      "id": "ce032abe-ee9d-4be1-ac97-5fa95d598e85",
+      "name": "Gravity Bookings <= 2.5.9 - Unauthenticated SQL Injection via 'category_id' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Gravity Bookings",
+      "published": "2026-05-05 20:29:43",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "c03ddcf0-6955-4645-b311-c3833ca61455",
+      "name": "LatePoint <= 5.5.0 - Unauthenticated Stored Cross-Site Scripting via 'booking_form_page_url' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-05-05 18:41:45",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "c8eedec9-d8d4-4052-baec-29f83ac306ac",
+      "name": "LatePoint <= 5.5.0 - Unauthenticated Stored Cross-Site Scripting via 'first_name' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-05-05 18:19:16",
+      "cvssScore": 7.2
+    },
     {
       "id": "722c04c3-8f74-4081-b3a4-cb1ae2027312",
       "name": "Betheme <= 28.4 - Authenticated (Author+) Arbitrary File Upload to Remote Code Execution via Icon Pack Upload",
@@ -74,39 +101,12 @@
       "software": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
       "published": "2026-05-04 14:32:14",
       "cvssScore": 7.2
-    },
-    {
-      "id": "7908d167-f831-4ed0-b754-2b390b5c3b2c",
-      "name": "AWP Classifieds <= 4.4.5 - Unauthenticated SQL Injection via 'regions'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AWP Classifieds",
-      "published": "2026-05-04 14:11:27",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "a7e35f18-7659-4b97-b99f-b57ac941cb22",
-      "name": "WP Business Intelligence Lite <= 3.2.0 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via Arbitrary SQL Modification",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Business Intelligence Lite",
-      "published": "2026-05-04 14:06:15",
-      "cvssScore": 8
-    },
-    {
-      "id": "7192fb4c-0434-4e11-a2a7-c205b8d6b68e",
-      "name": "Mentoring <= 1.2.8 - Unauthenticated Privilege Escalation in mentoring_process_registration",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Mentoring",
-      "published": "2026-05-04 13:32:59",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2527,
-    "high": 6798,
-    "medium": 26374,
-    "low": 150
+    "critical": 2528,
+    "high": 6827,
+    "medium": 26444,
+    "low": 151
   }
 }
