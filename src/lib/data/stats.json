@@ -1,17 +1,44 @@
 {
-  "generated": "2026-05-06T06:58:45.744Z",
+  "generated": "2026-05-07T07:03:47.480Z",
   "totals": {
     "year2024": 8310,
     "year2025": 10825,
-    "year2026": 3323
+    "year2026": 3329
   },
   "last30Days": {
-    "plugins": 504,
+    "plugins": 487,
     "themes": 69,
     "core": 0,
-    "total": 573
+    "total": 556
   },
   "recentVulns": [
+    {
+      "id": "a2e802a6-d2f1-47cc-883a-89110e569168",
+      "name": "Slider Revolution 7.0.0 - 7.0.10 - Authenticated (Subscriber+) Arbitrary File Upload via _get_media_url",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Slider Revolution",
+      "published": "2026-05-06 16:15:58",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "cc815ef2-dd02-4faa-b202-dd1552f889db",
+      "name": "WP-Optimize <= 4.5.2 - Authenticated (Author+) Arbitrary File Deletion via 'original-file' Post Meta",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP-Optimize – Cache, Compress images, Minify & Clean database to boost page speed & performance",
+      "published": "2026-05-06 15:34:39",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "5c0f02ad-f5f1-42b1-8116-e391aaa85430",
+      "name": "BetterDocs Pro <= 3.7.0 - Unauthenticated SQL Injection via Encyclopedia 'limit' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "BetterDocs Pro",
+      "published": "2026-05-06 15:27:14",
+      "cvssScore": 7.5
+    },
     {
       "id": "ce032abe-ee9d-4be1-ac97-5fa95d598e85",
       "name": "Gravity Bookings <= 2.5.9 - Unauthenticated SQL Injection via 'category_id' Parameter",
@@ -74,39 +101,12 @@
       "software": "WeePie Cookie Allow",
       "published": "2026-05-04 17:38:50",
       "cvssScore": 7.5
-    },
-    {
-      "id": "a1817c58-e807-4ef2-a382-28ca2fd5239e",
-      "name": "GeekyBot <= 1.2.2 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation via 'geekybot_frontendajax' AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "GeekyBot — AI Copilot, Chatbot, WooCommerce Lead Gen & Zero-Prompt Content",
-      "published": "2026-05-04 15:26:29",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "4c716fd3-6297-4b3a-a796-65f68f2986cf",
-      "name": "GeekyBot — Generate AI Content Without Prompt, Chatbot and Lead Generation <= 1.2.0 - Unauthenticated SQL Injection via 'attributekey'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GeekyBot — AI Copilot, Chatbot, WooCommerce Lead Gen & Zero-Prompt Content",
-      "published": "2026-05-04 15:06:44",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c91a14d3-bc41-4490-888c-486ad2994095",
-      "name": "Royal Addons for Elementor <= 1.7.1056 - Unauthenticated Stored Cross-Site Scripting via 'status' Parameter in wpr_update_form_action_meta",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Royal Addons for Elementor – Addons and Templates Kit for Elementor",
-      "published": "2026-05-04 14:32:14",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2528,
-    "high": 6827,
-    "medium": 26444,
+    "high": 6830,
+    "medium": 26447,
     "low": 151
   }
 }
