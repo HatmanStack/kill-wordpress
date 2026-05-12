@@ -1,17 +1,53 @@
 {
-  "generated": "2026-05-11T07:17:27.643Z",
+  "generated": "2026-05-12T07:02:52.173Z",
   "totals": {
-    "year2024": 8315,
+    "year2024": 8317,
     "year2025": 10825,
-    "year2026": 3358
+    "year2026": 3413
   },
   "last30Days": {
-    "plugins": 392,
-    "themes": 45,
+    "plugins": 446,
+    "themes": 46,
     "core": 0,
-    "total": 437
+    "total": 492
   },
   "recentVulns": [
+    {
+      "id": "74c71541-6706-43d2-af3d-0655e59f997c",
+      "name": "AI Chatbot & Workflow Automation by AIWU <= 1.4.17 - Unauthenticated SQL Injection in getListForTbl()",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AI Chatbot & Workflow Automation by AIWU",
+      "published": "2026-05-11 19:07:34",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "4fa5b8a9-1683-4806-987d-527834f45d34",
+      "name": "LifePress <= 2.2.2 - Unauthenticated Stored Cross-Site Scripting via 'n' Parameter via lp_update_mds AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LifePress",
+      "published": "2026-05-11 19:02:48",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "5797e529-5109-49bf-a687-e5bf8f350c8f",
+      "name": "OttoKit: All-in-One Automation Platform < 1.1.23 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "OttoKit: All-in-One Automation Platform",
+      "published": "2026-05-11 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "53ee7062-85f9-4d12-a432-f373fc25bab6",
+      "name": "WP Data Access – App Builder for Tables, Forms, Charts, Maps & Dashboards <= 5.5.70 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Data Access – App Builder for Tables, Forms, Charts, Maps & Dashboards",
+      "published": "2026-05-09 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "6c8ed84e-3504-42e3-821d-794198d7adda",
       "name": "Auto Affiliate Links <= 6.8.8 - Unauthenticated Stored Cross-Site Scripting via 'url' Parameter",
@@ -31,6 +67,24 @@
       "cvssScore": 8.8
     },
     {
+      "id": "92dbc405-a11c-4c2e-a98c-8dcb4e0b64e8",
+      "name": "eMagicOne Store Manager for WooCommerce <= 1.3.2 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "eMagicOne Store Manager for WooCommerce",
+      "published": "2026-05-07 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "c6070ea5-3231-4a36-b154-400c86eaf31b",
+      "name": "wpForo Forum <= 3.0.4 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "wpForo Forum",
+      "published": "2026-05-07 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
       "id": "a2e802a6-d2f1-47cc-883a-89110e569168",
       "name": "Slider Revolution 7.0.0 - 7.0.10 - Authenticated (Subscriber+) Arbitrary File Upload via _get_media_url",
       "severity": "high",
@@ -47,66 +101,12 @@
       "software": "WP-Optimize – Cache, Compress images, Minify & Clean database to boost page speed & performance",
       "published": "2026-05-06 15:34:39",
       "cvssScore": 8.1
-    },
-    {
-      "id": "5c0f02ad-f5f1-42b1-8116-e391aaa85430",
-      "name": "BetterDocs Pro <= 3.7.0 - Unauthenticated SQL Injection via Encyclopedia 'limit' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BetterDocs Pro",
-      "published": "2026-05-06 15:27:14",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "ce032abe-ee9d-4be1-ac97-5fa95d598e85",
-      "name": "Gravity Bookings <= 2.5.9 - Unauthenticated SQL Injection via 'category_id' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Gravity Bookings",
-      "published": "2026-05-05 20:29:43",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c03ddcf0-6955-4645-b311-c3833ca61455",
-      "name": "LatePoint <= 5.5.0 - Unauthenticated Stored Cross-Site Scripting via 'booking_form_page_url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-05-05 18:41:45",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "722c04c3-8f74-4081-b3a4-cb1ae2027312",
-      "name": "Betheme <= 28.4 - Authenticated (Author+) Arbitrary File Upload to Remote Code Execution via Icon Pack Upload",
-      "severity": "high",
-      "type": "theme",
-      "software": "Betheme",
-      "published": "2026-05-04 22:35:37",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "f37cc880-d8a4-431a-9639-abf01163030a",
-      "name": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder <= 1.15.42 - Unauthenticated SQL Injection via 'inputs'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Form Maker by 10Web – Mobile-Friendly Drag & Drop Contact Form Builder",
-      "published": "2026-05-04 18:43:52",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "788422c4-e070-48aa-a85d-a5d5a25a6a1d",
-      "name": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder <= 1.52.1 - Unauthenticated Arbitrary File Read via 'upload-1[file][file_path]'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder",
-      "published": "2026-05-04 17:49:05",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2528,
-    "high": 6834,
-    "medium": 26479,
+    "critical": 2529,
+    "high": 6842,
+    "medium": 26527,
     "low": 151
   }
 }
