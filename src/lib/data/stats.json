@@ -1,17 +1,89 @@
 {
-  "generated": "2026-05-12T07:02:52.173Z",
+  "generated": "2026-05-13T07:06:57.335Z",
   "totals": {
     "year2024": 8317,
-    "year2025": 10825,
-    "year2026": 3413
+    "year2025": 10826,
+    "year2026": 3445
   },
   "last30Days": {
-    "plugins": 446,
+    "plugins": 461,
     "themes": 46,
     "core": 0,
-    "total": 492
+    "total": 507
   },
   "recentVulns": [
+    {
+      "id": "22b55747-8b46-4812-9345-0db03500105f",
+      "name": "Avada Builder <= 3.15.1 - Unauthenticated SQL Injection via 'product_order' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Avada (Fusion) Builder",
+      "published": "2026-05-12 21:06:24",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "28b730b3-4260-414f-8a4a-65ba5509449b",
+      "name": "JoomSport <= 5.7.7 - Unauthenticated SQL Injection via 'sortf' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "JoomSport – for Sports: Team & League, Football, Hockey & more",
+      "published": "2026-05-12 17:13:07",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "a482f6bb-5277-480b-8ec9-230dd4135f7c",
+      "name": "Court Reservation – Manage Your Court Bookings Online <= 1.10.11 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Court Reservation – Manage Your Court Bookings Online",
+      "published": "2026-05-12 10:05:08",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "5d380b66-675e-451d-a7e3-4efe1fbd08b2",
+      "name": "MonsterInsights <= 10.1.2 - Missing Authorization to Authenticated (Subscriber+) Sensitive Information Exposure And Plugin Integration Reset",
+      "severity": "high",
+      "type": "plugin",
+      "software": "MonsterInsights – Google Analytics Dashboard for WordPress (Website Stats Made Easy)",
+      "published": "2026-05-12 09:45:13",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "396ecd5b-d351-4289-aea4-332af5101f10",
+      "name": "RTMKit Addons for Elementor <= 2.0.2 - Authenticated (Author+) Local File Inclusion via 'path'",
+      "severity": "high",
+      "type": "plugin",
+      "software": "RTMKit",
+      "published": "2026-05-12 00:00:00",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "59f30135-6dd9-4367-90a9-a10ad491357d",
+      "name": "coreActivity: Activity Logging for WordPress <= 3.0 - Unauthenticated PHP Object Injection via 'user_agent' Log Meta Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "coreActivity: Activity Logging for WordPress",
+      "published": "2026-05-12 00:00:00",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "c3678b4d-0cd0-4873-8cf3-90c557931f4c",
+      "name": "ProfileGrid <= 5.9.8.4 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Group Joining",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ProfileGrid – User Profiles, Groups and Communities",
+      "published": "2026-05-12 00:00:00",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "e4b2178f-e4da-4bfb-9c27-8c1884499769",
+      "name": "Custom Twitter Feeds <= 2.5.4 - Unauthenticated Stored Cross-Site Scripting via Cached Tweet Text",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Custom Twitter Feeds – A Tweets Widget or X Feed Widget",
+      "published": "2026-05-12 00:00:00",
+      "cvssScore": 7.2
+    },
     {
       "id": "74c71541-6706-43d2-af3d-0655e59f997c",
       "name": "AI Chatbot & Workflow Automation by AIWU <= 1.4.17 - Unauthenticated SQL Injection in getListForTbl()",
@@ -29,84 +101,12 @@
       "software": "LifePress",
       "published": "2026-05-11 19:02:48",
       "cvssScore": 7.2
-    },
-    {
-      "id": "5797e529-5109-49bf-a687-e5bf8f350c8f",
-      "name": "OttoKit: All-in-One Automation Platform < 1.1.23 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "OttoKit: All-in-One Automation Platform",
-      "published": "2026-05-11 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "53ee7062-85f9-4d12-a432-f373fc25bab6",
-      "name": "WP Data Access – App Builder for Tables, Forms, Charts, Maps & Dashboards <= 5.5.70 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Data Access – App Builder for Tables, Forms, Charts, Maps & Dashboards",
-      "published": "2026-05-09 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "6c8ed84e-3504-42e3-821d-794198d7adda",
-      "name": "Auto Affiliate Links <= 6.8.8 - Unauthenticated Stored Cross-Site Scripting via 'url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Auto Affiliate Links",
-      "published": "2026-05-07 20:01:52",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "2b5d27cc-c6eb-4c5c-8ee1-30483b91c6fd",
-      "name": "User Frontend: AI Powered Frontend Posting, User Directory, Profile, Membership & User Registration <= 4.3.1 - Authenticated (Subscriber+) PHP Object Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "User Frontend: AI Powered Frontend Posting, User Directory, Profile, Membership & User Registration",
-      "published": "2026-05-07 19:58:37",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "92dbc405-a11c-4c2e-a98c-8dcb4e0b64e8",
-      "name": "eMagicOne Store Manager for WooCommerce <= 1.3.2 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "eMagicOne Store Manager for WooCommerce",
-      "published": "2026-05-07 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "c6070ea5-3231-4a36-b154-400c86eaf31b",
-      "name": "wpForo Forum <= 3.0.4 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "wpForo Forum",
-      "published": "2026-05-07 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "a2e802a6-d2f1-47cc-883a-89110e569168",
-      "name": "Slider Revolution 7.0.0 - 7.0.10 - Authenticated (Subscriber+) Arbitrary File Upload via _get_media_url",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Slider Revolution",
-      "published": "2026-05-06 16:15:58",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "cc815ef2-dd02-4faa-b202-dd1552f889db",
-      "name": "WP-Optimize <= 4.5.2 - Authenticated (Author+) Arbitrary File Deletion via 'original-file' Post Meta",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP-Optimize – Cache, Compress images, Minify & Clean database to boost page speed & performance",
-      "published": "2026-05-06 15:34:39",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2529,
-    "high": 6842,
-    "medium": 26527,
+    "critical": 2530,
+    "high": 6851,
+    "medium": 26550,
     "low": 151
   }
 }
