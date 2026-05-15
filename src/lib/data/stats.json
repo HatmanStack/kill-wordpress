@@ -1,17 +1,53 @@
 {
-  "generated": "2026-05-14T07:04:53.334Z",
+  "generated": "2026-05-15T07:11:11.944Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3477
+    "year2026": 3487
   },
   "last30Days": {
-    "plugins": 482,
-    "themes": 46,
+    "plugins": 461,
+    "themes": 45,
     "core": 0,
-    "total": 528
+    "total": 506
   },
   "recentVulns": [
+    {
+      "id": "083accd0-8338-47c6-b396-96679b95dd40",
+      "name": "Frontend Admin by DynamiApps <= 3.28.36 - Unauthenticated Privilege Escalation via Edit User Form",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-05-14 19:18:22",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "a39dccb6-b635-44af-b0e0-c3010b719773",
+      "name": "Quick Playground <= 1.3.3 - Unauthenticated Path Traversal to Arbitrary File Read via 'stylesheet' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Quick Playground",
+      "published": "2026-05-14 19:01:30",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "2f0a7d6f-9b95-4052-bab3-85aca01f6ab7",
+      "name": "Receive Notifications After Form Submitting – Form Notify for Any Forms <= 1.1.10 - Unauthenticated Authentication Bypass via LINE OAuth Callback",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Receive Notifications After Form Submitting – Form Notify for Any Forms",
+      "published": "2026-05-14 18:59:36",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "6eb9d68c-c081-484e-ad5d-5eabcfa6d6f0",
+      "name": "FOX – Currency Switcher Professional for WooCommerce <= 1.4.5 - Missing Authorization to Authenticated (Contributor+) Configuration Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FOX – Currency Switcher Professional for WooCommerce",
+      "published": "2026-05-14 00:00:00",
+      "cvssScore": 8.1
+    },
     {
       "id": "76b75e61-e7f8-41cc-ab4f-e6ca42d68308",
       "name": "InfusedWoo Pro <= 5.1.2 - Unauthenticated Arbitrary File Read via 'url' Parameter",
@@ -65,48 +101,12 @@
       "software": "ManageWP Worker",
       "published": "2026-05-13 18:06:28",
       "cvssScore": 7.2
-    },
-    {
-      "id": "005d1abc-761d-4f9a-bc21-aad63e8efd66",
-      "name": "Career Section <= 1.7 -  Unauthenticated Arbitrary File Upload",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Career Section",
-      "published": "2026-05-13 18:04:31",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "52cbc6a4-9825-4b26-8653-0c75cf5247c5",
-      "name": "Motors – Car Dealer, Classifieds & Listing <= 1.4.107 - Authenticated (Subscriber+) Arbitrary File Deletion via 'stm_dealer_logo_path' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Motors – Car Dealership & Classified Listings Plugin",
-      "published": "2026-05-13 18:03:27",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "81aad41e-0330-4dff-a5f8-08a108d724f5",
-      "name": "Fluent Forms <= 6.1.21 - Authenticated (Subscriber+) Authorization Bypass via 'form_id' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
-      "published": "2026-05-13 17:13:18",
-      "cvssScore": 8.2
-    },
-    {
-      "id": "8ca830d6-3d3c-4026-85cd-8447b8a568d3",
-      "name": "Burst Statistics 3.4.0 - 3.4.1.1 - Authentication Bypass to Admin Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Burst Statistics – Privacy-Friendly WordPress Analytics (Google Analytics Alternative)",
-      "published": "2026-05-13 16:44:16",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2534,
-    "high": 6861,
-    "medium": 26568,
+    "critical": 2535,
+    "high": 6864,
+    "medium": 26574,
     "low": 151
   }
 }
