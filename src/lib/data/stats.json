@@ -1,17 +1,26 @@
 {
-  "generated": "2026-05-16T06:50:49.236Z",
+  "generated": "2026-05-17T07:01:32.508Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3489
+    "year2026": 3490
   },
   "last30Days": {
-    "plugins": 419,
+    "plugins": 399,
     "themes": 37,
     "core": 0,
-    "total": 456
+    "total": 436
   },
   "recentVulns": [
+    {
+      "id": "0593c20d-3422-4817-9639-614254b609db",
+      "name": "AI Engine 3.4.9 - Authenticated (Subscriber+) Privilege Escalation via Missing Authorization in MCP OAuth Bearer Token",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AI Engine – The Chatbot, AI Framework & MCP for WordPress",
+      "published": "2026-05-16 14:19:48",
+      "cvssScore": 8.8
+    },
     {
       "id": "083accd0-8338-47c6-b396-96679b95dd40",
       "name": "Frontend Admin by DynamiApps <= 3.28.36 - Unauthenticated Privilege Escalation via Edit User Form",
@@ -92,20 +101,11 @@
       "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
       "published": "2026-05-13 18:08:24",
       "cvssScore": 8.2
-    },
-    {
-      "id": "db6f08f9-4da3-450d-bf1e-5c9f0aab02a1",
-      "name": "ManageWP Worker <= 4.9.31 - Unauthenticated Stored Cross-Site Scripting via 'MWP-Key-Name' Header",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ManageWP Worker",
-      "published": "2026-05-13 18:06:28",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2535,
-    "high": 6864,
+    "high": 6865,
     "medium": 26576,
     "low": 151
   }
