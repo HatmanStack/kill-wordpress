@@ -1,17 +1,53 @@
 {
-  "generated": "2026-05-18T07:28:16.781Z",
+  "generated": "2026-05-19T07:17:49.581Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3490
+    "year2026": 3494
   },
   "last30Days": {
-    "plugins": 389,
+    "plugins": 392,
     "themes": 37,
     "core": 0,
-    "total": 426
+    "total": 429
   },
   "recentVulns": [
+    {
+      "id": "b073edd0-3f40-423e-976e-996b29caf66e",
+      "name": "Kirki <= 6.0.6 - Unauthenticated Limited Arbitrary File Read and Deletion via downloadZIP",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Kirki – Freeform Page Builder, Website Builder & Customizer",
+      "published": "2026-05-19 06:24:51",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "ffff2ff3-769d-4eb2-acbe-d8ce6f042581",
+      "name": "Piotnet Addons for Elementor Pro <= 7.1.70 - Unauthenticated Arbitrary File Upload via Form File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Piotnet Addons For Elementor Pro",
+      "published": "2026-05-18 18:28:38",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "9bd9c9db-d279-4de2-b5e4-ac7d8c919f2a",
+      "name": "Piotnet Forms <= 2.1.40 - Unauthenticated Arbitrary File Upload via Form File Upload",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Piotnet Forms",
+      "published": "2026-05-18 18:28:36",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "71f2f8c4-00ee-4ab4-b0e0-9ddac46818b3",
+      "name": "Contest Gallery <= 28.1.6 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
+      "published": "2026-05-18 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "0593c20d-3422-4817-9639-614254b609db",
       "name": "AI Engine 3.4.9 - Authenticated (Subscriber+) Privilege Escalation via Missing Authorization in MCP OAuth Bearer Token",
@@ -65,47 +101,11 @@
       "software": "InfusedWoo Pro",
       "published": "2026-05-13 19:52:06",
       "cvssScore": 7.5
-    },
-    {
-      "id": "f624c9a0-b48f-49f5-ba63-276805904945",
-      "name": "InfusedWoo Pro <= 5.1.2 - Unauthenticated Missing Authorization to Arbitrary Post Deletion via Multiple Parameters",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "InfusedWoo Pro",
-      "published": "2026-05-13 19:50:09",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "6363b693-91b8-41cb-b13a-df6fdf9402c5",
-      "name": "InfusedWoo Pro <= 5.1.2 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via Arbitrary User Meta Update",
-      "severity": "high",
-      "type": "plugin",
-      "software": "InfusedWoo Pro",
-      "published": "2026-05-13 18:13:39",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "08cb8ba1-1976-438b-8e0b-0a8be08aad6c",
-      "name": "InfusedWoo Pro <= 5.1.2 - Unauthenticated Missing Authorization to Privilege Escalation via 'iwar_save_recipe'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "InfusedWoo Pro",
-      "published": "2026-05-13 18:11:16",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "9cd12b8a-2033-4236-abcd-2a8d08e7f099",
-      "name": "Fluent Forms <= 6.2.0 - Authenticated (Subscriber+) Authorization Bypass via 'table' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
-      "published": "2026-05-13 18:08:24",
-      "cvssScore": 8.2
     }
   ],
   "bySeverity": {
-    "critical": 2535,
-    "high": 6865,
+    "critical": 2537,
+    "high": 6867,
     "medium": 26576,
     "low": 151
   }
