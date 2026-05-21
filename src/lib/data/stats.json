@@ -1,17 +1,44 @@
 {
-  "generated": "2026-05-20T07:18:02.513Z",
+  "generated": "2026-05-21T07:21:42.981Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3561
+    "year2026": 3568
   },
   "last30Days": {
-    "plugins": 438,
+    "plugins": 421,
     "themes": 18,
     "core": 0,
-    "total": 456
+    "total": 439
   },
   "recentVulns": [
+    {
+      "id": "ed738dc5-7848-4b04-a3fd-317cc366acfa",
+      "name": "BookingPress Pro <= 5.6 - Unauthenticated Arbitrary File Upload via Signature Custom Field",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "BookingPress Appointment Booking Pro",
+      "published": "2026-05-21 06:20:37",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "5dc72d78-d47c-4b36-8d69-8672e15ddf8c",
+      "name": "Avada (Fusion) Builder <= 3.15.2 - Unauthenticated Remote Code Execution via PHP Function Injection via 'render_logics' Shortcode Attribute via Widget AJAX Handler",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Avada (Fusion) Builder",
+      "published": "2026-05-20 15:45:14",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "72154404-f956-4ea2-96ec-166ade87885f",
+      "name": "Divi Form Builder <= 5.1.2 - Unauthenticated Privilege Escalation via 'role'",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Divi Form Builder",
+      "published": "2026-05-20 00:00:00",
+      "cvssScore": 9.8
+    },
     {
       "id": "f8470662-2247-4159-9dac-f13677c94bdf",
       "name": "AcyMailing <= 10.8.2 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation via 'acymailing_router'",
@@ -74,39 +101,12 @@
       "software": "Creative Mail – Easier WordPress & WooCommerce Email Marketing",
       "published": "2026-05-19 12:14:03",
       "cvssScore": 7.5
-    },
-    {
-      "id": "adf51c03-b0bb-4864-b64d-6b0cba4b0130",
-      "name": "Read More & Accordion <= 3.5.7 - Privilege Escalation via importData",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Read More & Accordion",
-      "published": "2026-05-19 12:12:39",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "9e9cfb9b-6951-4246-9cd6-dd64fee3a1bc",
-      "name": "Account Switcher <= 1.0.2 - Authenticated (Subscriber+) Authentication Bypass to Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Account Switcher",
-      "published": "2026-05-19 12:05:45",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "0b870d35-7e10-4fb5-8c3b-2bf299d1f3d5",
-      "name": "ProSolution WP Client <= 2.0.0 - Unauthenticated Arbitrary File Upload via 'files'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "ProSolution WP Client",
-      "published": "2026-05-19 12:03:25",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2542,
+    "critical": 2545,
     "high": 6878,
-    "medium": 26627,
+    "medium": 26631,
     "low": 151
   }
 }
