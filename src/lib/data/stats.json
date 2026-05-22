@@ -1,17 +1,53 @@
 {
-  "generated": "2026-05-21T07:21:42.981Z",
+  "generated": "2026-05-22T07:18:01.659Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3568
+    "year2026": 3584
   },
   "last30Days": {
-    "plugins": 421,
-    "themes": 18,
+    "plugins": 386,
+    "themes": 14,
     "core": 0,
-    "total": 439
+    "total": 400
   },
   "recentVulns": [
+    {
+      "id": "fe573d64-036e-4f6f-bcc1-5183bb9ad2b9",
+      "name": "AudioIgniter Music Player <= 2.0.2 - Unauthenticated Insecure Direct Object Reference to 'audioigniter_playlist_id' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AudioIgniter Music Player",
+      "published": "2026-05-21 19:33:26",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "49fe8e8b-95fa-4c25-89cf-49566543206c",
+      "name": "Ditty <= 3.1.65 - Missing Authorization to Unauthenticated Sensitive Information Disclosure via ditty_init AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Ditty – Responsive News Tickers, Sliders, and Lists",
+      "published": "2026-05-21 19:07:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f1de4899-532a-4558-bff0-f4610bfdd49d",
+      "name": "Easy Elements for Elementor – Addons & Website Templates <= 1.4.5 - Unauthenticated Privilege Escalation via 'custom_meta' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Easy Elements for Elementor – Addons & Website Templates",
+      "published": "2026-05-21 16:07:25",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "d3849db8-5c9e-410e-be53-c9ab76162630",
+      "name": "WP ERP Pro <= 1.5.1 - Unauthenticated SQL Injection via 'search_key' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP ERP Pro",
+      "published": "2026-05-21 14:13:56",
+      "cvssScore": 7.5
+    },
     {
       "id": "ed738dc5-7848-4b04-a3fd-317cc366acfa",
       "name": "BookingPress Pro <= 5.6 - Unauthenticated Arbitrary File Upload via Signature Custom Field",
@@ -65,48 +101,12 @@
       "software": "Cost of Goods by PixelYourSite",
       "published": "2026-05-19 15:32:43",
       "cvssScore": 7.2
-    },
-    {
-      "id": "1cac2397-bb38-40d6-b90d-68e3ea136267",
-      "name": "Boost <= 2.0.3 - Unauthenticated Blind SQL Injection via Multiple Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Boost",
-      "published": "2026-05-19 14:25:02",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "e391f560-2037-4180-a77e-1731524a318c",
-      "name": "Boost <= 2.0.3 - Unauthenticated PHP Object Injection via STYXKEY-BOOST_USER_LOCATION Cookie",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Boost",
-      "published": "2026-05-19 13:55:11",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "32b6ccfe-a659-41e4-9cec-146f4f910071",
-      "name": "Easy Elements for Elementor <= 1.4.4 - Unauthenticated Privilege Escalation via easyel_handle_register",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Easy Elements for Elementor – Addons & Website Templates",
-      "published": "2026-05-19 13:10:24",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "39c17935-a853-407f-a99d-3828561919e6",
-      "name": "Creative Mail – Easier WordPress & WooCommerce Email Marketing <= 1.6.9 - Unauthenticated SQL Injection via 'checkout_uuid' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Creative Mail – Easier WordPress & WooCommerce Email Marketing",
-      "published": "2026-05-19 12:14:03",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2545,
-    "high": 6878,
-    "medium": 26631,
+    "high": 6882,
+    "medium": 26643,
     "low": 151
   }
 }
