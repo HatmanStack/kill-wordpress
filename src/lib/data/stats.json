@@ -1,17 +1,62 @@
 {
-  "generated": "2026-05-22T07:18:01.659Z",
+  "generated": "2026-05-23T06:58:27.251Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3584
+    "year2026": 3589
   },
   "last30Days": {
-    "plugins": 386,
-    "themes": 14,
+    "plugins": 372,
+    "themes": 10,
     "core": 0,
-    "total": 400
+    "total": 382
   },
   "recentVulns": [
+    {
+      "id": "5b313e3d-61e0-496e-af3b-155666fae059",
+      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) API Secret Key Disclosure and Privilege Escalation via 'wlm3_export_settings' AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Wishlist Member",
+      "published": "2026-05-22 16:24:19",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "db251792-cbad-41e1-aaca-4cd39a25b444",
+      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Options Update via 'wishlistmember_team_accounts_save_settings' AJAX action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Wishlist Member",
+      "published": "2026-05-22 16:23:28",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "05ce62ce-a02f-431e-95b1-ade38988e3ad",
+      "name": "WishList Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) Generate API Secret Key via 'wlm3_generate_api_key' AJAX action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Wishlist Member",
+      "published": "2026-05-22 16:22:39",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "f5ff0ff4-0878-4e9e-8082-e0f6effef92c",
+      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) API Secret Key Disclosure and Privilege Escalation via 'wlm3_get_screen' AJAX action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Wishlist Member",
+      "published": "2026-05-22 16:21:00",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "d5fa3282-b3be-4ea1-9865-011dea828a25",
+      "name": "WooCommerce PayPal Payments <= 4.0.1 - Missing Authorization to Unauthenticated Order Manipulation and Information Disclosure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WooCommerce PayPal Payments",
+      "published": "2026-05-22 16:04:24",
+      "cvssScore": 8.2
+    },
     {
       "id": "fe573d64-036e-4f6f-bcc1-5183bb9ad2b9",
       "name": "AudioIgniter Music Player <= 2.0.2 - Unauthenticated Insecure Direct Object Reference to 'audioigniter_playlist_id' Parameter",
@@ -56,56 +101,11 @@
       "software": "BookingPress Appointment Booking Pro",
       "published": "2026-05-21 06:20:37",
       "cvssScore": 9.8
-    },
-    {
-      "id": "5dc72d78-d47c-4b36-8d69-8672e15ddf8c",
-      "name": "Avada (Fusion) Builder <= 3.15.2 - Unauthenticated Remote Code Execution via PHP Function Injection via 'render_logics' Shortcode Attribute via Widget AJAX Handler",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Avada (Fusion) Builder",
-      "published": "2026-05-20 15:45:14",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "72154404-f956-4ea2-96ec-166ade87885f",
-      "name": "Divi Form Builder <= 5.1.2 - Unauthenticated Privilege Escalation via 'role'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Divi Form Builder",
-      "published": "2026-05-20 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "f8470662-2247-4159-9dac-f13677c94bdf",
-      "name": "AcyMailing <= 10.8.2 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation via 'acymailing_router'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress",
-      "published": "2026-05-19 18:19:44",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "77e4e516-8a12-48ee-9124-27f941b68b13",
-      "name": "Advanced Database Cleaner – Premium <= 4.1.0 - Authenticated (Subscriber+) Local File Inclusion via 'template'",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Database Cleaner – Premium",
-      "published": "2026-05-19 16:25:52",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "6e8646f0-8bd1-4cfd-85bb-86a054ab297f",
-      "name": "Cost of Goods by PixelYourSite <= 1.2.12 - Unauthenticated Stored Cross-Site Scripting via Cost of Goods Import",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Cost of Goods by PixelYourSite",
-      "published": "2026-05-19 15:32:43",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2545,
-    "high": 6882,
+    "high": 6887,
     "medium": 26643,
     "low": 151
   }
