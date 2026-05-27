@@ -1,112 +1,112 @@
 {
-  "generated": "2026-05-26T07:17:01.436Z",
+  "generated": "2026-05-27T07:30:57.940Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3589
+    "year2026": 3707
   },
   "last30Days": {
-    "plugins": 357,
-    "themes": 10,
+    "plugins": 462,
+    "themes": 12,
     "core": 0,
-    "total": 367
+    "total": 474
   },
   "recentVulns": [
     {
-      "id": "5b313e3d-61e0-496e-af3b-155666fae059",
-      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) API Secret Key Disclosure and Privilege Escalation via 'wlm3_export_settings' AJAX Action",
+      "id": "75a2e8b1-d5e0-4f7b-a70a-f0aadf58c778",
+      "name": "WPCode <= 2.3.5 - Authenticated (Author+) Remote Code Execution via CPT Capability Bypass via XML-RPC wp.newPost",
       "severity": "high",
       "type": "plugin",
-      "software": "Wishlist Member",
-      "published": "2026-05-22 16:24:19",
+      "software": "WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager",
+      "published": "2026-05-26 17:48:25",
       "cvssScore": 8.8
     },
     {
-      "id": "db251792-cbad-41e1-aaca-4cd39a25b444",
-      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Plugin Options Update via 'wishlistmember_team_accounts_save_settings' AJAX action",
+      "id": "b6310a0c-5a96-4dbc-940e-025c9b907c7d",
+      "name": "affiliate-toolkit <= 3.8.5 - Authenticated (Editor+) Remote Code Execution",
       "severity": "high",
       "type": "plugin",
-      "software": "Wishlist Member",
-      "published": "2026-05-22 16:23:28",
-      "cvssScore": 8.8
+      "software": "affiliate-toolkit – Multi-Network Affiliate & Amazon Product Display",
+      "published": "2026-05-26 17:32:53",
+      "cvssScore": 7.2
     },
     {
-      "id": "05ce62ce-a02f-431e-95b1-ade38988e3ad",
-      "name": "WishList Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) Generate API Secret Key via 'wlm3_generate_api_key' AJAX action",
+      "id": "e1c16bcb-c188-4e01-9d0b-e4e1a1ef82ee",
+      "name": "Booking Calendar – Event Calendar <= 2.1.6 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
       "severity": "high",
       "type": "plugin",
-      "software": "Wishlist Member",
-      "published": "2026-05-22 16:22:39",
-      "cvssScore": 8.8
+      "software": "Booking Calendar – Event Calendar",
+      "published": "2026-05-26 17:32:35",
+      "cvssScore": 7.2
     },
     {
-      "id": "f5ff0ff4-0878-4e9e-8082-e0f6effef92c",
-      "name": "Wishlist Member <= 3.30.1 - Missing Authorization to Authenticated (Subscriber+) API Secret Key Disclosure and Privilege Escalation via 'wlm3_get_screen' AJAX action",
+      "id": "28df760b-6b15-41ca-b93f-9d24dbbd9fc4",
+      "name": "Query Shortcode <= 0.2.1 - Authenticated (Contributor+) Local File Inclusion via 'lens' Shortcode Attribute",
       "severity": "high",
       "type": "plugin",
-      "software": "Wishlist Member",
-      "published": "2026-05-22 16:21:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "d5fa3282-b3be-4ea1-9865-011dea828a25",
-      "name": "WooCommerce PayPal Payments <= 4.0.1 - Missing Authorization to Unauthenticated Order Manipulation and Information Disclosure",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WooCommerce PayPal Payments",
-      "published": "2026-05-22 16:04:24",
-      "cvssScore": 8.2
-    },
-    {
-      "id": "fe573d64-036e-4f6f-bcc1-5183bb9ad2b9",
-      "name": "AudioIgniter Music Player <= 2.0.2 - Unauthenticated Insecure Direct Object Reference to 'audioigniter_playlist_id' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AudioIgniter Music Player",
-      "published": "2026-05-21 19:33:26",
+      "software": "Query Shortcode",
+      "published": "2026-05-26 17:25:25",
       "cvssScore": 7.5
     },
     {
-      "id": "49fe8e8b-95fa-4c25-89cf-49566543206c",
-      "name": "Ditty <= 3.1.65 - Missing Authorization to Unauthenticated Sensitive Information Disclosure via ditty_init AJAX Action",
+      "id": "f1eacb72-df11-4a3b-9064-f8f776f3522b",
+      "name": "Login with NEAR <= 0.3.3 - Authentication Bypass via 'account' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Ditty – Responsive News Tickers, Sliders, and Lists",
-      "published": "2026-05-21 19:07:00",
-      "cvssScore": 7.5
+      "software": "Login with NEAR",
+      "published": "2026-05-26 17:24:04",
+      "cvssScore": 8.1
     },
     {
-      "id": "f1de4899-532a-4558-bff0-f4610bfdd49d",
-      "name": "Easy Elements for Elementor – Addons & Website Templates <= 1.4.5 - Unauthenticated Privilege Escalation via 'custom_meta' Parameter",
+      "id": "90783d75-a255-4133-ac7b-32e0a70c8c69",
+      "name": "Firebase Support & Chat Management <= 3.1.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
       "severity": "high",
       "type": "plugin",
-      "software": "Easy Elements for Elementor – Addons & Website Templates",
-      "published": "2026-05-21 16:07:25",
+      "software": "Firebase Support & Chat Management",
+      "published": "2026-05-26 17:20:41",
       "cvssScore": 8.8
     },
     {
-      "id": "d3849db8-5c9e-410e-be53-c9ab76162630",
-      "name": "WP ERP Pro <= 1.5.1 - Unauthenticated SQL Injection via 'search_key' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP ERP Pro",
-      "published": "2026-05-21 14:13:56",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "ed738dc5-7848-4b04-a3fd-317cc366acfa",
-      "name": "BookingPress Pro <= 5.6 - Unauthenticated Arbitrary File Upload via Signature Custom Field",
+      "id": "ad22cb24-e6a0-456f-afe8-88a39acd97d3",
+      "name": "Login with OTP <= 1.6 - Unauthenticated Authentication Bypass via OTP Brute Force",
       "severity": "critical",
       "type": "plugin",
-      "software": "BookingPress Appointment Booking Pro",
-      "published": "2026-05-21 06:20:37",
+      "software": "Login with OTP",
+      "published": "2026-05-26 17:20:31",
       "cvssScore": 9.8
+    },
+    {
+      "id": "40fa29f5-525a-4986-91f9-0210a7594e46",
+      "name": "LiteSpeed Cache <= 7.7 - Unauthenticated Stored Cross-Site Scripting via QUIC.cloud CCSS/UCSS REST API Endpoints",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LiteSpeed Cache",
+      "published": "2026-05-26 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "d6077842-cc17-48c6-be3b-9149e4b87235",
+      "name": "SW Core <= 1.7.18 - Authenticated (Contributor+) Local File Inclusion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "sw_core",
+      "published": "2026-05-26 00:00:00",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "a50e2df0-b45e-4a0a-b6dc-f05b4286132a",
+      "name": "Broadcast Live Video – Live Streaming : WebRTC, HLS, RTSP, RTMP < 7.1.3 - Authenticated (Admin+) Remote Code Execution",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Broadcast Live Video – Live Streaming : WebRTC, HLS, RTSP, RTMP",
+      "published": "2026-05-25 00:00:00",
+      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2545,
-    "high": 6887,
-    "medium": 26643,
-    "low": 151
+    "critical": 2548,
+    "high": 6902,
+    "medium": 26742,
+    "low": 152
   }
 }
