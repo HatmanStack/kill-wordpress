@@ -1,112 +1,112 @@
 {
-  "generated": "2026-05-27T07:30:57.940Z",
+  "generated": "2026-05-28T07:24:55.124Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3707
+    "year2026": 3737
   },
   "last30Days": {
-    "plugins": 462,
-    "themes": 12,
+    "plugins": 485,
+    "themes": 11,
     "core": 0,
-    "total": 474
+    "total": 496
   },
   "recentVulns": [
     {
-      "id": "75a2e8b1-d5e0-4f7b-a70a-f0aadf58c778",
-      "name": "WPCode <= 2.3.5 - Authenticated (Author+) Remote Code Execution via CPT Capability Bypass via XML-RPC wp.newPost",
-      "severity": "high",
+      "id": "ecbc7f05-fc4f-4276-968e-04222a64e55a",
+      "name": "GEO my WP <= 4.5.4 - Unauthenticated SQL Injection via 'distance' / 'lat' / 'lng' Parameters",
+      "severity": "critical",
       "type": "plugin",
-      "software": "WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager",
-      "published": "2026-05-26 17:48:25",
-      "cvssScore": 8.8
+      "software": "GEO my WP",
+      "published": "2026-05-27 18:46:46",
+      "cvssScore": 9.1
     },
     {
-      "id": "b6310a0c-5a96-4dbc-940e-025c9b907c7d",
-      "name": "affiliate-toolkit <= 3.8.5 - Authenticated (Editor+) Remote Code Execution",
+      "id": "db3bddbd-44b0-4105-9039-0d669d643481",
+      "name": "Appointment Booking Calendar <= 1.6.11.8 - Unauthenticated SQL Injection via 'append_where_sql' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "affiliate-toolkit – Multi-Network Affiliate & Amazon Product Display",
-      "published": "2026-05-26 17:32:53",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "e1c16bcb-c188-4e01-9d0b-e4e1a1ef82ee",
-      "name": "Booking Calendar – Event Calendar <= 2.1.6 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Booking Calendar – Event Calendar",
-      "published": "2026-05-26 17:32:35",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "28df760b-6b15-41ca-b93f-9d24dbbd9fc4",
-      "name": "Query Shortcode <= 0.2.1 - Authenticated (Contributor+) Local File Inclusion via 'lens' Shortcode Attribute",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Query Shortcode",
-      "published": "2026-05-26 17:25:25",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-05-27 18:30:22",
       "cvssScore": 7.5
     },
     {
-      "id": "f1eacb72-df11-4a3b-9064-f8f776f3522b",
-      "name": "Login with NEAR <= 0.3.3 - Authentication Bypass via 'account' Parameter",
+      "id": "0a309bf8-7fe3-4033-993c-3c8dba0f216d",
+      "name": "SlimStat Analytics <= 5.4.11 - Unauthenticated Stored Cross-Site Scripting via User-Agent Header",
       "severity": "high",
       "type": "plugin",
-      "software": "Login with NEAR",
-      "published": "2026-05-26 17:24:04",
+      "software": "SlimStat Analytics",
+      "published": "2026-05-27 18:28:54",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "edb0ee0c-1eab-4988-9eb6-cc0c253fee15",
+      "name": "HT Contact Form <= 2.8.2 - Unauthenticated Stored Cross-Site Scripting via File Upload Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "HT Contact Form – Drag & Drop Form Builder for WordPress",
+      "published": "2026-05-27 18:06:02",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "96cdba03-7385-4374-915d-061be0276a95",
+      "name": "WP Contact Form 7 DB Handler <= 3.0 - Cross-Site Request Forgery to Arbitrary File Deletion via 'contact_form' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Contact Form 7 DB Handler",
+      "published": "2026-05-27 18:05:02",
       "cvssScore": 8.1
     },
     {
-      "id": "90783d75-a255-4133-ac7b-32e0a70c8c69",
-      "name": "Firebase Support & Chat Management <= 3.1.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
+      "id": "2d20e8c9-975d-4e8c-8bea-50935853c7d4",
+      "name": "GutenBee <= 2.20.1 - Authenticated (Author+) Arbitrary File Upload via wp_check_filetype_and_ext Filter",
       "severity": "high",
       "type": "plugin",
-      "software": "Firebase Support & Chat Management",
-      "published": "2026-05-26 17:20:41",
+      "software": "GutenBee – Gutenberg Blocks",
+      "published": "2026-05-27 18:02:02",
       "cvssScore": 8.8
     },
     {
-      "id": "ad22cb24-e6a0-456f-afe8-88a39acd97d3",
-      "name": "Login with OTP <= 1.6 - Unauthenticated Authentication Bypass via OTP Brute Force",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Login with OTP",
-      "published": "2026-05-26 17:20:31",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "40fa29f5-525a-4986-91f9-0210a7594e46",
-      "name": "LiteSpeed Cache <= 7.7 - Unauthenticated Stored Cross-Site Scripting via QUIC.cloud CCSS/UCSS REST API Endpoints",
+      "id": "7ff39b8f-ef87-4b1c-888e-00c9599c7b07",
+      "name": "Crawlomatic Multipage Scraper Post Generator <= 2.7.2 - Authenticated (Author+) Remote Code Execution via 'callback_raw' Shortcode Attribute",
       "severity": "high",
       "type": "plugin",
-      "software": "LiteSpeed Cache",
-      "published": "2026-05-26 00:00:00",
+      "software": "Crawlomatic Multipage Scraper Post Generator",
+      "published": "2026-05-27 17:20:12",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "99dfce3b-2b47-41bf-8b20-b53fb9f061a7",
+      "name": "Login No Captcha reCAPTCHA <= 1.8.0 - Unauthenticated Stored Cross-Site Scripting via PHP_SELF",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Login No Captcha reCAPTCHA",
+      "published": "2026-05-27 14:54:36",
       "cvssScore": 7.2
     },
     {
-      "id": "d6077842-cc17-48c6-be3b-9149e4b87235",
-      "name": "SW Core <= 1.7.18 - Authenticated (Contributor+) Local File Inclusion",
+      "id": "cd091bd5-6b6a-4964-9249-525bbbec702c",
+      "name": "Frontend Admin by DynamiApps <= 3.29.2 - Missing Authorization to Authenticated (Subscriber+) Account Takeover via 'user_id' URL Query Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "sw_core",
-      "published": "2026-05-26 00:00:00",
-      "cvssScore": 7.5
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-05-27 14:51:29",
+      "cvssScore": 8.8
     },
     {
-      "id": "a50e2df0-b45e-4a0a-b6dc-f05b4286132a",
-      "name": "Broadcast Live Video – Live Streaming : WebRTC, HLS, RTSP, RTMP < 7.1.3 - Authenticated (Admin+) Remote Code Execution",
+      "id": "123e1758-3384-4ea7-96dd-d6adcce40392",
+      "name": "Frontend Admin by DynamiApps <= 3.29.2 - Unauthenticated Privilege Escalation via Form Configuration Injection",
       "severity": "high",
       "type": "plugin",
-      "software": "Broadcast Live Video – Live Streaming : WebRTC, HLS, RTSP, RTMP",
-      "published": "2026-05-25 00:00:00",
-      "cvssScore": 7.2
+      "software": "Frontend Admin by DynamiApps",
+      "published": "2026-05-27 00:00:00",
+      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2548,
-    "high": 6902,
-    "medium": 26742,
+    "critical": 2549,
+    "high": 6911,
+    "medium": 26762,
     "low": 152
   }
 }
