@@ -1,17 +1,44 @@
 {
-  "generated": "2026-05-29T07:24:55.179Z",
+  "generated": "2026-05-30T07:04:32.360Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3754
+    "year2026": 3757
   },
   "last30Days": {
-    "plugins": 483,
+    "plugins": 480,
     "themes": 12,
     "core": 0,
-    "total": 495
+    "total": 492
   },
   "recentVulns": [
+    {
+      "id": "042f78a4-2256-4286-aa03-8bd8b7a79530",
+      "name": "GEO my WP <= 4.5.5 - Unauthenticated SQL Injection via 'swlatlng' / 'nelatlng' Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GEO my WP",
+      "published": "2026-05-29 20:40:30",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "95d2bf1a-0993-4553-a00e-6f555c3f15be",
+      "name": "Simple History – Track, Log, and Audit WordPress Changes <= 5.26.0 - Authenticated (Subscriber+) Account Takeover via Missing Authorization on Event Reaction Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Simple History – Track, Log, and Audit WordPress Changes",
+      "published": "2026-05-29 20:38:32",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "60013752-d7cf-46e8-84e1-1b614f737b46",
+      "name": "Spectra Gutenberg Blocks <= 2.19.25 - Authenticated (Contributor+) Remote Code Execution via Arbitrary PHP Function Call via Block Attributes",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Spectra Gutenberg Blocks – Website Builder for the Block Editor",
+      "published": "2026-05-29 20:27:40",
+      "cvssScore": 8.8
+    },
     {
       "id": "0e399651-8992-4949-b7a7-4e8ce199b47a",
       "name": "Media Library Assistant <= 3.35 - Cross-Site Request Forgery via Bulk Action Form",
@@ -74,38 +101,11 @@
       "software": "Advanced Custom Fields: Extended",
       "published": "2026-05-28 10:09:02",
       "cvssScore": 9.8
-    },
-    {
-      "id": "ecbc7f05-fc4f-4276-968e-04222a64e55a",
-      "name": "GEO my WP <= 4.5.4 - Unauthenticated SQL Injection via 'distance' / 'lat' / 'lng' Parameters",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "GEO my WP",
-      "published": "2026-05-27 18:46:46",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "db3bddbd-44b0-4105-9039-0d669d643481",
-      "name": "Appointment Booking Calendar <= 1.6.11.8 - Unauthenticated SQL Injection via 'append_where_sql' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
-      "published": "2026-05-27 18:30:22",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "0a309bf8-7fe3-4033-993c-3c8dba0f216d",
-      "name": "SlimStat Analytics <= 5.4.11 - Unauthenticated Stored Cross-Site Scripting via User-Agent Header",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SlimStat Analytics",
-      "published": "2026-05-27 18:28:54",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2553,
-    "high": 6914,
+    "high": 6917,
     "medium": 26772,
     "low": 152
   }
