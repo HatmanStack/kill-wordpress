@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-02T07:43:11.948Z",
+  "generated": "2026-06-03T07:46:30.109Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3843
+    "year2026": 3922
   },
   "last30Days": {
-    "plugins": 510,
-    "themes": 23,
+    "plugins": 535,
+    "themes": 76,
     "core": 0,
-    "total": 533
+    "total": 611
   },
   "recentVulns": [
     {
@@ -49,6 +49,15 @@
       "cvssScore": 9.8
     },
     {
+      "id": "4e6b9ced-b303-43fe-8622-a32685f0a4ea",
+      "name": "Gravity Forms <= 2.10.0.1 - Unauthenticated Arbitrary File Deletion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Gravity Forms",
+      "published": "2026-06-01 00:00:00",
+      "cvssScore": 9.1
+    },
+    {
       "id": "dd389d3b-046c-41cb-a077-7dcb9fd50eda",
       "name": "WP Statistics – Simple, privacy-friendly Google Analytics alternative <= 14.16.6 - Unauthenticated Stored Cross-Site Scripting",
       "severity": "high",
@@ -67,6 +76,15 @@
       "cvssScore": 7.2
     },
     {
+      "id": "28713983-86ef-45d1-9258-d1a4feedcadd",
+      "name": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce < 4.08.253 - Unauthenticated Privilege Escalation",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce",
+      "published": "2026-05-30 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
       "id": "9264d7f3-cbd2-4528-8222-93a456332e9c",
       "name": "TableOn – WordPress Posts Table Filterable  <= 1.0.5.1 - Unauthenticated SQL Injection",
       "severity": "high",
@@ -76,37 +94,19 @@
       "cvssScore": 7.5
     },
     {
-      "id": "d6e16234-ec7b-466f-bc11-e80e63dec49f",
-      "name": "Favicon by RealFaviconGenerator <= 1.3.46 - Unauthenticated Stored Cross-Site Scripting",
+      "id": "c24e00b5-4014-42fc-818d-3877dfbd3fda",
+      "name": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce < 4.08.253 - Authenticated (Subscriber+) Arbitrary File Deletion",
       "severity": "high",
       "type": "plugin",
-      "software": "Favicon by RealFaviconGenerator",
+      "software": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce",
       "published": "2026-05-30 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "042f78a4-2256-4286-aa03-8bd8b7a79530",
-      "name": "GEO my WP <= 4.5.5 - Unauthenticated SQL Injection via 'swlatlng' / 'nelatlng' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GEO my WP",
-      "published": "2026-05-29 20:40:30",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "95d2bf1a-0993-4553-a00e-6f555c3f15be",
-      "name": "Simple History – Track, Log, and Audit WordPress Changes <= 5.26.0 - Authenticated (Subscriber+) Account Takeover via Missing Authorization on Event Reaction Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Simple History – Track, Log, and Audit WordPress Changes",
-      "published": "2026-05-29 20:38:32",
-      "cvssScore": 7.5
+      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2555,
-    "high": 6948,
-    "medium": 26825,
-    "low": 152
+    "critical": 2560,
+    "high": 7003,
+    "medium": 26843,
+    "low": 153
   }
 }
