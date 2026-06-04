@@ -1,17 +1,26 @@
 {
-  "generated": "2026-06-03T07:46:30.109Z",
+  "generated": "2026-06-04T07:42:11.548Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3922
+    "year2026": 3924
   },
   "last30Days": {
-    "plugins": 535,
-    "themes": 76,
+    "plugins": 505,
+    "themes": 74,
     "core": 0,
-    "total": 611
+    "total": 579
   },
   "recentVulns": [
+    {
+      "id": "2eafe150-2178-4355-88a8-67687bd446e4",
+      "name": "SP Project & Document Manager <= 4.71 - Missing Authorization to Unauthenticated Arbitrary File Information Disclosure via view_file() Function",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SP Project & Document Manager",
+      "published": "2026-06-03 13:01:35",
+      "cvssScore": 7.5
+    },
     {
       "id": "6b15eca5-fd47-4f8f-8ade-3a90e0bfc110",
       "name": "ARMember Premium <= 7.3.1 - Insecure Password Reset Mechanism to Unauthenticated Privilege Escalation",
@@ -92,21 +101,12 @@
       "software": "TableOn – WordPress Posts Table Filterable ",
       "published": "2026-05-30 00:00:00",
       "cvssScore": 7.5
-    },
-    {
-      "id": "c24e00b5-4014-42fc-818d-3877dfbd3fda",
-      "name": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce < 4.08.253 - Authenticated (Subscriber+) Arbitrary File Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WebinarIgnition – Live, Automated & Evergreen Webinar System also for WooCommerce",
-      "published": "2026-05-30 00:00:00",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
     "critical": 2560,
-    "high": 7003,
-    "medium": 26843,
+    "high": 7004,
+    "medium": 26844,
     "low": 153
   }
 }
