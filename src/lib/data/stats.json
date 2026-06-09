@@ -1,17 +1,62 @@
 {
-  "generated": "2026-06-08T07:47:25.818Z",
+  "generated": "2026-06-09T07:18:47.194Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 3966
+    "year2026": 4044
   },
   "last30Days": {
-    "plugins": 507,
-    "themes": 73,
+    "plugins": 581,
+    "themes": 75,
     "core": 0,
-    "total": 580
+    "total": 656
   },
   "recentVulns": [
+    {
+      "id": "fd216743-ce8d-4632-9fd1-d63502c2dfcd",
+      "name": "Blocksy <= 2.1.41 - Authenticated (Contributor+) PHP Object Injection via Deserialization of Untrusted Data via 'blocksy_meta' REST API Field",
+      "severity": "high",
+      "type": "theme",
+      "software": "Blocksy",
+      "published": "2026-06-08 20:11:29",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "11ba187b-1fe4-4077-ad9d-a07660133e91",
+      "name": "Events Calendar for GeoDirectory <= 2.3.28 - Authenticated (Subscriber+) Privilege Escalation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Events Calendar for GeoDirectory",
+      "published": "2026-06-08 19:02:22",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "10552714-c8fb-455c-ad61-c0ef2db4b69f",
+      "name": "Recover Exit For WooCommerce <= 1.0.3 - Unauthenticated Local File Inclusion via 'tpf' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Recover Exit For WooCommerce",
+      "published": "2026-06-08 15:06:35",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "74fa4240-6f62-4db6-b7e7-56998fc29e42",
+      "name": "6Storage Rentals <= 2.22.0 - Unauthenticated Insecure Direct Object Reference to Arbitrary User Disclosure and Modification via 'userId' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "6Storage Rentals",
+      "published": "2026-06-08 15:06:25",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "8bcd5259-2e35-41f6-b269-5b679e4eaab9",
+      "name": "FV Flowplayer Video Player <= 7.5.49.7212 - Unauthenticated Stored Cross-Site Scripting via Comment Text",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FV Flowplayer Video Player",
+      "published": "2026-06-08 13:48:41",
+      "cvssScore": 7.2
+    },
     {
       "id": "795c1fd6-137b-4414-8d6b-30053bfb5924",
       "name": "Booking Package <= 1.7.16 - Authenticated (Editor+) Privilege Escalation via Account Takeover to updateUser AJAX Action",
@@ -56,57 +101,12 @@
       "software": "Advanced Google reCAPTCHA",
       "published": "2026-06-05 05:58:19",
       "cvssScore": 8.8
-    },
-    {
-      "id": "92652339-ec86-4069-aeee-91c314ed2540",
-      "name": "WP Captcha PRO <= 5.38 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Google reCAPTCHA",
-      "published": "2026-06-05 05:58:17",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "73835cfc-4c10-40d5-8df2-903d907326d4",
-      "name": "Hippoo Mobile App for WooCommerce <= 1.9.4 - Unauthenticated Authentication Bypass to Administrator Account Takeover via REST API",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Hippoo Mobile App for WooCommerce",
-      "published": "2026-06-05 05:47:24",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "051a3967-ef86-49bc-b72c-23e43568fef6",
-      "name": "Admin Columns <= 7.0.18 - Authenticated (Contributor+) PHP Object Injection to Remote Code Execution via Custom Field Meta Value",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Admin Columns",
-      "published": "2026-06-05 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "7a5e08d8-c6ef-42a3-9599-28c3bfb35017",
-      "name": "WP User Manager <= 2.9.17 - Unauthenticated Path Traversal to Local File Inclusion via 'tab' Query Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP User Manager – User Profile Builder & Membership",
-      "published": "2026-06-05 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "08906577-162c-4875-b16c-18d4912c2611",
-      "name": "Gutenberg Essential Blocks – Page Builder for Gutenberg Blocks & Patterns <= 6.1.3 - Authenticated (Author+) Server-Side Request Forgery",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Gutenberg Essential Blocks – Page Builder for Gutenberg Blocks & Patterns",
-      "published": "2026-06-04 10:40:13",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2561,
-    "high": 7013,
-    "medium": 26875,
+    "high": 7046,
+    "medium": 26920,
     "low": 154
   }
 }
