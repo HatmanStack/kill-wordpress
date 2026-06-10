@@ -1,17 +1,35 @@
 {
-  "generated": "2026-06-09T07:18:47.194Z",
+  "generated": "2026-06-10T07:33:33.681Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4044
+    "year2026": 4051
   },
   "last30Days": {
-    "plugins": 581,
+    "plugins": 587,
     "themes": 75,
     "core": 0,
-    "total": 656
+    "total": 662
   },
   "recentVulns": [
+    {
+      "id": "5fa37909-932c-4879-bbf0-8b44cc995cc0",
+      "name": "Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Doctreat Core",
+      "published": "2026-06-09 20:15:24",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "8e2672b5-64a2-4b30-b0be-2a9303d46ac1",
+      "name": "Newsletters <= 4.13 - Unauthenticated SQL Injection via wpmlsubscriber_id Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Newsletters",
+      "published": "2026-06-09 20:03:28",
+      "cvssScore": 7.5
+    },
     {
       "id": "fd216743-ce8d-4632-9fd1-d63502c2dfcd",
       "name": "Blocksy <= 2.1.41 - Authenticated (Contributor+) PHP Object Injection via Deserialization of Untrusted Data via 'blocksy_meta' REST API Field",
@@ -83,30 +101,12 @@
       "software": "Integration for Freshsales – Contact Form 7, WPForms, Elementor, Gravity Forms and More",
       "published": "2026-06-05 12:22:17",
       "cvssScore": 7.2
-    },
-    {
-      "id": "d2b7ed73-a654-40ef-8d80-6171393da8e7",
-      "name": "All-In-One Security (AIOS) <= 5.4.7 - Unauthenticated Stored Cross-Site Scripting via REST API Request Path",
-      "severity": "high",
-      "type": "plugin",
-      "software": "All-In-One Security (AIOS) – Security and Firewall",
-      "published": "2026-06-05 11:51:22",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "8731565f-4d8a-49e6-9c38-6d4f5e51d68c",
-      "name": "WP Captcha PRO <= 5.38 - Authenticated (Subscriber+) Authentication Bypass via Temporary Login Link",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Google reCAPTCHA",
-      "published": "2026-06-05 05:58:19",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2561,
-    "high": 7046,
-    "medium": 26920,
+    "critical": 2562,
+    "high": 7048,
+    "medium": 26924,
     "low": 154
   }
 }
