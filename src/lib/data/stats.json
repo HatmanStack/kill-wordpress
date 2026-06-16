@@ -1,17 +1,62 @@
 {
-  "generated": "2026-06-15T08:04:55.995Z",
+  "generated": "2026-06-16T08:02:06.720Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4098
+    "year2026": 4137
   },
   "last30Days": {
-    "plugins": 513,
-    "themes": 75,
+    "plugins": 547,
+    "themes": 77,
     "core": 0,
-    "total": 588
+    "total": 624
   },
   "recentVulns": [
+    {
+      "id": "b8d5bb6c-2021-4fc0-bede-8da1c3fb591a",
+      "name": "LatePoint <= 5.5.1 - Authenticated (Agent+) Privilege Escalation to Administrator via IDOR in OsOrdersController::create_or_update + Unauthenticated Customer-Cabinet Password Reset",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-06-15 20:57:10",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f3af6f70-aa7e-4f33-88c0-45befaab2b29",
+      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) Arbitrary File Deletion via 'myaction' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Review Slider Pro",
+      "published": "2026-06-15 20:44:47",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "633d26e9-8a05-4f4b-93a8-5644f2f699db",
+      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'curselrevs' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Review Slider Pro",
+      "published": "2026-06-15 18:29:14",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "1055bba0-7dbd-4382-afaf-ecea442c527c",
+      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'stypes' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Review Slider Pro",
+      "published": "2026-06-15 17:04:29",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "c43c060b-7a18-49ee-a753-ae1ed2f7e04d",
+      "name": "Premmerce Dev Tools <= 2.0 - Missing Authorization to Authenticated (Subscriber+) Remote Code Execution via Plugin Creation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Premmerce Dev Tools",
+      "published": "2026-06-15 16:26:34",
+      "cvssScore": 8.8
+    },
     {
       "id": "b8ab6dfa-3764-470f-aa49-1964f42d93de",
       "name": "Online Scheduling and Appointment Booking System – Bookly <= 27.2 - Unauthenticated Stored Cross-Site Scripting via 'bookly-customer-full-name' Cookie",
@@ -40,73 +85,28 @@
       "cvssScore": 7.5
     },
     {
-      "id": "e901c2a0-2477-4b9a-8483-6002419e0a2f",
-      "name": "UpdraftPlus: WP Backup & Migration Plugin <= 1.26.4 (free) < 2.26.5 (premium) - Unauthenticated Authentication Bypass via UpdraftCentral udrpc",
+      "id": "512f68c0-3041-44b0-86de-b3e640cf5055",
+      "name": "JetEngine <= 3.8.10 - Unauthenticated PHP Object Injection",
       "severity": "high",
       "type": "plugin",
-      "software": "UpdraftPlus: WP Backup & Migration Plugin",
-      "published": "2026-06-10 16:41:29",
+      "software": "JetEngine",
+      "published": "2026-06-12 00:00:00",
       "cvssScore": 8.1
     },
     {
-      "id": "5fa37909-932c-4879-bbf0-8b44cc995cc0",
-      "name": "Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Doctreat Core",
-      "published": "2026-06-09 20:15:24",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "8e2672b5-64a2-4b30-b0be-2a9303d46ac1",
-      "name": "Newsletters <= 4.13 - Unauthenticated SQL Injection via wpmlsubscriber_id Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Newsletters",
-      "published": "2026-06-09 20:03:28",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "fd216743-ce8d-4632-9fd1-d63502c2dfcd",
-      "name": "Blocksy <= 2.1.41 - Authenticated (Contributor+) PHP Object Injection via Deserialization of Untrusted Data via 'blocksy_meta' REST API Field",
+      "id": "6b908de9-bc83-444e-82d3-a54804785c1d",
+      "name": "Nifty <= 1.4.1 - Unauthenticated PHP Object Injection",
       "severity": "high",
       "type": "theme",
-      "software": "Blocksy",
-      "published": "2026-06-08 20:11:29",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "11ba187b-1fe4-4077-ad9d-a07660133e91",
-      "name": "Events Calendar for GeoDirectory <= 2.3.28 - Authenticated (Subscriber+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Events Calendar for GeoDirectory",
-      "published": "2026-06-08 19:02:22",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "10552714-c8fb-455c-ad61-c0ef2db4b69f",
-      "name": "Recover Exit For WooCommerce <= 1.0.3 - Unauthenticated Local File Inclusion via 'tpf' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Recover Exit For WooCommerce",
-      "published": "2026-06-08 15:06:35",
+      "software": "nifty",
+      "published": "2026-06-12 00:00:00",
       "cvssScore": 8.1
-    },
-    {
-      "id": "74fa4240-6f62-4db6-b7e7-56998fc29e42",
-      "name": "6Storage Rentals <= 2.22.0 - Unauthenticated Insecure Direct Object Reference to Arbitrary User Disclosure and Modification via 'userId' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "6Storage Rentals",
-      "published": "2026-06-08 15:06:25",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
     "critical": 2567,
-    "high": 7063,
-    "medium": 26951,
+    "high": 7085,
+    "medium": 26968,
     "low": 154
   }
 }
