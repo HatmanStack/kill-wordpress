@@ -1,17 +1,62 @@
 {
-  "generated": "2026-06-17T07:55:32.905Z",
+  "generated": "2026-06-19T07:56:12.067Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4142
+    "year2026": 4210
   },
   "last30Days": {
-    "plugins": 549,
-    "themes": 77,
+    "plugins": 556,
+    "themes": 79,
     "core": 0,
-    "total": 626
+    "total": 635
   },
   "recentVulns": [
+    {
+      "id": "694b67d2-7d60-4764-a2c0-02698c331772",
+      "name": "BetterDocs Pro <= 3.8.0 - Unauthenticated Local File Inclusion via doc_style",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "BetterDocs Pro",
+      "published": "2026-06-18 17:00:31",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "e4bfb72e-023b-4bfd-b125-91f6ac2f200f",
+      "name": "Avada (Fusion) Builder <= 3.15.3 - Unauthenticated Arbitrary File Deletion via Form Entry Value",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Avada (Fusion) Builder",
+      "published": "2026-06-18 16:14:13",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "caa5b9aa-e98c-48fc-9e63-0a1380465918",
+      "name": "CF7 to Webhook <= 5.0.0 - Unauthenticated Server-Side Request Forgery via CF7 Field Placeholder in Webhook URL Host",
+      "severity": "high",
+      "type": "plugin",
+      "software": "CF7 to Webhook",
+      "published": "2026-06-17 18:15:54",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "a772041e-015e-48e8-9fab-79f1fcdb265c",
+      "name": "Offload, AI & Optimize with Cloudflare Images <= 1.10.2 - Authenticated (Author+) Remote Code Execution via 'api-key' / 'account-id' Parameters in cf_images_do_setup AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Offload, AI & Optimize with Cloudflare Images",
+      "published": "2026-06-17 16:18:12",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "ee4c5d34-74cb-443b-9323-90580dbe675e",
+      "name": "E2Pdf <= 1.32.26 - Missing Authorization to Authenticated (Custom+) Arbitrary Option Update / Privilege Escalation via 'screen_action' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "E2Pdf – Export Pdf Tool for WordPress",
+      "published": "2026-06-17 14:55:56",
+      "cvssScore": 8.8
+    },
     {
       "id": "69b909da-b1b0-4dab-916c-908511f6556f",
       "name": "Contest Gallery <= 30.0.2 - Authenticated (Author+) Privilege Escalation via 'RegistryUserRole' Parameter",
@@ -56,57 +101,12 @@
       "software": "WP Review Slider Pro",
       "published": "2026-06-15 18:29:14",
       "cvssScore": 8.8
-    },
-    {
-      "id": "1055bba0-7dbd-4382-afaf-ecea442c527c",
-      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'stypes' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Review Slider Pro",
-      "published": "2026-06-15 17:04:29",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "c43c060b-7a18-49ee-a753-ae1ed2f7e04d",
-      "name": "Premmerce Dev Tools <= 2.0 - Missing Authorization to Authenticated (Subscriber+) Remote Code Execution via Plugin Creation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Premmerce Dev Tools",
-      "published": "2026-06-15 16:26:34",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "b8ab6dfa-3764-470f-aa49-1964f42d93de",
-      "name": "Online Scheduling and Appointment Booking System – Bookly <= 27.2 - Unauthenticated Stored Cross-Site Scripting via 'bookly-customer-full-name' Cookie",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Online Scheduling and Appointment Booking System – Bookly",
-      "published": "2026-06-12 22:03:33",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "1c93b564-5428-4b0e-bbe8-f1e1e68940ac",
-      "name": "GPTranslate <= 2.31 - Unauthenticated Stored Cross-Site Scripting via REST API Translation Storage",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GPTranslate – Multilingual AI Translation for WordPress: Automatically Translate Websites",
-      "published": "2026-06-12 17:00:41",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "98f16e3a-4ef3-43f9-86b2-2cf8e26f9c80",
-      "name": "WP Ticket <= 6.0.4 - Unauthenticated SQL Injection via WordPress Search 's' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Customer Support Ticket System & Helpdesk",
-      "published": "2026-06-12 14:23:52",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2567,
-    "high": 7087,
-    "medium": 26971,
-    "low": 154
+    "critical": 2572,
+    "high": 7099,
+    "medium": 27021,
+    "low": 155
   }
 }
