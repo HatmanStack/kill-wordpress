@@ -1,17 +1,53 @@
 {
-  "generated": "2026-06-19T07:56:12.067Z",
+  "generated": "2026-06-20T07:23:56.088Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4210
+    "year2026": 4215
   },
   "last30Days": {
-    "plugins": 556,
+    "plugins": 551,
     "themes": 79,
     "core": 0,
-    "total": 635
+    "total": 630
   },
   "recentVulns": [
+    {
+      "id": "748c4ca8-fcbf-43e5-ab70-721e83253663",
+      "name": "Simple File List <= 6.3.7 - Unauthenticated Arbitrary File Deletion via Path Traversal in 'eeSubFolder' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Simple File List",
+      "published": "2026-06-19 20:27:13",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "509a40d2-a33a-49ba-b858-fa8805127a1b",
+      "name": "Simple File List <= 6.3.7 - Missing Authorization to Unauthenticated File Modification via simplefilelist_edit_job AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Simple File List",
+      "published": "2026-06-19 20:27:11",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "4169b390-0972-4aa9-ae04-f5f67afe15ef",
+      "name": "Database for Contact Form 7, WPforms, Elementor forms <= 1.5.1 - Unauthenticated Arbitrary File Deletion via CF7 File Field POST Value",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Database for Contact Form 7, WPforms, Elementor forms",
+      "published": "2026-06-19 11:55:33",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "56f13af3-71b6-42d4-9fda-a75778f32091",
+      "name": "Branda – White Label & Branding, Free Login Page Customizer <= 3.4.29 - Unauthenticated Privilege Escalation via Account Takeover",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Branda – White Label & Branding, Free Login Page Customizer",
+      "published": "2026-06-19 11:05:45",
+      "cvssScore": 9.8
+    },
     {
       "id": "694b67d2-7d60-4764-a2c0-02698c331772",
       "name": "BetterDocs Pro <= 3.8.0 - Unauthenticated Local File Inclusion via doc_style",
@@ -65,48 +101,12 @@
       "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
       "published": "2026-06-16 20:57:12",
       "cvssScore": 8.8
-    },
-    {
-      "id": "fd839b20-69d1-4cad-80fc-3e7b9940fd30",
-      "name": "JetEngine <= 3.8.10.1 - Unauthenticated SQL Injection via Listing Grid Load More AJAX Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "JetEngine",
-      "published": "2026-06-16 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "b8d5bb6c-2021-4fc0-bede-8da1c3fb591a",
-      "name": "LatePoint <= 5.5.1 - Authenticated (Agent+) Privilege Escalation to Administrator via IDOR in OsOrdersController::create_or_update + Unauthenticated Customer-Cabinet Password Reset",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-06-15 20:57:10",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "f3af6f70-aa7e-4f33-88c0-45befaab2b29",
-      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) Arbitrary File Deletion via 'myaction' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Review Slider Pro",
-      "published": "2026-06-15 20:44:47",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "633d26e9-8a05-4f4b-93a8-5644f2f699db",
-      "name": "WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'curselrevs' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Review Slider Pro",
-      "published": "2026-06-15 18:29:14",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2572,
-    "high": 7099,
-    "medium": 27021,
+    "critical": 2573,
+    "high": 7102,
+    "medium": 27022,
     "low": 155
   }
 }
