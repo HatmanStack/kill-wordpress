@@ -1,112 +1,112 @@
 {
-  "generated": "2026-06-23T07:19:32.460Z",
+  "generated": "2026-06-24T07:15:33.318Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4216
+    "year2026": 4314
   },
   "last30Days": {
-    "plugins": 524,
-    "themes": 78,
+    "plugins": 606,
+    "themes": 77,
     "core": 0,
-    "total": 602
+    "total": 683
   },
   "recentVulns": [
     {
-      "id": "748c4ca8-fcbf-43e5-ab70-721e83253663",
-      "name": "Simple File List <= 6.3.7 - Unauthenticated Arbitrary File Deletion via Path Traversal in 'eeSubFolder' Parameter",
+      "id": "beceb218-34bf-4571-a07b-939abc7ead8e",
+      "name": "WP Meta SEO <= 4.5.18 - Unauthenticated Stored Cross-Site Scripting via REQUEST_URI in 404 Logging",
       "severity": "high",
       "type": "plugin",
-      "software": "Simple File List",
-      "published": "2026-06-19 20:27:13",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "509a40d2-a33a-49ba-b858-fa8805127a1b",
-      "name": "Simple File List <= 6.3.7 - Missing Authorization to Unauthenticated File Modification via simplefilelist_edit_job AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Simple File List",
-      "published": "2026-06-19 20:27:11",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "4169b390-0972-4aa9-ae04-f5f67afe15ef",
-      "name": "Database for Contact Form 7, WPforms, Elementor forms <= 1.5.1 - Unauthenticated Arbitrary File Deletion via CF7 File Field POST Value",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Database for Contact Form 7, WPforms, Elementor forms",
-      "published": "2026-06-19 11:55:33",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "56f13af3-71b6-42d4-9fda-a75778f32091",
-      "name": "Branda – White Label & Branding, Free Login Page Customizer <= 3.4.29 - Unauthenticated Privilege Escalation via Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Branda – White Label & Branding, Free Login Page Customizer",
-      "published": "2026-06-19 11:05:45",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "694b67d2-7d60-4764-a2c0-02698c331772",
-      "name": "BetterDocs Pro <= 3.8.0 - Unauthenticated Local File Inclusion via doc_style",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "BetterDocs Pro",
-      "published": "2026-06-18 17:00:31",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "e4bfb72e-023b-4bfd-b125-91f6ac2f200f",
-      "name": "Avada (Fusion) Builder <= 3.15.3 - Unauthenticated Arbitrary File Deletion via Form Entry Value",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Avada (Fusion) Builder",
-      "published": "2026-06-18 16:14:13",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "caa5b9aa-e98c-48fc-9e63-0a1380465918",
-      "name": "CF7 to Webhook <= 5.0.0 - Unauthenticated Server-Side Request Forgery via CF7 Field Placeholder in Webhook URL Host",
-      "severity": "high",
-      "type": "plugin",
-      "software": "CF7 to Webhook",
-      "published": "2026-06-17 18:15:54",
+      "software": "WP Meta SEO",
+      "published": "2026-06-23 16:46:28",
       "cvssScore": 7.2
     },
     {
-      "id": "a772041e-015e-48e8-9fab-79f1fcdb265c",
-      "name": "Offload, AI & Optimize with Cloudflare Images <= 1.10.2 - Authenticated (Author+) Remote Code Execution via 'api-key' / 'account-id' Parameters in cf_images_do_setup AJAX Action",
+      "id": "47e53fd3-4e3f-433a-8e70-3a58c864184a",
+      "name": "Welcome Software Publishing <= 0.0.31 - Authenticated (Subscriber+) Arbitrary Options Update to Privilege Escalation via 'nc.setOption' XML-RPC Method",
       "severity": "high",
       "type": "plugin",
-      "software": "Offload, AI & Optimize with Cloudflare Images",
-      "published": "2026-06-17 16:18:12",
+      "software": "Welcome Software Publishing",
+      "published": "2026-06-23 16:42:18",
       "cvssScore": 8.8
     },
     {
-      "id": "ee4c5d34-74cb-443b-9323-90580dbe675e",
-      "name": "E2Pdf <= 1.32.26 - Missing Authorization to Authenticated (Custom+) Arbitrary Option Update / Privilege Escalation via 'screen_action' Parameter",
+      "id": "05de038f-eff4-4b00-930c-3d2335345869",
+      "name": "URL Preview <= 1.0 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "E2Pdf – Export Pdf Tool for WordPress",
-      "published": "2026-06-17 14:55:56",
-      "cvssScore": 8.8
+      "software": "URL Preview",
+      "published": "2026-06-23 16:41:58",
+      "cvssScore": 7.2
     },
     {
-      "id": "69b909da-b1b0-4dab-916c-908511f6556f",
-      "name": "Contest Gallery <= 30.0.2 - Authenticated (Author+) Privilege Escalation via 'RegistryUserRole' Parameter",
+      "id": "79d91300-b6b7-4c3f-89b1-c48b9e47c415",
+      "name": "Kargo Takip <= 1.2 - Unauthenticated Server-Side Request Forgery via 'api_url' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Contest Gallery – Upload & Vote Photos, Media, Sell with PayPal & Stripe",
-      "published": "2026-06-16 20:57:12",
-      "cvssScore": 8.8
+      "software": "Kargo Takip",
+      "published": "2026-06-23 16:41:49",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "f5dfafee-9b6c-4e57-b263-39ff15cd3b51",
+      "name": "WP Forms Connector <= 1.8 - Missing Authorization to Unauthenticated Information Exposure via 'user/list' REST Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Forms Connector",
+      "published": "2026-06-23 16:39:27",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "2cd53590-ded1-4e68-a9a3-aa1d2d880b80",
+      "name": "WP Forms Connector <= 1.8 - Unauthenticated SQL Injection via 'order' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Forms Connector",
+      "published": "2026-06-23 16:39:17",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "cc0fbe84-e455-4e62-9c48-49340d08f81d",
+      "name": "Invoice Generator <= 1.0.0 - Unauthenticated Account Takeover via Weak Password Reset Validation via 'reset_user_id' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Invoice Generator",
+      "published": "2026-06-23 16:37:37",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "c0a617fc-da3d-4828-b027-44093dd11769",
+      "name": "SignUp & SignIn <= 1.0.0 - Unauthenticated Privilege Escalation via Weak Password Reset Validation via 'reset_activation_code' Leading to Account Takeover",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "SignUp & SignIn",
+      "published": "2026-06-23 16:37:27",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "871f6611-3b5e-4e36-992c-726b31e88c95",
+      "name": "ClearSale Total <= 3.4.2 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ClearSale Total",
+      "published": "2026-06-23 16:37:17",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "2d6304e5-7fbf-484d-b147-f2a6c2ee0658",
+      "name": "Cincopa video and media plug-in <= 1.163 - Unauthenticated Stored Cross-Site Scripting via cincopa Shortcode in Post Comments",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Cincopa video and media plug-in",
+      "published": "2026-06-23 16:37:07",
+      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2573,
-    "high": 7102,
-    "medium": 27023,
+    "critical": 2575,
+    "high": 7140,
+    "medium": 27081,
     "low": 155
   }
 }
