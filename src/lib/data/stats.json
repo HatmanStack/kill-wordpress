@@ -1,17 +1,35 @@
 {
-  "generated": "2026-06-24T07:15:33.318Z",
+  "generated": "2026-06-25T07:16:20.141Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4314
+    "year2026": 4319
   },
   "last30Days": {
-    "plugins": 606,
-    "themes": 77,
+    "plugins": 586,
+    "themes": 31,
     "core": 0,
-    "total": 683
+    "total": 617
   },
   "recentVulns": [
+    {
+      "id": "12c29a44-f9e4-439a-bc3f-18a3640f7924",
+      "name": "Tourfic <= 2.22.7 - Unauthenticated SQL Injection via 'post_id' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Tourfic – AI Powered Travel Booking, Hotel Booking & Car Rental WordPress Plugin",
+      "published": "2026-06-24 18:36:44",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "6565e345-3374-43d9-9789-f0d9138dc3e8",
+      "name": "Dokan Pro <= 5.0.4 - Unauthenticated SQL Injection via 'latitude' and 'longitude' Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Dokan Pro",
+      "published": "2026-06-24 15:14:17",
+      "cvssScore": 7.5
+    },
     {
       "id": "beceb218-34bf-4571-a07b-939abc7ead8e",
       "name": "WP Meta SEO <= 4.5.18 - Unauthenticated Stored Cross-Site Scripting via REQUEST_URI in 404 Logging",
@@ -83,30 +101,12 @@
       "software": "SignUp & SignIn",
       "published": "2026-06-23 16:37:27",
       "cvssScore": 9.8
-    },
-    {
-      "id": "871f6611-3b5e-4e36-992c-726b31e88c95",
-      "name": "ClearSale Total <= 3.4.2 - Unauthenticated SQL Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ClearSale Total",
-      "published": "2026-06-23 16:37:17",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "2d6304e5-7fbf-484d-b147-f2a6c2ee0658",
-      "name": "Cincopa video and media plug-in <= 1.163 - Unauthenticated Stored Cross-Site Scripting via cincopa Shortcode in Post Comments",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Cincopa video and media plug-in",
-      "published": "2026-06-23 16:37:07",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2575,
-    "high": 7140,
-    "medium": 27081,
+    "high": 7142,
+    "medium": 27084,
     "low": 155
   }
 }
