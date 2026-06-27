@@ -1,17 +1,26 @@
 {
-  "generated": "2026-06-26T07:21:54.367Z",
+  "generated": "2026-06-27T07:08:48.487Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4350
+    "year2026": 4369
   },
   "last30Days": {
-    "plugins": 528,
+    "plugins": 502,
     "themes": 10,
     "core": 0,
-    "total": 538
+    "total": 512
   },
   "recentVulns": [
+    {
+      "id": "ee045d0d-101a-4ae2-b209-4a4865eec195",
+      "name": "Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Invoice Generator",
+      "published": "2026-06-26 16:05:32",
+      "cvssScore": 9.8
+    },
     {
       "id": "12c29a44-f9e4-439a-bc3f-18a3640f7924",
       "name": "Tourfic <= 2.22.7 - Unauthenticated SQL Injection via 'post_id' Parameter",
@@ -92,21 +101,12 @@
       "software": "Invoice Generator",
       "published": "2026-06-23 16:37:37",
       "cvssScore": 9.8
-    },
-    {
-      "id": "c0a617fc-da3d-4828-b027-44093dd11769",
-      "name": "SignUp & SignIn <= 1.0.0 - Unauthenticated Privilege Escalation via Weak Password Reset Validation via 'reset_activation_code' Leading to Account Takeover",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "SignUp & SignIn",
-      "published": "2026-06-23 16:37:27",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
     "critical": 2579,
     "high": 7153,
-    "medium": 27100,
+    "medium": 27119,
     "low": 155
   }
 }
