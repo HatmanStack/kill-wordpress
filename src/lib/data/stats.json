@@ -1,17 +1,26 @@
 {
-  "generated": "2026-06-27T07:08:48.487Z",
+  "generated": "2026-06-28T07:24:58.392Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4369
+    "year2026": 4370
   },
   "last30Days": {
-    "plugins": 502,
-    "themes": 10,
+    "plugins": 481,
+    "themes": 9,
     "core": 0,
-    "total": 512
+    "total": 490
   },
   "recentVulns": [
+    {
+      "id": "506006ce-7b1c-4f9d-93f3-abc87abea2bb",
+      "name": "Frontend File Manager Plugin <= 23.6 - Authenticated (Subscriber+) Arbitrary File Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Frontend File Manager Plugin",
+      "published": "2026-06-27 11:08:06",
+      "cvssScore": 8.1
+    },
     {
       "id": "ee045d0d-101a-4ae2-b209-4a4865eec195",
       "name": "Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
@@ -92,20 +101,11 @@
       "software": "WP Forms Connector",
       "published": "2026-06-23 16:39:17",
       "cvssScore": 7.5
-    },
-    {
-      "id": "cc0fbe84-e455-4e62-9c48-49340d08f81d",
-      "name": "Invoice Generator <= 1.0.0 - Unauthenticated Account Takeover via Weak Password Reset Validation via 'reset_user_id' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Invoice Generator",
-      "published": "2026-06-23 16:37:37",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
     "critical": 2579,
-    "high": 7153,
+    "high": 7154,
     "medium": 27119,
     "low": 155
   }
