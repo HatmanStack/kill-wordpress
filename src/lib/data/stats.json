@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-28T07:24:58.392Z",
+  "generated": "2026-06-29T07:48:26.730Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
     "year2026": 4370
   },
   "last30Days": {
-    "plugins": 481,
+    "plugins": 472,
     "themes": 9,
     "core": 0,
-    "total": 490
+    "total": 481
   },
   "recentVulns": [
     {
