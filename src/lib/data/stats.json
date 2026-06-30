@@ -1,17 +1,62 @@
 {
-  "generated": "2026-06-29T07:48:26.730Z",
+  "generated": "2026-06-30T07:22:16.070Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4370
+    "year2026": 4471
   },
   "last30Days": {
-    "plugins": 472,
-    "themes": 9,
+    "plugins": 565,
+    "themes": 16,
     "core": 0,
-    "total": 481
+    "total": 581
   },
   "recentVulns": [
+    {
+      "id": "5a4e144a-3c84-4da3-8fa6-e5fe9c897efe",
+      "name": "Webmention <= 5.8.0 - Unauthenticated Stored Cross-Site Scripting via MF2 'photo'/'url' Author Properties",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Webmention",
+      "published": "2026-06-30 06:04:21",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "6e8d9f73-8460-4bcb-a9f8-08eb058bcc09",
+      "name": "Ajax Load More - Filters <= 3.4.1 - Unauthenticated Stored Cross-Site Scripting via 'taxonomy_include_children' Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Ajax Load More - Filters",
+      "published": "2026-06-29 21:07:50",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "1b5a0c87-59b0-4da4-8949-0957f8e1b479",
+      "name": "EventON - WordPress Virtual Event Calendar Plugin <= 5.0.11 - Unauthenticated Blind SQL Injection via Search Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "EventON (Pro) - WordPress Virtual Event Calendar Plugin",
+      "published": "2026-06-29 20:41:25",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "39f12ff1-63ee-4131-a708-49633f22ccd4",
+      "name": "Export User Data <= 2.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary File Deletion via display_name Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Export User Data",
+      "published": "2026-06-29 18:15:59",
+      "cvssScore": 8
+    },
+    {
+      "id": "2d35279d-299e-4ca2-8f84-165284e058c8",
+      "name": "ProfileGrid - User Profiles, Groups and Communities <= 5.9.9.5 - Unauthenticated Privilege Escalation via Email Overwrite",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "ProfileGrid – User Profiles, Groups and Communities",
+      "published": "2026-06-29 16:51:48",
+      "cvssScore": 9.8
+    },
     {
       "id": "506006ce-7b1c-4f9d-93f3-abc87abea2bb",
       "name": "Frontend File Manager Plugin <= 23.6 - Authenticated (Subscriber+) Arbitrary File Deletion",
@@ -31,82 +76,37 @@
       "cvssScore": 9.8
     },
     {
-      "id": "12c29a44-f9e4-439a-bc3f-18a3640f7924",
-      "name": "Tourfic <= 2.22.7 - Unauthenticated SQL Injection via 'post_id' Parameter",
+      "id": "12817b77-17d0-418c-a9a1-87d0057da90e",
+      "name": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin <= 1.6.12.2 - Unauthenticated Stored Cross-Site Scripting",
       "severity": "high",
       "type": "plugin",
-      "software": "Tourfic – AI Powered Travel Booking, Hotel Booking & Car Rental WordPress Plugin",
-      "published": "2026-06-24 18:36:44",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "6565e345-3374-43d9-9789-f0d9138dc3e8",
-      "name": "Dokan Pro <= 5.0.4 - Unauthenticated SQL Injection via 'latitude' and 'longitude' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Dokan Pro",
-      "published": "2026-06-24 15:14:17",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "beceb218-34bf-4571-a07b-939abc7ead8e",
-      "name": "WP Meta SEO <= 4.5.18 - Unauthenticated Stored Cross-Site Scripting via REQUEST_URI in 404 Logging",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Meta SEO",
-      "published": "2026-06-23 16:46:28",
+      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
+      "published": "2026-06-26 00:00:00",
       "cvssScore": 7.2
     },
     {
-      "id": "47e53fd3-4e3f-433a-8e70-3a58c864184a",
-      "name": "Welcome Software Publishing <= 0.0.31 - Authenticated (Subscriber+) Arbitrary Options Update to Privilege Escalation via 'nc.setOption' XML-RPC Method",
+      "id": "6d4394fd-7063-4792-83a7-5c419fac5652",
+      "name": "Panorama – 360 degree Virtual Tour, Panoramic Image viewer and More <= 1.6.1 - Authenticated (Contributor+) Local File Inclusion",
       "severity": "high",
       "type": "plugin",
-      "software": "Welcome Software Publishing",
-      "published": "2026-06-23 16:42:18",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "05de038f-eff4-4b00-930c-3d2335345869",
-      "name": "URL Preview <= 1.0 - Unauthenticated Server-Side Request Forgery via 'url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "URL Preview",
-      "published": "2026-06-23 16:41:58",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "79d91300-b6b7-4c3f-89b1-c48b9e47c415",
-      "name": "Kargo Takip <= 1.2 - Unauthenticated Server-Side Request Forgery via 'api_url' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Kargo Takip",
-      "published": "2026-06-23 16:41:49",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "f5dfafee-9b6c-4e57-b263-39ff15cd3b51",
-      "name": "WP Forms Connector <= 1.8 - Missing Authorization to Unauthenticated Information Exposure via 'user/list' REST Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Forms Connector",
-      "published": "2026-06-23 16:39:27",
+      "software": "Panorama – 360 degree Virtual Tour, Panoramic Image viewer and More",
+      "published": "2026-06-26 00:00:00",
       "cvssScore": 7.5
     },
     {
-      "id": "2cd53590-ded1-4e68-a9a3-aa1d2d880b80",
-      "name": "WP Forms Connector <= 1.8 - Unauthenticated SQL Injection via 'order' Parameter",
+      "id": "d2de0442-2a2b-402c-abb9-5f49e172d0c3",
+      "name": "Splash - Sport Club WordPress Theme for Basketball, Football, Hockey <= 4.4.3 - Authenticated (Contributor+) Local File Inclusion",
       "severity": "high",
-      "type": "plugin",
-      "software": "WP Forms Connector",
-      "published": "2026-06-23 16:39:17",
+      "type": "theme",
+      "software": "splash",
+      "published": "2026-06-26 00:00:00",
       "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2579,
-    "high": 7154,
-    "medium": 27119,
+    "critical": 2582,
+    "high": 7178,
+    "medium": 27193,
     "low": 155
   }
 }
