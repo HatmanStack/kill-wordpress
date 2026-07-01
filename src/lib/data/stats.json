@@ -1,112 +1,112 @@
 {
-  "generated": "2026-06-30T07:22:16.070Z",
+  "generated": "2026-07-01T07:34:18.019Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4471
+    "year2026": 4507
   },
   "last30Days": {
-    "plugins": 565,
-    "themes": 16,
+    "plugins": 581,
+    "themes": 15,
     "core": 0,
-    "total": 581
+    "total": 596
   },
   "recentVulns": [
     {
-      "id": "5a4e144a-3c84-4da3-8fa6-e5fe9c897efe",
-      "name": "Webmention <= 5.8.0 - Unauthenticated Stored Cross-Site Scripting via MF2 'photo'/'url' Author Properties",
+      "id": "8f9db3b8-dd37-4d8b-b041-50b453858a39",
+      "name": "LatePoint <= 5.6.3 - Authenticated (Custom+) Privilege Escalation to Administrator via 'order[customer_id]' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Webmention",
-      "published": "2026-06-30 06:04:21",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-06-30 21:30:37",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "da235dea-4884-4e6a-a8b8-65d34f050684",
+      "name": "NEX-Forms <= 9.2.2 - Unauthenticated Stored Cross-Site Scripting via '_name[]' Array Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
+      "published": "2026-06-30 21:14:53",
       "cvssScore": 7.2
     },
     {
-      "id": "6e8d9f73-8460-4bcb-a9f8-08eb058bcc09",
-      "name": "Ajax Load More - Filters <= 3.4.1 - Unauthenticated Stored Cross-Site Scripting via 'taxonomy_include_children' Field",
+      "id": "ef7aff85-e1ca-47ce-86e9-a0fe356993a1",
+      "name": "RegistrationMagic <= 6.0.9.1 - Cross-Site Request Forgery to Privilege Escalation via 'rmc_assign_user_role_action' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Ajax Load More - Filters",
-      "published": "2026-06-29 21:07:50",
-      "cvssScore": 7.2
+      "software": "RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login",
+      "published": "2026-06-30 19:50:25",
+      "cvssScore": 8.8
     },
     {
-      "id": "1b5a0c87-59b0-4da4-8949-0957f8e1b479",
-      "name": "EventON - WordPress Virtual Event Calendar Plugin <= 5.0.11 - Unauthenticated Blind SQL Injection via Search Parameter",
+      "id": "c31906da-f2fd-40ac-86e0-3f1ed0409d0c",
+      "name": "SMS Alert <= 3.9.5 - Unauthenticated Privilege Escalation via Arbitrary Password Reset",
       "severity": "critical",
       "type": "plugin",
-      "software": "EventON (Pro) - WordPress Virtual Event Calendar Plugin",
-      "published": "2026-06-29 20:41:25",
+      "software": "SMS Alert – SMS & OTP for WooCommerce, Order Notifications & Abandoned Cart Recovery",
+      "published": "2026-06-30 19:08:22",
       "cvssScore": 9.8
     },
     {
-      "id": "39f12ff1-63ee-4131-a708-49633f22ccd4",
-      "name": "Export User Data <= 2.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary File Deletion via display_name Field",
+      "id": "6ff9c202-b3e8-4660-8763-a9fee468203e",
+      "name": "Dokan Pro <= 5.0.4 - Authenticated (Vendor+) Privilege Escalation via update_capabilities REST Endpoint",
       "severity": "high",
       "type": "plugin",
-      "software": "Export User Data",
-      "published": "2026-06-29 18:15:59",
-      "cvssScore": 8
+      "software": "Dokan Pro",
+      "published": "2026-06-30 17:43:24",
+      "cvssScore": 8.8
     },
     {
-      "id": "2d35279d-299e-4ca2-8f84-165284e058c8",
-      "name": "ProfileGrid - User Profiles, Groups and Communities <= 5.9.9.5 - Unauthenticated Privilege Escalation via Email Overwrite",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "ProfileGrid – User Profiles, Groups and Communities",
-      "published": "2026-06-29 16:51:48",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "506006ce-7b1c-4f9d-93f3-abc87abea2bb",
-      "name": "Frontend File Manager Plugin <= 23.6 - Authenticated (Subscriber+) Arbitrary File Deletion",
+      "id": "973ebafc-85c0-4cc5-b307-2fdb0a4a7577",
+      "name": "Ninja Forms <= 3.14.1 - Missing Authorization to Unauthenticated Sensitive Information Disclosure via token/refresh REST Endpoint",
       "severity": "high",
       "type": "plugin",
-      "software": "Frontend File Manager Plugin",
-      "published": "2026-06-27 11:08:06",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "ee045d0d-101a-4ae2-b209-4a4865eec195",
-      "name": "Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Invoice Generator",
-      "published": "2026-06-26 16:05:32",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "12817b77-17d0-418c-a9a1-87d0057da90e",
-      "name": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin <= 1.6.12.2 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Appointment Booking Calendar — Simply Schedule Appointments Booking Plugin",
-      "published": "2026-06-26 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "6d4394fd-7063-4792-83a7-5c419fac5652",
-      "name": "Panorama – 360 degree Virtual Tour, Panoramic Image viewer and More <= 1.6.1 - Authenticated (Contributor+) Local File Inclusion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Panorama – 360 degree Virtual Tour, Panoramic Image viewer and More",
-      "published": "2026-06-26 00:00:00",
+      "software": "Ninja Forms – The Contact Form Builder That Grows With You",
+      "published": "2026-06-30 17:19:54",
       "cvssScore": 7.5
     },
     {
-      "id": "d2de0442-2a2b-402c-abb9-5f49e172d0c3",
-      "name": "Splash - Sport Club WordPress Theme for Basketball, Football, Hockey <= 4.4.3 - Authenticated (Contributor+) Local File Inclusion",
+      "id": "1663be8e-a6b8-4e0d-97d0-af7db2a2875c",
+      "name": "BookingPress Appointment Booking Pro <= 5.7.1 - Unauthenticated SQL Injection via 'store_service_date' Parameter",
       "severity": "high",
-      "type": "theme",
-      "software": "splash",
-      "published": "2026-06-26 00:00:00",
+      "type": "plugin",
+      "software": "BookingPress Appointment Booking Pro",
+      "published": "2026-06-30 17:17:57",
       "cvssScore": 7.5
+    },
+    {
+      "id": "d7d68f43-2a57-4352-8aae-0657b386ac7c",
+      "name": "WP-BusinessDirectory <= 4.0.1 - Unauthenticated Arbitrary File Deletion via Path Traversal via '_filename' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WP-BusinessDirectory – Business directory plugin for WordPress",
+      "published": "2026-06-30 16:18:52",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "1defa728-9f9d-4e8f-8f6c-432c615da7f5",
+      "name": "Custom Payment Gateways for WooCommerce <= 2.1.0 - Unauthenticated Stored Cross-Site Scripting via 'alg_wc_cpg_input_fields' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Custom Payment Gateways for WooCommerce",
+      "published": "2026-06-30 15:45:01",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "124f2b72-d8da-46ba-844f-e9cc01441702",
+      "name": "WPBot <= 8.4.9 - Unauthenticated Stored Cross-Site Scripting via 'conversation' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPBot – AI ChatBot for Live Support, Lead Generation, AI Services",
+      "published": "2026-06-30 15:06:02",
+      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2582,
-    "high": 7178,
-    "medium": 27193,
+    "critical": 2584,
+    "high": 7188,
+    "medium": 27217,
     "low": 155
   }
 }
