@@ -1,17 +1,62 @@
 {
-  "generated": "2026-07-02T07:11:20.614Z",
+  "generated": "2026-07-03T07:08:46.275Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4533
+    "year2026": 4601
   },
   "last30Days": {
-    "plugins": 564,
-    "themes": 15,
+    "plugins": 611,
+    "themes": 22,
     "core": 0,
-    "total": 579
+    "total": 633
   },
   "recentVulns": [
+    {
+      "id": "f509f1c6-6094-434d-8e70-ad8419250aa2",
+      "name": "Comments <= 7.6.56 - Unauthenticated Stored Cross-Site Scripting via 'Website' Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Comments – wpDiscuz",
+      "published": "2026-07-02 17:39:38",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "5bb962bd-9b23-4820-885e-d8095250c3c7",
+      "name": "Printcart Web to Print Product Designer for WooCommerce <= 2.5.2 - Unauthenticated Arbitrary File Deletion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Printcart Web to Print Product Designer for WooCommerce",
+      "published": "2026-07-02 15:52:30",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "2049712a-6ff2-4e2a-98f8-93a493a5bfd3",
+      "name": "AR for WooCommerce <= 8.40 - Unauthenticated Path Traversal to Arbitrary File Read via 'file' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AR for WooCommerce",
+      "published": "2026-07-02 15:48:04",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "49dc267a-48cf-487f-bedc-fd892666e9a0",
+      "name": "NEX-Forms <= 9.2.2 - Unauthenticated Stored Cross-Site Scripting via 'real_val__' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
+      "published": "2026-07-02 15:30:17",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "cfa375a8-ab07-45da-bc77-1e7edc996e05",
+      "name": "AR for WordPress <= 8.40 - Unauthenticated Arbitrary File Read via 'file' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AR for WordPress",
+      "published": "2026-07-02 12:02:11",
+      "cvssScore": 7.5
+    },
     {
       "id": "eb8a673e-a192-41d4-b53b-7d786887242d",
       "name": "TinyPNG <= 3.6.13 - Authenticated (Author+) Arbitrary File Deletion via 'convert.path' in 'tiny_compress_images' Post Meta",
@@ -56,57 +101,12 @@
       "software": "Image Optimizer – Optimize Images and Convert to WebP or AVIF",
       "published": "2026-07-01 17:26:17",
       "cvssScore": 8.1
-    },
-    {
-      "id": "5a349c4f-d2e7-47af-9013-3cfa496b3b8c",
-      "name": "Request a Quote Form Plugin <= 2.5.5 - Unauthenticated Code Injection via 'path' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Request a Quote – Quote Forms for Any WordPress Site",
-      "published": "2026-07-01 16:53:09",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "2df449b4-3f3b-4afc-b391-8d8d11710c07",
-      "name": "Blocksy Companion <= 2.1.46 - Unauthenticated Arbitrary File Upload via 'blc-review-images[]' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Blocksy Companion",
-      "published": "2026-07-01 13:28:35",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "0a97a217-b00b-4268-a472-8d62ae1d18e3",
-      "name": "WP Database Backup <= 7.11 - Authenticated (Administrator+) OS Command Injection via 'wp_db_exclude_table' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Database Backup – Unlimited Database & Files Backup by Backup for WP",
-      "published": "2026-07-01 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "9692deb2-2526-4983-8a13-93a382e230c8",
-      "name": "Divi Form Builder <= 5.1.8 - Unauthenticated Arbitrary File Upload Leading to Remote Code Execution via 'acceptFileTypes' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Divi Form Builder",
-      "published": "2026-07-01 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "8f9db3b8-dd37-4d8b-b041-50b453858a39",
-      "name": "LatePoint <= 5.6.3 - Authenticated (Custom+) Privilege Escalation to Administrator via 'order[customer_id]' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-06-30 21:30:37",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2586,
-    "high": 7195,
-    "medium": 27234,
-    "low": 155
+    "critical": 2589,
+    "high": 7212,
+    "medium": 27281,
+    "low": 156
   }
 }
