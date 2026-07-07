@@ -1,17 +1,35 @@
 {
-  "generated": "2026-07-06T07:37:02.622Z",
+  "generated": "2026-07-07T07:14:39.619Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4601
+    "year2026": 4604
   },
   "last30Days": {
-    "plugins": 531,
+    "plugins": 533,
     "themes": 21,
     "core": 0,
-    "total": 552
+    "total": 554
   },
   "recentVulns": [
+    {
+      "id": "5d84d749-0ab5-49dd-8e4f-45681f197742",
+      "name": "WPFunnels <= 3.12.7 - Unauthenticated Remote Code Execution via 'postData' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WPFunnels – Funnel Builder for WooCommerce with Checkout & One Click Upsell",
+      "published": "2026-07-06 16:35:34",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "b594d0e9-d805-48b9-bfd4-4cc77dd3a70e",
+      "name": "AMP for WP <= 1.1.12 - Authenticated (Author+) Arbitrary File Write via Role-Based Access Configuration with Local Font Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AMP for WP – Accelerated Mobile Pages",
+      "published": "2026-07-06 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "f509f1c6-6094-434d-8e70-ad8419250aa2",
       "name": "Comments <= 7.6.56 - Unauthenticated Stored Cross-Site Scripting via 'Website' Field",
@@ -83,30 +101,12 @@
       "software": "WP Review Slider Pro",
       "published": "2026-07-01 21:02:44",
       "cvssScore": 7.5
-    },
-    {
-      "id": "87d4dd4a-b1e2-4d08-aef1-77e58aa7531d",
-      "name": "Ninja Forms - File Uploads <= 3.3.29 - Unauthenticated Arbitrary File Read via File Upload Field 'files[].data.file_path' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Ninja Forms - File Uploads",
-      "published": "2026-07-01 20:41:55",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "a1a00374-e9d6-46f9-a28c-cb7768505787",
-      "name": "Image Optimizer <= 1.7.4 - Authenticated (Author+) Arbitrary File Deletion via Post Meta Field Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Image Optimizer – Optimize Images and Convert to WebP or AVIF",
-      "published": "2026-07-01 17:26:17",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2589,
-    "high": 7212,
-    "medium": 27281,
+    "critical": 2590,
+    "high": 7213,
+    "medium": 27282,
     "low": 156
   }
 }
