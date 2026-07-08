@@ -1,112 +1,112 @@
 {
-  "generated": "2026-07-07T07:14:39.619Z",
+  "generated": "2026-07-08T06:53:03.313Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4604
+    "year2026": 4730
   },
   "last30Days": {
-    "plugins": 533,
-    "themes": 21,
+    "plugins": 616,
+    "themes": 43,
     "core": 0,
-    "total": 554
+    "total": 659
   },
   "recentVulns": [
     {
-      "id": "5d84d749-0ab5-49dd-8e4f-45681f197742",
-      "name": "WPFunnels <= 3.12.7 - Unauthenticated Remote Code Execution via 'postData' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "WPFunnels – Funnel Builder for WooCommerce with Checkout & One Click Upsell",
-      "published": "2026-07-06 16:35:34",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "b594d0e9-d805-48b9-bfd4-4cc77dd3a70e",
-      "name": "AMP for WP <= 1.1.12 - Authenticated (Author+) Arbitrary File Write via Role-Based Access Configuration with Local Font Upload",
+      "id": "e2b4586a-f87d-4a51-8f4e-932d7254518e",
+      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.8 - Unauthenticated Stored Cross-Site Scripting via Booking Form Email Field",
       "severity": "high",
       "type": "plugin",
-      "software": "AMP for WP – Accelerated Mobile Pages",
-      "published": "2026-07-06 00:00:00",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "f509f1c6-6094-434d-8e70-ad8419250aa2",
-      "name": "Comments <= 7.6.56 - Unauthenticated Stored Cross-Site Scripting via 'Website' Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Comments – wpDiscuz",
-      "published": "2026-07-02 17:39:38",
+      "software": "VikBooking Hotel Booking Engine & PMS",
+      "published": "2026-07-07 23:40:43",
       "cvssScore": 7.2
     },
     {
-      "id": "5bb962bd-9b23-4820-885e-d8095250c3c7",
-      "name": "Printcart Web to Print Product Designer for WooCommerce <= 2.5.2 - Unauthenticated Arbitrary File Deletion",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Printcart Web to Print Product Designer for WooCommerce",
-      "published": "2026-07-02 15:52:30",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "2049712a-6ff2-4e2a-98f8-93a493a5bfd3",
-      "name": "AR for WooCommerce <= 8.40 - Unauthenticated Path Traversal to Arbitrary File Read via 'file' Parameter",
+      "id": "1b1338c4-36a8-47b0-b3cf-c5dc690f8c1c",
+      "name": "LatePoint - Calendar Booking Plugin for Appointments and Events <= 5.4.0 - Unauthenticated Stripe PaymentIntent Amount-Binding Bypass",
       "severity": "high",
       "type": "plugin",
-      "software": "AR for WooCommerce",
-      "published": "2026-07-02 15:48:04",
+      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
+      "published": "2026-07-07 23:37:02",
       "cvssScore": 7.5
     },
     {
-      "id": "49dc267a-48cf-487f-bedc-fd892666e9a0",
-      "name": "NEX-Forms <= 9.2.2 - Unauthenticated Stored Cross-Site Scripting via 'real_val__' Parameter",
+      "id": "8a934ccd-9330-4585-9994-838940d24980",
+      "name": "WCFM - WooCommerce Multivendor Membership <= 2.11.10 - Insecure Direct Object Reference to Limited Privilege Escalation via User Role Overwrite",
       "severity": "high",
       "type": "plugin",
-      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
-      "published": "2026-07-02 15:30:17",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "cfa375a8-ab07-45da-bc77-1e7edc996e05",
-      "name": "AR for WordPress <= 8.40 - Unauthenticated Arbitrary File Read via 'file' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "AR for WordPress",
-      "published": "2026-07-02 12:02:11",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "eb8a673e-a192-41d4-b53b-7d786887242d",
-      "name": "TinyPNG <= 3.6.13 - Authenticated (Author+) Arbitrary File Deletion via 'convert.path' in 'tiny_compress_images' Post Meta",
-      "severity": "high",
-      "type": "plugin",
-      "software": "TinyPNG – JPEG, PNG & WebP image compression",
-      "published": "2026-07-02 05:38:14",
+      "software": "WCFM Membership – WooCommerce Memberships for Multivendor Marketplace",
+      "published": "2026-07-07 23:34:27",
       "cvssScore": 8.1
     },
     {
-      "id": "2c0082ff-2a33-44e9-b0d0-8b9a404ab648",
-      "name": "Perfmatters <= 2.6.4 - Unauthenticated Arbitrary File Read via 's' Parameter",
+      "id": "aa1ed81c-04cb-4ccd-8c30-b1d943730909",
+      "name": "My Calendar <= 3.7.8 - Unauthenticated SQL Injection via 'mc_auth' and 'mc_host' Parameters",
       "severity": "high",
       "type": "plugin",
-      "software": "Perfmatters",
-      "published": "2026-07-01 21:08:17",
+      "software": "My Calendar – Accessible Event Manager",
+      "published": "2026-07-07 23:19:29",
       "cvssScore": 7.5
     },
     {
-      "id": "396ba24f-e0f7-4374-a9ce-d9abddb87b39",
-      "name": "WP Review Slider Pro <= 12.7.2 - Unauthenticated SQL Injection via 'notinstring' Parameter",
+      "id": "241d9cd3-9331-49b2-8083-dc646070488e",
+      "name": "Tainacan <= 1.0.3 - Unauthenticated SQL Injection via 'geoquery' REST API Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "WP Review Slider Pro",
-      "published": "2026-07-01 21:02:44",
+      "software": "Tainacan",
+      "published": "2026-07-07 23:15:47",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "13a96e78-c83c-4ff1-a751-3dbaeb683d9d",
+      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.8 - Unauthenticated Stored Cross-Site Scripting via 'special_requests' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "VikBooking Hotel Booking Engine & PMS",
+      "published": "2026-07-07 23:14:46",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "16bce371-b524-48eb-8537-3f9df802abd3",
+      "name": "DoLogin Security <= 4.3 - Unauthenticated Authentication Bypass via Insufficient Randomness via 'dologin' Parameter Weak PRNG Token",
+      "severity": "high",
+      "type": "plugin",
+      "software": "DoLogin Security",
+      "published": "2026-07-07 16:39:40",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "c4fe6dcc-93c8-4956-85ae-a1125bc84509",
+      "name": "WHMCS Bridge <= 6.9 - Unauthenticated Arbitrary File Upload via 'ccce' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WHMCS Bridge",
+      "published": "2026-07-07 16:36:34",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "8cbf5121-2511-4e21-a346-67fa1e34fc02",
+      "name": "WP Learn Manager <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation and Activation via jslearnmanager_ajax AJAX Action",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WP Learn Manager",
+      "published": "2026-07-07 16:31:46",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "5e3b0a3a-ce4b-40fd-9519-a81e315cee42",
+      "name": "Eventer <= 4.4.2 - Unauthenticated SQL Injection via 'code' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Eventer",
+      "published": "2026-07-07 16:30:56",
       "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2590,
-    "high": 7213,
-    "medium": 27282,
+    "critical": 2593,
+    "high": 7263,
+    "medium": 27355,
     "low": 156
   }
 }
