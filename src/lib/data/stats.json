@@ -1,17 +1,98 @@
 {
-  "generated": "2026-07-08T06:53:03.313Z",
+  "generated": "2026-07-09T07:14:45.901Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4730
+    "year2026": 4783
   },
   "last30Days": {
-    "plugins": 616,
-    "themes": 43,
+    "plugins": 633,
+    "themes": 47,
     "core": 0,
-    "total": 659
+    "total": 680
   },
   "recentVulns": [
+    {
+      "id": "b6cf6390-480f-44e2-ae36-67e3398add33",
+      "name": "UsersWP <= 1.2.65 - Authenticated (Subscriber+) Arbitrary File Deletion via File Upload Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "UsersWP – Front-end login form, User Registration, User Profile & Members Directory plugin for WP",
+      "published": "2026-07-09 06:04:53",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "943668eb-0185-4029-9459-f99141bf84cf",
+      "name": "Bit Form <= 3.1.1 - Authenticated (Subscriber+) Arbitrary File Deletion via '_old' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Bit Form – Contact Form, Payment Forms, Multi Step Forms, Calculator & Custom Form Builder",
+      "published": "2026-07-08 21:29:05",
+      "cvssScore": 7.1
+    },
+    {
+      "id": "8be98cba-b891-42cf-8a6c-8fe05f27c9c3",
+      "name": "Divi Torque Lite <= 4.2.3 - Cross-Site Request Forgery to Arbitrary Plugin Installation via 'install_plugin' REST Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Divi Torque Lite – Divi Modules for the Divi Builder & Theme",
+      "published": "2026-07-08 20:45:30",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "e05d4320-01d0-40c4-9a9a-457171ef7f5c",
+      "name": "Popup Maker – Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder <= 1.22.0 - Missing Authorization to Authenticated (Editor+) Arbitrary Plugin Installation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Popup Maker – Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder",
+      "published": "2026-07-08 19:34:40",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "d34f4e77-f384-4d84-be32-0d349962b614",
+      "name": "miniOrange OTP Login, Verification and SMS Notifications <= 5.5.1 - Authentication Bypass to Administrator Account Takeover via 'username_b' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "miniOrange OTP Login, Verification and SMS Notifications",
+      "published": "2026-07-08 19:20:36",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "be2579e3-8e40-4603-9ec1-38f43dc1aa29",
+      "name": "Connect Contact Form 7 and Mailchimp <= 0.9.78.06 - Unauthenticated Stored Cross-Site Scripting via Mailchimp Merge Field Values",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Connect Contact Form 7 and Mailchimp",
+      "published": "2026-07-08 18:10:09",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "2abd400b-c633-4b38-ad3e-c9ce602ff07f",
+      "name": "EventPrime <= 4.3.4.2 - Unauthenticated Stored Cross-Site Scripting via 'new_event_type_background_color' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "EventPrime – Events Calendar, Bookings and Tickets",
+      "published": "2026-07-08 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "2bf0832c-13ed-4e53-9847-d5d2110eb3f8",
+      "name": "WP Cost Estimation & Payment Forms Builder (E&P Forms) <= 10.5.97 - Unauthenticated Stored Cross-Site Scripting via 'customerInfos' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Cost Estimation & Payment Forms Builder",
+      "published": "2026-07-08 00:00:00",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "cb158acc-69d7-4a7d-b356-7de1f6b37019",
+      "name": "Divi Form Builder <= 5.1.8 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via User Profile Update Form",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Divi Form Builder",
+      "published": "2026-07-08 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "e2b4586a-f87d-4a51-8f4e-932d7254518e",
       "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.8 - Unauthenticated Stored Cross-Site Scripting via Booking Form Email Field",
@@ -20,93 +101,12 @@
       "software": "VikBooking Hotel Booking Engine & PMS",
       "published": "2026-07-07 23:40:43",
       "cvssScore": 7.2
-    },
-    {
-      "id": "1b1338c4-36a8-47b0-b3cf-c5dc690f8c1c",
-      "name": "LatePoint - Calendar Booking Plugin for Appointments and Events <= 5.4.0 - Unauthenticated Stripe PaymentIntent Amount-Binding Bypass",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LatePoint – Calendar Booking Plugin for Appointments and Events",
-      "published": "2026-07-07 23:37:02",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "8a934ccd-9330-4585-9994-838940d24980",
-      "name": "WCFM - WooCommerce Multivendor Membership <= 2.11.10 - Insecure Direct Object Reference to Limited Privilege Escalation via User Role Overwrite",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WCFM Membership – WooCommerce Memberships for Multivendor Marketplace",
-      "published": "2026-07-07 23:34:27",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "aa1ed81c-04cb-4ccd-8c30-b1d943730909",
-      "name": "My Calendar <= 3.7.8 - Unauthenticated SQL Injection via 'mc_auth' and 'mc_host' Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "My Calendar – Accessible Event Manager",
-      "published": "2026-07-07 23:19:29",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "241d9cd3-9331-49b2-8083-dc646070488e",
-      "name": "Tainacan <= 1.0.3 - Unauthenticated SQL Injection via 'geoquery' REST API Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Tainacan",
-      "published": "2026-07-07 23:15:47",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "13a96e78-c83c-4ff1-a751-3dbaeb683d9d",
-      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.8 - Unauthenticated Stored Cross-Site Scripting via 'special_requests' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "VikBooking Hotel Booking Engine & PMS",
-      "published": "2026-07-07 23:14:46",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "16bce371-b524-48eb-8537-3f9df802abd3",
-      "name": "DoLogin Security <= 4.3 - Unauthenticated Authentication Bypass via Insufficient Randomness via 'dologin' Parameter Weak PRNG Token",
-      "severity": "high",
-      "type": "plugin",
-      "software": "DoLogin Security",
-      "published": "2026-07-07 16:39:40",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "c4fe6dcc-93c8-4956-85ae-a1125bc84509",
-      "name": "WHMCS Bridge <= 6.9 - Unauthenticated Arbitrary File Upload via 'ccce' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WHMCS Bridge",
-      "published": "2026-07-07 16:36:34",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "8cbf5121-2511-4e21-a346-67fa1e34fc02",
-      "name": "WP Learn Manager <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation and Activation via jslearnmanager_ajax AJAX Action",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "WP Learn Manager",
-      "published": "2026-07-07 16:31:46",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "5e3b0a3a-ce4b-40fd-9519-a81e315cee42",
-      "name": "Eventer <= 4.4.2 - Unauthenticated SQL Injection via 'code' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Eventer",
-      "published": "2026-07-07 16:30:56",
-      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2593,
-    "high": 7263,
-    "medium": 27355,
+    "critical": 2594,
+    "high": 7281,
+    "medium": 27389,
     "low": 156
   }
 }
