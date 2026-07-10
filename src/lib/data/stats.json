@@ -1,17 +1,89 @@
 {
-  "generated": "2026-07-09T07:14:45.901Z",
+  "generated": "2026-07-10T07:13:47.892Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10826,
-    "year2026": 4783
+    "year2026": 4843
   },
   "last30Days": {
-    "plugins": 633,
-    "themes": 47,
+    "plugins": 670,
+    "themes": 57,
     "core": 0,
-    "total": 680
+    "total": 727
   },
   "recentVulns": [
+    {
+      "id": "aebdd464-10b9-4d43-bf38-f0e8ae25625f",
+      "name": "SEO Plugin by Squirrly SEO <= 14.0.0 - Unauthenticated Arbitrary Post Creation and Stored Cross-Site Scripting via savePost()",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GEO Plugin by Squirrly SEO",
+      "published": "2026-07-10 04:12:19",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "e044c51c-40e0-4d33-8921-616d59e0e0d8",
+      "name": "Hide My WP Lite <= 1.3 - Unauthenticated Path Traversal to Arbitrary File Read via 'he_wrapper_js' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Hide My WP Lite",
+      "published": "2026-07-09 17:59:50",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "301ad19a-f99c-45c8-83a7-d74e1a260556",
+      "name": "Salon Booking System <= 10.30.32 - Cross-Site Request Forgery to Remote Code Execution via 'value' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Salon Booking System – Free Version",
+      "published": "2026-07-09 15:29:46",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "42f94f80-6157-4778-ad69-184943134fd2",
+      "name": "Post Export Import with Media <= 1.13.1 - Authenticated (Administrator+) Arbitrary File Upload via Trailing-Dot Filename Bypass in ZIP Media Import",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Post Export Import with Media",
+      "published": "2026-07-09 15:21:34",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "e9c7fb16-efbb-41e9-be13-98e96c1e9100",
+      "name": "Super Forms <= 6.3.313 - Unauthenticated Arbitrary File Upload via 'data' Parameter (datauristring / value)",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Super Forms – Drag & Drop Form Builder",
+      "published": "2026-07-09 13:41:24",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4f3ee9f6-6465-4caf-9aef-72dd37c61a2c",
+      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email via GitHub OAuth Callback",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LoginPress Pro",
+      "published": "2026-07-09 11:14:15",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "5949980f-2506-49be-9105-40ec2d2a4f77",
+      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email via Discord OAuth Callback",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LoginPress Pro",
+      "published": "2026-07-09 11:14:06",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "bef61f05-a2dc-4f61-a5da-7161a9912196",
+      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email in Spotify OAuth Callback",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LoginPress Pro",
+      "published": "2026-07-09 11:13:50",
+      "cvssScore": 8.1
+    },
     {
       "id": "b6cf6390-480f-44e2-ae36-67e3398add33",
       "name": "UsersWP <= 1.2.65 - Authenticated (Subscriber+) Arbitrary File Deletion via File Upload Field",
@@ -29,84 +101,12 @@
       "software": "Bit Form – Contact Form, Payment Forms, Multi Step Forms, Calculator & Custom Form Builder",
       "published": "2026-07-08 21:29:05",
       "cvssScore": 7.1
-    },
-    {
-      "id": "8be98cba-b891-42cf-8a6c-8fe05f27c9c3",
-      "name": "Divi Torque Lite <= 4.2.3 - Cross-Site Request Forgery to Arbitrary Plugin Installation via 'install_plugin' REST Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Divi Torque Lite – Divi Modules for the Divi Builder & Theme",
-      "published": "2026-07-08 20:45:30",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e05d4320-01d0-40c4-9a9a-457171ef7f5c",
-      "name": "Popup Maker – Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder <= 1.22.0 - Missing Authorization to Authenticated (Editor+) Arbitrary Plugin Installation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Popup Maker – Boost Sales, Conversions, Optins, Subscribers with the Ultimate WP Popup Builder",
-      "published": "2026-07-08 19:34:40",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "d34f4e77-f384-4d84-be32-0d349962b614",
-      "name": "miniOrange OTP Login, Verification and SMS Notifications <= 5.5.1 - Authentication Bypass to Administrator Account Takeover via 'username_b' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "miniOrange OTP Login, Verification and SMS Notifications",
-      "published": "2026-07-08 19:20:36",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "be2579e3-8e40-4603-9ec1-38f43dc1aa29",
-      "name": "Connect Contact Form 7 and Mailchimp <= 0.9.78.06 - Unauthenticated Stored Cross-Site Scripting via Mailchimp Merge Field Values",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Connect Contact Form 7 and Mailchimp",
-      "published": "2026-07-08 18:10:09",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "2abd400b-c633-4b38-ad3e-c9ce602ff07f",
-      "name": "EventPrime <= 4.3.4.2 - Unauthenticated Stored Cross-Site Scripting via 'new_event_type_background_color' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "EventPrime – Events Calendar, Bookings and Tickets",
-      "published": "2026-07-08 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "2bf0832c-13ed-4e53-9847-d5d2110eb3f8",
-      "name": "WP Cost Estimation & Payment Forms Builder (E&P Forms) <= 10.5.97 - Unauthenticated Stored Cross-Site Scripting via 'customerInfos' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Cost Estimation & Payment Forms Builder",
-      "published": "2026-07-08 00:00:00",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "cb158acc-69d7-4a7d-b356-7de1f6b37019",
-      "name": "Divi Form Builder <= 5.1.8 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via User Profile Update Form",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Divi Form Builder",
-      "published": "2026-07-08 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e2b4586a-f87d-4a51-8f4e-932d7254518e",
-      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.8 - Unauthenticated Stored Cross-Site Scripting via Booking Form Email Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "VikBooking Hotel Booking Engine & PMS",
-      "published": "2026-07-07 23:40:43",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2594,
-    "high": 7281,
-    "medium": 27389,
+    "critical": 2597,
+    "high": 7302,
+    "medium": 27425,
     "low": 156
   }
 }
