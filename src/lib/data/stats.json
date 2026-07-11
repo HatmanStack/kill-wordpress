@@ -1,112 +1,112 @@
 {
-  "generated": "2026-07-10T07:13:47.892Z",
+  "generated": "2026-07-11T06:48:16.669Z",
   "totals": {
     "year2024": 8317,
-    "year2025": 10826,
-    "year2026": 4843
+    "year2025": 10831,
+    "year2026": 4912
   },
   "last30Days": {
-    "plugins": 670,
-    "themes": 57,
+    "plugins": 714,
+    "themes": 59,
     "core": 0,
-    "total": 727
+    "total": 773
   },
   "recentVulns": [
     {
-      "id": "aebdd464-10b9-4d43-bf38-f0e8ae25625f",
-      "name": "SEO Plugin by Squirrly SEO <= 14.0.0 - Unauthenticated Arbitrary Post Creation and Stored Cross-Site Scripting via savePost()",
+      "id": "8f64361a-e5b5-4481-b25c-bdffeb80c198",
+      "name": "Genolve – AI image AI video generation <= 5.0.5 - Authenticated (Contributor+) Incorrect Authorization to Privilege Escalation via theopt",
       "severity": "high",
       "type": "plugin",
-      "software": "GEO Plugin by Squirrly SEO",
-      "published": "2026-07-10 04:12:19",
-      "cvssScore": 7.2
+      "software": "Genolve – Genolve AI Business Graphics, AI Images",
+      "published": "2026-07-10 18:57:09",
+      "cvssScore": 8.8
     },
     {
-      "id": "e044c51c-40e0-4d33-8921-616d59e0e0d8",
-      "name": "Hide My WP Lite <= 1.3 - Unauthenticated Path Traversal to Arbitrary File Read via 'he_wrapper_js' Parameter",
+      "id": "e92cc06d-006f-4bba-a4ef-b23d80c00085",
+      "name": "W3 Total Cache <= 2.9.4 - Unauthenticated Arbitrary File Read via 'f_array[]' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Hide My WP Lite",
-      "published": "2026-07-09 17:59:50",
+      "software": "W3 Total Cache",
+      "published": "2026-07-10 18:09:47",
       "cvssScore": 7.5
     },
     {
-      "id": "301ad19a-f99c-45c8-83a7-d74e1a260556",
-      "name": "Salon Booking System <= 10.30.32 - Cross-Site Request Forgery to Remote Code Execution via 'value' Parameter",
+      "id": "7e963601-dc41-4218-9119-708c74e51bc2",
+      "name": "WP CTA <= 2.2.2 - Unauthenticated Time-Based Blind SQL Injection via 'fildname' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Salon Booking System – Free Version",
-      "published": "2026-07-09 15:29:46",
+      "software": "WP CTA – Call Now Button, Sticky Button & Call to Action Builder",
+      "published": "2026-07-10 16:57:59",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "cbe8cf6c-b1fa-4f71-bb63-c8b181e54882",
+      "name": "Essential Addons for Elementor <= 6.6.10 - Authenticated (Contributor+) Account Takeover via Email Header Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Essential Addons for Elementor – Popular Elementor Templates & Widgets",
+      "published": "2026-07-10 16:46:50",
       "cvssScore": 8.8
     },
     {
-      "id": "42f94f80-6157-4778-ad69-184943134fd2",
-      "name": "Post Export Import with Media <= 1.13.1 - Authenticated (Administrator+) Arbitrary File Upload via Trailing-Dot Filename Bypass in ZIP Media Import",
+      "id": "d8a81c01-495f-4861-b66f-000072e99512",
+      "name": "CorvusPay WooCommerce Payment Gateway <= 2.7.4 - Unauthenticated Stored Cross-Site Scripting via 'approval_code' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Post Export Import with Media",
-      "published": "2026-07-09 15:21:34",
+      "software": "CorvusPay WooCommerce Payment Gateway",
+      "published": "2026-07-10 16:43:03",
       "cvssScore": 7.2
     },
     {
-      "id": "e9c7fb16-efbb-41e9-be13-98e96c1e9100",
-      "name": "Super Forms <= 6.3.313 - Unauthenticated Arbitrary File Upload via 'data' Parameter (datauristring / value)",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Super Forms – Drag & Drop Form Builder",
-      "published": "2026-07-09 13:41:24",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "4f3ee9f6-6465-4caf-9aef-72dd37c61a2c",
-      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email via GitHub OAuth Callback",
+      "id": "1a5f970a-e6a0-4dc7-8e99-342a32f5fd49",
+      "name": "Code Engine <= 0.3.5 - Authenticated (Contributor+) Remote Code Execution",
       "severity": "high",
       "type": "plugin",
-      "software": "LoginPress Pro",
-      "published": "2026-07-09 11:14:15",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "5949980f-2506-49be-9105-40ec2d2a4f77",
-      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email via Discord OAuth Callback",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LoginPress Pro",
-      "published": "2026-07-09 11:14:06",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "bef61f05-a2dc-4f61-a5da-7161a9912196",
-      "name": "LoginPress Pro <= 6.2.3 - Unauthenticated Authentication Bypass via Unverified OAuth Email in Spotify OAuth Callback",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LoginPress Pro",
-      "published": "2026-07-09 11:13:50",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "b6cf6390-480f-44e2-ae36-67e3398add33",
-      "name": "UsersWP <= 1.2.65 - Authenticated (Subscriber+) Arbitrary File Deletion via File Upload Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "UsersWP – Front-end login form, User Registration, User Profile & Members Directory plugin for WP",
-      "published": "2026-07-09 06:04:53",
+      "software": "Code Engine – PHP Snippets, AI Functions & Automation for WordPress",
+      "published": "2026-07-10 16:42:48",
       "cvssScore": 8.8
     },
     {
-      "id": "943668eb-0185-4029-9459-f99141bf84cf",
-      "name": "Bit Form <= 3.1.1 - Authenticated (Subscriber+) Arbitrary File Deletion via '_old' Parameter",
+      "id": "c6716a5d-48ed-4735-b765-a7606ea401d0",
+      "name": "Form Vibes <= 1.5.2 - Unauthenticated Stored Cross-Site Scripting via Contact Form 7 Form Field",
       "severity": "high",
       "type": "plugin",
-      "software": "Bit Form – Contact Form, Payment Forms, Multi Step Forms, Calculator & Custom Form Builder",
-      "published": "2026-07-08 21:29:05",
-      "cvssScore": 7.1
+      "software": "Form Vibes – Save Contact Form 7 & Elementor Form Entries to Database",
+      "published": "2026-07-10 16:30:45",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "e19f5f7b-6698-4275-a362-15e5441e0fa9",
+      "name": "SureCart <= 4.2.3 - Unauthenticated Linked WordPress Account Takeover via Forged customer.updated Webhook",
+      "severity": "high",
+      "type": "plugin",
+      "software": "SureCart – Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, & Payments",
+      "published": "2026-07-10 16:08:06",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "06bccd2e-6891-433a-9f5b-3ec0c30afef4",
+      "name": "Swiss Toolkit For WP <= 1.4.6 - Authenticated (Author+) Arbitrary File Upload via upload_extension_files()",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Swiss Toolkit For WP",
+      "published": "2026-07-10 15:27:04",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "cd97a7a4-9f57-4882-9e3e-0e9853416af9",
+      "name": "Simple JWT Login <= 3.6.6 - Authenticated (Subscriber+) Authentication Bypass to Privilege Escalation via 'payload' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Simple JWT Login – Allows you to use JWT on REST endpoints.",
+      "published": "2026-07-10 15:02:36",
+      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2597,
-    "high": 7302,
-    "medium": 27425,
+    "critical": 2598,
+    "high": 7325,
+    "medium": 27475,
     "low": 156
   }
 }
