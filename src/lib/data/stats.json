@@ -1,17 +1,26 @@
 {
-  "generated": "2026-07-13T07:10:26.410Z",
+  "generated": "2026-07-14T06:47:10.682Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 4914
+    "year2026": 4919
   },
   "last30Days": {
-    "plugins": 697,
+    "plugins": 702,
     "themes": 57,
     "core": 0,
-    "total": 754
+    "total": 759
   },
   "recentVulns": [
+    {
+      "id": "53cc91fa-51fd-4d16-b740-a48f8d446b5d",
+      "name": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit <= 2.8.4 - Unauthenticated Privilege Escalation via 'aiomatic_call_google_ai_function'",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit",
+      "published": "2026-07-13 00:00:00",
+      "cvssScore": 9.8
+    },
     {
       "id": "8f64361a-e5b5-4481-b25c-bdffeb80c198",
       "name": "Genolve – AI image AI video generation <= 5.0.5 - Authenticated (Contributor+) Incorrect Authorization to Privilege Escalation via theopt",
@@ -92,21 +101,12 @@
       "software": "Swiss Toolkit For WP",
       "published": "2026-07-10 15:27:04",
       "cvssScore": 8.8
-    },
-    {
-      "id": "cd97a7a4-9f57-4882-9e3e-0e9853416af9",
-      "name": "Simple JWT Login <= 3.6.6 - Authenticated (Subscriber+) Authentication Bypass to Privilege Escalation via 'payload' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Simple JWT Login – Allows you to use JWT on REST endpoints.",
-      "published": "2026-07-10 15:02:36",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2598,
+    "critical": 2599,
     "high": 7325,
-    "medium": 27477,
+    "medium": 27481,
     "low": 156
   }
 }
