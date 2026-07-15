@@ -1,17 +1,35 @@
 {
-  "generated": "2026-07-14T06:47:10.682Z",
+  "generated": "2026-07-15T06:48:05.891Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 4919
+    "year2026": 5004
   },
   "last30Days": {
-    "plugins": 702,
-    "themes": 57,
+    "plugins": 768,
+    "themes": 61,
     "core": 0,
-    "total": 759
+    "total": 829
   },
   "recentVulns": [
+    {
+      "id": "5c03c07f-8f41-47c2-bc95-d92a623f5f7c",
+      "name": "Gravity Forms <= 2.10.4 - Unauthenticated Arbitrary File Read via 'gform_uploaded_files' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Gravity Forms",
+      "published": "2026-07-15 06:20:27",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "f81a3429-f378-4295-adbe-ad6f1df59701",
+      "name": "Podlove Podcast Publisher <= 4.5.1 - Unauthenticated Arbitrary File Upload via podlove_image_cache_url Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Podlove Podcast Publisher",
+      "published": "2026-07-14 06:57:56",
+      "cvssScore": 9.8
+    },
     {
       "id": "53cc91fa-51fd-4d16-b740-a48f8d446b5d",
       "name": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit <= 2.8.4 - Unauthenticated Privilege Escalation via 'aiomatic_call_google_ai_function'",
@@ -83,30 +101,12 @@
       "software": "Form Vibes – Save Contact Form 7 & Elementor Form Entries to Database",
       "published": "2026-07-10 16:30:45",
       "cvssScore": 7.2
-    },
-    {
-      "id": "e19f5f7b-6698-4275-a362-15e5441e0fa9",
-      "name": "SureCart <= 4.2.3 - Unauthenticated Linked WordPress Account Takeover via Forged customer.updated Webhook",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SureCart – Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, & Payments",
-      "published": "2026-07-10 16:08:06",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "06bccd2e-6891-433a-9f5b-3ec0c30afef4",
-      "name": "Swiss Toolkit For WP <= 1.4.6 - Authenticated (Author+) Arbitrary File Upload via upload_extension_files()",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Swiss Toolkit For WP",
-      "published": "2026-07-10 15:27:04",
-      "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2599,
-    "high": 7325,
-    "medium": 27481,
+    "critical": 2601,
+    "high": 7371,
+    "medium": 27518,
     "low": 156
   }
 }
