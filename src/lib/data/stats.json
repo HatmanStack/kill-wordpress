@@ -1,17 +1,80 @@
 {
-  "generated": "2026-07-15T06:48:05.891Z",
+  "generated": "2026-07-16T06:52:05.158Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5004
+    "year2026": 5035
   },
   "last30Days": {
-    "plugins": 768,
+    "plugins": 770,
     "themes": 61,
     "core": 0,
-    "total": 829
+    "total": 831
   },
   "recentVulns": [
+    {
+      "id": "02a283b2-a369-4927-a54a-61f26bee6ace",
+      "name": "Digits: WordPress Mobile Number Signup and Login <= 9.1.0.5 - Authenticated (Subscriber+) Privilege Escalation via 'digits_reg_userrole' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Digits: WordPress Mobile Number Signup and Login",
+      "published": "2026-07-15 20:26:08",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "241d7a82-5fa5-40e3-9336-823644ca17f0",
+      "name": "Loco Translate <= 2.8.5 - Cross-Site Request Forgery to Remote Code Execution via 'template' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Loco Translate",
+      "published": "2026-07-15 20:13:46",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "76ad6d21-f277-496f-aa6b-f9d5cb8a3801",
+      "name": "WPFunnels <= 3.12.8 - Authenticated (Funnel Manager+) Privilege Escalation via 'group_id' Path Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPFunnels – Funnel Builder for WooCommerce with Checkout & One Click Upsell",
+      "published": "2026-07-15 20:13:20",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "9f2774e8-8b55-4c25-93c3-e0806208b1f3",
+      "name": "Uncanny Automator <= 7.3.1.4 - Unauthenticated PHP Object Injection to Arbitrary File Deletion via Forminator Submitted-Field Token",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin",
+      "published": "2026-07-15 19:43:41",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "64f07bca-5d04-4b28-b775-f47ed692575e",
+      "name": "Breakdance <= 2.7.1 - Unauthenticated Stored Cross-Site Scripting via Webhook Action Details",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Breakdance",
+      "published": "2026-07-15 19:04:34",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "848b9c6d-e0db-43ad-ac6d-3674435339dd",
+      "name": "RPB Chessboard <= 8.1.2 - Unauthenticated Stored Cross-Site Scripting via Comment Content",
+      "severity": "high",
+      "type": "plugin",
+      "software": "RPB Chessboard",
+      "published": "2026-07-15 15:16:25",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "4aa8342f-1f36-4eb5-8b69-ab90fd85e5cb",
+      "name": "Advance Product Search- Voice & Ajax Search for WooCommerce <= 1.4.4 - Unauthenticated SQL Injection via 's' and 'match' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Advance Product Search- Voice & Ajax Search for WooCommerce",
+      "published": "2026-07-15 13:37:14",
+      "cvssScore": 7.5
+    },
     {
       "id": "5c03c07f-8f41-47c2-bc95-d92a623f5f7c",
       "name": "Gravity Forms <= 2.10.4 - Unauthenticated Arbitrary File Read via 'gform_uploaded_files' Parameter",
@@ -22,6 +85,15 @@
       "cvssScore": 7.5
     },
     {
+      "id": "ee95092d-6351-4612-872d-284165bc1201",
+      "name": "SAML Single Sign On <= 5.4.3 - Unauthenticated Authentication Bypass via 'SAMLResponse' Parameter Signature Algorithm Confusion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "SAML Single Sign On – SSO Login",
+      "published": "2026-07-15 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
       "id": "f81a3429-f378-4295-adbe-ad6f1df59701",
       "name": "Podlove Podcast Publisher <= 4.5.1 - Unauthenticated Arbitrary File Upload via podlove_image_cache_url Parameter",
       "severity": "critical",
@@ -29,84 +101,12 @@
       "software": "Podlove Podcast Publisher",
       "published": "2026-07-14 06:57:56",
       "cvssScore": 9.8
-    },
-    {
-      "id": "53cc91fa-51fd-4d16-b740-a48f8d446b5d",
-      "name": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit <= 2.8.4 - Unauthenticated Privilege Escalation via 'aiomatic_call_google_ai_function'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Aimogen Pro - All-in-One AI Content Writer, Editor, ChatBot & Automation Toolkit",
-      "published": "2026-07-13 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "8f64361a-e5b5-4481-b25c-bdffeb80c198",
-      "name": "Genolve – AI image AI video generation <= 5.0.5 - Authenticated (Contributor+) Incorrect Authorization to Privilege Escalation via theopt",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Genolve – Genolve AI Business Graphics, AI Images",
-      "published": "2026-07-10 18:57:09",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e92cc06d-006f-4bba-a4ef-b23d80c00085",
-      "name": "W3 Total Cache <= 2.9.4 - Unauthenticated Arbitrary File Read via 'f_array[]' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "W3 Total Cache",
-      "published": "2026-07-10 18:09:47",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "7e963601-dc41-4218-9119-708c74e51bc2",
-      "name": "WP CTA <= 2.2.2 - Unauthenticated Time-Based Blind SQL Injection via 'fildname' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP CTA – Call Now Button, Sticky Button & Call to Action Builder",
-      "published": "2026-07-10 16:57:59",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "cbe8cf6c-b1fa-4f71-bb63-c8b181e54882",
-      "name": "Essential Addons for Elementor <= 6.6.10 - Authenticated (Contributor+) Account Takeover via Email Header Injection",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Essential Addons for Elementor – Popular Elementor Templates & Widgets",
-      "published": "2026-07-10 16:46:50",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "d8a81c01-495f-4861-b66f-000072e99512",
-      "name": "CorvusPay WooCommerce Payment Gateway <= 2.7.4 - Unauthenticated Stored Cross-Site Scripting via 'approval_code' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "CorvusPay WooCommerce Payment Gateway",
-      "published": "2026-07-10 16:43:03",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "1a5f970a-e6a0-4dc7-8e99-342a32f5fd49",
-      "name": "Code Engine <= 0.3.5 - Authenticated (Contributor+) Remote Code Execution",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Code Engine – PHP Snippets, AI Functions & Automation for WordPress",
-      "published": "2026-07-10 16:42:48",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "c6716a5d-48ed-4735-b765-a7606ea401d0",
-      "name": "Form Vibes <= 1.5.2 - Unauthenticated Stored Cross-Site Scripting via Contact Form 7 Form Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Form Vibes – Save Contact Form 7 & Elementor Form Entries to Database",
-      "published": "2026-07-10 16:30:45",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2601,
-    "high": 7371,
-    "medium": 27518,
+    "critical": 2602,
+    "high": 7378,
+    "medium": 27541,
     "low": 156
   }
 }
