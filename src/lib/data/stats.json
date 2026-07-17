@@ -1,17 +1,53 @@
 {
-  "generated": "2026-07-16T06:52:05.158Z",
+  "generated": "2026-07-17T06:50:16.620Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5035
+    "year2026": 5084
   },
   "last30Days": {
-    "plugins": 770,
+    "plugins": 789,
     "themes": 61,
     "core": 0,
-    "total": 831
+    "total": 850
   },
   "recentVulns": [
+    {
+      "id": "ee3bbf20-43fd-4977-b0ba-b81e7a3810d0",
+      "name": "LearnPress <= 4.4.1 - Missing Authorization to Unauthenticated Sensitive Information Exposure via /lp/v1/users/check-answer and /start-quiz REST Endpoints",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LearnPress – WordPress LMS Plugin for Create and Sell Online Courses",
+      "published": "2026-07-16 15:14:19",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "9bb520df-e838-4335-bd4f-97026082a204",
+      "name": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.16.18 - Authenticated (Author+) Limited Unsafe File Upload via upload_mimes Filter Expansion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress",
+      "published": "2026-07-16 14:43:52",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "90e39398-19d7-435d-b23f-e93b8cdbcae4",
+      "name": "Kali Forms <= 2.4.18 - Unauthenticated Stored Cross-Site Scripting via 'digitalSignature' Field Value",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Kali Forms — Contact Form & Drag-and-Drop Builder",
+      "published": "2026-07-16 14:00:19",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "d0538778-5ba4-4bec-a89d-ef90a9ba8375",
+      "name": "Bricksforge <= 3.1.8.6 - Unauthenticated Privilege Escalation via Pro Forms fieldIds Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Bricksforge",
+      "published": "2026-07-16 13:00:33",
+      "cvssScore": 9.8
+    },
     {
       "id": "02a283b2-a369-4927-a54a-61f26bee6ace",
       "name": "Digits: WordPress Mobile Number Signup and Login <= 9.1.0.5 - Authenticated (Subscriber+) Privilege Escalation via 'digits_reg_userrole' Parameter",
@@ -65,48 +101,12 @@
       "software": "RPB Chessboard",
       "published": "2026-07-15 15:16:25",
       "cvssScore": 7.2
-    },
-    {
-      "id": "4aa8342f-1f36-4eb5-8b69-ab90fd85e5cb",
-      "name": "Advance Product Search- Voice & Ajax Search for WooCommerce <= 1.4.4 - Unauthenticated SQL Injection via 's' and 'match' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advance Product Search- Voice & Ajax Search for WooCommerce",
-      "published": "2026-07-15 13:37:14",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "5c03c07f-8f41-47c2-bc95-d92a623f5f7c",
-      "name": "Gravity Forms <= 2.10.4 - Unauthenticated Arbitrary File Read via 'gform_uploaded_files' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Gravity Forms",
-      "published": "2026-07-15 06:20:27",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "ee95092d-6351-4612-872d-284165bc1201",
-      "name": "SAML Single Sign On <= 5.4.3 - Unauthenticated Authentication Bypass via 'SAMLResponse' Parameter Signature Algorithm Confusion",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "SAML Single Sign On – SSO Login",
-      "published": "2026-07-15 00:00:00",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "f81a3429-f378-4295-adbe-ad6f1df59701",
-      "name": "Podlove Podcast Publisher <= 4.5.1 - Unauthenticated Arbitrary File Upload via podlove_image_cache_url Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Podlove Podcast Publisher",
-      "published": "2026-07-14 06:57:56",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2602,
-    "high": 7378,
-    "medium": 27541,
+    "critical": 2609,
+    "high": 7396,
+    "medium": 27565,
     "low": 156
   }
 }
