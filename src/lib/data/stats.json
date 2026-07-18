@@ -1,17 +1,35 @@
 {
-  "generated": "2026-07-17T06:50:16.620Z",
+  "generated": "2026-07-18T06:41:36.469Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5084
+    "year2026": 5087
   },
   "last30Days": {
-    "plugins": 789,
+    "plugins": 747,
     "themes": 61,
-    "core": 0,
-    "total": 850
+    "core": 2,
+    "total": 810
   },
   "recentVulns": [
+    {
+      "id": "1ba55302-b38f-4932-bbba-cdd517380ad7",
+      "name": "WordPress Core 6.9 -  7.0.1 - Remote Code Execution via REST API Batch Request Route Confusion",
+      "severity": "critical",
+      "type": "core",
+      "software": "WordPress",
+      "published": "2026-07-17 00:00:00",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "bd087d06-5395-4dfd-a288-2c3271a62842",
+      "name": "WordPress Core 6.8 -  7.0.1 - Unauthenticated SQL Injection via author__not_in Parameter",
+      "severity": "high",
+      "type": "core",
+      "software": "WordPress",
+      "published": "2026-07-17 00:00:00",
+      "cvssScore": 7.5
+    },
     {
       "id": "ee3bbf20-43fd-4977-b0ba-b81e7a3810d0",
       "name": "LearnPress <= 4.4.1 - Missing Authorization to Unauthenticated Sensitive Information Exposure via /lp/v1/users/check-answer and /start-quiz REST Endpoints",
@@ -83,30 +101,12 @@
       "software": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin",
       "published": "2026-07-15 19:43:41",
       "cvssScore": 8.1
-    },
-    {
-      "id": "64f07bca-5d04-4b28-b775-f47ed692575e",
-      "name": "Breakdance <= 2.7.1 - Unauthenticated Stored Cross-Site Scripting via Webhook Action Details",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Breakdance",
-      "published": "2026-07-15 19:04:34",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "848b9c6d-e0db-43ad-ac6d-3674435339dd",
-      "name": "RPB Chessboard <= 8.1.2 - Unauthenticated Stored Cross-Site Scripting via Comment Content",
-      "severity": "high",
-      "type": "plugin",
-      "software": "RPB Chessboard",
-      "published": "2026-07-15 15:16:25",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2609,
-    "high": 7396,
-    "medium": 27565,
+    "critical": 2610,
+    "high": 7397,
+    "medium": 27566,
     "low": 156
   }
 }
