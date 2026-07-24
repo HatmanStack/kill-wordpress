@@ -1,17 +1,71 @@
 {
-  "generated": "2026-07-23T06:53:21.857Z",
+  "generated": "2026-07-24T06:53:49.411Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5131
+    "year2026": 5159
   },
   "last30Days": {
-    "plugins": 742,
-    "themes": 61,
+    "plugins": 724,
+    "themes": 60,
     "core": 2,
-    "total": 805
+    "total": 786
   },
   "recentVulns": [
+    {
+      "id": "6ca9eaf7-261b-42ab-a779-9e11dde5763b",
+      "name": "EventON Action User <= 2.5.14 - Missing Authorization to Unauthenticated Privilege Escalation via evoau_save_capability AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "EventON Action User",
+      "published": "2026-07-23 21:26:43",
+      "cvssScore": 7.3
+    },
+    {
+      "id": "0714273b-014e-4bed-b394-138f46a77eaa",
+      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.13 - Unauthenticated Stored Cross-Site Scripting via Custom Field 'vbfX' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "VikBooking Hotel Booking Engine & PMS",
+      "published": "2026-07-23 20:31:52",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "47ed52b3-4bfe-46ce-aabc-7a4647ab7db5",
+      "name": "Easy Appointments <= 3.12.27 - Missing Authorization to Authenticated (Contributor+) Arbitrary Connection Deletion",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Easy Appointments",
+      "published": "2026-07-23 16:53:31",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "a9b8f2d5-a2c5-4f90-ab1d-4e17f7a7996e",
+      "name": "WPify Woo <= 5.4.16 - Authenticated (Shop Manager+) Privilege Escalation via Arbitrary Option Update via save_option REST Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPify Woo – Withdrawal, CRN/VAT, QR payments, Heureka and more for WooCommerce",
+      "published": "2026-07-23 14:23:21",
+      "cvssScore": 8
+    },
+    {
+      "id": "b412f60f-61ea-47b1-a3ef-17275f7951df",
+      "name": "SAML Single Sign On <= 5.4.4 - Unauthenticated Authentication Bypass via SAMLResponse Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "SAML Single Sign On – SSO Login",
+      "published": "2026-07-23 08:24:20",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "51d0ba58-614e-4284-ae0b-b0b76fc5c46d",
+      "name": "WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) <= 43.2 - Cross-Site Request Forgery to Privilege Escalation via Plugin Settings Update",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN)",
+      "published": "2026-07-23 07:23:25",
+      "cvssScore": 8.8
+    },
     {
       "id": "ce8ec66f-5efc-4354-8871-8e35ab4e51fc",
       "name": "MountDev AI MCP Connector for WordPress <= 1.6.1 - Unauthenticated Privilege Escalation via OAuth Authorization Endpoint",
@@ -47,66 +101,12 @@
       "software": "Customer Support Ticket System & Helpdesk",
       "published": "2026-07-22 20:23:54",
       "cvssScore": 9.8
-    },
-    {
-      "id": "19e48549-8a28-4626-b0b5-b781cd01fa5b",
-      "name": "ARforms <= 7.2.1 - Unauthenticated Stored Cross-Site Scripting via 'password' Field Values",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ARforms",
-      "published": "2026-07-22 18:42:16",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "ee7555a1-18dc-4b00-81f6-b26706cfb573",
-      "name": "Product Designer for WooCommerce WordPress | Lumise <= 2.1.1 - Unauthenticated SQL Injection via 'id' Parameter in Cart JSON Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Product Designer for WooCommerce WordPress | Lumise",
-      "published": "2026-07-22 17:38:12",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "366b5051-d042-4425-9aad-b77d93bcd485",
-      "name": "SUMO Reward Points for WooCommerce <= 32.7.0 - Unauthenticated Stored Cross-Site Scripting via 'reason' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "SUMO Reward Points for WooCommerce",
-      "published": "2026-07-22 17:27:19",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "6b30089a-2267-47b9-b0a5-d6eeadfe51d2",
-      "name": "FormCraft <= 3.9.14 - Unauthenticated Stored Cross-Site Scripting via Matrix Field Sub-Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "FormCraft",
-      "published": "2026-07-22 16:47:18",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "45c8d883-1f97-4c9d-b406-c61e33a0959e",
-      "name": "WP Foodbakery <= 4.9 - Authenticated (Subscriber+) Arbitrary File Deletion via via delete_locations_backup_file AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Foodbakery",
-      "published": "2026-07-21 15:42:00",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "c7f098b9-eca3-41c7-9c74-0f4b3f75c915",
-      "name": "MapSVG <= 8.14.0 - Authenticated (Administrator+) Arbitrary File Upload via '/mapsvg/v1/svgfile' Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "MapSVG – Vector maps, Image maps, Google Maps",
-      "published": "2026-07-20 19:29:00",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2614,
-    "high": 7410,
-    "medium": 27593,
+    "critical": 2616,
+    "high": 7416,
+    "medium": 27613,
     "low": 156
   }
 }
