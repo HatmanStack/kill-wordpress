@@ -1,17 +1,26 @@
 {
-  "generated": "2026-07-24T06:53:49.411Z",
+  "generated": "2026-07-25T06:49:22.094Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5159
+    "year2026": 5162
   },
   "last30Days": {
-    "plugins": 724,
-    "themes": 60,
+    "plugins": 679,
+    "themes": 56,
     "core": 2,
-    "total": 786
+    "total": 737
   },
   "recentVulns": [
+    {
+      "id": "b267f163-966a-43f7-8a7c-67d34c2c7e9d",
+      "name": "WPForms Pro <= 1.10.1.1 - Unauthenticated Arbitrary File Write via Chunked Upload Init/Finalize Ordering",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPForms Pro",
+      "published": "2026-07-24 17:42:04",
+      "cvssScore": 8.1
+    },
     {
       "id": "6ca9eaf7-261b-42ab-a779-9e11dde5763b",
       "name": "EventON Action User <= 2.5.14 - Missing Authorization to Unauthenticated Privilege Escalation via evoau_save_capability AJAX Action",
@@ -92,21 +101,12 @@
       "software": "GoDAM – Organize WordPress Media Library & File Manager with Unlimited Folders for Images, Videos & more",
       "published": "2026-07-22 20:25:57",
       "cvssScore": 9.8
-    },
-    {
-      "id": "f9e2ad4b-716a-4a2d-87c0-2f351bd13884",
-      "name": "Customer Support Ticket System & Helpdesk <= 6.0.5 - Unauthenticated Code Injection via 'path' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Customer Support Ticket System & Helpdesk",
-      "published": "2026-07-22 20:23:54",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
     "critical": 2616,
-    "high": 7416,
-    "medium": 27613,
+    "high": 7417,
+    "medium": 27615,
     "low": 156
   }
 }
