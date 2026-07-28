@@ -1,112 +1,112 @@
 {
-  "generated": "2026-07-27T07:11:58.890Z",
+  "generated": "2026-07-28T06:55:41.094Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5163
+    "year2026": 5296
   },
   "last30Days": {
-    "plugins": 602,
-    "themes": 52,
+    "plugins": 731,
+    "themes": 55,
     "core": 2,
-    "total": 656
+    "total": 788
   },
   "recentVulns": [
     {
-      "id": "b95ec70c-ac76-48fa-9d9d-01cf1983e504",
-      "name": "Fluent Forms Pro Add On Pack <= 6.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary User Password Change via User Meta Field",
+      "id": "79d4d776-411e-45ec-aff7-23453e686bf2",
+      "name": "StoreGrowth: Smart Sales Booster for WooCommerce | BOGO, Upsells, Direct Checkout, Quick View, Side Cart <= 2.1.0 - Unauthenticated Stored Cross-Site Scripting via 'message_popup' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Fluent Forms Pro Add On Pack",
-      "published": "2026-07-25 12:00:48",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "b267f163-966a-43f7-8a7c-67d34c2c7e9d",
-      "name": "WPForms Pro <= 1.10.1.1 - Unauthenticated Arbitrary File Write via Chunked Upload Init/Finalize Ordering",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WPForms Pro",
-      "published": "2026-07-24 17:42:04",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "6ca9eaf7-261b-42ab-a779-9e11dde5763b",
-      "name": "EventON Action User <= 2.5.14 - Missing Authorization to Unauthenticated Privilege Escalation via evoau_save_capability AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "EventON Action User",
-      "published": "2026-07-23 21:26:43",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "0714273b-014e-4bed-b394-138f46a77eaa",
-      "name": "VikBooking Hotel Booking Engine & PMS <= 1.8.13 - Unauthenticated Stored Cross-Site Scripting via Custom Field 'vbfX' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "VikBooking Hotel Booking Engine & PMS",
-      "published": "2026-07-23 20:31:52",
+      "software": "StoreGrowth – Upsell, BOGO, Quick View, Direct Checkout & Side Cart for WooCommerce",
+      "published": "2026-07-27 23:27:46",
       "cvssScore": 7.2
     },
     {
-      "id": "47ed52b3-4bfe-46ce-aabc-7a4647ab7db5",
-      "name": "Easy Appointments <= 3.12.27 - Missing Authorization to Authenticated (Contributor+) Arbitrary Connection Deletion",
+      "id": "1bfa1538-7722-458d-a6a5-adde03e21e1a",
+      "name": "Uncanny Automator <= 7.3.2 - Missing Authorization to Authenticated (Subscriber+) Sensitive Integration Metadata Disclosure via Multiple AJAX Endpoints",
       "severity": "high",
       "type": "plugin",
-      "software": "Easy Appointments",
-      "published": "2026-07-23 16:53:31",
-      "cvssScore": 8.1
+      "software": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin",
+      "published": "2026-07-27 23:27:10",
+      "cvssScore": 7.5
     },
     {
-      "id": "a9b8f2d5-a2c5-4f90-ab1d-4e17f7a7996e",
-      "name": "WPify Woo <= 5.4.16 - Authenticated (Shop Manager+) Privilege Escalation via Arbitrary Option Update via save_option REST Endpoint",
+      "id": "178e2537-e900-4264-9b29-1bb5bac36f48",
+      "name": "PickPlugins Question Answer <= 1.2.73 - Unauthenticated SQL Injection via 'id' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "WPify Woo – Withdrawal, CRN/VAT, QR payments, Heureka and more for WooCommerce",
-      "published": "2026-07-23 14:23:21",
-      "cvssScore": 8
+      "software": "PickPlugins Question Answer",
+      "published": "2026-07-27 21:29:31",
+      "cvssScore": 7.5
     },
     {
-      "id": "b412f60f-61ea-47b1-a3ef-17275f7951df",
-      "name": "SAML Single Sign On <= 5.4.4 - Unauthenticated Authentication Bypass via SAMLResponse Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "SAML Single Sign On – SSO Login",
-      "published": "2026-07-23 08:24:20",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "51d0ba58-614e-4284-ae0b-b0b76fc5c46d",
-      "name": "WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) <= 43.2 - Cross-Site Request Forgery to Privilege Escalation via Plugin Settings Update",
+      "id": "7320421b-6b88-452d-a363-a71cdf7953a6",
+      "name": "Web Directory Free <= 1.7.13 - Unauthenticated SQL Injection",
       "severity": "high",
       "type": "plugin",
-      "software": "WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN)",
-      "published": "2026-07-23 07:23:25",
+      "software": "Web Directory Free",
+      "published": "2026-07-27 21:29:21",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "23a73680-ed13-4250-95e8-2933403f54e6",
+      "name": "Eazy Plugin Manager <= 4.4.1 - Authenticated (Subscriber+) Privilege Escalation via pos_get_option AJAX Action and admin/login REST Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Eazy Plugin Manager – Powerful Plugin Management Solution for WordPress",
+      "published": "2026-07-27 21:29:11",
       "cvssScore": 8.8
     },
     {
-      "id": "ce8ec66f-5efc-4354-8871-8e35ab4e51fc",
-      "name": "MountDev AI MCP Connector for WordPress <= 1.6.1 - Unauthenticated Privilege Escalation via OAuth Authorization Endpoint",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "MountDev AI MCP Connector for WordPress",
-      "published": "2026-07-22 20:49:11",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "2a691f92-9eff-4777-8198-b7cc5d9e73c0",
-      "name": "MDJM Event Management <= 1.7.8.4 - Authenticated (Subscriber+) Privilege Escalation via 'set-permissions' and 'change_role' Handlers",
+      "id": "9b0e973b-f0bf-44d1-b964-e259f68291aa",
+      "name": "TrueBooker <= 1.2.2 - Unauthenticated SQL Injection",
       "severity": "high",
       "type": "plugin",
-      "software": "MDJM Event Management",
-      "published": "2026-07-22 20:47:53",
+      "software": "TrueBooker – Appointment Booking and Scheduler System",
+      "published": "2026-07-27 20:17:19",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "5c55abc7-b09d-4fea-bc2f-b903d3da119f",
+      "name": "Online Scheduling and Appointment Booking System <= 27.5 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Online Scheduling and Appointment Booking System – Bookly",
+      "published": "2026-07-27 20:16:18",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "b288386c-709c-49a6-9b46-28bf46c3c303",
+      "name": "Premium Packages <= 6.2.0 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Premium Packages – Sell Digital Products Securely",
+      "published": "2026-07-27 19:51:50",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "e9b6fe22-330a-4c24-9fdf-16f35516fb2a",
+      "name": "WP Fast Total Search <= 1.80.280 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Fast Total Search – The Power of Indexed Search",
+      "published": "2026-07-27 19:42:32",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "4ad5ca1c-b8c3-42c0-8170-821ada826cbb",
+      "name": "WP Password Policy <= 3.7.1 - Authenticated (Subscriber+) Privilege Escalation",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WP Password Policy",
+      "published": "2026-07-27 19:12:43",
       "cvssScore": 8.8
     }
   ],
   "bySeverity": {
-    "critical": 2616,
-    "high": 7418,
-    "medium": 27615,
+    "critical": 2617,
+    "high": 7442,
+    "medium": 27723,
     "low": 156
   }
 }
