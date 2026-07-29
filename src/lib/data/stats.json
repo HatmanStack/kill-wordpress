@@ -1,112 +1,112 @@
 {
-  "generated": "2026-07-28T06:55:41.094Z",
+  "generated": "2026-07-29T06:57:15.202Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5296
+    "year2026": 5323
   },
   "last30Days": {
-    "plugins": 731,
-    "themes": 55,
+    "plugins": 722,
+    "themes": 42,
     "core": 2,
-    "total": 788
+    "total": 766
   },
   "recentVulns": [
     {
-      "id": "79d4d776-411e-45ec-aff7-23453e686bf2",
-      "name": "StoreGrowth: Smart Sales Booster for WooCommerce | BOGO, Upsells, Direct Checkout, Quick View, Side Cart <= 2.1.0 - Unauthenticated Stored Cross-Site Scripting via 'message_popup' Parameter",
+      "id": "a929efaf-80a1-45c1-9426-6c5b45a66530",
+      "name": "Extra Checkout Options (addon for Extra Product Options & Add-Ons for WooCommerce) <= 2.3.2 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Upload in eco_save_settings",
       "severity": "high",
       "type": "plugin",
-      "software": "StoreGrowth – Upsell, BOGO, Quick View, Direct Checkout & Side Cart for WooCommerce",
-      "published": "2026-07-27 23:27:46",
+      "software": "Extra Checkout Options - addon for Extra Product Options plugin",
+      "published": "2026-07-28 23:02:15",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "76fb0ffd-32c1-483d-ae95-9bc70ba1c064",
+      "name": "Advanced Shipment Tracking for WooCommerce <= 3.9 - Authenticated (Shop Manager+) SQL Injection via 'tracking_provider' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Advanced Shipment Tracking for WooCommerce",
+      "published": "2026-07-28 21:25:46",
       "cvssScore": 7.2
     },
     {
-      "id": "1bfa1538-7722-458d-a6a5-adde03e21e1a",
-      "name": "Uncanny Automator <= 7.3.2 - Missing Authorization to Authenticated (Subscriber+) Sensitive Integration Metadata Disclosure via Multiple AJAX Endpoints",
-      "severity": "high",
+      "id": "e9506f84-3d33-48e0-8dce-d517e1a923e4",
+      "name": "Meta Box AIO <= 3.8.0 - Missing Authorization to Unauthenticated Arbitrary Post Deletion via 'rwmb_frontend_field_object_id' Parameter",
+      "severity": "critical",
       "type": "plugin",
-      "software": "Uncanny Automator – Easy Automation, Integration, Webhooks & Workflow Builder Plugin",
-      "published": "2026-07-27 23:27:10",
-      "cvssScore": 7.5
+      "software": "Meta Box AIO",
+      "published": "2026-07-28 20:51:21",
+      "cvssScore": 9.1
     },
     {
-      "id": "178e2537-e900-4264-9b29-1bb5bac36f48",
-      "name": "PickPlugins Question Answer <= 1.2.73 - Unauthenticated SQL Injection via 'id' Parameter",
-      "severity": "high",
+      "id": "4c8f2872-06ff-41a2-b601-77a47470de0c",
+      "name": "Cost Calculator Builder PRO <= 4.0.3 - Unauthenticated Remote Code Execution via 'orderDetails' Parameter",
+      "severity": "critical",
       "type": "plugin",
-      "software": "PickPlugins Question Answer",
-      "published": "2026-07-27 21:29:31",
-      "cvssScore": 7.5
+      "software": "Cost Calculator Builder PRO",
+      "published": "2026-07-28 20:41:34",
+      "cvssScore": 9.8
     },
     {
-      "id": "7320421b-6b88-452d-a363-a71cdf7953a6",
-      "name": "Web Directory Free <= 1.7.13 - Unauthenticated SQL Injection",
+      "id": "635e19ba-da98-459c-ab91-ff969b0812fd",
+      "name": "Fluent Forms <= 6.2.7 - Unauthenticated Stored Cross-Site Scripting via Name Field Nested `password` Member",
       "severity": "high",
       "type": "plugin",
-      "software": "Web Directory Free",
-      "published": "2026-07-27 21:29:21",
-      "cvssScore": 7.5
+      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
+      "published": "2026-07-28 20:38:26",
+      "cvssScore": 7.2
     },
     {
-      "id": "23a73680-ed13-4250-95e8-2933403f54e6",
-      "name": "Eazy Plugin Manager <= 4.4.1 - Authenticated (Subscriber+) Privilege Escalation via pos_get_option AJAX Action and admin/login REST Endpoint",
+      "id": "03542812-b6e5-421d-9ba6-43f1c779940f",
+      "name": "GTM4WP <= 1.22.3 - Unauthenticated Stored Cross-Site Scripting via WooCommerce Billing Fields",
       "severity": "high",
       "type": "plugin",
-      "software": "Eazy Plugin Manager – Powerful Plugin Management Solution for WordPress",
-      "published": "2026-07-27 21:29:11",
-      "cvssScore": 8.8
+      "software": "GTM4WP – A Google Tag Manager (GTM) plugin for WordPress",
+      "published": "2026-07-28 20:33:08",
+      "cvssScore": 7.2
     },
     {
-      "id": "9b0e973b-f0bf-44d1-b964-e259f68291aa",
-      "name": "TrueBooker <= 1.2.2 - Unauthenticated SQL Injection",
-      "severity": "high",
+      "id": "1f891b68-72c4-4f94-bd49-52576ad710f9",
+      "name": "Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light <= 2.4.37 - Missing Authorization to Unauthenticated Privilege Escalation via Admin Account Creation",
+      "severity": "critical",
       "type": "plugin",
-      "software": "TrueBooker – Appointment Booking and Scheduler System",
-      "published": "2026-07-27 20:17:19",
-      "cvssScore": 7.5
+      "software": "Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light",
+      "published": "2026-07-28 19:51:05",
+      "cvssScore": 9.8
     },
     {
-      "id": "5c55abc7-b09d-4fea-bc2f-b903d3da119f",
-      "name": "Online Scheduling and Appointment Booking System <= 27.5 - Unauthenticated SQL Injection",
+      "id": "07fda92e-a085-42c7-a16d-1eace1dee195",
+      "name": "Database for CF7 <= 1.2.6 - Unauthenticated Stored Cross-Site Scripting via Array Form Field Values",
       "severity": "high",
       "type": "plugin",
-      "software": "Online Scheduling and Appointment Booking System – Bookly",
-      "published": "2026-07-27 20:16:18",
-      "cvssScore": 7.5
+      "software": "Database for CF7",
+      "published": "2026-07-28 19:00:57",
+      "cvssScore": 7.2
     },
     {
-      "id": "b288386c-709c-49a6-9b46-28bf46c3c303",
-      "name": "Premium Packages <= 6.2.0 - Unauthenticated SQL Injection",
-      "severity": "high",
+      "id": "70f64ea0-5375-479f-90ac-29bcdf817cef",
+      "name": "Advanced Responsive Video Embedder for Rumble, Odysee, YouTube, Vimeo, Kick … 10.8.7 - Unauthenticated Authentication Bypass via Hardcoded Backdoor in '_wplogin' Parameter",
+      "severity": "critical",
       "type": "plugin",
-      "software": "Premium Packages – Sell Digital Products Securely",
-      "published": "2026-07-27 19:51:50",
-      "cvssScore": 7.5
+      "software": "Advanced Responsive Video Embedder for Rumble, Odysee, YouTube, Vimeo, Kick …",
+      "published": "2026-07-28 15:20:58",
+      "cvssScore": 9.8
     },
     {
-      "id": "e9b6fe22-330a-4c24-9fdf-16f35516fb2a",
-      "name": "WP Fast Total Search <= 1.80.280 - Unauthenticated SQL Injection",
+      "id": "5b0c8edd-b392-4d23-bde3-0521eeedc5a0",
+      "name": "Easy Digital Downloads <= 3.6.9 - Authenticated (Shop Manager+) Arbitrary File Upload via 'edd-import-file' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "WP Fast Total Search – The Power of Indexed Search",
-      "published": "2026-07-27 19:42:32",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "4ad5ca1c-b8c3-42c0-8170-821ada826cbb",
-      "name": "WP Password Policy <= 3.7.1 - Authenticated (Subscriber+) Privilege Escalation",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WP Password Policy",
-      "published": "2026-07-27 19:12:43",
-      "cvssScore": 8.8
+      "software": "Easy Digital Downloads – eCommerce Payments and Subscriptions made easy",
+      "published": "2026-07-28 13:30:14",
+      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2617,
-    "high": 7442,
-    "medium": 27723,
+    "critical": 2621,
+    "high": 7449,
+    "medium": 27739,
     "low": 156
   }
 }
