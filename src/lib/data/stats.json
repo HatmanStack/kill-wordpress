@@ -1,17 +1,62 @@
 {
-  "generated": "2026-07-29T06:57:15.202Z",
+  "generated": "2026-07-30T06:56:02.809Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5323
+    "year2026": 5524
   },
   "last30Days": {
-    "plugins": 722,
-    "themes": 42,
+    "plugins": 816,
+    "themes": 36,
     "core": 2,
-    "total": 766
+    "total": 854
   },
   "recentVulns": [
+    {
+      "id": "e1c16bcb-c188-4e01-9d0b-e4e1a1ef82ee",
+      "name": "HBook <= 2.1.9 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
+      "severity": "high",
+      "type": "plugin",
+      "software": "HBook - Hotel booking system - WordPress Plugin",
+      "published": "2026-07-29 23:04:31",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "7e898e40-2cc3-4b5a-833b-899e9c9f26d3",
+      "name": "Subscriptions for WooCommerce <= 2.0.0 - Missing Authorization to Authenticated (Shop Manager+) Arbitrary Plugin Installation via wps_sfw_install_plugin_configuration AJAX Action",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Subscriptions for WooCommerce",
+      "published": "2026-07-29 22:06:32",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "2ef21a44-6d03-4197-b49c-d881f9831f46",
+      "name": "Admin and Site Enhancements (ASE) Pro <= 8.9.0 - Unauthenticated Remote Code Execution via PHP Code Injection via cfgroup[input] Repeater Row Key",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Admin and Site Enhancements (ASE) Pro",
+      "published": "2026-07-29 15:32:22",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "467dd833-2f47-43cd-8d13-dffdad394b3c",
+      "name": "BuddyPress <= 14.5.0 - Authenticated (Subscriber+) PHP Object Injection via XProfile Field Data",
+      "severity": "high",
+      "type": "plugin",
+      "software": "BuddyPress",
+      "published": "2026-07-29 15:16:33",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "0867f6a6-17f6-48d3-8ef2-bf89f5b28b05",
+      "name": "FleekDash V2 <= 2.6.2.2 - Missing Authorization to Authenticated (Subscriber+) Administrator Account Takeover via /users/{id} REST Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FleekDash V2",
+      "published": "2026-07-29 15:09:59",
+      "cvssScore": 8.8
+    },
     {
       "id": "a929efaf-80a1-45c1-9426-6c5b45a66530",
       "name": "Extra Checkout Options (addon for Extra Product Options & Add-Ons for WooCommerce) <= 2.3.2 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Upload in eco_save_settings",
@@ -56,57 +101,12 @@
       "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
       "published": "2026-07-28 20:38:26",
       "cvssScore": 7.2
-    },
-    {
-      "id": "03542812-b6e5-421d-9ba6-43f1c779940f",
-      "name": "GTM4WP <= 1.22.3 - Unauthenticated Stored Cross-Site Scripting via WooCommerce Billing Fields",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GTM4WP – A Google Tag Manager (GTM) plugin for WordPress",
-      "published": "2026-07-28 20:33:08",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "1f891b68-72c4-4f94-bd49-52576ad710f9",
-      "name": "Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light <= 2.4.37 - Missing Authorization to Unauthenticated Privilege Escalation via Admin Account Creation",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Spreadsheet Price Changer for WooCommerce and WP E-commerce – Light",
-      "published": "2026-07-28 19:51:05",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "07fda92e-a085-42c7-a16d-1eace1dee195",
-      "name": "Database for CF7 <= 1.2.6 - Unauthenticated Stored Cross-Site Scripting via Array Form Field Values",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Database for CF7",
-      "published": "2026-07-28 19:00:57",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "70f64ea0-5375-479f-90ac-29bcdf817cef",
-      "name": "Advanced Responsive Video Embedder for Rumble, Odysee, YouTube, Vimeo, Kick … 10.8.7 - Unauthenticated Authentication Bypass via Hardcoded Backdoor in '_wplogin' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Advanced Responsive Video Embedder for Rumble, Odysee, YouTube, Vimeo, Kick …",
-      "published": "2026-07-28 15:20:58",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "5b0c8edd-b392-4d23-bde3-0521eeedc5a0",
-      "name": "Easy Digital Downloads <= 3.6.9 - Authenticated (Shop Manager+) Arbitrary File Upload via 'edd-import-file' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Easy Digital Downloads – eCommerce Payments and Subscriptions made easy",
-      "published": "2026-07-28 13:30:14",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2621,
-    "high": 7449,
-    "medium": 27739,
+    "critical": 2627,
+    "high": 7526,
+    "medium": 27857,
     "low": 156
   }
 }
