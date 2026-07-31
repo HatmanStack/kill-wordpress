@@ -1,17 +1,35 @@
 {
-  "generated": "2026-07-30T06:56:02.809Z",
+  "generated": "2026-07-31T07:01:55.550Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5524
+    "year2026": 5608
   },
   "last30Days": {
-    "plugins": 816,
-    "themes": 36,
+    "plugins": 781,
+    "themes": 35,
     "core": 2,
-    "total": 854
+    "total": 818
   },
   "recentVulns": [
+    {
+      "id": "23068a98-623d-4eb3-a7c5-6af410de4320",
+      "name": "Realtyna Organic IDX plugin + WPL Real Estate <= 5.2.0 - Unauthenticated Arbitrary File Upload via 'files[file]' Parameter via Public I/O 'set_property' Command",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Realtyna Organic IDX plugin + WPL Real Estate",
+      "published": "2026-07-30 16:55:48",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4a64f840-8570-4f98-8b72-27bee1607fc2",
+      "name": "Realtyna Organic IDX plugin + WPL Real Estate <= 5.3.0 - Authenticated (Subscriber+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Realtyna Organic IDX plugin + WPL Real Estate",
+      "published": "2026-07-30 16:55:32",
+      "cvssScore": 8.8
+    },
     {
       "id": "e1c16bcb-c188-4e01-9d0b-e4e1a1ef82ee",
       "name": "HBook <= 2.1.9 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
@@ -83,30 +101,12 @@
       "software": "Meta Box AIO",
       "published": "2026-07-28 20:51:21",
       "cvssScore": 9.1
-    },
-    {
-      "id": "4c8f2872-06ff-41a2-b601-77a47470de0c",
-      "name": "Cost Calculator Builder PRO <= 4.0.3 - Unauthenticated Remote Code Execution via 'orderDetails' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Cost Calculator Builder PRO",
-      "published": "2026-07-28 20:41:34",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "635e19ba-da98-459c-ab91-ff969b0812fd",
-      "name": "Fluent Forms <= 6.2.7 - Unauthenticated Stored Cross-Site Scripting via Name Field Nested `password` Member",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
-      "published": "2026-07-28 20:38:26",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2627,
-    "high": 7526,
-    "medium": 27857,
+    "critical": 2642,
+    "high": 7540,
+    "medium": 27912,
     "low": 156
   }
 }
