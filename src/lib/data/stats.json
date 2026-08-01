@@ -1,17 +1,98 @@
 {
-  "generated": "2026-07-31T07:01:55.550Z",
+  "generated": "2026-08-01T06:52:31.693Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5608
+    "year2026": 5648
   },
   "last30Days": {
-    "plugins": 781,
-    "themes": 35,
+    "plugins": 760,
+    "themes": 18,
     "core": 2,
-    "total": 818
+    "total": 780
   },
   "recentVulns": [
+    {
+      "id": "d42b8856-e5d0-4122-98a4-8c959832b271",
+      "name": "Pronamic Pay <= 10.1.0 - Authenticated (Subscriber+) Privilege Escalation via Gravity Forms 'Update user role' Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Pronamic Pay",
+      "published": "2026-07-31 20:28:17",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "1d8d393e-764c-491d-8afb-7d4f8d0c387a",
+      "name": "Single Sign On For TNG <= 2.0.0 - Unauthenticated Privilege Escalation via Unverified Password Change",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Single Sign On For TNG",
+      "published": "2026-07-31 20:08:40",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "bb5c8cb3-df67-4f2c-869a-48e34f5619ff",
+      "name": "NEX-Forms <= 9.2.3 -  Authenticated (Admin+) Arbitrary File Deletion via Path Traversal via 'location' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
+      "published": "2026-07-31 19:42:18",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "c3d2425e-69e5-4efe-bbc6-0ef121e74341",
+      "name": "MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder <= 4.3.3 - Unauthenticated Stored Cross-Site Scripting via Form Field Values",
+      "severity": "high",
+      "type": "plugin",
+      "software": "MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder",
+      "published": "2026-07-31 19:41:41",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "9d692aff-8bb2-45bb-9caf-bc33d3ed5b10",
+      "name": "Kali Forms <= 2.4.20 - Unauthenticated Remote Code Execution via 'thisPermalink' Field Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Kali Forms — Contact Form & Drag-and-Drop Builder",
+      "published": "2026-07-31 19:40:39",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "45816c45-42bc-4163-b700-a1e913f32c97",
+      "name": "AI Engine <= 3.6.5 - Cross-Site Request Forgery to Privilege Escalation via REQUEST_URI Substring Match",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AI Engine – The Chatbot, AI Framework & MCP for WordPress",
+      "published": "2026-07-31 18:40:58",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "097a9d0f-fa38-4fdc-9048-43dd65e7652c",
+      "name": "FormGent <= 1.9.2- Missing Authorization to Unauthenticated Arbitrary File Deletion via 'file_token' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More",
+      "published": "2026-07-31 17:05:12",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "9b00da60-7d2d-467e-ab58-0bb4af0cbda5",
+      "name": "Bit integrations <= 2.9.0 - Unauthenticated Arbitrary File Read via Optional CF7 File Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Bit integrations – Form Integration, Webhook, Spreadsheets, CRM, LMS & Email Automation",
+      "published": "2026-07-31 12:28:06",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "195f86a5-e3dc-4414-bbe3-dea312bf30a9",
+      "name": "Subscriptions for WooCommerce <= 2.0.0 - Authenticated (Contributor+) Privilege Escalation via '_wps_plan_user_role' Membership Plan Meta",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Subscriptions for WooCommerce",
+      "published": "2026-07-31 12:27:03",
+      "cvssScore": 8.8
+    },
     {
       "id": "23068a98-623d-4eb3-a7c5-6af410de4320",
       "name": "Realtyna Organic IDX plugin + WPL Real Estate <= 5.2.0 - Unauthenticated Arbitrary File Upload via 'files[file]' Parameter via Public I/O 'set_property' Command",
@@ -20,93 +101,12 @@
       "software": "Realtyna Organic IDX plugin + WPL Real Estate",
       "published": "2026-07-30 16:55:48",
       "cvssScore": 9.8
-    },
-    {
-      "id": "4a64f840-8570-4f98-8b72-27bee1607fc2",
-      "name": "Realtyna Organic IDX plugin + WPL Real Estate <= 5.3.0 - Authenticated (Subscriber+) Arbitrary File Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Realtyna Organic IDX plugin + WPL Real Estate",
-      "published": "2026-07-30 16:55:32",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e1c16bcb-c188-4e01-9d0b-e4e1a1ef82ee",
-      "name": "HBook <= 2.1.9 - Unauthenticated Stored Cross-Site Scripting via Multiple Parameters",
-      "severity": "high",
-      "type": "plugin",
-      "software": "HBook - Hotel booking system - WordPress Plugin",
-      "published": "2026-07-29 23:04:31",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "7e898e40-2cc3-4b5a-833b-899e9c9f26d3",
-      "name": "Subscriptions for WooCommerce <= 2.0.0 - Missing Authorization to Authenticated (Shop Manager+) Arbitrary Plugin Installation via wps_sfw_install_plugin_configuration AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Subscriptions for WooCommerce",
-      "published": "2026-07-29 22:06:32",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "2ef21a44-6d03-4197-b49c-d881f9831f46",
-      "name": "Admin and Site Enhancements (ASE) Pro <= 8.9.0 - Unauthenticated Remote Code Execution via PHP Code Injection via cfgroup[input] Repeater Row Key",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Admin and Site Enhancements (ASE) Pro",
-      "published": "2026-07-29 15:32:22",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "467dd833-2f47-43cd-8d13-dffdad394b3c",
-      "name": "BuddyPress <= 14.5.0 - Authenticated (Subscriber+) PHP Object Injection via XProfile Field Data",
-      "severity": "high",
-      "type": "plugin",
-      "software": "BuddyPress",
-      "published": "2026-07-29 15:16:33",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "0867f6a6-17f6-48d3-8ef2-bf89f5b28b05",
-      "name": "FleekDash V2 <= 2.6.2.2 - Missing Authorization to Authenticated (Subscriber+) Administrator Account Takeover via /users/{id} REST Endpoint",
-      "severity": "high",
-      "type": "plugin",
-      "software": "FleekDash V2",
-      "published": "2026-07-29 15:09:59",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "a929efaf-80a1-45c1-9426-6c5b45a66530",
-      "name": "Extra Checkout Options (addon for Extra Product Options & Add-Ons for WooCommerce) <= 2.3.2 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Upload in eco_save_settings",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Extra Checkout Options - addon for Extra Product Options plugin",
-      "published": "2026-07-28 23:02:15",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "76fb0ffd-32c1-483d-ae95-9bc70ba1c064",
-      "name": "Advanced Shipment Tracking for WooCommerce <= 3.9 - Authenticated (Shop Manager+) SQL Injection via 'tracking_provider' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Advanced Shipment Tracking for WooCommerce",
-      "published": "2026-07-28 21:25:46",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "e9506f84-3d33-48e0-8dce-d517e1a923e4",
-      "name": "Meta Box AIO <= 3.8.0 - Missing Authorization to Unauthenticated Arbitrary Post Deletion via 'rwmb_frontend_field_object_id' Parameter",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Meta Box AIO",
-      "published": "2026-07-28 20:51:21",
-      "cvssScore": 9.1
     }
   ],
   "bySeverity": {
-    "critical": 2642,
-    "high": 7540,
-    "medium": 27912,
+    "critical": 2645,
+    "high": 7545,
+    "medium": 27944,
     "low": 156
   }
 }
