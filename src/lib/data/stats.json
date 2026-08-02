@@ -1,17 +1,44 @@
 {
-  "generated": "2026-08-01T06:52:31.693Z",
+  "generated": "2026-08-02T06:55:32.232Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5648
+    "year2026": 5652
   },
   "last30Days": {
-    "plugins": 760,
-    "themes": 18,
+    "plugins": 737,
+    "themes": 17,
     "core": 2,
-    "total": 780
+    "total": 756
   },
   "recentVulns": [
+    {
+      "id": "53e83037-2cc5-4dc9-b55d-03829df12a65",
+      "name": "WooCommerce - Social Login <= 2.8.7 - Unauthenticated Authentication Bypass via Forged Apple 'id_token' JWT",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "WooCommerce - Social Login",
+      "published": "2026-08-01 11:09:08",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "4e88efe0-ffad-4d66-bb03-3f3a9dcbe5b1",
+      "name": "User Access Manager <= 2.3.15 - Unauthenticated Arbitrary File Read via 'uamgetfile' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "User Access Manager",
+      "published": "2026-08-01 11:07:06",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "7ea72320-0e1e-45e3-987d-9ab7eecf1aee",
+      "name": "CubeWP Framework <= 1.1.30 - Unauthenticated Arbitrary File Read via prev_icon/next_icon Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "CubeWP Framework",
+      "published": "2026-08-01 10:44:26",
+      "cvssScore": 7.5
+    },
     {
       "id": "d42b8856-e5d0-4122-98a4-8c959832b271",
       "name": "Pronamic Pay <= 10.1.0 - Authenticated (Subscriber+) Privilege Escalation via Gravity Forms 'Update user role' Field",
@@ -74,39 +101,12 @@
       "software": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More",
       "published": "2026-07-31 17:05:12",
       "cvssScore": 9.1
-    },
-    {
-      "id": "9b00da60-7d2d-467e-ab58-0bb4af0cbda5",
-      "name": "Bit integrations <= 2.9.0 - Unauthenticated Arbitrary File Read via Optional CF7 File Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Bit integrations – Form Integration, Webhook, Spreadsheets, CRM, LMS & Email Automation",
-      "published": "2026-07-31 12:28:06",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "195f86a5-e3dc-4414-bbe3-dea312bf30a9",
-      "name": "Subscriptions for WooCommerce <= 2.0.0 - Authenticated (Contributor+) Privilege Escalation via '_wps_plan_user_role' Membership Plan Meta",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Subscriptions for WooCommerce",
-      "published": "2026-07-31 12:27:03",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "23068a98-623d-4eb3-a7c5-6af410de4320",
-      "name": "Realtyna Organic IDX plugin + WPL Real Estate <= 5.2.0 - Unauthenticated Arbitrary File Upload via 'files[file]' Parameter via Public I/O 'set_property' Command",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Realtyna Organic IDX plugin + WPL Real Estate",
-      "published": "2026-07-30 16:55:48",
-      "cvssScore": 9.8
     }
   ],
   "bySeverity": {
-    "critical": 2645,
-    "high": 7545,
-    "medium": 27944,
+    "critical": 2646,
+    "high": 7547,
+    "medium": 27945,
     "low": 156
   }
 }
