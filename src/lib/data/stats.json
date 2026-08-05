@@ -1,112 +1,112 @@
 {
-  "generated": "2026-08-04T06:55:09.164Z",
+  "generated": "2026-08-05T06:56:34.281Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5652
+    "year2026": 5763
   },
   "last30Days": {
-    "plugins": 734,
-    "themes": 17,
+    "plugins": 807,
+    "themes": 15,
     "core": 2,
-    "total": 753
+    "total": 824
   },
   "recentVulns": [
     {
-      "id": "53e83037-2cc5-4dc9-b55d-03829df12a65",
-      "name": "WooCommerce - Social Login <= 2.8.7 - Unauthenticated Authentication Bypass via Forged Apple 'id_token' JWT",
+      "id": "15494ccf-7c9d-4566-9e80-2da94172a3dd",
+      "name": "Easy Post Submission <= 2.3.0 - Missing Authorization",
       "severity": "critical",
       "type": "plugin",
-      "software": "WooCommerce - Social Login",
-      "published": "2026-08-01 11:09:08",
-      "cvssScore": 9.8
+      "software": "Easy Post Submission – Frontend Posting, Guest Publishing & Submit Content for WordPress",
+      "published": "2026-08-04 19:34:10",
+      "cvssScore": 9.1
     },
     {
-      "id": "4e88efe0-ffad-4d66-bb03-3f3a9dcbe5b1",
-      "name": "User Access Manager <= 2.3.15 - Unauthenticated Arbitrary File Read via 'uamgetfile' Parameter",
+      "id": "c9d00ee8-b9df-4044-a5e2-320391d6c9b1",
+      "name": "MailChimp Forms by MailMunch <= 3.2.7 - Missing Authorization to Authenticated (Subscriber+) MailMunch Integration Takeover via 'sign_in' AJAX Action",
       "severity": "high",
       "type": "plugin",
-      "software": "User Access Manager",
-      "published": "2026-08-01 11:07:06",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "7ea72320-0e1e-45e3-987d-9ab7eecf1aee",
-      "name": "CubeWP Framework <= 1.1.30 - Unauthenticated Arbitrary File Read via prev_icon/next_icon Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "CubeWP Framework",
-      "published": "2026-08-01 10:44:26",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "d42b8856-e5d0-4122-98a4-8c959832b271",
-      "name": "Pronamic Pay <= 10.1.0 - Authenticated (Subscriber+) Privilege Escalation via Gravity Forms 'Update user role' Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Pronamic Pay",
-      "published": "2026-07-31 20:28:17",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "1d8d393e-764c-491d-8afb-7d4f8d0c387a",
-      "name": "Single Sign On For TNG <= 2.0.0 - Unauthenticated Privilege Escalation via Unverified Password Change",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Single Sign On For TNG",
-      "published": "2026-07-31 20:08:40",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "bb5c8cb3-df67-4f2c-869a-48e34f5619ff",
-      "name": "NEX-Forms <= 9.2.3 -  Authenticated (Admin+) Arbitrary File Deletion via Path Traversal via 'location' Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "NEX-Forms – Ultimate Forms Plugin for WordPress",
-      "published": "2026-07-31 19:42:18",
+      "software": "Mailmunch Forms for Mailchimp",
+      "published": "2026-08-04 18:41:47",
       "cvssScore": 8.1
     },
     {
-      "id": "c3d2425e-69e5-4efe-bbc6-0ef121e74341",
-      "name": "MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder <= 4.3.3 - Unauthenticated Stored Cross-Site Scripting via Form Field Values",
+      "id": "7bbead7c-47b9-473f-b335-6fae4b5998d6",
+      "name": "Contact Form Extender for Divi Builder <= 1.0.6 - Unauthenticated Arbitrary File Deletion via Path Traversal",
       "severity": "high",
       "type": "plugin",
-      "software": "MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder",
-      "published": "2026-07-31 19:41:41",
+      "software": "Contact Form Extender for Divi – Submissions DB & Extra Fields",
+      "published": "2026-08-04 18:40:24",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "00138875-d892-460c-b0ce-7a01335d26dc",
+      "name": "ShopLentor <= 3.3.7 - Authenticated (Administrator+) Arbitrary Function Execution via 'callback' Parameter via REST API",
+      "severity": "high",
+      "type": "plugin",
+      "software": "ShopLentor – All-in-One WooCommerce Growth & Store Enhancement Plugin",
+      "published": "2026-08-04 18:38:44",
       "cvssScore": 7.2
     },
     {
-      "id": "9d692aff-8bb2-45bb-9caf-bc33d3ed5b10",
-      "name": "Kali Forms <= 2.4.20 - Unauthenticated Remote Code Execution via 'thisPermalink' Field Parameter",
+      "id": "ac53ade6-b654-4169-a50a-96b3de3d108d",
+      "name": "TableOn <= 1.0.5.1 - Unauthenticated Blind SQL Injection via 'comment_count' Filter Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "Kali Forms — Contact Form & Drag-and-Drop Builder",
-      "published": "2026-07-31 19:40:39",
-      "cvssScore": 8.1
+      "software": "TableOn – WordPress Posts Table Filterable ",
+      "published": "2026-08-04 18:28:30",
+      "cvssScore": 7.5
     },
     {
-      "id": "45816c45-42bc-4163-b700-a1e913f32c97",
-      "name": "AI Engine <= 3.6.5 - Cross-Site Request Forgery to Privilege Escalation via REQUEST_URI Substring Match",
+      "id": "16dca898-1a98-4e0b-8f48-dc01ba2dc4e6",
+      "name": "Multi Uploader for Gravity Forms <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Media Deletion",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Multi Uploader for Gravity Forms",
+      "published": "2026-08-04 18:27:23",
+      "cvssScore": 9.1
+    },
+    {
+      "id": "459b7fef-806c-4f5b-bb31-b7197750e941",
+      "name": "Material Dashboard <= 1.4.10 - Missing Authorization to Unauthenticated Task Enumeration, Execution, and Deletion",
       "severity": "high",
       "type": "plugin",
-      "software": "AI Engine – The Chatbot, AI Framework & MCP for WordPress",
-      "published": "2026-07-31 18:40:58",
+      "software": "Material Dashboard",
+      "published": "2026-08-04 18:26:27",
+      "cvssScore": 7.3
+    },
+    {
+      "id": "9ccdf08b-8b74-4b58-8779-3b07ef2d7b2f",
+      "name": "LightSync Pro <= 2.1.6 - Authenticated (Author+) Arbitrary File Upload",
+      "severity": "high",
+      "type": "plugin",
+      "software": "LightSync Pro – Connect & Sync Cloud Assets | Lightroom, Canva, Figma, Dropbox & Shutterstock",
+      "published": "2026-08-04 18:22:40",
       "cvssScore": 8.8
     },
     {
-      "id": "097a9d0f-fa38-4fdc-9048-43dd65e7652c",
-      "name": "FormGent <= 1.9.2- Missing Authorization to Unauthenticated Arbitrary File Deletion via 'file_token' Parameter",
-      "severity": "critical",
+      "id": "f01302aa-00ef-440a-9c37-4fde6bb4bb4d",
+      "name": "Page and Post Restriction <= 1.4.1 - Unauthenticated Missing Authorization to Sensitive Information Exposure via REST API",
+      "severity": "high",
       "type": "plugin",
-      "software": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More",
-      "published": "2026-07-31 17:05:12",
-      "cvssScore": 9.1
+      "software": "Page and Post Restriction",
+      "published": "2026-08-04 18:21:36",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "44cd696c-fff3-4942-b2c9-628ba281ba44",
+      "name": "WPFormify <= 1.1.1 - Missing Authorization",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPFormify – Stripe Payments with Form and Checkout",
+      "published": "2026-08-04 18:19:04",
+      "cvssScore": 8.2
     }
   ],
   "bySeverity": {
-    "critical": 2646,
-    "high": 7547,
-    "medium": 27945,
+    "critical": 2650,
+    "high": 7581,
+    "medium": 28018,
     "low": 156
   }
 }
