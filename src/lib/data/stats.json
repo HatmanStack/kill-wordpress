@@ -1,17 +1,71 @@
 {
-  "generated": "2026-08-05T06:56:34.281Z",
+  "generated": "2026-08-06T08:32:55.817Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5763
+    "year2026": 5776
   },
   "last30Days": {
-    "plugins": 807,
+    "plugins": 790,
     "themes": 15,
     "core": 2,
-    "total": 824
+    "total": 807
   },
   "recentVulns": [
+    {
+      "id": "d774af46-4928-4e86-b0e0-1a73f39a8f09",
+      "name": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More <= 1.9.2 - Unauthenticated Stored Cross-Site Scripting",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More",
+      "published": "2026-08-05 22:20:13",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "ca97a718-7508-4bc0-8f8e-7849eb9a0dc0",
+      "name": "TranslatePress <= 3.2.6 - Unauthenticated Stored Cross-Site Scripting via Comment Content",
+      "severity": "high",
+      "type": "plugin",
+      "software": "TranslatePress – Translate Multilingual sites with AI Translation",
+      "published": "2026-08-05 17:09:31",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "75c2b82e-cf1c-4db2-811c-82d05c6a1212",
+      "name": "WPMU DEV Dashboard <= 5.0.0 - Authentication Bypass to Arbitrary Plugin Installation (Remote Code Execution) via Forged WDP_AUTH HMAC on ?wpmudev-hub= Endpoint",
+      "severity": "high",
+      "type": "plugin",
+      "software": "WPMU DEV Dashboard",
+      "published": "2026-08-05 16:25:27",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "4ad3ed6b-19d4-47c7-a56c-54092c767fe9",
+      "name": "FluentSMTP <= 2.2.95 - Unauthenticated Stored Cross-Site Scripting via Recipient Display Name (to.name) in Email Logs",
+      "severity": "high",
+      "type": "plugin",
+      "software": "FluentSMTP – WP SMTP Plugin with Amazon SES, SendGrid, Mailgun, Postmark, Cloudflare, toSend, Gmail and Any SMTP",
+      "published": "2026-08-05 15:10:22",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "a041f15c-0e30-459b-8df7-0465c0bc268a",
+      "name": "File Manager 6.0 - 6.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Read and Deletion via 'cmd' Query Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "File Manager",
+      "published": "2026-08-05 15:03:47",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "fd9a81eb-2211-42e9-a456-fb60f3ca2c0f",
+      "name": "Forminator Forms <= 1.56.1 - Unauthenticated Stored Cross-Site Scripting via Forged Upload Record via Select Field",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder",
+      "published": "2026-08-05 15:00:13",
+      "cvssScore": 7.2
+    },
     {
       "id": "15494ccf-7c9d-4566-9e80-2da94172a3dd",
       "name": "Easy Post Submission <= 2.3.0 - Missing Authorization",
@@ -47,66 +101,12 @@
       "software": "ShopLentor – All-in-One WooCommerce Growth & Store Enhancement Plugin",
       "published": "2026-08-04 18:38:44",
       "cvssScore": 7.2
-    },
-    {
-      "id": "ac53ade6-b654-4169-a50a-96b3de3d108d",
-      "name": "TableOn <= 1.0.5.1 - Unauthenticated Blind SQL Injection via 'comment_count' Filter Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "TableOn – WordPress Posts Table Filterable ",
-      "published": "2026-08-04 18:28:30",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "16dca898-1a98-4e0b-8f48-dc01ba2dc4e6",
-      "name": "Multi Uploader for Gravity Forms <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Media Deletion",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Multi Uploader for Gravity Forms",
-      "published": "2026-08-04 18:27:23",
-      "cvssScore": 9.1
-    },
-    {
-      "id": "459b7fef-806c-4f5b-bb31-b7197750e941",
-      "name": "Material Dashboard <= 1.4.10 - Missing Authorization to Unauthenticated Task Enumeration, Execution, and Deletion",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Material Dashboard",
-      "published": "2026-08-04 18:26:27",
-      "cvssScore": 7.3
-    },
-    {
-      "id": "9ccdf08b-8b74-4b58-8779-3b07ef2d7b2f",
-      "name": "LightSync Pro <= 2.1.6 - Authenticated (Author+) Arbitrary File Upload",
-      "severity": "high",
-      "type": "plugin",
-      "software": "LightSync Pro – Connect & Sync Cloud Assets | Lightroom, Canva, Figma, Dropbox & Shutterstock",
-      "published": "2026-08-04 18:22:40",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "f01302aa-00ef-440a-9c37-4fde6bb4bb4d",
-      "name": "Page and Post Restriction <= 1.4.1 - Unauthenticated Missing Authorization to Sensitive Information Exposure via REST API",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Page and Post Restriction",
-      "published": "2026-08-04 18:21:36",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "44cd696c-fff3-4942-b2c9-628ba281ba44",
-      "name": "WPFormify <= 1.1.1 - Missing Authorization",
-      "severity": "high",
-      "type": "plugin",
-      "software": "WPFormify – Stripe Payments with Form and Checkout",
-      "published": "2026-08-04 18:19:04",
-      "cvssScore": 8.2
     }
   ],
   "bySeverity": {
     "critical": 2650,
-    "high": 7581,
-    "medium": 28018,
+    "high": 7587,
+    "medium": 28025,
     "low": 156
   }
 }
