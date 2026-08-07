@@ -1,17 +1,35 @@
 {
-  "generated": "2026-08-06T08:32:55.817Z",
+  "generated": "2026-08-07T07:12:10.010Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5776
+    "year2026": 5780
   },
   "last30Days": {
-    "plugins": 790,
-    "themes": 15,
+    "plugins": 707,
+    "themes": 13,
     "core": 2,
-    "total": 807
+    "total": 722
   },
   "recentVulns": [
+    {
+      "id": "f441477e-35b8-42ae-b71c-3fdba126021b",
+      "name": "TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary Password Reset via 'tbab-userid'",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "TrueBooker – Appointment Booking and Scheduler System",
+      "published": "2026-08-06 16:24:20",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "afe10c10-cace-4ce4-a813-6fda04c8d3dd",
+      "name": "TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary Password Reset via 'truebooker_wp_user_id'",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "TrueBooker – Appointment Booking and Scheduler System",
+      "published": "2026-08-06 16:23:19",
+      "cvssScore": 9.8
+    },
     {
       "id": "d774af46-4928-4e86-b0e0-1a73f39a8f09",
       "name": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More <= 1.9.2 - Unauthenticated Stored Cross-Site Scripting",
@@ -83,30 +101,12 @@
       "software": "Mailmunch Forms for Mailchimp",
       "published": "2026-08-04 18:41:47",
       "cvssScore": 8.1
-    },
-    {
-      "id": "7bbead7c-47b9-473f-b335-6fae4b5998d6",
-      "name": "Contact Form Extender for Divi Builder <= 1.0.6 - Unauthenticated Arbitrary File Deletion via Path Traversal",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Contact Form Extender for Divi – Submissions DB & Extra Fields",
-      "published": "2026-08-04 18:40:24",
-      "cvssScore": 7.5
-    },
-    {
-      "id": "00138875-d892-460c-b0ce-7a01335d26dc",
-      "name": "ShopLentor <= 3.3.7 - Authenticated (Administrator+) Arbitrary Function Execution via 'callback' Parameter via REST API",
-      "severity": "high",
-      "type": "plugin",
-      "software": "ShopLentor – All-in-One WooCommerce Growth & Store Enhancement Plugin",
-      "published": "2026-08-04 18:38:44",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
-    "critical": 2650,
+    "critical": 2652,
     "high": 7587,
-    "medium": 28025,
+    "medium": 28027,
     "low": 156
   }
 }
