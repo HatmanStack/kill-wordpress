@@ -1,17 +1,26 @@
 {
-  "generated": "2026-08-07T07:12:10.010Z",
+  "generated": "2026-08-08T06:49:38.420Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5780
+    "year2026": 5797
   },
   "last30Days": {
-    "plugins": 707,
-    "themes": 13,
+    "plugins": 676,
+    "themes": 12,
     "core": 2,
-    "total": 722
+    "total": 690
   },
   "recentVulns": [
+    {
+      "id": "e28ae1a3-abc6-484c-abc7-1e0b958fa30b",
+      "name": "AI Copilot – Content Generator <= 1.5.6 - Unauthenticated Privilege Escalation via Custom Workflow Route",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "AI Copilot – Content Generator",
+      "published": "2026-08-07 18:30:06",
+      "cvssScore": 9.8
+    },
     {
       "id": "f441477e-35b8-42ae-b71c-3fdba126021b",
       "name": "TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary Password Reset via 'tbab-userid'",
@@ -92,21 +101,12 @@
       "software": "Easy Post Submission – Frontend Posting, Guest Publishing & Submit Content for WordPress",
       "published": "2026-08-04 19:34:10",
       "cvssScore": 9.1
-    },
-    {
-      "id": "c9d00ee8-b9df-4044-a5e2-320391d6c9b1",
-      "name": "MailChimp Forms by MailMunch <= 3.2.7 - Missing Authorization to Authenticated (Subscriber+) MailMunch Integration Takeover via 'sign_in' AJAX Action",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Mailmunch Forms for Mailchimp",
-      "published": "2026-08-04 18:41:47",
-      "cvssScore": 8.1
     }
   ],
   "bySeverity": {
-    "critical": 2652,
-    "high": 7587,
-    "medium": 28027,
+    "critical": 2657,
+    "high": 7592,
+    "medium": 28034,
     "low": 156
   }
 }
