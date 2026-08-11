@@ -1,17 +1,53 @@
 {
-  "generated": "2026-08-10T07:37:15.241Z",
+  "generated": "2026-08-11T07:03:51.960Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5806
+    "year2026": 5810
   },
   "last30Days": {
-    "plugins": 578,
+    "plugins": 579,
     "themes": 11,
     "core": 10,
-    "total": 599
+    "total": 600
   },
   "recentVulns": [
+    {
+      "id": "e4fb4127-2b3f-4c8c-95ee-611f1bacf4c5",
+      "name": "GeoDirectory <= 2.8.169 - Authenticated (Subscriber+) Arbitrary File Deletion via 'post_type' Parameter via Query-String Bypass in geodir_save_post + geodir_delete_revision",
+      "severity": "high",
+      "type": "plugin",
+      "software": "GeoDirectory – WP Business Directory Plugin and Classified Listings Directory",
+      "published": "2026-08-11 06:44:04",
+      "cvssScore": 8.1
+    },
+    {
+      "id": "c9a5f8ca-7efc-401b-8a93-07fbe7204dce",
+      "name": "Formidable Digital Signatures <= 3.0.6 - Unauthenticated Arbitrary File Deletion via Signature Field",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "Formidable Digital Signatures",
+      "published": "2026-08-11 06:34:15",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "f5319467-92f6-4d4f-a76a-12aeb25d3c6b",
+      "name": "InstaWP Connect <= 0.1.3.6 - Unauthenticated Cryptographic Key Disclosure",
+      "severity": "high",
+      "type": "plugin",
+      "software": "InstaWP Connect – 1-click WP Staging & Migration",
+      "published": "2026-08-11 06:27:45",
+      "cvssScore": 7.5
+    },
+    {
+      "id": "0c187d78-9f1d-4e55-a611-755ee30f855b",
+      "name": "AcyMailing <= 10.11.1 - Authenticated (Subscriber+) Missing Authorization to Account Takeover via Notification Template Update",
+      "severity": "high",
+      "type": "plugin",
+      "software": "AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress",
+      "published": "2026-08-11 06:12:22",
+      "cvssScore": 8.8
+    },
     {
       "id": "e28ae1a3-abc6-484c-abc7-1e0b958fa30b",
       "name": "AI Copilot – Content Generator <= 1.5.6 - Unauthenticated Privilege Escalation via Custom Workflow Route",
@@ -65,48 +101,12 @@
       "software": "WPMU DEV Dashboard",
       "published": "2026-08-05 16:25:27",
       "cvssScore": 8.1
-    },
-    {
-      "id": "4ad3ed6b-19d4-47c7-a56c-54092c767fe9",
-      "name": "FluentSMTP <= 2.2.95 - Unauthenticated Stored Cross-Site Scripting via Recipient Display Name (to.name) in Email Logs",
-      "severity": "high",
-      "type": "plugin",
-      "software": "FluentSMTP – WP SMTP Plugin with Amazon SES, SendGrid, Mailgun, Postmark, Cloudflare, toSend, Gmail and Any SMTP",
-      "published": "2026-08-05 15:10:22",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "a041f15c-0e30-459b-8df7-0465c0bc268a",
-      "name": "File Manager 6.0 - 6.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Read and Deletion via 'cmd' Query Parameter",
-      "severity": "high",
-      "type": "plugin",
-      "software": "File Manager",
-      "published": "2026-08-05 15:03:47",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "fd9a81eb-2211-42e9-a456-fb60f3ca2c0f",
-      "name": "Forminator Forms <= 1.56.1 - Unauthenticated Stored Cross-Site Scripting via Forged Upload Record via Select Field",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Forminator Forms – Contact Form, Payment Form & Custom Form Builder",
-      "published": "2026-08-05 15:00:13",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "15494ccf-7c9d-4566-9e80-2da94172a3dd",
-      "name": "Easy Post Submission <= 2.3.0 - Missing Authorization",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "Easy Post Submission – Frontend Posting, Guest Publishing & Submit Content for WordPress",
-      "published": "2026-08-04 19:34:10",
-      "cvssScore": 9.1
     }
   ],
   "bySeverity": {
-    "critical": 2657,
-    "high": 7592,
-    "medium": 28043,
+    "critical": 2658,
+    "high": 7594,
+    "medium": 28044,
     "low": 156
   }
 }
