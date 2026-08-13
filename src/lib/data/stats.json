@@ -1,17 +1,35 @@
 {
-  "generated": "2026-08-12T07:21:33.154Z",
+  "generated": "2026-08-13T07:23:48.170Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5814
+    "year2026": 5818
   },
   "last30Days": {
-    "plugins": 577,
+    "plugins": 576,
     "themes": 11,
-    "core": 10,
+    "core": 11,
     "total": 598
   },
   "recentVulns": [
+    {
+      "id": "643f92e2-b14e-4056-97fc-1c631027c54f",
+      "name": "Fluent Forms <= 6.2.11 - Unauthenticated Stored Cross-Site Scripting via Notification Smartcode Values",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
+      "published": "2026-08-12 18:34:04",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "3f6b435b-d8b4-434b-8cac-cc3adbc437eb",
+      "name": "WordPress Core <= 7.0.3 - Authenticated (Author+) Remote Code Execution via Malicious File Upload",
+      "severity": "high",
+      "type": "core",
+      "software": "WordPress",
+      "published": "2026-08-12 00:00:00",
+      "cvssScore": 8.8
+    },
     {
       "id": "d7c0f21a-b04c-407e-9e8c-f81a146deaa8",
       "name": "Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect <= 1.4.3 - Unauthenticated Authentication Bypass via Spotify OAuth Callback",
@@ -83,30 +101,12 @@
       "software": "TrueBooker – Appointment Booking and Scheduler System",
       "published": "2026-08-06 16:24:20",
       "cvssScore": 9.8
-    },
-    {
-      "id": "afe10c10-cace-4ce4-a813-6fda04c8d3dd",
-      "name": "TrueBooker <= 1.2.3 - Missing Authorization to Unauthenticated Arbitrary Password Reset via 'truebooker_wp_user_id'",
-      "severity": "critical",
-      "type": "plugin",
-      "software": "TrueBooker – Appointment Booking and Scheduler System",
-      "published": "2026-08-06 16:23:19",
-      "cvssScore": 9.8
-    },
-    {
-      "id": "d774af46-4928-4e86-b0e0-1a73f39a8f09",
-      "name": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More <= 1.9.2 - Unauthenticated Stored Cross-Site Scripting",
-      "severity": "high",
-      "type": "plugin",
-      "software": "FormGent – Next-Gen AI Form Builder for WordPress with Multi-Step, Quizzes, Payments & More",
-      "published": "2026-08-05 22:20:13",
-      "cvssScore": 7.2
     }
   ],
   "bySeverity": {
     "critical": 2658,
-    "high": 7596,
-    "medium": 28046,
+    "high": 7598,
+    "medium": 28048,
     "low": 156
   }
 }
