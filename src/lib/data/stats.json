@@ -1,112 +1,112 @@
 {
-  "generated": "2026-08-14T07:21:28.818Z",
+  "generated": "2026-08-15T06:34:32.759Z",
   "totals": {
     "year2024": 8317,
     "year2025": 10831,
-    "year2026": 5997
+    "year2026": 6059
   },
   "last30Days": {
-    "plugins": 738,
-    "themes": 24,
+    "plugins": 757,
+    "themes": 26,
     "core": 11,
-    "total": 773
+    "total": 794
   },
   "recentVulns": [
     {
-      "id": "84afe5a7-1bf4-4b83-bf77-efbb003a30cd",
-      "name": "Wishlist Member X <= 3.34.1 - Unauthenticated Account Takeover via 'mergewith' Parameter",
+      "id": "3628032a-3121-45a7-8a78-cfcd8ba6af2f",
+      "name": "Pods <= 3.3.9 - Unauthenticated Privilege Escalation via Authorization Bypass to Admin Methods via 'pods_admin' AJAX Router",
       "severity": "critical",
       "type": "plugin",
-      "software": "Wishlist Member",
-      "published": "2026-08-13 17:19:58",
+      "software": "Pods – Custom Content Types and Fields",
+      "published": "2026-08-15 04:54:21",
       "cvssScore": 9.8
     },
     {
-      "id": "16ac73ae-6a0a-4c9b-8830-e0745061e587",
-      "name": "W3 Total Cache <= 2.10.3 - Unauthenticated Stored Cross-Site Scripting via Comment Author Name",
-      "severity": "high",
-      "type": "plugin",
-      "software": "W3 Total Cache",
-      "published": "2026-08-13 14:23:18",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "643f92e2-b14e-4056-97fc-1c631027c54f",
-      "name": "Fluent Forms <= 6.2.11 - Unauthenticated Stored Cross-Site Scripting via Notification Smartcode Values",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder",
-      "published": "2026-08-12 18:34:04",
-      "cvssScore": 7.2
-    },
-    {
-      "id": "3f6b435b-d8b4-434b-8cac-cc3adbc437eb",
-      "name": "WordPress Core <= 7.0.3 - Authenticated (Author+) Remote Code Execution via Malicious File Upload",
-      "severity": "high",
-      "type": "core",
-      "software": "WordPress",
-      "published": "2026-08-12 00:00:00",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "d7c0f21a-b04c-407e-9e8c-f81a146deaa8",
-      "name": "Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect <= 1.4.3 - Unauthenticated Authentication Bypass via Spotify OAuth Callback",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Social Login, Passkeys, Magic Link & Email OTP – Passwordless Login by VentraConnect",
-      "published": "2026-08-11 13:46:45",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "e5aa9b71-67e4-4049-8dd4-23b76dbd87bb",
-      "name": "Frontend Admin by DynamiApps <= 3.29.9 - Authenticated (Subscriber+) Arbitrary Password Reset via Encrypted Object Token",
-      "severity": "high",
-      "type": "plugin",
-      "software": "Frontend Admin by DynamiApps",
-      "published": "2026-08-11 07:56:39",
-      "cvssScore": 8.8
-    },
-    {
-      "id": "e4fb4127-2b3f-4c8c-95ee-611f1bacf4c5",
-      "name": "GeoDirectory <= 2.8.169 - Authenticated (Subscriber+) Arbitrary File Deletion via 'post_type' Parameter via Query-String Bypass in geodir_save_post + geodir_delete_revision",
-      "severity": "high",
-      "type": "plugin",
-      "software": "GeoDirectory – WP Business Directory Plugin and Classified Listings Directory",
-      "published": "2026-08-11 06:44:04",
-      "cvssScore": 8.1
-    },
-    {
-      "id": "c9a5f8ca-7efc-401b-8a93-07fbe7204dce",
-      "name": "Formidable Digital Signatures <= 3.0.6 - Unauthenticated Arbitrary File Deletion via Signature Field",
+      "id": "41327dfa-db64-476a-a263-7bd4f69fb857",
+      "name": "Link Library <= 7.9.4 - Unauthenticated Arbitrary File Deletion via link_url Parameter",
       "severity": "critical",
       "type": "plugin",
-      "software": "Formidable Digital Signatures",
-      "published": "2026-08-11 06:34:15",
-      "cvssScore": 9.8
+      "software": "Link Library",
+      "published": "2026-08-14 20:49:12",
+      "cvssScore": 9.1
     },
     {
-      "id": "f5319467-92f6-4d4f-a76a-12aeb25d3c6b",
-      "name": "InstaWP Connect <= 0.1.3.6 - Unauthenticated Cryptographic Key Disclosure",
+      "id": "4e68b2f2-12e4-4ff2-919d-26d6b21acd03",
+      "name": "Templately <= 3.7.1 - Authenticated (Contributor+) Arbitrary File Upload to Remote Code Execution via Gutenberg Cloud Import Attachment Filename Mismatch",
       "severity": "high",
       "type": "plugin",
-      "software": "InstaWP Connect – 1-click WP Staging & Migration",
-      "published": "2026-08-11 06:27:45",
+      "software": "Templately – Elementor & Gutenberg Template Library: 6500+ Free & Pro Ready Templates And Cloud!",
+      "published": "2026-08-14 20:45:28",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "71e9ff91-4137-4c66-959b-f4ffb8d3ba32",
+      "name": "Real Estate Manager Pro <= 12.8.6 - Authenticated (Subscriber+) Privilege Escalation via 'user_has_cap' Filter ID Collision",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Real Estate Manager Pro",
+      "published": "2026-08-14 20:22:55",
       "cvssScore": 7.5
     },
     {
-      "id": "0c187d78-9f1d-4e55-a611-755ee30f855b",
-      "name": "AcyMailing <= 10.11.1 - Authenticated (Subscriber+) Missing Authorization to Account Takeover via Notification Template Update",
+      "id": "f0d3f7cb-4974-4b0f-9658-1895e5966276",
+      "name": "TrueBooker <= 1.2.6 - Unauthenticated Account Takeover via Insecure Direct Object Reference in 'truebooker_wp_user_id' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "TrueBooker – Appointment Booking and Scheduler System",
+      "published": "2026-08-14 20:09:50",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "9f606fba-f779-42ea-a160-6c3b20dc5e79",
+      "name": "User Profile Builder <= 3.16.4 - Unauthenticated Authentication Bypass via Type Confusion to Administrator Account Takeover via 'username' Parameter",
+      "severity": "critical",
+      "type": "plugin",
+      "software": "User Profile Builder – Beautiful User Registration Forms, User Profiles & User Role Editor",
+      "published": "2026-08-14 18:24:03",
+      "cvssScore": 9.8
+    },
+    {
+      "id": "abd59d7a-e7f6-440d-9c2a-00266c0dcbff",
+      "name": "Wholesale Market <= 2.2.2 - Authenticated (Subscriber+) Privilege Escalation via 'role_required' Parameter",
       "severity": "high",
       "type": "plugin",
-      "software": "AcyMailing – An Ultimate Newsletter Plugin and Marketing Automation Solution for WordPress",
-      "published": "2026-08-11 06:12:22",
+      "software": "Wholesale Market",
+      "published": "2026-08-14 18:09:21",
       "cvssScore": 8.8
+    },
+    {
+      "id": "ff1d2bd8-cc46-4763-8ba7-832b982ff56a",
+      "name": "Invisible Anti-Spam & CAPTCHA <= 5.1 - Unauthenticated Stored Cross-Site Scripting via 'action' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Invisible Anti-Spam & CAPTCHA — reCAPTCHA Alternative for All Forms",
+      "published": "2026-08-14 15:08:15",
+      "cvssScore": 7.2
+    },
+    {
+      "id": "6a39e4d4-890d-46f9-8bb9-0fc858e6f1e2",
+      "name": "Propovoice: All-in-One Client Management System <= 1.7.8 - Authenticated (ndpv_manager+) Privilege Escalation via 'role' Parameter",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Propovoice: All-in-One Client Management System",
+      "published": "2026-08-14 14:02:51",
+      "cvssScore": 8.8
+    },
+    {
+      "id": "78f964a7-bed3-435e-94c5-750883a0c836",
+      "name": "Object Sync for Salesforce <= 2.2.13 - Unauthenticated SQL Injection",
+      "severity": "high",
+      "type": "plugin",
+      "software": "Object Sync for Salesforce",
+      "published": "2026-08-14 14:02:43",
+      "cvssScore": 7.5
     }
   ],
   "bySeverity": {
-    "critical": 2668,
-    "high": 7659,
-    "medium": 28156,
+    "critical": 2680,
+    "high": 7679,
+    "medium": 28186,
     "low": 156
   }
 }
